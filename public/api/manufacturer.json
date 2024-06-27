@@ -10,9 +10,15 @@
       {
         "country": "Switzerland",
         "countryCode": "CH",
-        "company": "simplee AG",
-        "email": "support@simplee-energy.ch",
-        "phone": "+41585108999"
+        "supportCompanies": [
+          {
+            "id": "simplee-ag",
+            "company": "simplee AG",
+            "websiteUrl": "https://simplee-energy.ch",
+            "email": "support@simplee-energy.ch",
+            "phone": "+41585108999"
+          }
+        ]
       }
     ]
   },
@@ -27,9 +33,15 @@
       {
         "country": "Switzerland",
         "countryCode": "CH",
-        "company": "Optec AG",
-        "email": "info@optec.ch",
-        "phone": "+41449330770"
+        "supportCompanies": [
+          {
+            "id": "optec-ag",
+            "company": "Optec AG",
+            "websiteUrl": "https://www.optec.ch",
+            "email": "info@optec.ch",
+            "phone": "+41449330770"
+          }
+        ]
       }
     ]
   },
@@ -44,9 +56,15 @@
       {
         "country": "Switzerland",
         "countryCode": "CH",
-        "company": "Hager AG",
-        "email": "",
-        "phone": ""
+        "supportCompanies": [
+          {
+            "id": "hager-ag",
+            "company": "Hager AG",
+            "websiteUrl": "https://www.hager.ch",
+            "email": "E-Mobility.TSC-CH@hager.com",
+            "phone": "+41412699558"
+          }
+        ]
       }
     ]
   },
@@ -61,9 +79,15 @@
       {
         "country": "Switzerland",
         "countryCode": "CH",
-        "name": "Weidmüller Schweiz AG",
-        "email": "support@weidmueller.ch",
-        "phone": "+41526740707"
+        "supportCompanies": [
+          {
+            "id": "weidmueller-schweiz-ag",
+            "name": "Weidmüller Schweiz AG",
+            "websiteUrl": "https://www.weidmueller.ch",
+            "email": "support@weidmueller.ch",
+            "phone": "+41526740707"
+          }
+        ]
       }
     ]
   },
@@ -78,9 +102,15 @@
       {
         "country": "Switzerland",
         "countryCode": "CH",
-        "company": "Zaptec Schweiz AG",
-        "email": "support.ch@zaptec.com",
-        "phone": "+41585200271"
+        "supportCompanies": [
+          {
+            "id": "zaptec-schweiz-ag",
+            "company": "Zaptec Schweiz AG",
+            "websiteUrl": "https://www.zaptec.com",
+            "email": "support.ch@zaptec.com",
+            "phone": "+41585200271"
+          }
+        ]
       }
     ]
   }
