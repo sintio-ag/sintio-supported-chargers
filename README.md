@@ -1,17 +1,30 @@
-# Sintio supported ev chargers
+# React + TypeScript + Vite
 
-This repo contains some attributes of ev chargers that are officially supported by Sintio but cannot be collected via OCPP.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# Get up and running locally.
+Currently, two official plugins are available:
 
-1. We recommend using [Visual Studio Code](https://code.visualstudio.com/) as code editor and install the extensions, listed in [.vscode/extensions.json](./.vscode/extensions.json)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-2. Install [Node.js](https://nodejs.org/en) in the version, specified in [.nvmrc](./.nvmrc). As package manager we work with [pnpm](https://pnpm.io/), so install pnpm globaly in Version 8 with `npm install -g pnpm@latest-8`. Run `node -v`and `pnpm -v` to check if you have the correct versions installed.
+## Expanding the ESLint configuration
 
-3. Cd into the repo and run `pnpm install`.
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-2. Run `pnpm run dev` for develpment purpose.
+- Configure the top-level `parserOptions` property like this:
 
-3. Build the JavaScript files with `pnpm run build`.
+```js
+export default {
+  // other rules...
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+  },
+}
+```
 
-4. Run the project with `node ./dist/index.js`
+- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
+- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list

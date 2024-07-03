@@ -1,26 +1,18 @@
-/* eslint-env node */
 module.exports = {
+  root: true,
+  env: { browser: true, es2020: true },
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
+    'plugin:react-hooks/recommended',
   ],
-  overrides: [
-    {
-      files: ['**/*.test.*'],
-      rules: {
-        '@typescript-eslint/no-var-requires': 'off',
-      },
-    },
-  ],
+  ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
-  parserOptions: {
-    tsconfigRootDir: __dirname,
-    project: ['./tsconfig.json'],
-  },
-  plugins: ['@typescript-eslint'],
-  root: true,
+  plugins: ['react-refresh'],
   rules: {
-    '@typescript-eslint/no-explicit-any': 'off',
+    'react-refresh/only-export-components': [
+      'warn',
+      { allowConstantExport: true },
+    ],
   },
-};
+}
