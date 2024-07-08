@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# Sintio supported chargers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sintio is a SaaS provider for the operation and billing of electric vehicle charging stations. We achieve this through the Sintio Portal, accessible via [sintio.app](https://www.sintio.app/). Additionally, we offer both [Android](https://play.google.com/store/apps/details?id=com.sintio.app) and iPhone apps.
 
-Currently, two official plugins are available:
+This repository provides an API for delivering images and properties of charging stations that cannot be received through OCPP (Open Charge Point Protocol) commands from the charging stations themselves. The list of available properties and images is continuously expanded.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Run the project locally
 
-## Expanding the ESLint configuration
+This propject is based on [Vite + React](https://vitejs.dev/). To run it locally on your machine we recommend following setup.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. We recommend using [Visual Studio Code](https://code.visualstudio.com/) as code editor and install the extensions, listed in [.vscode/extensions.json](./.vscode/extensions.json)
 
-- Configure the top-level `parserOptions` property like this:
+2. Install [Node.js](https://nodejs.org/en) in the version, specified in [.nvmrc](./.nvmrc).
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Follwoing commands are supported.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+* `npm run dev` start dev server
+* `npm run build` build for production
+* `npm run preview` locally preview production build
+* `npm run lint` automated checking of source code for programmatic and stylistic errors
+
+## Production build
+
+The project is deployed via GitHub Pages and can be viewed on [sintio-ag.github.io/sintio-supported-chargers](https://sintio-ag.github.io/sintio-supported-chargers/)
