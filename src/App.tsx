@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import "./App.scss";
 import Content from "./components/layout/Content";
 import Footer from "./components/layout/Footer";
@@ -7,7 +8,9 @@ function App() {
   return (
     <div className="flex flex-col h-screen justify-between bg-sintio-light-grey">
       <Header />
-      <Content />
+      <Content>
+        <Outlet />
+      </Content>
       <Footer />
     </div>
   );

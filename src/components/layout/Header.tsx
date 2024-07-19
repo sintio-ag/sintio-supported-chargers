@@ -1,24 +1,18 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { SintioLogoYellowWhite } from "../illustrations/SintioLogoYellowWhiteIllustration";
+import ChargerNotListedButton from "../ui/ChargerNotListedButton";
 
 function Header() {
   const [state, setState] = useState(false);
 
-  // Replace javascript:void(0) paths with your paths
-  const navigation = [
-    { title: "Features", path: "javascript:void(0)" },
-    { title: "Integrations", path: "javascript:void(0)" },
-    { title: "Customers", path: "javascript:void(0)" },
-    { title: "Pricing", path: "javascript:void(0)" },
-  ];
-
   return (
-    <nav className="bg-sintio-dark-blue border-b w-full md:static md:text-sm md:border-none">
-      <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
-        <div className="flex items-center justify-between py-3 md:py-5 md:block">
-          <a href="javascript:void(0)">
+    <nav className="w-full border-b bg-sintio-dark-blue md:static md:border-none md:text-sm">
+      <div className="mx-auto max-w-screen-xl items-center px-4 md:flex md:px-8">
+        <div className="flex items-center justify-between py-3 md:block md:py-5">
+          <Link to={import.meta.env.VITE_GHPAGES_BASE_URL}>
             <SintioLogoYellowWhite />
-          </a>
+          </Link>
           <div className="md:hidden">
             <button
               className="text-sintio-light-grey hover:text-sintio-yellow"
@@ -44,7 +38,7 @@ function Header() {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="h-6 w-6"
                 >
                   <path
                     strokeLinecap="round"
@@ -57,28 +51,30 @@ function Header() {
           </div>
         </div>
         <div
-          className={`flex-1 pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+          className={`mt-8 flex-1 pb-3 md:mt-0 md:block md:pb-0 ${
             state ? "block" : "hidden"
           }`}
         >
-          <ul className="justify-end items-center space-y-6 md:flex md:space-x-6 md:space-y-0">
-            {navigation.map((item, idx) => {
-              return (
-                <li key={idx} className="text-white hover:text-sintio-yellow">
-                  <a href={item.path} className="block">
-                    {item.title}
-                  </a>
-                </li>
-              );
-            })}
-            <div className="space-y-3 items-center gap-x-6 md:flex md:space-y-0">
+          <ul className="items-center justify-end space-y-6 md:flex md:space-x-6 md:space-y-0">
+            <li className="text-white hover:text-sintio-yellow">
+              <Link
+                to={import.meta.env.VITE_GHPAGES_BASE_URL}
+                className="block"
+              >
+                Home
+              </Link>
+            </li>
+            <li className="text-white hover:text-sintio-yellow">
+              <Link
+                to={`${import.meta.env.VITE_GHPAGES_BASE_URL}contact`}
+                className="block"
+              >
+                Contact
+              </Link>
+            </li>
+            <div className="items-center gap-x-6 space-y-3 md:flex md:space-y-0">
               <li>
-                <a
-                  href="javascript:void(0)"
-                  className="block py-3 px-4 font-medium text-center text-sintio-blue hover:text-white bg-sintio-yellow hover:bg-sintio-light-blue-1 active:bg-sintio-light-blue-1 active:shadow-none rounded-lg shadow md:inline"
-                >
-                  Charger not listed?
-                </a>
+                <ChargerNotListedButton />
               </li>
             </div>
           </ul>

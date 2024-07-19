@@ -1,14 +1,13 @@
 import React from "react";
 
-function Content() {
+const Content: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
-    <main className="flex-grow justify-center items-center w-full py-4">
-      <article className="prose p-4 m-4 max-w-screen-lg mx-auto border rounded-lg bg-white">
-        <h1>Title</h1>
-        <p>here some content</p>
+    <main className="w-full flex-grow items-center justify-center p-4">
+      <article className="m-4 mx-auto max-w-screen-lg rounded-lg border bg-white p-4">
+        {children}
       </article>
     </main>
   );
-}
+};
 
 export default Content;

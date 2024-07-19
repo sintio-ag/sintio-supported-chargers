@@ -4,8 +4,8 @@ function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="flex justify-center items-center w-full py-4">
-      <div className="prose text-center px-4 max-w-screen-xl mx-auto md:flex md:px-8 text-sm">
+    <footer className="flex w-full items-center justify-center py-4">
+      <div className="prose mx-auto max-w-screen-xl px-4 text-center text-sm md:flex md:px-8">
         <p className="text-gray-400">
           {currentYear} by{" "}
           <a
