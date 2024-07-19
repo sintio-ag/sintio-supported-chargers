@@ -69,6 +69,24 @@
     ]
   },
   {
+    "id": "keba",
+    "name": "Keba",
+    "websiteUrl": "https://www.keba.com",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
+    "globalSupportUrl": null,
+    "supportByCountry": []
+  },
+  {
+    "id": "nexblue",
+    "name": "NexBlue",
+    "websiteUrl": "https://nexblue.com",
+    "chargerManagementUrl": "https://partner.nexblue.com",
+    "statusPageUrl": null,
+    "globalSupportUrl": "https://nexblue.com/pages/contact-us",
+    "supportByCountry": []
+  },
+  {
     "id": "weidmueller",
     "name": "Weidmüller",
     "websiteUrl": "https://www.weidmueller.com/",
