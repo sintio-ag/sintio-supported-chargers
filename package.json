@@ -1,5 +1,6 @@
 {
   "name": "sintio-supported-chargers",
+  "homepage": "https://sintio-ag.github.io/sintio-supported-chargers/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,9 +12,11 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.25.1"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.13",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.16.1",
@@ -24,6 +27,8 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.8",
     "postcss": "^8.4.39",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.5",
     "sass": "^1.77.8",
     "sharp": "^0.33.4",
     "tailwindcss": "^3.4.6",
