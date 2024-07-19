@@ -1,17 +1,24 @@
-# Sintio supported ev chargers
+# Sintio supported chargers
 
-This repo contains some attributes of ev chargers that are officially supported by Sintio but cannot be collected via OCPP.
+Sintio is a SaaS provider for the operation and billing of electric vehicle charging stations. We achieve this through the Sintio Portal, accessible via [sintio.app](https://www.sintio.app/). Additionally, we offer both [Android](https://play.google.com/store/apps/details?id=com.sintio.app) and [iPhone](https://apps.apple.com/us/app/sintio/id6504793744?platform=iphone) apps.
 
-# Get up and running locally.
+This repository provides an API for delivering images and properties of charging stations that cannot be received through OCPP (Open Charge Point Protocol) commands from the charging stations themselves. The list of available properties and images is continuously expanded.
+
+## Run the project locally
+
+This propject is based on [Vite + React](https://vitejs.dev/). To run it locally on your machine we recommend following setup.
 
 1. We recommend using [Visual Studio Code](https://code.visualstudio.com/) as code editor and install the extensions, listed in [.vscode/extensions.json](./.vscode/extensions.json)
 
-2. Install [Node.js](https://nodejs.org/en) in the version, specified in [.nvmrc](./.nvmrc). As package manager we work with [pnpm](https://pnpm.io/), so install pnpm globaly in Version 8 with `npm install -g pnpm@latest-8`. Run `node -v`and `pnpm -v` to check if you have the correct versions installed.
+2. Install [Node.js](https://nodejs.org/en) in the version, specified in [.nvmrc](./.nvmrc).
 
-3. Cd into the repo and run `pnpm install`.
+Follwoing commands are supported.
 
-2. Run `pnpm run dev` for develpment purpose.
+* `npm run dev` start dev server
+* `npm run build` build for production
+* `npm run preview` locally preview production build
+* `npm run lint` automated checking of source code for programmatic and stylistic errors
 
-3. Build the JavaScript files with `pnpm run build`.
+## Production build
 
-4. Run the project with `node ./dist/index.js`
+The project is deployed via GitHub Pages and can be viewed on [sintio-ag.github.io/sintio-supported-chargers](https://sintio-ag.github.io/sintio-supported-chargers/)

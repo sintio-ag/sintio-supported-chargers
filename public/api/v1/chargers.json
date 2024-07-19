@@ -1,0 +1,426 @@
+[
+  {
+    "id": "easee-charge",
+    "manufacturerId": "easee",
+    "chargePointVendor": "Easee",
+    "chargePointModel": "Easee Charge",
+    "globalMeter": true,
+    "meterClass": "B",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "connectorType": "Type2",
+        "maxPowerKw": 22,
+        "currentType": "AC"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "easee-home",
+    "manufacturerId": "easee",
+    "chargePointVendor": "Easee",
+    "chargePointModel": "Easee Home",
+    "globalMeter": true,
+    "meterClass": "A",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "connectorType": "Type2",
+        "maxPowerKw": 22,
+        "currentType": "AC"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "garo-entity",
+    "manufacturerId": "garo",
+    "chargePointVendor": "Garo",
+    "chargePointModel": "EntityPro",
+    "globalMeter": true,
+    "meterClass": "A",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "connectorType": "Type2",
+        "maxPowerKw": 22,
+        "currentType": "AC"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "hager-witty-share",
+    "manufacturerId": "hager",
+    "chargePointVendor": "Hager",
+    "chargePointModel": "XEV1R22T2",
+    "globalMeter": true,
+    "meterClass": "A",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "connectorType": "Type2",
+        "maxPowerKw": 22,
+        "currentType": "AC"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-share_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-share_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-share_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-share_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-share_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-share_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-share_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-share_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "hager-witty-share-te",
+    "manufacturerId": "hager",
+    "chargePointVendor": "Hager",
+    "chargePointModel": "XEV1R22T2TE",
+    "globalMeter": true,
+    "meterClass": "A",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "connectorType": "Type2",
+        "maxPowerKw": 22,
+        "currentType": "AC"
+      },
+      {
+        "connectorId": 2,
+        "connectorType": "TypeE",
+        "maxPowerKw": 3.6,
+        "currentType": "AC"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-share_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-share_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-share_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-share_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-share_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-share_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-share_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-share_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "keba-p30",
+    "manufacturerId": "keba",
+    "chargePointVendor": "Keba AG",
+    "chargePointModel": "KC-P30-ES2400C2-E0R",
+    "globalMeter": true,
+    "meterClass": "B",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "connectorType": "Type2",
+        "maxPowerKw": 22,
+        "currentType": "AC"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-p30_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-p30_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-p30_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-p30_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-p30_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-p30_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-p30_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-p30_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "nexblue-edge",
+    "manufacturerId": "nexblue",
+    "chargePointVendor": "NEXBLUE",
+    "chargePointModel": "NB1620A",
+    "globalMeter": true,
+    "meterClass": "B",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "connectorType": "Type2",
+        "maxPowerKw": 22,
+        "currentType": "AC"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/nexblue/nexblue-edge_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/nexblue/nexblue-edge_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/nexblue/nexblue-edge_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/nexblue/nexblue-edge_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/nexblue/nexblue-edge_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/nexblue/nexblue-edge_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/nexblue/nexblue-edge_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/nexblue/nexblue-edge_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "weidmueller-ac-smart-advanced",
+    "manufacturerId": "weidmueller",
+    "chargePointVendor": "Weidmueller",
+    "chargePointModel": "ACSMART",
+    "globalMeter": true,
+    "meterClass": "B",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "connectorType": "Type2",
+        "maxPowerKw": 22,
+        "currentType": "AC"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-ac-smart-advanced_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-ac-smart-advanced_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-ac-smart-advanced_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-ac-smart-advanced_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-ac-smart-advanced_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-ac-smart-advanced_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-ac-smart-advanced_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-ac-smart-advanced_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "zaptec-go",
+    "manufacturerId": "zaptec",
+    "chargePointVendor": "Zaptec",
+    "chargePointModel": "Zaptec Go",
+    "globalMeter": false,
+    "meterClass": "B",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "connectorType": "Type2",
+        "maxPowerKw": 22,
+        "currentType": "AC"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-go_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-go_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-go_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-go_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-go_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-go_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-go_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-go_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "zaptec-home",
+    "manufacturerId": "zaptec",
+    "chargePointVendor": "Zaptec",
+    "chargePointModel": "ZAPTEC HOME",
+    "globalMeter": false,
+    "meterClass": "B",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "connectorType": "Type2",
+        "maxPowerKw": 22,
+        "currentType": "AC"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-home_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-home_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-home_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-home_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-home_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-home_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-home_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-home_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "zaptec-pro",
+    "manufacturerId": "zaptec",
+    "chargePointVendor": "Zaptec",
+    "chargePointModel": "ZAPTEC PRO",
+    "globalMeter": false,
+    "meterClass": "B",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "connectorType": "Type2",
+        "maxPowerKw": 22,
+        "currentType": "AC"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-pro_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-pro_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-pro_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-pro_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-pro_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-pro_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-pro_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-pro_50.webp",
+        "size": "50"
+      }
+    ]
+  }
+]
