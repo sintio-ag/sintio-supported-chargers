@@ -1,6 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import ReactDOM from "react-dom/client";
 import Home from "./pages/Home.tsx";
 import Contact from "./pages/Contact.tsx";
 
@@ -17,7 +17,7 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/sintio-supported-chargers/contact/",
+        path: "/sintio-supported-chargers/contact",
         element: <Contact />,
       },
     ],
