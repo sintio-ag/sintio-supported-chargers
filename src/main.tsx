@@ -1,6 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import ReactDOM from "react-dom/client";
 import Home from "./pages/Home.tsx";
 import Contact from "./pages/Contact.tsx";
 
@@ -9,15 +9,15 @@ import "./index.scss";
 
 const router = createBrowserRouter([
   {
-    path: import.meta.env.VITE_GHPAGES_BASE_URL,
+    path: "/sintio-supported-chargers/",
     element: <App />,
     children: [
       {
-        path: import.meta.env.VITE_GHPAGES_BASE_URL,
+        path: "/sintio-supported-chargers/",
         element: <Home />,
       },
       {
-        path: `${import.meta.env.VITE_GHPAGES_BASE_URL}contact`,
+        path: "/sintio-supported-chargers/contact",
         element: <Contact />,
       },
     ],
