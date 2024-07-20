@@ -10,7 +10,7 @@ function Header() {
     <nav className="w-full border-b bg-sintio-dark-blue md:static md:border-none md:text-sm">
       <div className="mx-auto max-w-screen-xl items-center px-4 md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:block md:py-5">
-          <Link to={import.meta.env.VITE_GHPAGES_BASE_URL}>
+          <Link to="/sintio-supported-chargers/">
             <SintioLogoYellowWhite />
           </Link>
           <div className="md:hidden">
@@ -57,18 +57,12 @@ function Header() {
         >
           <ul className="items-center justify-end space-y-6 md:flex md:space-x-6 md:space-y-0">
             <li className="text-white hover:text-sintio-yellow">
-              <Link
-                to={import.meta.env.VITE_GHPAGES_BASE_URL}
-                className="block"
-              >
+              <Link to="/sintio-supported-chargers/" className="block">
                 Home
               </Link>
             </li>
             <li className="text-white hover:text-sintio-yellow">
-              <Link
-                to={`${import.meta.env.VITE_GHPAGES_BASE_URL}contact`}
-                className="block"
-              >
+              <Link to="/sintio-supported-chargers/contact" className="block">
                 Contact
               </Link>
             </li>
