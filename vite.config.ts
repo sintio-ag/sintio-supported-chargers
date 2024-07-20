@@ -1,9 +1,19 @@
-import { defineConfig } from "vite";
+import { defineConfig, loadEnv } from "vite";
 import react from "@vitejs/plugin-react";
 import { ViteImageOptimizer } from "vite-plugin-image-optimizer";
+import { VitePluginRadar } from "vite-plugin-radar";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), ViteImageOptimizer()],
+  plugins: [
+    react(),
+    ViteImageOptimizer(),
+    VitePluginRadar({
+      // Google Analytics tag injection
+      analytics: {
+        id: "G-1T6KY3K0NS",
+      },
+    }),
+  ],
   base: "/sintio-supported-chargers/",
 });

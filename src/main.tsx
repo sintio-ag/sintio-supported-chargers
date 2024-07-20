@@ -9,15 +9,15 @@ import "./index.scss";
 
 const router = createBrowserRouter([
   {
-    path: "/sintio-supported-chargers/",
+    path: import.meta.env.VITE_GHPAGES_BASE_URL,
     element: <App />,
     children: [
       {
-        path: "/sintio-supported-chargers/",
+        path: import.meta.env.VITE_GHPAGES_BASE_URL,
         element: <Home />,
       },
       {
-        path: "/sintio-supported-chargers/contact",
+        path: `${import.meta.env.VITE_GHPAGES_BASE_URL}contact`,
         element: <Contact />,
       },
     ],
