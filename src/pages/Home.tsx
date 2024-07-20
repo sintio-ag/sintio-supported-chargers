@@ -1,10 +1,3 @@
-function Home() {
-  return (
-    <div className="prose">
-      <h1>Home</h1>
-      <p>Some Content</p>
-    </div>
-  );
+export function Home() {
+  return <h2>Home</h2>;
 }
-
-export default Home;

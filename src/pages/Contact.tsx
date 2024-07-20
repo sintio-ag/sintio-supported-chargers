@@ -1,10 +1,3 @@
-function Contact() {
-  return (
-    <div className="prose">
-      <h1>Contact</h1>
-      <p>Some Content</p>
-    </div>
-  );
+export function Contact() {
+  return <h2>Contact</h2>;
 }
-
-export default Contact;
