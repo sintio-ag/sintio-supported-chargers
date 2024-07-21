@@ -43,7 +43,7 @@ We welcome contributions to improve this project. Please read the following guid
 
 ### PR Guidelines
 
-* All the branches should be taken out of origin `dev` branch.
+* All the branches should be taken out of origin `main` branch.
 * All the branches apart from origin `main` should be merged into origin `dev`.
 * When origin `dev` branches merge into origin `main` branch do the following steps:
   * Take a pull into local `dev` from the origin `dev` using the command `git pull origin dev`.

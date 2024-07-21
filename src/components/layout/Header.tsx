@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { SintioLogoYellowWhite } from "../illustrations/SintioLogoYellowWhiteIllustration";
+import { SintioLogoYellowWhiteIllustration } from "../illustrations/SintioLogoYellowWhiteIllustration";
 import ChargerNotListedButton from "../ui/ChargerNotListedButton";
 
 function Header() {
@@ -11,7 +11,7 @@ function Header() {
       <div className="mx-auto max-w-screen-xl items-center px-4 md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:block md:py-5">
           <NavLink to={import.meta.env.VITE_GHPAGES_REPO_NAME}>
-            <SintioLogoYellowWhite />
+            <SintioLogoYellowWhiteIllustration />
           </NavLink>
           <div className="md:hidden">
             <button
