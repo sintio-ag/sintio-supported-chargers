@@ -43,17 +43,11 @@ We welcome contributions to improve this project. Please read the following guid
 
 ### PR Guidelines
 
-* All the branches should be taken out of origin `main` branch.
-* All the branches apart from origin `main` should be merged into origin `dev`.
-* When origin `dev` branches merge into origin `main` branch do the following steps:
-  * Take a pull into local `dev` from the origin `dev` using the command `git pull origin dev`.
-  * Then take a pull into local `dev` from origin `main` branch using command `git pull origin main`.
-  * Now push the code on origin `dev` branch.
-* All the origin branches that merge into origin `dev` should use squash and merge strategy.
-* While when origin `dev` merges into origin `main` use normal merge request.
+* All branches should be taken out of the `main` branch.
+* All branches, except `prod`, should be merged into the main branch.
 
 ## Production build
 
 The project is deployed via GitHub Pages and can be viewed on [sintio-ag.github.io/sintio-supported-chargers](https://sintio-ag.github.io/sintio-supported-chargers/)
 
-If you want to run the project in your own GitHub Pages environment, make sure to update `VITE_GHPAGES_REPO_NAME` in the [.env](./.env) file. Further settings can be found [here](https://github.com/ErickKS/vite-deploy).
+If you want to run the project in your own GitHub Pages environment, make sure to update `VITE_GHPAGES_REPO_NAME` and `VITE_GOOGLE_ANALYTICS_ID` in the [.env](./.env) file. Further settings can be found [here](https://github.com/ErickKS/vite-deploy).
