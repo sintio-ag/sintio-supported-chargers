@@ -17,7 +17,7 @@ const ChargerNotListedButton = () => {
   return (
     <a
       href={`mailto:info@sintio.ch?subject=${subject}&body=${body}`}
-      className="text-sintio-blue block rounded-lg bg-sintio-yellow px-4 py-3 text-center font-medium shadow hover:bg-sintio-light-blue-1 hover:text-white active:bg-sintio-light-blue-1 active:shadow-none md:inline"
+      className="text-sintio-blue block rounded-lg bg-sintio-yellow px-4 py-3 text-center font-medium hover:bg-sintio-light-blue-1 hover:text-white active:bg-sintio-light-blue-1 md:inline"
     >
       Charger not listed?
     </a>

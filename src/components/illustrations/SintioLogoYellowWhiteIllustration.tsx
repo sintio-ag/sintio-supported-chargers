@@ -2,7 +2,7 @@ type SintioLogoProps = {
   height?: string;
 };
 
-export function SintioLogoYellowWhite(props: SintioLogoProps) {
+export function SintioLogoYellowWhiteIllustration(props: SintioLogoProps) {
   const defaultHeight = "40px";
   const { height = defaultHeight } = props;
 
