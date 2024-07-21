@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { SintioLogoYellowWhite } from "../illustrations/SintioLogoYellowWhiteIllustration";
 import ChargerNotListedButton from "../ui/ChargerNotListedButton";
 
@@ -10,9 +10,9 @@ function Header() {
     <nav className="w-full border-b bg-sintio-dark-blue md:static md:border-none md:text-sm">
       <div className="mx-auto max-w-screen-xl items-center px-4 md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:block md:py-5">
-          <Link to={import.meta.env.VITE_GHPAGES_BASE_URL}>
+          <NavLink to={import.meta.env.VITE_GHPAGES_REPO_NAME}>
             <SintioLogoYellowWhite />
-          </Link>
+          </NavLink>
           <div className="md:hidden">
             <button
               className="text-sintio-light-grey hover:text-sintio-yellow"
@@ -56,21 +56,27 @@ function Header() {
           }`}
         >
           <ul className="items-center justify-end space-y-6 md:flex md:space-x-6 md:space-y-0">
-            <li className="text-white hover:text-sintio-yellow">
-              <Link
-                to={import.meta.env.VITE_GHPAGES_BASE_URL}
-                className="block"
+            <li>
+              <NavLink
+                to={import.meta.env.VITE_GHPAGES_REPO_NAME}
+                end
+                className={({ isActive }) =>
+                  "block" + (!isActive ? " text-white" : " text-sintio-yellow")
+                }
               >
                 Home
-              </Link>
+              </NavLink>
             </li>
-            <li className="text-white hover:text-sintio-yellow">
-              <Link
-                to={`${import.meta.env.VITE_GHPAGES_BASE_URL}contact`}
-                className="block"
+            <li>
+              <NavLink
+                to={`${import.meta.env.VITE_GHPAGES_REPO_NAME}contact`}
+                end
+                className={({ isActive }) =>
+                  "block" + (!isActive ? " text-white" : " text-sintio-yellow")
+                }
               >
                 Contact
-              </Link>
+              </NavLink>
             </li>
             <div className="items-center gap-x-6 space-y-3 md:flex md:space-y-0">
               <li>

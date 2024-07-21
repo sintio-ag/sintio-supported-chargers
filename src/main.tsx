@@ -9,15 +9,15 @@ import "./index.scss";
 
 const router = createBrowserRouter([
   {
-    path: import.meta.env.VITE_GHPAGES_BASE_URL,
+    path: import.meta.env.VITE_GHPAGES_REPO_NAME,
     element: <App />,
     children: [
       {
-        path: import.meta.env.VITE_GHPAGES_BASE_URL,
+        path: import.meta.env.VITE_GHPAGES_REPO_NAME,
         element: <Home />,
       },
       {
-        path: `${import.meta.env.VITE_GHPAGES_BASE_URL}contact`,
+        path: `${import.meta.env.VITE_GHPAGES_REPO_NAME}contact`,
         element: <Contact />,
       },
     ],

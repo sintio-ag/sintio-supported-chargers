@@ -22,3 +22,5 @@ Follwoing commands are supported.
 ## Production build
 
 The project is deployed via GitHub Pages and can be viewed on [sintio-ag.github.io/sintio-supported-chargers](https://sintio-ag.github.io/sintio-supported-chargers/)
+
+If you want to run the project in your own GitHub Pages environment, make sure to update `VITE_GHPAGES_REPO_NAME` in the [.env](./.env) file. Further settings can be found [here](https://github.com/ErickKS/vite-deploy).
