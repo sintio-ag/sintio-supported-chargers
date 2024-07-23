@@ -43,8 +43,16 @@ We welcome contributions to improve this project. Please read the following guid
 
 ### PR Guidelines
 
-* All branches should be taken out of the `main` branch.
-* All branches, except `prod`, should be merged into the main branch.
+The `main` branch must be always stable.
+
+* All the branches should be taken out of origin `dev` branch.
+* All the branches apart from origin `main` should be merged into origin `dev`.
+* When origin `dev` branches merge into origin `main` branch do the following steps:
+  * Take a pull into local `dev` from the origin `dev` using the command `git pull origin dev`.
+  * Then take a pull into local `dev` from origin `main` branch using command `git pull origin main`.
+  * Now push the code on origin `dev` branch.
+* All the origin branches that merge into origin `dev` should use squash and merge strategy.
+* While when origin `dev` merges into origin `main` use normal merge request.
 
 ## Production build
 
