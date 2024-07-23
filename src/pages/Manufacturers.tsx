@@ -36,12 +36,15 @@ const Manufacturer = () => {
       "Support by Country": manufacturer.supportByCountry
         .map(
           (support) =>
-            `${support.country}: ${support.supportCompanies
+            `<span class="font-bold">${support.country}:</span>` +
+            `<ul class="list-none p-0 m-0">` +
+            support.supportCompanies
               .map(
                 (company) =>
-                  `<div>${company.company}<br /><a href="mailto:${company.email}">${company.email}</a><br /><a href="tel:${company.phone}">${company.phone}</a></div>`,
+                  `<li><span class="font-bold">${company.company}</span><br /><a href="mailto:${company.email}">${company.email}</a><br /><a href="tel:${company.phone}">${company.phone}</a></li>`,
               )
-              .join("")}`,
+              .join("") +
+            `</ul>`,
         )
         .join("<br>"),
     })) || [];
