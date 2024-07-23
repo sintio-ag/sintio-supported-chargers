@@ -43,14 +43,32 @@ We welcome contributions to improve this project. Please read the following guid
 
 ### PR Guidelines
 
-The `main` branch must be always stable.
+The `main` branch must be always stable, since it represents the production-ready state of the code.
 
 * All the branches should be taken out of origin `dev` branch.
+  ```shell
+  # Fetch the latest changes from the remote repository
+  git fetch origin
+  # Check out the dev branch
+  git checkout dev
+  # Create a new branch from dev
+  git checkout -b feat/new-feature-branch
+  ```
 * All the branches apart from origin `main` should be merged into origin `dev`.
+  ```shell
+  # Fetch the latest changes from the remote repository
+  git fetch origin
+  # Check out the dev branch
+  git checkout dev
+  # Merge the feature branch into dev
+  git merge feat/new-feature-branch
+  # Push the updated dev branch to the remote repository
+  git push origin dev
+  ```
 * When origin `dev` branches merge into origin `main` branch do the following steps:
   * Take a pull into local `dev` from the origin `dev` using the command `git pull origin dev`.
   * Then take a pull into local `dev` from origin `main` branch using command `git pull origin main`.
-  * Now push the code on origin `dev` branch.
+  * Now push the code on origin `dev` branch with `git push origin dev`
 * All the origin branches that merge into origin `dev` should use squash and merge strategy.
 * While when origin `dev` merges into origin `main` use normal merge request.
 
