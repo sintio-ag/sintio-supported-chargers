@@ -64,7 +64,7 @@ function Header() {
                   "block" + (!isActive ? " text-white" : " text-sintio-yellow")
                 }
               >
-                Home
+                Chargers
               </NavLink>
             </li>
             <li>
