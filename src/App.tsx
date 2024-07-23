@@ -9,7 +9,7 @@ function App() {
   const [cookies] = useCookies(["cookieConsent"]);
 
   return (
-    <div className="flex h-screen flex-col justify-between bg-sintio-light-grey">
+    <div className="flex h-screen flex-col justify-between">
       <Header />
       <Content>
         <Outlet />

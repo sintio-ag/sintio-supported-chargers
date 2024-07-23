@@ -69,6 +69,28 @@ function Header() {
             </li>
             <li>
               <NavLink
+                to={`${import.meta.env.VITE_GHPAGES_REPO_NAME}manufacturers`}
+                end
+                className={({ isActive }) =>
+                  "block" + (!isActive ? " text-white" : " text-sintio-yellow")
+                }
+              >
+                Manufacturers
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to={`${import.meta.env.VITE_GHPAGES_REPO_NAME}api-documentation`}
+                end
+                className={({ isActive }) =>
+                  "block" + (!isActive ? " text-white" : " text-sintio-yellow")
+                }
+              >
+                API Documentation
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
                 to={`${import.meta.env.VITE_GHPAGES_REPO_NAME}contact`}
                 end
                 className={({ isActive }) =>
