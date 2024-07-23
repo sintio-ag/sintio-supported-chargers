@@ -23,9 +23,10 @@ export default {
           css: {
             a: {
               "&:hover": {
-                color: theme("sintio-yellow"),
+                color: theme("colors.sintio-light-blue-1"),
               },
             },
+            maxWidth: "100ch",
           },
         },
       }),

@@ -25,7 +25,7 @@
   {
     "id": "garo",
     "name": "GARO",
-    "websiteUrl": "http://garocharging.com/",
+    "websiteUrl": "http://garocharging.com",
     "chargerManagementUrl": null,
     "statusPageUrl": null,
     "globalSupportUrl": null,
@@ -72,9 +72,9 @@
     "id": "keba",
     "name": "Keba",
     "websiteUrl": "https://www.keba.com",
-    "chargerManagementUrl": null,
+    "chargerManagementUrl": "https://emobility-portal.keba.com",
     "statusPageUrl": null,
-    "globalSupportUrl": null,
+    "globalSupportUrl": "https://www.keba.com/en/emobility/service-support/technical-help",
     "supportByCountry": []
   },
   {
@@ -89,7 +89,7 @@
   {
     "id": "weidmueller",
     "name": "Weidmüller",
-    "websiteUrl": "https://www.weidmueller.com/",
+    "websiteUrl": "https://www.weidmueller.com",
     "chargerManagementUrl": null,
     "statusPageUrl": null,
     "globalSupportUrl": "https://support.weidmueller.com",
@@ -100,7 +100,7 @@
         "supportCompanies": [
           {
             "id": "weidmueller-schweiz-ag",
-            "name": "Weidmüller Schweiz AG",
+            "company": "Weidmüller Schweiz AG",
             "websiteUrl": "https://www.weidmueller.ch",
             "email": "support@weidmueller.ch",
             "phone": "+41526740707"
