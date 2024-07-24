@@ -12,7 +12,7 @@ const CookieConsent = () => {
 
   return (
     <div className="prose fixed bottom-0 right-0 mb-4 mr-4 w-64">
-      <div className="rounded-lg bg-white p-4">
+      <div className="rounded-lg border bg-white p-4">
         <div className="mb-2 flex items-center justify-between">
           <div className="flex items-center">
             <CookieIllustration height="30px" />
