@@ -33,6 +33,13 @@ Follwoing commands are supported.
 
 We welcome contributions to improve this project. Please read the following guidelines to contribute effectively.
 
+### Style guide
+
+This template utilizes [Float UI](https://floatui.com/components), a free UI component library based on Tailwind CSS that does not require additional dependencies for most components. You can find the GitHub project [here](https://github.com/MarsX-dev/floatui).
+
+In addition to the default Tailwind CSS colors, we use Sintio brand colors, which are defined in [tailwind.config.js](./tailwind.config.js).
+
+
 ### Branching Guidelines
 
 * Feature branch: `feat/<feature-update-description>`
