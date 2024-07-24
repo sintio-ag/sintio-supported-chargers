@@ -90,6 +90,77 @@ function ApiDocumentation() {
           </ul>
         </li>
       </ul>
+      <p>
+        If a charger cannot be found in the endpoint, a default image is
+        provided for use. This default image is available in both PNG and WebP
+        formats.
+      </p>
+      <ul>
+        <li>
+          <a
+            href="https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_50.png"
+            target="_blank"
+          >
+            https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_50.png
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_50.webp"
+            target="_blank"
+          >
+            https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_50.webp
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_100.png"
+            target="_blank"
+          >
+            https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_100.png
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_100.webp"
+            target="_blank"
+          >
+            https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_100.webp
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_500.png"
+            target="_blank"
+          >
+            https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_500.png
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_500.webp"
+            target="_blank"
+          >
+            https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_500.webp
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_orig.png"
+            target="_blank"
+          >
+            https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_orig.png
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_orig.webp"
+            target="_blank"
+          >
+            https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_orig.webp
+          </a>
+        </li>
+      </ul>
       <h2>Manufacturers</h2>
       <p>
         <code>GET</code>{" "}

@@ -20,7 +20,9 @@ This propject is based on [Vite + React](https://vitejs.dev/). To run it locally
 
 2. Cd into the repo with `cd sintio-supported-chargers`
 
-3. Install dependencies with `npm install`
+3. Copy [.env.example](./.env.example) and rename it to `.env.local`. Update the variables based on the name of your GitHub repo.
+
+4. Install dependencies with `npm install`
 
 Follwoing commands are supported.
 
@@ -83,4 +85,8 @@ The `main` branch must be always stable, since it represents the production-read
 
 The project is deployed via GitHub Pages and can be viewed on [sintio-ag.github.io/sintio-supported-chargers](https://sintio-ag.github.io/sintio-supported-chargers/)
 
-If you want to run the project in your own GitHub Pages environment, make sure to update `VITE_GHPAGES_REPO_NAME` and `VITE_GOOGLE_ANALYTICS_ID` in the [.env](./.env) file. Further settings can be found [here](https://github.com/ErickKS/vite-deploy).
+If you want to run the project in your own GitHub Pages environment, make sure to update `VITE_GHPAGES_REPO_NAME`, `VITE_API_BASE_URL` and `VITE_GOOGLE_ANALYTICS_ID` in the [.env.local](./.env.local) file. Furthermore they have to be added on GitHub in `Project Settings > Enviroments > github-pages > Enviroment Variables`.
+
+How to deploy a Vite Application to GitHub pages is described [here](https://github.com/ErickKS/vite-deploy).
+
+
