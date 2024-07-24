@@ -102,7 +102,8 @@ function ApiDocumentation() {
             target="_blank"
           >
             https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_50.png
-          </a>
+          </a>{" "}
+          (1.99 kB)
         </li>
         <li>
           <a
@@ -110,7 +111,8 @@ function ApiDocumentation() {
             target="_blank"
           >
             https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_50.webp
-          </a>
+          </a>{" "}
+          (824 B)
         </li>
         <li>
           <a
@@ -118,7 +120,8 @@ function ApiDocumentation() {
             target="_blank"
           >
             https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_100.png
-          </a>
+          </a>{" "}
+          (3.65 kB)
         </li>
         <li>
           <a
@@ -126,7 +129,8 @@ function ApiDocumentation() {
             target="_blank"
           >
             https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_100.webp
-          </a>
+          </a>{" "}
+          (1.67 kB)
         </li>
         <li>
           <a
@@ -134,7 +138,8 @@ function ApiDocumentation() {
             target="_blank"
           >
             https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_500.png
-          </a>
+          </a>{" "}
+          (38.78 kB)
         </li>
         <li>
           <a
@@ -142,7 +147,8 @@ function ApiDocumentation() {
             target="_blank"
           >
             https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_500.webp
-          </a>
+          </a>{" "}
+          (10.58 kB)
         </li>
         <li>
           <a
@@ -150,7 +156,8 @@ function ApiDocumentation() {
             target="_blank"
           >
             https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_orig.png
-          </a>
+          </a>{" "}
+          (247.51 kB)
         </li>
         <li>
           <a
@@ -158,7 +165,8 @@ function ApiDocumentation() {
             target="_blank"
           >
             https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_orig.webp
-          </a>
+          </a>{" "}
+          (32.39 kB)
         </li>
       </ul>
       <h2>Manufacturers</h2>
