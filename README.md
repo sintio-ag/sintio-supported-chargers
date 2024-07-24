@@ -20,7 +20,9 @@ This propject is based on [Vite + React](https://vitejs.dev/). To run it locally
 
 2. Cd into the repo with `cd sintio-supported-chargers`
 
-3. Install dependencies with `npm install`
+3. Copy [.env.example](./.env.example) and rename it to `.env.local`. Update the variables based on the name of your GitHub repo.
+
+4. Install dependencies with `npm install`
 
 Follwoing commands are supported.
 

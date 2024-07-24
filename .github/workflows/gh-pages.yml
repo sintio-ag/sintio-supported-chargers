@@ -39,6 +39,10 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
+        env:
+          VITE_API_BASE_URL: ${{ vars.VITE_API_BASE_URL }}
+          VITE_GHPAGES_REPO_NAME: ${{ vars.VITE_GHPAGES_REPO_NAME }}
+          VITE_GOOGLE_ANALYTICS_ID: ${{ vars.VITE_GOOGLE_ANALYTICS_ID }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
