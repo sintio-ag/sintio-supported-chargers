@@ -25,7 +25,7 @@ const Home = () => {
   // Prepare content for the table
   const content =
     chargers?.map((charger) => ({
-      Image: `<img src="${charger.images.find((image) => image.size === "50")?.urlPng}" alt="Charger Image" />`,
+      Image: `<img src="${charger.images.find((image) => image.size === "50")?.urlWebp}" alt="Charger Image" />`,
       Vendor: charger.chargePointVendor,
       Model: charger.chargePointModel,
       "Global Meter": charger.globalMeter ? "Yes" : "No",
