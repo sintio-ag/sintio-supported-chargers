@@ -35,6 +35,19 @@ Follwoing commands are supported.
 
 We welcome contributions to improve this project. Please read the following guidelines to contribute effectively.
 
+### Charger and manufacturer data
+
+The charger and manufacturer API is a static JSON file (GET requests only) available in the [public/api/v1](./public/api/v1/) directory. Each charger must have an associated manufacturer. Additionally, every charger should include images in both PNG and WebP formats with the following sizes and a transparent background:
+
+* Original image: Approximately 1000px in height or width, whichever is reached first.
+* 500px image
+* 100px image
+* 50px image
+
+> Note: For landscape images, the width should be 500px (for the 500px image), and the height should be something as 300px.
+
+If you are looking for a PNG to WebP converter, [Online image to WebP converter](https://image.online-convert.com/convert-to-webp) provides a good one.
+
 ### Style guide
 
 This template utilizes [Float UI](https://floatui.com/components), a free UI component library based on Tailwind CSS that does not require additional dependencies for most components. You can find the GitHub project [here](https://github.com/MarsX-dev/floatui).
