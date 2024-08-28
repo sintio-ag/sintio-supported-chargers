@@ -422,5 +422,43 @@
         "size": "50"
       }
     ]
+  },
+  {
+    "id": "zaptec-zapcharger-pro",
+    "manufacturerId": "zaptec",
+    "chargePointVendor": "Zaptec",
+    "chargePointModel": "ZapCharger Pro",
+    "globalMeter": false,
+    "meterClass": "B",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "connectorType": "Type2",
+        "maxPowerKw": 22,
+        "currentType": "AC"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-zapcharger-pro_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-zapcharger-pro_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-zapcharger-pro_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-zapcharger-pro_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-zapcharger-pro_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-zapcharger-pro_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-zapcharger-pro_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-zapcharger-pro_50.webp",
+        "size": "50"
+      }
+    ]
   }
 ]

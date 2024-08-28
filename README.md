@@ -46,7 +46,7 @@ The charger and manufacturer API is a static JSON file (GET requests only) avail
 
 > Note: For landscape images, the width should be 500px (for the 500px image), and the height should be something as 300px.
 
-If you are looking for a PNG to WebP converter, [Online image to WebP converter](https://image.online-convert.com/convert-to-webp) provides a good one.
+If you are looking for a PNG to WebP converter, [Online image to WebP converter](https://image.online-convert.com/convert-to-webp) provides a good one. Background can be removed with help of [removebg](zaptec-zapcharger-pro_orig).
 
 ### Style guide
 
