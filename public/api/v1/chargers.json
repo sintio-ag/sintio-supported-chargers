@@ -16,23 +16,23 @@
     ],
     "images": [
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/dazebox-share-s_orig.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/dazebox-share-s_orig.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-share-s_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-share-s_orig.webp",
         "size": "original"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/dazebox-share-s_500.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/dazebox-share-s_500.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-share-s_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-share-s_500.webp",
         "size": "500"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/dazebox-share-s_100.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/dazebox-share-s_100.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-share-s_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-share-s_100.webp",
         "size": "100"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/dazebox-share-s_50.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/dazebox-share-s_50.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-share-s_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-share-s_50.webp",
         "size": "50"
       }
     ]
