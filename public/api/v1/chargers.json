@@ -119,7 +119,7 @@
     "chargePointVendor": "Garo",
     "chargePointModel": "EntityPro",
     "globalMeter": true,
-    "meterClass": "A",
+    "meterClass": "MID Class A",
     "connectors": [
       {
         "connectorId": 1,
@@ -157,7 +157,7 @@
     "chargePointVendor": "Hager",
     "chargePointModel": "XEV1R22T2",
     "globalMeter": true,
-    "meterClass": "A",
+    "meterClass": "MID Class A",
     "connectors": [
       {
         "connectorId": 1,
@@ -195,7 +195,7 @@
     "chargePointVendor": "Hager",
     "chargePointModel": "XEV1R22T2TE",
     "globalMeter": true,
-    "meterClass": "A",
+    "meterClass": "MID Class A",
     "connectors": [
       {
         "connectorId": 1,
@@ -239,7 +239,7 @@
     "chargePointVendor": "Keba AG",
     "chargePointModel": "KC-P30-ES2400C2-E0R",
     "globalMeter": true,
-    "meterClass": "B",
+    "meterClass": "MID Class B",
     "connectors": [
       {
         "connectorId": 1,
@@ -315,7 +315,7 @@
     "chargePointVendor": "Weidmueller",
     "chargePointModel": "ACSMART",
     "globalMeter": true,
-    "meterClass": "B",
+    "meterClass": "MID Class B",
     "connectors": [
       {
         "connectorId": 1,
