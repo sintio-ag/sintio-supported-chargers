@@ -46,7 +46,9 @@ function ApiDocumentation() {
           (±0.5%, ±1%, ±2%). MID: Uses classes A ±2% (similar to IEC Class 2), B
           ±1% (similar to IEC Class 1), and C ±0.5% (similar to IEC Class 0.5),
           which correspond to classes 2, 1, and 0.5 of the IEC standard,
-          respectively.
+          respectively. EN 50470 is the European standard used in conjunction
+          with MID for electronic electricity meters, defining similar accuracy
+          classes (A, B, and C) for regulatory and billing purposes.
         </li>
         <li>
           <strong>connectors</strong> (array): An array of objects describing
