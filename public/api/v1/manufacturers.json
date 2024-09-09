@@ -1,5 +1,14 @@
 [
   {
+    "id": "daze",
+    "name": "Daze",
+    "websiteUrl": "https://daze.eu",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
+    "globalSupportUrl": null,
+    "supportByCountry": []
+  },
+  {
     "id": "easee",
     "name": "Easee",
     "websiteUrl": "https://easee.com",
