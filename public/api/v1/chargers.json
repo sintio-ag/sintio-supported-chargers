@@ -119,7 +119,7 @@
     "chargePointVendor": "Garo",
     "chargePointModel": "EntityPro",
     "globalMeter": true,
-    "meterClass": "MID Class A (EN 50470)",
+    "meterClass": "MID Class B (EN 50470)",
     "connectors": [
       {
         "connectorId": 1,
