@@ -5,7 +5,7 @@
     "chargePointVendor": "Daze Technology",
     "chargePointModel": "DZCob",
     "globalMeter": false,
-    "meterClass": false,
+    "meterClass": "±2-5% ",
     "connectors": [
       {
         "connectorId": 1,
