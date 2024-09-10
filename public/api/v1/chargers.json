@@ -1,5 +1,81 @@
 [
   {
+    "id": "dazebox-c",
+    "manufacturerId": "daze",
+    "chargePointVendor": "Daze Technology",
+    "chargePointModel": "DZC",
+    "globalMeter": false,
+    "meterClass": "±2-5% ",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "connectorType": "Type2",
+        "maxPowerKw": 22,
+        "currentType": "AC"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-c_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-c_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-c_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-c_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-c_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-c_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-c_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-c_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "dazebox-home-s",
+    "manufacturerId": "daze",
+    "chargePointVendor": "Daze Technology",
+    "chargePointModel": "DZH",
+    "globalMeter": false,
+    "meterClass": "±2-5% ",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "connectorType": "Type2",
+        "maxPowerKw": 22,
+        "currentType": "AC"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-home-s_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-home-s_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-home-s_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-home-s_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-home-s_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-home-s_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-home-s_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-home-s_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
     "id": "dazebox-share-s",
     "manufacturerId": "daze",
     "chargePointVendor": "Daze Technology",
