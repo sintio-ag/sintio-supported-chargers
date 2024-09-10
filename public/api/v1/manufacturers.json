@@ -6,7 +6,21 @@
     "chargerManagementUrl": null,
     "statusPageUrl": null,
     "globalSupportUrl": null,
-    "supportByCountry": []
+    "supportByCountry": [
+      {
+        "country": "Italy",
+        "countryCode": "IT",
+        "supportCompanies": [
+          {
+            "id": "daze-technology-srl",
+            "company": "DazeTechnology S.R.L.",
+            "websiteUrl": "https://daze.eu",
+            "email": "customercare@daze.eu",
+            "phone": "+393518779122"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "easee",
