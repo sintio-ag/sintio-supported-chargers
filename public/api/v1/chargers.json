@@ -9,9 +9,12 @@
     "connectors": [
       {
         "connectorId": 1,
-        "connectorType": "Type2",
-        "maxPowerKw": 22,
-        "currentType": "AC"
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000
       }
     ],
     "images": [
@@ -47,9 +50,12 @@
     "connectors": [
       {
         "connectorId": 1,
-        "connectorType": "Type2",
-        "maxPowerKw": 22,
-        "currentType": "AC"
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000
       }
     ],
     "images": [
@@ -85,9 +91,12 @@
     "connectors": [
       {
         "connectorId": 1,
-        "connectorType": "Type2",
-        "maxPowerKw": 22,
-        "currentType": "AC"
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000
       }
     ],
     "images": [
@@ -123,9 +132,12 @@
     "connectors": [
       {
         "connectorId": 1,
-        "connectorType": "Type2",
-        "maxPowerKw": 22,
-        "currentType": "AC"
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000
       }
     ],
     "images": [
@@ -161,9 +173,12 @@
     "connectors": [
       {
         "connectorId": 1,
-        "connectorType": "Type2",
-        "maxPowerKw": 22,
-        "currentType": "AC"
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000
       }
     ],
     "images": [
@@ -199,9 +214,12 @@
     "connectors": [
       {
         "connectorId": 1,
-        "connectorType": "Type2",
-        "maxPowerKw": 22,
-        "currentType": "AC"
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000
       }
     ],
     "images": [
@@ -237,9 +255,12 @@
     "connectors": [
       {
         "connectorId": 1,
-        "connectorType": "Type2",
-        "maxPowerKw": 22,
-        "currentType": "AC"
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000
       }
     ],
     "images": [
@@ -275,15 +296,21 @@
     "connectors": [
       {
         "connectorId": 1,
-        "connectorType": "Type2",
-        "maxPowerKw": 22,
-        "currentType": "AC"
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000
       },
       {
         "connectorId": 2,
-        "connectorType": "TypeE",
-        "maxPowerKw": 3.6,
-        "currentType": "AC"
+        "standard": "DOMESTIC_E",
+        "format": "SOCKET",
+        "powerType": "AC_1_PHASE",
+        "voltage": 230,
+        "amperage": 16,
+        "maxElectricPower": 3600
       }
     ],
     "images": [
@@ -319,9 +346,12 @@
     "connectors": [
       {
         "connectorId": 1,
-        "connectorType": "Type2",
-        "maxPowerKw": 22,
-        "currentType": "AC"
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000
       }
     ],
     "images": [
@@ -357,9 +387,12 @@
     "connectors": [
       {
         "connectorId": 1,
-        "connectorType": "Type2",
-        "maxPowerKw": 22,
-        "currentType": "AC"
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000
       }
     ],
     "images": [
@@ -395,9 +428,12 @@
     "connectors": [
       {
         "connectorId": 1,
-        "connectorType": "Type2",
-        "maxPowerKw": 22,
-        "currentType": "AC"
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000
       }
     ],
     "images": [
@@ -433,9 +469,12 @@
     "connectors": [
       {
         "connectorId": 1,
-        "connectorType": "Type2",
-        "maxPowerKw": 22,
-        "currentType": "AC"
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000
       }
     ],
     "images": [
@@ -471,9 +510,12 @@
     "connectors": [
       {
         "connectorId": 1,
-        "connectorType": "Type2",
-        "maxPowerKw": 22,
-        "currentType": "AC"
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000
       }
     ],
     "images": [
@@ -509,9 +551,12 @@
     "connectors": [
       {
         "connectorId": 1,
-        "connectorType": "Type2",
-        "maxPowerKw": 22,
-        "currentType": "AC"
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000
       }
     ],
     "images": [
@@ -547,9 +592,12 @@
     "connectors": [
       {
         "connectorId": 1,
-        "connectorType": "Type2",
-        "maxPowerKw": 22,
-        "currentType": "AC"
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000
       }
     ],
     "images": [
