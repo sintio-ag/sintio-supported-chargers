@@ -35,7 +35,7 @@ const Home = () => {
         charger.connectors
           .map(
             (connector) =>
-              `<li><span class="font-bold">ID: ${connector.connectorId}</span><br>Type: ${connector.connectorType}<br>Max Power: ${connector.maxPowerKw} kW<br>Current: ${connector.currentType}</li>`,
+              `<li><span class="font-bold">ID: ${connector.connectorId}</span><br>Standard: ${connector.standard}<br>Max Power: ${connector.maxElectricPower / 1000} kW<br>Current: ${connector.powerType}</li>`,
           )
           .join("") +
         `</ul>`,

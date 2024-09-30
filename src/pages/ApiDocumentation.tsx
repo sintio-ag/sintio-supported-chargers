@@ -52,25 +52,42 @@ function ApiDocumentation() {
         </li>
         <li>
           <strong>connectors</strong> (array): An array of objects describing
-          the connectors available on the charger. Each connector object
-          includes:
+          the connectors available on the charger, based on{" "}
+          <a
+            href="https://github.com/ocpi/ocpi/blob/master/mod_locations.asciidoc#mod_locations_connector_object"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            OCPI connector object
+          </a>
+          . Each connector object includes:
           <ul>
             <li>
               <strong>connectorId</strong> (number): A unique identifier for the
-              connector. The first connector must have an ID of 1.
+              connector.
             </li>
             <li>
-              <strong>connectorType</strong> (string): The type of the connector
-              (e.g., "Type2" ore "TypeE").
+              <strong>standard</strong> (string): The standard of the connector
+              (e.g. <code>IEC_62196_T2</code>).
             </li>
             <li>
-              <strong>maxPowerKw</strong> (number): The maximum power output of
-              the connector in kilowatts. Typically 11, 22, or for example 150
-              kW.
+              <strong>format</strong> (string): The format of the connector. Can
+              be <code>CABLE</code> or <code>SOCKET</code>.
             </li>
             <li>
-              <strong>currentType</strong> (string): The type of current ("AC"
-              or "DC").
+              <strong>powerType</strong> (string): The type of power. Can be{" "}
+              <code>AC_1_PHASE</code>, <code>AC_3_PHASE</code> or{" "}
+              <code>DC</code>.
+            </li>
+            <li>
+              <strong>voltage</strong> (number): The voltage in volts.
+            </li>
+            <li>
+              <strong>amperage</strong> (number): The amperage in amperes.
+            </li>
+            <li>
+              <strong>maxElectricPower</strong> (number): The maximum electric
+              power in watts.
             </li>
           </ul>
         </li>
