@@ -6,9 +6,12 @@ type Image = {
 
 type Connector = {
   connectorId: number;
-  connectorType: string;
-  maxPowerKw: number;
-  currentType: string;
+  standard: string;
+  format: string;
+  powerType: string;
+  voltage: number;
+  amperage: number;
+  maxElectricPower: number;
 };
 
 export type Charger = {
