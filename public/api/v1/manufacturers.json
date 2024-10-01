@@ -98,7 +98,21 @@
     "chargerManagementUrl": "https://emobility-portal.keba.com",
     "statusPageUrl": null,
     "globalSupportUrl": "https://www.keba.com/en/emobility/service-support/technical-help",
-    "supportByCountry": []
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "keba-schweiz-gmbh",
+            "company": "KEBA Schweiz GmbH",
+            "websiteUrl": "https://www.keba.com/de",
+            "email": "support-ggs@keba.com",
+            "phone": "+41444406685"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "nexblue",
@@ -107,7 +121,21 @@
     "chargerManagementUrl": "https://partner.nexblue.com",
     "statusPageUrl": null,
     "globalSupportUrl": "https://nexblue.com/pages/contact-us",
-    "supportByCountry": []
+    "supportByCountry": [
+      {
+        "country": "Sweden",
+        "countryCode": "SE",
+        "supportCompanies": [
+          {
+            "id": "nexblue-ab",
+            "company": "NexBlue AB",
+            "websiteUrl": "https://nexblue.com",
+            "email": "info@nexblue.com",
+            "phone": "+46738981965 "
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "weidmueller",
