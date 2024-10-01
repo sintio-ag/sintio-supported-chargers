@@ -1,4 +1,174 @@
+import Table from "../components/ui/Table";
+
 function ApiDocumentation() {
+  const powerTypeHeaders = ["Value", "Description"];
+  const powerTypeContent = [
+    {
+      Value: "AC_1_PHASE",
+      Description: "AC single phase.",
+    },
+    {
+      Value: "AC_2_PHASE",
+      Description:
+        "AC two phases, only two of the three available phases connected.",
+    },
+    {
+      Value: "AC_2_PHASE_SPLIT",
+      Description: "AC two phases using split phase system.",
+    },
+    {
+      Value: "AC_3_PHASE",
+      Description: "AC three phases.",
+    },
+    {
+      Value: "DC",
+      Description: "Direct Current.",
+    },
+  ];
+
+  const connectorFormatHeaders = ["Value", "Description"];
+  const connectorFormatContent = [
+    {
+      Value: "SOCKET",
+      Description:
+        "The connector is a socket; the EV user needs to bring a fitting plug.",
+    },
+    {
+      Value: "CABLE",
+      Description:
+        "The connector is an attached cable; the EV users car needs to have a fitting inlet.",
+    },
+  ];
+
+  const connectorTypeHeaders = ["Value", "Description"];
+  const connectorTypeContent = [
+    { Value: "CHADEMO", Description: "The connector type is CHAdeMO, DC" },
+    {
+      Value: "CHAOJI",
+      Description:
+        "The ChaoJi connector. The new generation charging connector, harmonized between CHAdeMO and GB/T. DC.",
+    },
+    {
+      Value: "DOMESTIC_A",
+      Description: 'Standard/Domestic household, type "A", NEMA 1-15, 2 pins',
+    },
+    {
+      Value: "DOMESTIC_B",
+      Description: 'Standard/Domestic household, type "B", NEMA 5-15, 3 pins',
+    },
+    {
+      Value: "DOMESTIC_C",
+      Description: 'Standard/Domestic household, type "C", CEE 7/17, 2 pins',
+    },
+    {
+      Value: "DOMESTIC_D",
+      Description: 'Standard/Domestic household, type "D", 3 pin',
+    },
+    {
+      Value: "DOMESTIC_E",
+      Description: 'Standard/Domestic household, type "E", CEE 7/5 3 pins',
+    },
+    {
+      Value: "DOMESTIC_F",
+      Description:
+        'Standard/Domestic household, type "F", CEE 7/4, Schuko, 3 pins',
+    },
+    {
+      Value: "DOMESTIC_G",
+      Description:
+        'Standard/Domestic household, type "G", BS 1363, Commonwealth, 3 pins',
+    },
+    {
+      Value: "DOMESTIC_H",
+      Description: 'Standard/Domestic household, type "H", SI-32, 3 pins',
+    },
+    {
+      Value: "DOMESTIC_I",
+      Description: 'Standard/Domestic household, type "I", AS 3112, 3 pins',
+    },
+    {
+      Value: "DOMESTIC_J",
+      Description: 'Standard/Domestic household, type "J", SEV 1011, 3 pins',
+    },
+    {
+      Value: "DOMESTIC_K",
+      Description:
+        'Standard/Domestic household, type "K", DS 60884-2-D1, 3 pins',
+    },
+    {
+      Value: "DOMESTIC_L",
+      Description:
+        'Standard/Domestic household, type "L", CEI 23-16-VII, 3 pins',
+    },
+    {
+      Value: "DOMESTIC_M",
+      Description: 'Standard/Domestic household, type "M", BS 546, 3 pins',
+    },
+    {
+      Value: "DOMESTIC_N",
+      Description: 'Standard/Domestic household, type "N", NBR 14136, 3 pins',
+    },
+    {
+      Value: "DOMESTIC_O",
+      Description:
+        'Standard/Domestic household, type "O", TIS 166-2549, 3 pins',
+    },
+    {
+      Value: "GBT_AC",
+      Description: "Guobiao GB/T 20234.2 AC socket/connector",
+    },
+    { Value: "GBT_DC", Description: "Guobiao GB/T 20234.3 DC connector" },
+    {
+      Value: "IEC_60309_2_single_16",
+      Description:
+        "IEC 60309-2 Industrial Connector single phase 16 amperes (usually blue)",
+    },
+    {
+      Value: "IEC_60309_2_three_16",
+      Description:
+        "IEC 60309-2 Industrial Connector three phases 16 amperes (usually red)",
+    },
+    {
+      Value: "IEC_60309_2_three_32",
+      Description:
+        "IEC 60309-2 Industrial Connector three phases 32 amperes (usually red)",
+    },
+    {
+      Value: "IEC_60309_2_three_64",
+      Description:
+        "IEC 60309-2 Industrial Connector three phases 64 amperes (usually red)",
+    },
+    { Value: "IEC_62196_T1", Description: 'IEC 62196 Type 1 "SAE J1772"' },
+    { Value: "IEC_62196_T1_COMBO", Description: "Combo Type 1 based, DC" },
+    { Value: "IEC_62196_T2", Description: 'IEC 62196 Type 2 "Mennekes"' },
+    { Value: "IEC_62196_T2_COMBO", Description: "Combo Type 2 based, DC" },
+    { Value: "IEC_62196_T3A", Description: "IEC 62196 Type 3A" },
+    { Value: "IEC_62196_T3C", Description: 'IEC 62196 Type 3C "Scame"' },
+    { Value: "NEMA_5_20", Description: "NEMA 5-20, 3 pins" },
+    { Value: "NEMA_6_30", Description: "NEMA 6-30, 3 pins" },
+    { Value: "NEMA_6_50", Description: "NEMA 6-50, 3 pins" },
+    { Value: "NEMA_10_30", Description: "NEMA 10-30, 3 pins" },
+    { Value: "NEMA_10_50", Description: "NEMA 10-50, 3 pins" },
+    { Value: "NEMA_14_30", Description: "NEMA 14-30, 3 pins, rating of 30 A" },
+    { Value: "NEMA_14_50", Description: "NEMA 14-50, 3 pins, rating of 50 A" },
+    {
+      Value: "PANTOGRAPH_BOTTOM_UP",
+      Description: "On-board Bottom-up-Pantograph typically for bus charging",
+    },
+    {
+      Value: "PANTOGRAPH_TOP_DOWN",
+      Description: "Off-board Top-down-Pantograph typically for bus charging",
+    },
+    {
+      Value: "TESLA_R",
+      Description: 'Tesla Connector "Roadster"-type (round, 4 pin)',
+    },
+    {
+      Value: "TESLA_S",
+      Description: 'Tesla Connector "Model-S"-type (oval, 5 pin)',
+    },
+  ];
+
   return (
     <div className="prose">
       <h1>API Documentation</h1>
@@ -64,20 +234,26 @@ function ApiDocumentation() {
           <ul>
             <li>
               <strong>connectorId</strong> (number): A unique identifier for the
-              connector.
+              connector, that comes from OCPP (first connector starts with 1).
             </li>
             <li>
-              <strong>standard</strong> (string): The standard of the connector
-              (e.g. <code>IEC_62196_T2</code>).
+              <strong>standard</strong> (string): The standard of the connector.
+              <Table
+                headers={connectorTypeHeaders}
+                content={connectorTypeContent}
+              />
             </li>
             <li>
-              <strong>format</strong> (string): The format of the connector. Can
-              be <code>CABLE</code> or <code>SOCKET</code>.
+              <strong>format</strong> (string): The format of the connector,
+              whether it is a socket or a plug.
+              <Table
+                headers={connectorFormatHeaders}
+                content={connectorFormatContent}
+              />
             </li>
             <li>
-              <strong>powerType</strong> (string): The type of power. Can be{" "}
-              <code>AC_1_PHASE</code>, <code>AC_3_PHASE</code> or{" "}
-              <code>DC</code>.
+              <strong>powerType</strong> (string): The type of power.
+              <Table headers={powerTypeHeaders} content={powerTypeContent} />
             </li>
             <li>
               <strong>voltage</strong> (number): The voltage in volts.
