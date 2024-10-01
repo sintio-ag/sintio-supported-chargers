@@ -102,4 +102,12 @@ If you want to run the project in your own GitHub Pages environment, make sure t
 
 How to deploy a Vite Application to GitHub pages is described [here](https://github.com/ErickKS/vite-deploy).
 
+## License
 
+This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+
+- **Open Source Requirement**: Any derivative work based on this code must also be distributed under the same license (GPL-3.0). You are not permitted to close the source of any modified versions.
+- **Source Code Availability**: If you modify and distribute this project, you must make the source code of your changes publicly available under the same GPL-3.0 license.
+- **Attribution**: Any project that includes code from this repository must give proper attribution, clearly stating the original authors and including a copy of the GPL-3.0 license.
+
+For more details, see the [GNU General Public License v3.0](./LICENSE).
