@@ -106,9 +106,22 @@
           {
             "id": "keba-schweiz-gmbh",
             "company": "KEBA Schweiz GmbH",
-            "websiteUrl": "https://www.keba.com/de",
-            "email": "support-ggs@keba.com",
+            "websiteUrl": "https://www.keba.com",
+            "email": "info.schweiz@keba.com",
             "phone": "+41444406685"
+          }
+        ]
+      },
+      {
+        "country": "Austria",
+        "countryCode": "AT",
+        "supportCompanies": [
+          {
+            "id": "keba-energy-automation-gmbh",
+            "company": "KEBA Energy Automation GmbH",
+            "websiteUrl": "https://www.keba.com",
+            "email": "support-emobility@keba.com",
+            "phone": "+4373270900"
           }
         ]
       }
