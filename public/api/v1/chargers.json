@@ -337,10 +337,51 @@
     ]
   },
   {
-    "id": "keba-p30",
+    "id": "keba-kc-p30-es2400c2-e0r",
     "manufacturerId": "keba",
     "chargePointVendor": "Keba AG",
     "chargePointModel": "KC-P30-ES2400C2-E0R",
+    "globalMeter": true,
+    "meterClass": "MID Class B",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-p30_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-p30_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-p30_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-p30_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-p30_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-p30_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-p30_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-p30_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "keba-kc-p30-es2400e2-m0a",
+    "manufacturerId": "keba",
+    "chargePointVendor": "Keba AG",
+    "chargePointModel": "KC-P30-ES2400E2-M0A-",
     "globalMeter": true,
     "meterClass": "MID Class B",
     "connectors": [
