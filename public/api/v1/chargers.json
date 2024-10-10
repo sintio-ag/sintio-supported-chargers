@@ -292,7 +292,7 @@
     "chargePointVendor": "Hager (EN 50470)",
     "chargePointModel": "XEV1R22T2TE",
     "globalMeter": true,
-    "meterClass": "MID Class A",
+    "meterClass": "MID Class A (EN 50470)",
     "connectors": [
       {
         "connectorId": 1,
@@ -342,7 +342,7 @@
     "chargePointVendor": "Keba AG",
     "chargePointModel": "KC-P30-ES2400C2-E0R",
     "globalMeter": true,
-    "meterClass": "MID Class B",
+    "meterClass": "±1%",
     "connectors": [
       {
         "connectorId": 1,
@@ -383,7 +383,7 @@
     "chargePointVendor": "Keba AG",
     "chargePointModel": "KC-P30-ES2400E2-M0A-",
     "globalMeter": true,
-    "meterClass": "MID Class B",
+    "meterClass": "MID Class B (EN 50470)",
     "connectors": [
       {
         "connectorId": 1,
