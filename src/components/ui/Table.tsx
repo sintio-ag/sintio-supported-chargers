@@ -39,16 +39,11 @@ const Table: React.FC<TableProps> = ({ headers, content }) => {
         <tbody className="divide-y text-gray-600">
           {content.map((row, rowIndex) => (
             <tr key={rowIndex}>
-              {headers.map((header) => {
-                const cellContent = row[header] || "";
-                return (
-                  <td
-                    className="px-3 py-1"
-                    key={header}
-                    dangerouslySetInnerHTML={{ __html: cellContent }}
-                  />
-                );
-              })}
+              {headers.map((header) => (
+                <td className="px-3 py-1" key={header}>
+                  {row[header]}
+                </td>
+              ))}
             </tr>
           ))}
         </tbody>
