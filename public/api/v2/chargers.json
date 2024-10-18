@@ -14,7 +14,8 @@
         "powerType": "AC_3_PHASE",
         "voltage": 400,
         "amperage": 32,
-        "maxElectricPower": 22000
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
       }
     ],
     "images": [
@@ -55,7 +56,8 @@
         "powerType": "AC_3_PHASE",
         "voltage": 400,
         "amperage": 32,
-        "maxElectricPower": 22000
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
       }
     ],
     "images": [
@@ -96,7 +98,8 @@
         "powerType": "AC_3_PHASE",
         "voltage": 400,
         "amperage": 32,
-        "maxElectricPower": 22000
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
       }
     ],
     "images": [
@@ -137,7 +140,8 @@
         "powerType": "AC_3_PHASE",
         "voltage": 400,
         "amperage": 32,
-        "maxElectricPower": 22000
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
       }
     ],
     "images": [
@@ -178,7 +182,8 @@
         "powerType": "AC_3_PHASE",
         "voltage": 400,
         "amperage": 32,
-        "maxElectricPower": 22000
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
       }
     ],
     "images": [
@@ -219,7 +224,8 @@
         "powerType": "AC_3_PHASE",
         "voltage": 400,
         "amperage": 32,
-        "maxElectricPower": 22000
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
       }
     ],
     "images": [
@@ -260,7 +266,8 @@
         "powerType": "AC_3_PHASE",
         "voltage": 400,
         "amperage": 32,
-        "maxElectricPower": 22000
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
       }
     ],
     "images": [
@@ -301,7 +308,8 @@
         "powerType": "AC_3_PHASE",
         "voltage": 400,
         "amperage": 32,
-        "maxElectricPower": 22000
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
       },
       {
         "connectorId": 2,
@@ -310,7 +318,8 @@
         "powerType": "AC_1_PHASE",
         "voltage": 230,
         "amperage": 16,
-        "maxElectricPower": 3600
+        "maxElectricPower": 3600,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/socket-type-e.svg"
       }
     ],
     "images": [
@@ -351,7 +360,8 @@
         "powerType": "AC_3_PHASE",
         "voltage": 400,
         "amperage": 32,
-        "maxElectricPower": 22000
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
       }
     ],
     "images": [
@@ -392,7 +402,8 @@
         "powerType": "AC_3_PHASE",
         "voltage": 400,
         "amperage": 32,
-        "maxElectricPower": 22000
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
       }
     ],
     "images": [
@@ -433,7 +444,8 @@
         "powerType": "AC_3_PHASE",
         "voltage": 400,
         "amperage": 32,
-        "maxElectricPower": 22000
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
       }
     ],
     "images": [
@@ -474,7 +486,8 @@
         "powerType": "AC_3_PHASE",
         "voltage": 400,
         "amperage": 32,
-        "maxElectricPower": 22000
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
       }
     ],
     "images": [
@@ -515,7 +528,8 @@
         "powerType": "AC_3_PHASE",
         "voltage": 400,
         "amperage": 32,
-        "maxElectricPower": 22000
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
       }
     ],
     "images": [
@@ -556,7 +570,8 @@
         "powerType": "AC_3_PHASE",
         "voltage": 400,
         "amperage": 32,
-        "maxElectricPower": 22000
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
       }
     ],
     "images": [
@@ -597,7 +612,8 @@
         "powerType": "AC_3_PHASE",
         "voltage": 400,
         "amperage": 32,
-        "maxElectricPower": 22000
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
       }
     ],
     "images": [
@@ -638,7 +654,8 @@
         "powerType": "AC_3_PHASE",
         "voltage": 400,
         "amperage": 32,
-        "maxElectricPower": 22000
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
       }
     ],
     "images": [

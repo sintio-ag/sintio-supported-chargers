@@ -42,6 +42,11 @@ const Home = () => {
           {charger.connectors.map((connector) => {
             return (
               <li key={connector.connectorId}>
+                <img
+                  src={connector.imageUrlSvg}
+                  alt={`${connector.standard} Connector`}
+                  className="mr-2 inline-block h-4 w-4"
+                />
                 <span className="font-bold">ID: {connector.connectorId}</span>
                 <br />
                 Standard: {connector.standard}
