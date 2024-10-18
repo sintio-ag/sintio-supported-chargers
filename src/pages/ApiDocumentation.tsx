@@ -196,8 +196,8 @@ function ApiDocumentation() {
           manufacturer. Use this to link to the manufacturer object.
         </li>
         <li>
-          <strong>chargePointVendor</strong> (string): The name of the charger's
-          vendor exactly as it appears in OCPP BootNotification.
+          <strong>chargePointVendor</strong> (array of strings): The name of the
+          charger's vendor exactly as it appears in OCPP BootNotification.
         </li>
         <li>
           <strong>chargePointModel</strong> (string): The model of the charger
@@ -221,8 +221,8 @@ function ApiDocumentation() {
           classes (A, B, and C) for regulatory and billing purposes.
         </li>
         <li>
-          <strong>connectors</strong> (array): An array of objects describing
-          the connectors available on the charger, based on{" "}
+          <strong>connectors</strong> (array of objects): An array of objects
+          describing the connectors available on the charger, based on{" "}
           <a
             href="https://github.com/ocpi/ocpi/blob/master/mod_locations.asciidoc#mod_locations_connector_object"
             target="_blank"

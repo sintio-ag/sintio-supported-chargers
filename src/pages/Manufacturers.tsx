@@ -10,7 +10,7 @@ const Manufacturer = () => {
     data: manufacturers,
     isLoading,
     error,
-  } = useFetch<Manufacturer[]>(`${baseUrl}/api/v1/manufacturers.json`);
+  } = useFetch<Manufacturer[]>(`${baseUrl}/api/v2/manufacturers.json`);
 
   // Define headers for the manufacturer table with support contacts
   const headers = ["Name", "Website", "Global Support", "Support by Country"];
