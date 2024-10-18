@@ -197,12 +197,14 @@ function ApiDocumentation() {
           manufacturer. Use this to link to the manufacturer object.
         </li>
         <li>
-          <strong>chargePointVendor</strong> (array of strings): The name of the
-          charger's vendor exactly as it appears in OCPP BootNotification.
+          <strong>chargePointVendor</strong> (string): The name of the charger's
+          vendor exactly as it appears in OCPP BootNotification.
         </li>
         <li>
-          <strong>chargePointModel</strong> (string): The model of the charger
-          exactly as it appears in OCPP BootNotification.
+          <strong>chargePointModel</strong> (array of strings): The model of the
+          charger exactly as it appears in OCPP BootNotification. Since some
+          vendors have multiple models with the same specs, this field is an
+          array (introduces with v2 API, before it was a string).
         </li>
         <li>
           <strong>globalMeter</strong> (boolean): Indicates if the charger has a
@@ -265,6 +267,10 @@ function ApiDocumentation() {
             <li>
               <strong>maxElectricPower</strong> (number): The maximum electric
               power in watts.
+            </li>
+            <li>
+              <strong>imageUrlSvg</strong> (string): The URL of the SVG image
+              that shows how the connector looks (introduces with v2 API).
             </li>
           </ul>
         </li>

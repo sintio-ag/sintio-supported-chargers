@@ -12,6 +12,7 @@ type Connector = {
   voltage: number;
   amperage: number;
   maxElectricPower: number;
+  imageUrlSvg: string;
 };
 
 export type Charger = {
