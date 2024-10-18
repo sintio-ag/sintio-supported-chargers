@@ -1,4 +1,5 @@
 import Table from "../components/ui/Table";
+import AlertInfo from "../components/ui/AlertInfo";
 
 function ApiDocumentation() {
   const powerTypeHeaders = ["Value", "Description"];
@@ -172,16 +173,16 @@ function ApiDocumentation() {
   return (
     <div className="prose">
       <h1>API Documentation</h1>
-      <p>Below are the GET endpoints available.</p>
+      <AlertInfo message="This documentation is for the v2 API." />
       <h2>Chargers</h2>
       <p>
         <code>GET</code>{" "}
         <a
-          href="https://sintio-ag.github.io/sintio-supported-chargers/api/v1/chargers.json"
+          href="https://sintio-ag.github.io/sintio-supported-chargers/api/v2/chargers.json"
           target="_blank"
           rel="noopener noreferrer"
         >
-          https://sintio-ag.github.io/sintio-supported-chargers/api/v1/chargers.json
+          https://sintio-ag.github.io/sintio-supported-chargers/api/v2/chargers.json
         </a>
       </p>
       <p>
@@ -368,11 +369,11 @@ function ApiDocumentation() {
       <p>
         <code>GET</code>{" "}
         <a
-          href="https://sintio-ag.github.io/sintio-supported-chargers/api/v1/manufacturers.json"
+          href="https://sintio-ag.github.io/sintio-supported-chargers/api/v2/manufacturers.json"
           target="_blank"
           rel="noopener noreferrer"
         >
-          https://sintio-ag.github.io/sintio-supported-chargers/api/v1/manufacturers.json
+          https://sintio-ag.github.io/sintio-supported-chargers/api/v2/manufacturers.json
         </a>
       </p>
       <p>
