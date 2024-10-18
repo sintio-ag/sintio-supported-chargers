@@ -1,4 +1,5 @@
 import Table from "../components/ui/Table";
+import AlertInfo from "../components/ui/AlertInfo";
 
 function ApiDocumentation() {
   const powerTypeHeaders = ["Value", "Description"];
@@ -172,16 +173,16 @@ function ApiDocumentation() {
   return (
     <div className="prose">
       <h1>API Documentation</h1>
-      <p>Below are the GET endpoints available.</p>
+      <AlertInfo message="This documentation is for the v2 API." />
       <h2>Chargers</h2>
       <p>
         <code>GET</code>{" "}
         <a
-          href="https://sintio-ag.github.io/sintio-supported-chargers/api/v1/chargers.json"
+          href="https://sintio-ag.github.io/sintio-supported-chargers/api/v2/chargers.json"
           target="_blank"
           rel="noopener noreferrer"
         >
-          https://sintio-ag.github.io/sintio-supported-chargers/api/v1/chargers.json
+          https://sintio-ag.github.io/sintio-supported-chargers/api/v2/chargers.json
         </a>
       </p>
       <p>
@@ -196,8 +197,8 @@ function ApiDocumentation() {
           manufacturer. Use this to link to the manufacturer object.
         </li>
         <li>
-          <strong>chargePointVendor</strong> (string): The name of the charger's
-          vendor exactly as it appears in OCPP BootNotification.
+          <strong>chargePointVendor</strong> (array of strings): The name of the
+          charger's vendor exactly as it appears in OCPP BootNotification.
         </li>
         <li>
           <strong>chargePointModel</strong> (string): The model of the charger
@@ -221,8 +222,8 @@ function ApiDocumentation() {
           classes (A, B, and C) for regulatory and billing purposes.
         </li>
         <li>
-          <strong>connectors</strong> (array): An array of objects describing
-          the connectors available on the charger, based on{" "}
+          <strong>connectors</strong> (array of objects): An array of objects
+          describing the connectors available on the charger, based on{" "}
           <a
             href="https://github.com/ocpi/ocpi/blob/master/mod_locations.asciidoc#mod_locations_connector_object"
             target="_blank"
@@ -368,11 +369,11 @@ function ApiDocumentation() {
       <p>
         <code>GET</code>{" "}
         <a
-          href="https://sintio-ag.github.io/sintio-supported-chargers/api/v1/manufacturers.json"
+          href="https://sintio-ag.github.io/sintio-supported-chargers/api/v2/manufacturers.json"
           target="_blank"
           rel="noopener noreferrer"
         >
-          https://sintio-ag.github.io/sintio-supported-chargers/api/v1/manufacturers.json
+          https://sintio-ag.github.io/sintio-supported-chargers/api/v2/manufacturers.json
         </a>
       </p>
       <p>

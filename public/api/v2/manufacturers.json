@@ -1,0 +1,199 @@
+[
+  {
+    "id": "daze",
+    "name": "Daze",
+    "websiteUrl": "https://daze.eu",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
+    "globalSupportUrl": null,
+    "supportByCountry": [
+      {
+        "country": "Italy",
+        "countryCode": "IT",
+        "supportCompanies": [
+          {
+            "id": "daze-technology-srl",
+            "company": "DazeTechnology S.R.L.",
+            "websiteUrl": "https://daze.eu",
+            "email": "customercare@daze.eu",
+            "phone": "+393518779122"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "easee",
+    "name": "Easee",
+    "websiteUrl": "https://easee.com",
+    "chargerManagementUrl": "https://portal.easee.com",
+    "statusPageUrl": "https://status.easee.com",
+    "globalSupportUrl": "https://easee.com/support",
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "simplee-ag",
+            "company": "simplee AG",
+            "websiteUrl": "https://simplee-energy.ch",
+            "email": "support@simplee-energy.ch",
+            "phone": "+41585108999"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "garo",
+    "name": "GARO",
+    "websiteUrl": "http://garocharging.com",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
+    "globalSupportUrl": null,
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "optec-ag",
+            "company": "Optec AG",
+            "websiteUrl": "https://www.optec.ch",
+            "email": "info@optec.ch",
+            "phone": "+41449330770"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hager",
+    "name": "Hager",
+    "websiteUrl": "https://hager.com",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
+    "globalSupportUrl": null,
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "hager-ag",
+            "company": "Hager AG",
+            "websiteUrl": "https://www.hager.ch",
+            "email": "E-Mobility.TSC-CH@hager.com",
+            "phone": "+41412699558"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "keba",
+    "name": "Keba",
+    "websiteUrl": "https://www.keba.com",
+    "chargerManagementUrl": "https://emobility-portal.keba.com",
+    "statusPageUrl": null,
+    "globalSupportUrl": "https://www.keba.com/en/emobility/service-support/technical-help",
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "keba-schweiz-gmbh",
+            "company": "KEBA Schweiz GmbH",
+            "websiteUrl": "https://www.keba.com",
+            "email": "info.schweiz@keba.com",
+            "phone": "+41444406685"
+          }
+        ]
+      },
+      {
+        "country": "Austria",
+        "countryCode": "AT",
+        "supportCompanies": [
+          {
+            "id": "keba-energy-automation-gmbh",
+            "company": "KEBA Energy Automation GmbH",
+            "websiteUrl": "https://www.keba.com",
+            "email": "support-emobility@keba.com",
+            "phone": "+4373270900"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nexblue",
+    "name": "NexBlue",
+    "websiteUrl": "https://nexblue.com",
+    "chargerManagementUrl": "https://partner.nexblue.com",
+    "statusPageUrl": null,
+    "globalSupportUrl": "https://nexblue.com/pages/contact-us",
+    "supportByCountry": [
+      {
+        "country": "Sweden",
+        "countryCode": "SE",
+        "supportCompanies": [
+          {
+            "id": "nexblue-ab",
+            "company": "NexBlue AB",
+            "websiteUrl": "https://nexblue.com",
+            "email": "info@nexblue.com",
+            "phone": "+46738981965 "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "weidmueller",
+    "name": "Weidmüller",
+    "websiteUrl": "https://www.weidmueller.com",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
+    "globalSupportUrl": "https://support.weidmueller.com",
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "weidmueller-schweiz-ag",
+            "company": "Weidmüller Schweiz AG",
+            "websiteUrl": "https://www.weidmueller.ch",
+            "email": "support@weidmueller.ch",
+            "phone": "+41526740707"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zaptec",
+    "name": "Zaptec",
+    "websiteUrl": "https://www.zaptec.com",
+    "chargerManagementUrl": "https://portal.zaptec.com",
+    "statusPageUrl": "https://status.zaptec.com",
+    "globalSupportUrl": "https://help.zaptec.com",
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "zaptec-schweiz-ag",
+            "company": "Zaptec Schweiz AG",
+            "websiteUrl": "https://www.zaptec.com",
+            "email": "support.ch@zaptec.com",
+            "phone": "+41585200271"
+          }
+        ]
+      }
+    ]
+  }
+]

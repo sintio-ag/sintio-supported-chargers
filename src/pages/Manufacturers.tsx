@@ -10,7 +10,7 @@ const Manufacturer = () => {
     data: manufacturers,
     isLoading,
     error,
-  } = useFetch<Manufacturer[]>(`${baseUrl}/api/v1/manufacturers.json`);
+  } = useFetch<Manufacturer[]>(`${baseUrl}/api/v2/manufacturers.json`);
 
   // Define headers for the manufacturer table with support contacts
   const headers = ["Name", "Website", "Global Support", "Support by Country"];
@@ -19,34 +19,74 @@ const Manufacturer = () => {
   const content =
     manufacturers?.map((manufacturer) => ({
       Name: manufacturer.name,
-      Website: `<a href="${manufacturer.websiteUrl}" target="_blank">${manufacturer.websiteUrl}</a>`,
-      "Global Support": [
-        manufacturer.globalSupportUrl
-          ? `<a href="${manufacturer.globalSupportUrl}" target="_blank">Global Support</a>`
-          : "",
-        manufacturer.chargerManagementUrl
-          ? `<a href="${manufacturer.chargerManagementUrl}" target="_blank">Charger Management Cloud</a>`
-          : "",
-        manufacturer.statusPageUrl
-          ? `<a href="${manufacturer.statusPageUrl}" target="_blank">Status Page</a>`
-          : "",
-      ]
-        .filter(Boolean)
-        .join(", "), // Combine non-empty strings and separate them with commas
-      "Support by Country": manufacturer.supportByCountry
-        .map(
-          (support) =>
-            `<span class="font-bold">${support.country}:</span>` +
-            `<ul class="list-none p-0 m-0">` +
-            support.supportCompanies
-              .map(
-                (company) =>
-                  `<li><span class="font-bold">${company.company}</span><br /><a href="mailto:${company.email}">${company.email}</a><br /><a href="tel:${company.phone}">${company.phone}</a></li>`,
-              )
-              .join("") +
-            `</ul>`,
-        )
-        .join("<br>"),
+      Website: (
+        <a
+          href={manufacturer.websiteUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {manufacturer.websiteUrl}
+        </a>
+      ),
+      "Global Support": (
+        <div>
+          {manufacturer.globalSupportUrl && (
+            <a
+              href={manufacturer.globalSupportUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Global Support
+            </a>
+          )}
+          {manufacturer.chargerManagementUrl && (
+            <>
+              {manufacturer.globalSupportUrl && ", "}
+              <a
+                href={manufacturer.chargerManagementUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Charger Management Cloud
+              </a>
+            </>
+          )}
+          {manufacturer.statusPageUrl && (
+            <>
+              {(manufacturer.globalSupportUrl ||
+                manufacturer.chargerManagementUrl) &&
+                ", "}
+              <a
+                href={manufacturer.statusPageUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Status Page
+              </a>
+            </>
+          )}
+        </div>
+      ),
+      "Support by Country": (
+        <ul className="m-0 list-none p-0">
+          {manufacturer.supportByCountry.map((support) => (
+            <li key={support.countryCode}>
+              <span className="font-bold">{support.country}:</span>
+              <ul className="m-0 list-none p-0">
+                {support.supportCompanies.map((company) => (
+                  <li key={company.id}>
+                    <span className="font-bold">{company.company}</span>
+                    <br />
+                    <a href={`mailto:${company.email}`}>{company.email}</a>
+                    <br />
+                    <a href={`tel:${company.phone}`}>{company.phone}</a>
+                  </li>
+                ))}
+              </ul>
+            </li>
+          ))}
+        </ul>
+      ),
     })) || [];
 
   return (
