@@ -270,7 +270,17 @@ function ApiDocumentation() {
             </li>
             <li>
               <strong>imageUrlSvg</strong> (string): The URL of the SVG image
-              that shows how the connector looks (introduces with v2 API).
+              that shows how the connector looks (introduces with v2 API). If
+              the connector standard is unknown, a default image is provided for
+              use.
+              <br />
+              <a
+                href="https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-unknown.svg"
+                target="_blank"
+              >
+                https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-unknown.svg
+              </a>{" "}
+              (947 B)
             </li>
           </ul>
         </li>
