@@ -80,6 +80,17 @@ function Header() {
             </li>
             <li>
               <NavLink
+                to={`${import.meta.env.VITE_GHPAGES_REPO_NAME}configuration-keys`}
+                end
+                className={({ isActive }) =>
+                  "block" + (!isActive ? " text-white" : " text-sintio-yellow")
+                }
+              >
+                Configuration Keys
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
                 to={`${import.meta.env.VITE_GHPAGES_REPO_NAME}api-documentation`}
                 end
                 className={({ isActive }) =>
