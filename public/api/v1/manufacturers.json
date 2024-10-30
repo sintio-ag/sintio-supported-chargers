@@ -128,6 +128,29 @@
     ]
   },
   {
+    "id": "mennekes",
+    "name": "Mennekes",
+    "websiteUrl": "https://www.mennekes.de",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
+    "globalSupportUrl": "https://www.mennekes.de/kontakt/emobility/stoerungsmeldung",
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "ferratec-technics-ag",
+            "company": "Ferratec Technics AG",
+            "websiteUrl": "https://www.ferratec.ch",
+            "email": "emobility-support@ferratec.ch",
+            "phone": "+41566492121"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "nexblue",
     "name": "NexBlue",
     "websiteUrl": "https://nexblue.com",
