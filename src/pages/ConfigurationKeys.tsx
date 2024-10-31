@@ -57,6 +57,7 @@ const ConfigurationKeys = () => {
     { value: "all", label: "All" },
     { value: "OCPP", label: "OCPP Standard" },
     { value: "easee", label: "Easee specific" },
+    { value: "hager", label: "Hager specific" },
     { value: "zaptec", label: "Zaptec specific" },
   ];
 
@@ -71,7 +72,7 @@ const ConfigurationKeys = () => {
   };
 
   return (
-    <div className="prose" style={{ maxWidth: "none" }}>
+    <div className="max-w-screen-xxl prose mx-auto my-4 rounded-lg border bg-white p-6">
       <h1>OCPP 1.6 Configuration Keys</h1>
       <Select.Root
         value={originFilter || "all"}

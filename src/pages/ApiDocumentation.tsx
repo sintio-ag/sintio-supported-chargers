@@ -171,7 +171,7 @@ function ApiDocumentation() {
   ];
 
   return (
-    <div className="prose">
+    <div className="prose mx-auto my-4 max-w-screen-xl rounded-lg border bg-white p-6">
       <h1>API Documentation</h1>
       <AlertInfo message="This documentation is for the v2 API." />
       <h2>Chargers</h2>

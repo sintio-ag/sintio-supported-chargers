@@ -90,7 +90,7 @@ const Manufacturer = () => {
     })) || [];
 
   return (
-    <div className="prose">
+    <div className="prose mx-auto my-4 max-w-screen-xl rounded-lg border bg-white p-6">
       <h1>Charger Manufacturers</h1>
       {error && <AlertDanger message={error} />}
       {isLoading ? <Spinner /> : <Table headers={headers} content={content} />}
