@@ -26,7 +26,7 @@ export default {
                 color: theme("colors.sintio-light-blue-1"),
               },
             },
-            maxWidth: "100ch",
+            maxWidth: "none",
           },
         },
       }),

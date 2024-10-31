@@ -5,6 +5,8 @@
     "read": true,
     "write": true,
     "type": "boolean",
+    "defaultValue": "false",
+    "unit": "",
     "description": "If this key exists, the Charge Point supports Unknown Offline Authorization. If this key reports a value of true, Unknown Offline Authorization is enabled.",
     "origin": "OCPP"
   },
@@ -14,6 +16,8 @@
     "read": true,
     "write": true,
     "type": "boolean",
+    "defaultValue": "false",
+    "unit": "",
     "description": "If this key exists, the Charge Point supports an Authorization Cache. If this key reports a value of true, the Authorization Cache is enabled.",
     "origin": "OCPP"
   },
@@ -23,6 +27,8 @@
     "read": true,
     "write": true,
     "type": "boolean",
+    "defaultValue": "true",
+    "unit": "",
     "description": "Whether a remote request to start a transaction in the form of a RemoteStartTransaction.req message should be authorized beforehand like a local action to start a transaction.",
     "origin": "OCPP"
   },
@@ -32,6 +38,7 @@
     "read": true,
     "write": true,
     "type": "integer",
+    "defaultValue": "",
     "unit": "times",
     "description": "Number of times to blink Charge Point lighting when signalling",
     "origin": "OCPP"
@@ -42,6 +49,7 @@
     "read": true,
     "write": true,
     "type": "integer",
+    "defaultValue": "900",
     "unit": "seconds",
     "description": "Size (in seconds) of the clock-aligned data interval. This is the size (in seconds) of the set of evenly spaced aggregation intervals per day, starting at 00:00:00 (midnight). For example, a value of 900 (15 minutes) indicates that every day should be broken into 96 15-minute intervals.",
     "origin": "OCPP"
@@ -52,6 +60,7 @@
     "read": true,
     "write": true,
     "type": "integer",
+    "defaultValue": "",
     "unit": "seconds",
     "description": "Interval *from beginning of status: 'Preparing' until incipient Transaction is automatically canceled, due to failure of EV driver to (correctly) insert the charging cable connector(s) into the appropriate socket(s). The Charge Point SHALL go back to the original state, probably: 'Available'.",
     "origin": "OCPP"
@@ -62,6 +71,8 @@
     "read": true,
     "write": true,
     "type": "CSL",
+    "defaultValue": "",
+    "unit": "",
     "description": "The phase rotation per connector in respect to the connector’s electrical meter (or if absent, the grid connection). Possible values per connector are: NotApplicable (for Single phase or DC Charge Points) Unknown (not (yet) known) RST (Standard Reference Phasing) RTS (Reversed Reference Phasing) SRT (Reversed 240 degree rotation) STR (Standard 120 degree rotation) TRS (Standard 240 degree rotation) TSR (Reversed 120 degree rotation) R can be identified as phase 1 (L1), S as phase 2 (L2), T as phase 3 (L3). If known, the Charge Point MAY also report the phase rotation between the grid connection and the main energymeter by using index number Zero (0). Values are reported in CSL, formatted: 0.RST, 1.RST, 2.RTS",
     "origin": "OCPP"
   },
@@ -71,6 +82,8 @@
     "read": true,
     "write": false,
     "type": "integer",
+    "defaultValue": "",
+    "unit": "",
     "description": "Maximum number of items in a ConnectorPhaseRotation Configuration Key.",
     "origin": "OCPP"
   },
@@ -80,6 +93,8 @@
     "read": true,
     "write": false,
     "type": "integer",
+    "defaultValue": "",
+    "unit": "",
     "description": "Maximum number of requested configuration keys in a GetConfiguration.req PDU.",
     "origin": "OCPP"
   },
@@ -89,6 +104,7 @@
     "read": true,
     "write": true,
     "type": "integer",
+    "defaultValue": "300",
     "unit": "seconds",
     "description": "Interval of inactivity (no OCPP exchanges) with central system after which the Charge Point should send a Heartbeat.req PDU",
     "origin": "OCPP"
@@ -99,6 +115,7 @@
     "read": true,
     "write": true,
     "type": "integer",
+    "defaultValue": "",
     "unit": "%",
     "description": "Percentage of maximum intensity at which to illuminate Charge Point lighting",
     "origin": "OCPP"
@@ -109,7 +126,9 @@
     "read": true,
     "write": true,
     "type": "boolean",
-    "description": "whether the Charge Point, when offline, will start a transaction for locally-authorized identifiers.",
+    "defaultValue": "true",
+    "unit": "",
+    "description": "Whether the Charge Point, when offline, will start a transaction for locally-authorized identifiers using the Authorization Cache and/or the Local Authorization List.",
     "origin": "OCPP"
   },
   {
@@ -118,7 +137,9 @@
     "read": true,
     "write": true,
     "type": "boolean",
-    "description": "whether the Charge Point, when online, will start a transaction for locally-authorized identifiers without waiting for or requesting an Authorize.conf from the Central System",
+    "defaultValue": "true",
+    "unit": "",
+    "description": "Whether the Charge Point, when online, will start a transaction for locally-authorized identifiers without waiting for or requesting an Authorize.conf from the Central System",
     "origin": "OCPP"
   },
   {
@@ -127,6 +148,7 @@
     "read": true,
     "write": true,
     "type": "integer",
+    "defaultValue": "500",
     "unit": "Wh",
     "description": "Maximum energy in Wh delivered when an identifier is invalidated by the Central System after start of a transaction.",
     "origin": "OCPP"
@@ -137,6 +159,8 @@
     "read": true,
     "write": true,
     "type": "CSL",
+    "defaultValue": "Energy.Active.Import.Register, Power.Active.Import",
+    "unit": "",
     "description": "Clock-aligned measurand(s) to be included in a MeterValues.req PDU, every ClockAlignedDataInterval seconds",
     "origin": "OCPP"
   },
@@ -146,6 +170,8 @@
     "read": true,
     "write": false,
     "type": "integer",
+    "defaultValue": "",
+    "unit": "",
     "description": "Maximum number of items in a MeterValuesAlignedData Configuration Key.",
     "origin": "OCPP"
   },
@@ -155,6 +181,8 @@
     "read": true,
     "write": true,
     "type": "CSL",
+    "defaultValue": "Energy.Active.Import.Register, Power.Active.Import",
+    "unit": "",
     "description": "Sampled measurands to be included in a MeterValues.req PDU, every MeterValueSampleInterval seconds. Where applicable, the Measurand is combined with the optional phase; for instance: Voltage.L1 Default: 'Energy.Active.Import.Register'",
     "origin": "OCPP"
   },
@@ -164,6 +192,8 @@
     "read": true,
     "write": false,
     "type": "integer",
+    "defaultValue": "",
+    "unit": "",
     "description": "Maximum number of items in a MeterValuesSampledData Configuration Key.",
     "origin": "OCPP"
   },
@@ -173,6 +203,7 @@
     "read": true,
     "write": true,
     "type": "integer",
+    "defaultValue": "60",
     "unit": "seconds",
     "description": "Interval between sampling of metering (or other) data, intended to be transmitted by 'MeterValues' PDUs. For charging session data (ConnectorId>0), samples are acquired and transmitted periodically at this interval from the start of the charging transaction. A value of '0' (numeric zero), by convention, is to be interpreted to mean that no sampled data should be transmitted.",
     "origin": "OCPP"
@@ -183,6 +214,7 @@
     "read": true,
     "write": true,
     "type": "integer",
+    "defaultValue": "",
     "unit": "seconds",
     "description": "The minimum duration that a Charge Point or Connector status is stable before a StatusNotification.req PDU is sent to the Central System.",
     "origin": "OCPP"
@@ -193,6 +225,8 @@
     "read": true,
     "write": false,
     "type": "integer",
+    "defaultValue": "",
+    "unit": "",
     "description": "The number of physical charging connectors of this Charge Point.",
     "origin": "OCPP"
   },
@@ -202,6 +236,7 @@
     "read": true,
     "write": true,
     "type": "integer",
+    "defaultValue": "",
     "unit": "times",
     "description": "Number of times to retry an unsuccessful reset of the Charge Point.",
     "origin": "OCPP"
@@ -212,6 +247,8 @@
     "read": true,
     "write": true,
     "type": "boolean",
+    "defaultValue": "true",
+    "unit": "",
     "description": "When set to true, the Charge Point SHALL administratively stop the transaction when the cable is unplugged from the EV.",
     "origin": "OCPP"
   },
@@ -221,7 +258,9 @@
     "read": true,
     "write": true,
     "type": "boolean",
-    "description": "whether the Charge Point will stop an ongoing transaction when it receives a non- Accepted authorization status in a StartTransaction.conf for this transaction",
+    "defaultValue": "true",
+    "unit": "",
+    "description": "Whether the Charge Point will stop an ongoing transaction when it receives a non- Accepted authorization status in a StartTransaction.conf for this transaction",
     "origin": "OCPP"
   },
   {
@@ -230,6 +269,8 @@
     "read": true,
     "write": true,
     "type": "CSL",
+    "defaultValue": "Energy.Active.Import.Register",
+    "unit": "",
     "description": "Clock-aligned periodic measurand(s) to be included in the TransactionData element of StopTransaction.req MeterValues.req PDU for every ClockAlignedDataInterval of the Transaction",
     "origin": "OCPP"
   },
@@ -239,6 +280,8 @@
     "read": true,
     "write": false,
     "type": "integer",
+    "defaultValue": "",
+    "unit": "",
     "description": "Maximum number of items in a StopTxnAlignedData Configuration Key.",
     "origin": "OCPP"
   },
@@ -248,6 +291,8 @@
     "read": true,
     "write": true,
     "type": "CSL",
+    "defaultValue": "Energy.Active.Import.Register, Power.Active.Import",
+    "unit": "",
     "description": "Sampled measurands to be included in the TransactionData element of StopTransaction.req PDU, every MeterValueSampleInterval seconds from the start of the charging session",
     "origin": "OCPP"
   },
@@ -257,6 +302,8 @@
     "read": true,
     "write": false,
     "type": "integer",
+    "defaultValue": "",
+    "unit": "",
     "description": "Maximum number of items in a StopTxnSampledData Configuration Key.",
     "origin": "OCPP"
   },
@@ -266,6 +313,8 @@
     "read": true,
     "write": false,
     "type": "CSL",
+    "defaultValue": "",
+    "unit": "",
     "description": "A list of supported Feature Profiles. Possible profile identifiers: Core, FirmwareManagement, LocalAuthListManagement, Reservation, SmartCharging and RemoteTrigger.",
     "origin": "OCPP"
   },
@@ -275,6 +324,8 @@
     "read": true,
     "write": false,
     "type": "integer",
+    "defaultValue": "",
+    "unit": "",
     "description": "Maximum number of items in a SupportedFeatureProfiles Configuration Key.",
     "origin": "OCPP"
   },
@@ -284,6 +335,7 @@
     "read": true,
     "write": true,
     "type": "integer",
+    "defaultValue": "",
     "unit": "times",
     "description": "How often the Charge Point should try to submit a transaction-related message when the Central System fails to process it.",
     "origin": "OCPP"
@@ -294,6 +346,7 @@
     "read": true,
     "write": true,
     "type": "integer",
+    "defaultValue": "",
     "unit": "seconds",
     "description": "How long the Charge Point should wait before resubmitting a transaction-related message that the Central System failed to process.",
     "origin": "OCPP"
@@ -304,6 +357,8 @@
     "read": true,
     "write": true,
     "type": "boolean",
+    "defaultValue": "true",
+    "unit": "",
     "description": "When set to true, the Charge Point SHALL unlock the cable on Charge Point side when the cable is unplugged at the EV.",
     "origin": "OCPP"
   },
@@ -313,6 +368,7 @@
     "read": true,
     "write": true,
     "type": "integer",
+    "defaultValue": "",
     "unit": "seconds",
     "description": "Only relevant for websocket implementations. 0 disables client side websocket Ping/Pong. In this case there is either no ping/pong or the server initiates the ping and client responds with Pong. Positive values are interpreted as number of seconds between pings. Negative values are not allowed. ChangeConfiguration is expected to return a REJECTED result.",
     "origin": "OCPP"
@@ -323,7 +379,9 @@
     "read": true,
     "write": true,
     "type": "boolean",
-    "description": "whether the Local Authorization List is enabled",
+    "defaultValue": "true",
+    "unit": "",
+    "description": "Whether the Local Authorization List is enabled",
     "origin": "OCPP"
   },
   {
@@ -332,6 +390,8 @@
     "read": true,
     "write": false,
     "type": "integer",
+    "defaultValue": "",
+    "unit": "",
     "description": "Maximum number of identifications that can be stored in the Local Authorization List",
     "origin": "OCPP"
   },
@@ -341,6 +401,8 @@
     "read": true,
     "write": false,
     "type": "integer",
+    "defaultValue": "",
+    "unit": "",
     "description": "Maximum number of identifications that can be send in a single SendLocalList.req",
     "origin": "OCPP"
   },
@@ -350,6 +412,8 @@
     "read": true,
     "write": false,
     "type": "boolean",
+    "defaultValue": "",
+    "unit": "",
     "description": "If this configuration key is present and set to true: Charge Point support reservations on connector 0.",
     "origin": "OCPP"
   },
@@ -359,6 +423,8 @@
     "read": true,
     "write": false,
     "type": "integer",
+    "defaultValue": "",
+    "unit": "",
     "description": "Max StackLevel of a ChargingProfile. The number defined also indicates the max allowed number of installed charging schedules per Charging Profile Purposes.",
     "origin": "OCPP"
   },
@@ -368,6 +434,8 @@
     "read": true,
     "write": false,
     "type": "CSL",
+    "defaultValue": "",
+    "unit": "",
     "description": "A list of supported quantities for use in a ChargingSchedule. Allowed values: 'Current' and 'Power'",
     "origin": "OCPP"
   },
@@ -377,6 +445,8 @@
     "read": true,
     "write": false,
     "type": "integer",
+    "defaultValue": "",
+    "unit": "",
     "description": "Maximum number of periods that may be defined per ChargingSchedule.",
     "origin": "OCPP"
   },
@@ -386,6 +456,8 @@
     "read": true,
     "write": false,
     "type": "boolean",
+    "defaultValue": "",
+    "unit": "",
     "description": "If defined and true, this Charge Point support switching from 3 to 1 phase during a Transaction.",
     "origin": "OCPP"
   },
@@ -395,24 +467,8 @@
     "read": true,
     "write": false,
     "type": "integer",
-    "description": "Maximum number of Charging profiles installed at a time",
-    "origin": "OCPP"
-  },
-  {
-    "name": "MaxChargingProfilesInstalled",
-    "required": true,
-    "read": true,
-    "write": false,
-    "type": "integer",
-    "description": "Maximum number of Charging profiles installed at a time",
-    "origin": "OCPP"
-  },
-  {
-    "name": "MaxChargingProfilesInstalled",
-    "required": true,
-    "read": true,
-    "write": false,
-    "type": "integer",
+    "defaultValue": "",
+    "unit": "",
     "description": "Maximum number of Charging profiles installed at a time",
     "origin": "OCPP"
   },
@@ -422,6 +478,8 @@
     "read": true,
     "write": true,
     "type": "boolean",
+    "defaultValue": "",
+    "unit": "",
     "description": "Sets AuthorizationRequired on the charger. If off, no idTag is sent when an EV is connected, and charging can start without authorization.",
     "origin": "easee"
   },
@@ -431,6 +489,8 @@
     "read": true,
     "write": true,
     "type": "boolean",
+    "defaultValue": "",
+    "unit": "",
     "description": "",
     "origin": "easee"
   },
@@ -440,6 +500,8 @@
     "read": true,
     "write": true,
     "type": "boolean",
+    "defaultValue": "",
+    "unit": "",
     "description": "",
     "origin": "easee"
   },
@@ -449,6 +511,8 @@
     "read": true,
     "write": true,
     "type": "double",
+    "defaultValue": "",
+    "unit": "",
     "description": "Dynamic current on charger level.",
     "origin": "easee"
   },
@@ -458,6 +522,8 @@
     "read": true,
     "write": true,
     "type": "double",
+    "defaultValue": "",
+    "unit": "",
     "description": "Dynamic current on circuit level.",
     "origin": "easee"
   },
@@ -467,6 +533,8 @@
     "read": true,
     "write": true,
     "type": "boolean",
+    "defaultValue": "",
+    "unit": "",
     "description": "Freecharging is a mode where chargers have a “known” ID tag to use for authentication when a EV is plugged in. When OCPP configuration key “freecharging” is set to true for a charger it will “simulate” a user provided ID token and request authorization from the central system with the tag from “rfidfreecharging” from its configuration. This allows chargers to be configured as “Plug&Charge” while still giving the ability to associate usage with a User/Tag in the central system.",
     "origin": "easee"
   },
@@ -476,6 +544,8 @@
     "read": true,
     "write": true,
     "type": "string",
+    "defaultValue": "",
+    "unit": "",
     "description": "The rfidtag to be used when FreeCharging mode is activated",
     "origin": "easee"
   },
@@ -485,6 +555,8 @@
     "read": true,
     "write": true,
     "type": "double",
+    "defaultValue": "",
+    "unit": "",
     "description": "The maximum current the charger can draw from the grid as set by the operator",
     "origin": "easee"
   },
@@ -494,6 +566,8 @@
     "read": true,
     "write": false,
     "type": "double",
+    "defaultValue": "",
+    "unit": "",
     "description": "Signal strength indicator for the cellular connection in decibels",
     "origin": "easee"
   },
@@ -503,6 +577,8 @@
     "read": true,
     "write": false,
     "type": "double",
+    "defaultValue": "",
+    "unit": "",
     "description": "Signal strength indicator for the wifi connection in decibels",
     "origin": "easee"
   },
@@ -512,6 +588,8 @@
     "read": true,
     "write": false,
     "type": "double",
+    "defaultValue": "",
+    "unit": "",
     "description": "Signal strength indicator for the radio link connection in decibels",
     "origin": "easee"
   },
@@ -521,6 +599,8 @@
     "read": true,
     "write": false,
     "type": "string",
+    "defaultValue": "",
+    "unit": "",
     "description": "Which radio technology the charger is using (cellular or wifi)",
     "origin": "easee"
   },
@@ -530,6 +610,8 @@
     "read": true,
     "write": true,
     "type": "",
+    "defaultValue": "",
+    "unit": "",
     "description": "",
     "origin": "zaptec"
   },
@@ -539,6 +621,8 @@
     "read": true,
     "write": true,
     "type": "boolean",
+    "defaultValue": "",
+    "unit": "",
     "description": "Freecharging is a mode where chargers have a “known” ID tag to use for authentication when a EV is plugged in. When OCPP configuration key “freecharging” is set to true for a charger it will “simulate” a user provided ID token and request authorization from the central system with the tag from “rfidfreecharging” from its configuration. This allows chargers to be configured as “Plug&Charge” while still giving the ability to associate usage with a User/Tag in the central system.",
     "origin": "zaptec"
   },
@@ -548,6 +632,8 @@
     "read": true,
     "write": true,
     "type": "string",
+    "defaultValue": "",
+    "unit": "",
     "description": "The rfidtag to be used when FreeCharging mode is activated",
     "origin": "zaptec"
   },
@@ -557,6 +643,8 @@
     "read": true,
     "write": true,
     "type": "boolean",
+    "defaultValue": "false",
+    "unit": "",
     "description": "Whether to unlock the connector when the EV disconnects the cable. Should be set to true if public charging and cable supplied by CPO.",
     "origin": "zaptec"
   }

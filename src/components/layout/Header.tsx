@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <nav className="w-full border-b bg-sintio-dark-blue md:static md:border-none md:text-sm">
-      <div className="mx-auto max-w-screen-xl items-center px-4 md:flex md:px-8">
+      <div className="max-w-screen-xxl mx-auto items-center px-4 md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:block md:py-5">
           <NavLink to={import.meta.env.VITE_GHPAGES_REPO_NAME}>
             <SintioLogoYellowWhiteIllustration />

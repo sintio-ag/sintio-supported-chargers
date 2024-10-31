@@ -17,9 +17,12 @@ const ConfigurationKeys = () => {
   // Define headers for the configuration keys table
   const headers = [
     "Configuration Key",
+    "Required",
     "Accessibility",
     "Description",
     "Value",
+    "Sintio Default Value",
+    "Unit",
     "Origin",
   ];
 
@@ -27,10 +30,13 @@ const ConfigurationKeys = () => {
   const content =
     configurationKeys?.map((key) => ({
       "Configuration Key": key.name,
+      Required: key.required ? "Yes" : "No",
       Accessibility:
         key.read && key.write ? "Read/Write" : key.read ? "Read" : "Write",
       Description: key.description,
       Value: key.type,
+      "Sintio Default Value": key.defaultValue,
+      Unit: key.unit,
       Origin: key.origin,
     })) || [];
 
