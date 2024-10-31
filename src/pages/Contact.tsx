@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="prose">
+    <div className="prose mx-auto my-4 max-w-screen-xl rounded-lg border bg-white p-6">
       <h1>Contact</h1>
       <p>
         Sintio ensures that charging stations for electric vehicles in

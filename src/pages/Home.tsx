@@ -62,7 +62,7 @@ const Home = () => {
     })) || [];
 
   return (
-    <div className="prose">
+    <div className="prose mx-auto my-4 max-w-screen-xl rounded-lg border bg-white p-6">
       <h1>Supported Chargers</h1>
       {isLoading ? (
         <Spinner size="medium" />
