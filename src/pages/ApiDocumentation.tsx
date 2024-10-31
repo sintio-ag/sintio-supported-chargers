@@ -460,6 +460,58 @@ function ApiDocumentation() {
           </ul>
         </li>
       </ul>
+      <h2>Configuration Keys</h2>
+      <p>
+        <code>GET</code>{" "}
+        <a
+          href="https://sintio-ag.github.io/sintio-supported-chargers/api/v2/ocpp16-configuration-keys.json"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://sintio-ag.github.io/sintio-supported-chargers/api/v2/ocpp16-configuration-keys.json
+        </a>
+      </p>
+      <p>
+        The OCPP 1.6 configuration key object returned by the API contains the
+        following fields:
+      </p>
+      <ul>
+        <li>
+          <strong>name</strong> (string): The name of the OCPP 1.6 configuration
+          key. It can be a standard or a custom key.
+        </li>
+        <li>
+          <strong>requried</strong> (boolean): True if it is a OCPP 1.6 standard
+          key that must be implemented by the charge point.
+        </li>
+        <li>
+          <strong>read</strong> (boolean): Indicates if the key is readable.
+        </li>
+        <li>
+          <strong>write</strong> (boolean): Indicates if the key is writable.
+        </li>
+        <li>
+          <strong>type</strong> (string): The type of the configuration key.
+          Standard types are <code>boolean</code>, <code>CSL</code> (Comma
+          Separated List) and <code>integer</code>.
+        </li>
+        <li>
+          <strong>defaultValue</strong> (string): The default value, recommended
+          by Sintio for smooth operation.
+        </li>
+        <li>
+          <strong>unit</strong> (string): The unit of the configuration key, if
+          applicable.
+        </li>
+        <li>
+          <strong>description</strong> (string): A description of the
+          configuration key.
+        </li>
+        <li>
+          <strong>origin</strong> (string): The origin of the configuration key.
+          Is OCPP or if a custom key, the ID of the vendor.
+        </li>
+      </ul>
     </div>
   );
 }
