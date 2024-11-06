@@ -56,6 +56,7 @@ const ConfigurationKeys = () => {
   const originOptions = [
     { value: "all", label: "All" },
     { value: "OCPP", label: "OCPP Standard" },
+    { value: "daze", label: "Daze specific" },
     { value: "easee", label: "Easee specific" },
     { value: "hager", label: "Hager specific" },
     { value: "zaptec", label: "Zaptec specific" },

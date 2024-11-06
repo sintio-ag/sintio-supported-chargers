@@ -257,7 +257,7 @@
     "chargePointVendor": "Hager",
     "chargePointModel": ["XEV1R22T2"],
     "globalMeter": true,
-    "meterClass": "MID Class A (EN 50470)",
+    "meterClass": "±2%",
     "connectors": [
       {
         "connectorId": 1,
@@ -299,7 +299,7 @@
     "chargePointVendor": "Hager (EN 50470)",
     "chargePointModel": ["XEV1R22T2TE"],
     "globalMeter": true,
-    "meterClass": "MID Class A (EN 50470)",
+    "meterClass": "±2%",
     "connectors": [
       {
         "connectorId": 1,

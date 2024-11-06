@@ -605,17 +605,6 @@
     "origin": "easee"
   },
   {
-    "name": "WebSocketPingInterval",
-    "required": false,
-    "read": true,
-    "write": true,
-    "type": "",
-    "defaultValue": "",
-    "unit": "",
-    "description": "",
-    "origin": "zaptec"
-  },
-  {
     "name": "FreeCharging",
     "required": false,
     "read": true,
@@ -623,7 +612,7 @@
     "type": "boolean",
     "defaultValue": "",
     "unit": "",
-    "description": "Freecharging is a mode where chargers have a “known” ID tag to use for authentication when a EV is plugged in. When OCPP configuration key “freecharging” is set to true for a charger it will “simulate” a user provided ID token and request authorization from the central system with the tag from “rfidfreecharging” from its configuration. This allows chargers to be configured as “Plug&Charge” while still giving the ability to associate usage with a User/Tag in the central system.",
+    "description": "If this config option is set to true, the charger will skip Authorize-call before starting a transaction and will go directly to StartTransaction. When free charging is enabled, the StartTransaction’s idTag will be populated with an empty string, or the configured default idTag. The default idTag can be set from Zaptec Portal, or through the FreeChargingIdTag configuration key. Authorization needs to be enabled in the Zaptec Portal to use this feature. The FreeCharging config value will be read only if authorization is not enabled.",
     "origin": "zaptec"
   },
   {
@@ -634,7 +623,7 @@
     "type": "string",
     "defaultValue": "",
     "unit": "",
-    "description": "The rfidtag to be used when FreeCharging mode is activated",
+    "description": "The idTag to use in free charging mode. See more in the FreeCharging custom configuration key.",
     "origin": "zaptec"
   },
   {
@@ -645,7 +634,7 @@
     "type": "boolean",
     "defaultValue": "false",
     "unit": "",
-    "description": "Whether to unlock the connector when the EV disconnects the cable. Should be set to true if public charging and cable supplied by CPO.",
+    "description": "If this config is set to true, the connected cable will permanently lock to the charging station. It will stay permanently locked until the setting is set to false, or it is unlocked in Zaptec Portal or app.",
     "origin": "zaptec"
   },
   {
@@ -911,5 +900,60 @@
     "unit": "",
     "description": "",
     "origin": "hager"
+  },
+  {
+    "name": "FreevendEnabled",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "boolean",
+    "defaultValue": "false",
+    "unit": "",
+    "description": "In Free Vend mode authorization is disabled and charging could be started without authorization. When this mode is enabled, Authorize message will not be sent to Central System. StartTransaction message will be sent as usually at the beginning of charging sesssion.",
+    "origin": "daze"
+  },
+  {
+    "name": "FreevendIdTag",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "",
+    "unit": "",
+    "description": "In Free Vend mode, use this key to set idTag. Max length is 20 like IdToken type. Central system should be configured to accept StartTransaction with idTag configured for Free Vend mode.",
+    "origin": "daze"
+  },
+  {
+    "name": "TimeOffset",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "00:00",
+    "unit": "",
+    "description": "This is used for display/local time purposes only. Configured current local time offset in the UTC time offset format. Let say for US, 5 hours ahead of UTC time. So, the value to set \"-05:00\". If this is not set/empty, it will show in UTC format",
+    "origin": "daze"
+  },
+  {
+    "name": "NextTimeOffsetTransitionDateTime",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "",
+    "unit": "",
+    "description": "This is used for display/local time purposes only. On this date time, the clock displayed to the EV driver will be given the new offset as configured via 'TimeOffsetNextTransition'. For example, \"2022-03-28T02:00:00+01:00\". It is represented ac-cording to the ISO8601 standard.",
+    "origin": "daze"
+  },
+  {
+    "name": "TimeOffsetNextTransition",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "00:00",
+    "unit": "",
+    "description": "This is used for display/local time purposes only. New offset that will be set on the next time offset transition as con-figured via 'NextTimeOffsetTransitionDateTime'. For example, \"-04:00\"",
+    "origin": "daze"
   }
 ]
