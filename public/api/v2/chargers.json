@@ -432,8 +432,8 @@
   {
     "id": "mennekes-amtron-professional",
     "manufacturerId": "mennekes",
-    "chargePointVendor": "Mennekes",
-    "chargePointModel": ["Mennekes Amtron Professional"],
+    "chargePointVendor": "MENNEKES",
+    "chargePointModel": ["CC612_2S0R"],
     "globalMeter": true,
     "meterClass": "MID Class B (EN 50470)",
     "connectors": [
