@@ -955,5 +955,170 @@
     "unit": "",
     "description": "This is used for display/local time purposes only. New offset that will be set on the next time offset transition as con-figured via 'NextTimeOffsetTransitionDateTime'. For example, \"-04:00\"",
     "origin": "daze"
+  },
+  {
+    "name": "Cst_BackendUrl",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "",
+    "unit": "",
+    "description": "Change the Central system URL, eg: wss://ocpp.sintio.app/ocpp16/{organizationId}/. After the changes, 'RebotRequired' response is triggered, and it will take effect after restarting. Cannot be modified while charging.",
+    "origin": "nexblue"
+  },
+  {
+    "name": "Cst_ChargeBoxId",
+    "required": false,
+    "read": true,
+    "write": false,
+    "type": "string",
+    "defaultValue": "",
+    "unit": "",
+    "description": "Change the Charge box ID, default as SN. After the changes, 'RebotRequired' response is triggered, and it will take effect after restarting.",
+    "origin": "nexblue"
+  },
+  {
+    "name": "Cst_rssi_values",
+    "required": false,
+    "read": true,
+    "write": false,
+    "type": "integer",
+    "defaultValue": "",
+    "unit": "",
+    "description": "The signal strength of the WiFi/Cellular based on the connectivity.",
+    "origin": "nexblue"
+  },
+  {
+    "name": "Cst_NotNetworkMeterValueSampleInterval",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "integer",
+    "defaultValue": "0",
+    "unit": "",
+    "description": "Sampling interval for metervalue when the charger is offline.",
+    "origin": "nexblue"
+  },
+  {
+    "name": "Cst_FreeVendActive",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "boolean",
+    "defaultValue": "FALSE",
+    "unit": "",
+    "description": "Plug in to start charging and unplug to stop.",
+    "origin": "nexblue"
+  },
+  {
+    "name": "Cst_FreeVendIdTag",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "A0000000",
+    "unit": "",
+    "description": "When the value is empty, it is represented as 'A0000000'.",
+    "origin": "nexblue"
+  },
+  {
+    "name": "Cst_CaCert",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "",
+    "unit": "",
+    "description": "Certification",
+    "origin": "nexblue"
+  },
+  {
+    "name": "Cst_ReconnectInterva",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "integer",
+    "defaultValue": "10",
+    "unit": "",
+    "description": "The interval of reconnection",
+    "origin": "nexblue"
+  },
+  {
+    "name": "Cst_PreBootTransactions",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "boolean",
+    "defaultValue": "FALSE",
+    "unit": "",
+    "description": "Whether or not a transaction can be initiated before the BootNotification successfully completes.",
+    "origin": "nexblue"
+  },
+  {
+    "name": "Cst_SilentOfflineTransactions",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "boolean",
+    "defaultValue": "FALSE",
+    "unit": "",
+    "description": "If the EVSE goes offline, whether or not it can continue to charge without sending StartTx / StopTx to the server when going online again.",
+    "origin": "nexblue"
+  },
+  {
+    "name": "Cst_AuthorizationTimeout",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "integer",
+    "defaultValue": "20",
+    "unit": "",
+    "description": "How long the EVSE tries the Authorize request before it enters offline mode.",
+    "origin": "nexblue"
+  },
+  {
+    "name": "Cst_MeterValueCacheSize",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "integer",
+    "defaultValue": "1",
+    "unit": "",
+    "description": "How many data can be cached in MeterValue.",
+    "origin": "nexblue"
+  },
+  {
+    "name": "Cst_StopTxnDataCapturePeriodic",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "boolean",
+    "defaultValue": "FALSE",
+    "unit": "",
+    "description": "Whether or not to enable stop Txn Data timer logging.",
+    "origin": "nexblue"
+  },
+  {
+    "name": "Cst_ModemMeterValueSampleInterval",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "integer",
+    "defaultValue": "0",
+    "unit": "",
+    "description": "Sampling interval for metervalue when the charger is connected to cloud via 4G. Default close.",
+    "origin": "nexblue"
+  },
+  {
+    "name": "Cst_ModemStateBoot",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "",
+    "unit": "",
+    "description": "Whether or not the charger is connected to cloud via 4G.",
+    "origin": "nexblue"
   }
 ]
