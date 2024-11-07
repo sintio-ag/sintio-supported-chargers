@@ -59,6 +59,7 @@ const ConfigurationKeys = () => {
     { value: "daze", label: "Daze specific" },
     { value: "easee", label: "Easee specific" },
     { value: "hager", label: "Hager specific" },
+    { value: "keba", label: "KEBA specific" },
     { value: "nexblue", label: "NexBlue specific" },
     { value: "zaptec", label: "Zaptec specific" },
   ];
