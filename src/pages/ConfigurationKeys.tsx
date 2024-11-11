@@ -28,7 +28,7 @@ const ConfigurationKeys = () => {
     "Accessibility",
     "Description",
     "Value",
-    "Sintio Default Value",
+    "Recommended value",
     "Unit",
     "Origin",
   ];
