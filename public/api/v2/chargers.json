@@ -230,23 +230,23 @@
     ],
     "images": [
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/greenmotion-omnibox_orig.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/greenmotion-omnibox_orig.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/green-motion-building_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/green-motion-building_orig.webp",
         "size": "original"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/greenmotion-omnibox_500.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/greenmotion-omnibox_500.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/green-motion-building_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/green-motion-building_500.webp",
         "size": "500"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/greenmotion-omnibox_100.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/greenmotion-omnibox_100.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/green-motion-building_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/green-motion-building_100.webp",
         "size": "100"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/greenmotion-omnibox_50.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/greenmotion-omnibox_50.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/green-motion-building_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/green-motion-building_50.webp",
         "size": "50"
       }
     ]
