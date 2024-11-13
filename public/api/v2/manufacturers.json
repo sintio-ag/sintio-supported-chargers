@@ -46,6 +46,29 @@
     ]
   },
   {
+    "id": "eaton",
+    "name": "Eaton Manufacturing LP",
+    "websiteUrl": "https://www.eaton.com",
+    "chargerManagementUrl": "",
+    "statusPageUrl": "",
+    "globalSupportUrl": "",
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "eaton-industries-II-gmbh",
+            "company": "Eaton Industries II GmbH",
+            "websiteUrl": "https://www.eaton.com",
+            "email": "anfrageeffretikon@eaton.com",
+            "phone": "+41215440446"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "garo",
     "name": "GARO",
     "websiteUrl": "http://garocharging.com",
