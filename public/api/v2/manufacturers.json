@@ -159,6 +159,19 @@
     "globalSupportUrl": "https://www.mennekes.de/kontakt/emobility/stoerungsmeldung",
     "supportByCountry": [
       {
+        "country": "Germany",
+        "countryCode": "DE",
+        "supportCompanies": [
+          {
+            "id": "mennekes-elektrotechnik-gmbh-co-kg",
+            "company": "MENNEKES Elektrotechnik GmbH & Co. KG",
+            "websiteUrl": "www.chargeupyourday.de/en/service/kontakt",
+            "email": "emobility.support@mennekes.de",
+            "phone": "+49272341600 "
+          }
+        ]
+      },
+      {
         "country": "Switzerland",
         "countryCode": "CH",
         "supportCompanies": [
