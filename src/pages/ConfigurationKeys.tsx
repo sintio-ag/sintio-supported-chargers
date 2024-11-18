@@ -58,6 +58,7 @@ const ConfigurationKeys = () => {
     { value: "OCPP", label: "OCPP Standard" },
     { value: "daze", label: "Daze specific" },
     { value: "easee", label: "Easee specific" },
+    { value: "garo", label: "GARO specific" },
     { value: "hager", label: "Hager specific" },
     { value: "keba", label: "KEBA specific" },
     { value: "nexblue", label: "NexBlue specific" },
