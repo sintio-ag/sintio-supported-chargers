@@ -69,6 +69,29 @@
     ]
   },
   {
+    "id": "etrel",
+    "name": "Etrel d.o.o",
+    "websiteUrl": "https://etrel.com",
+    "chargerManagementUrl": "",
+    "statusPageUrl": "",
+    "globalSupportUrl": "https://landisgyr-evsolutions.atlassian.net/wiki/spaces/EKC/overview",
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "landis-gyr-ag",
+            "company": "Landis+Gyr AG",
+            "websiteUrl": "https://www.landisgyr.com",
+            "email": "info.evcharging@landisgyr.com",
+            "phone": "+41419356000"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "garo",
     "name": "GARO",
     "websiteUrl": "http://garocharging.com",
