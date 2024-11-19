@@ -514,12 +514,64 @@
     ]
   },
   {
+    "id": "mennekes-amedio-professional",
+    "manufacturerId": "mennekes",
+    "chargePointVendor": "MENNEKES",
+    "chargePointModel": [
+      "ICC1622_1M4PR-X2",
+      "ICC1622_1M4R-X2",
+      "ICC1622_1S0R-X2",
+      "ICC1622_1S0PR-X2"
+    ],
+    "globalMeter": true,
+    "meterClass": "MID Class A (EN 50470)",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amedio-professional_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amedio-professional_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amedio-professional_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amedio-professional_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amedio-professional_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amedio-professional_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amedio-professional_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amedio-professional_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
     "id": "mennekes-amtron-professional",
     "manufacturerId": "mennekes",
     "chargePointVendor": "MENNEKES",
-    "chargePointModel": ["CC612_2S0R"],
+    "chargePointModel": [
+      "CC612_2M4PR",
+      "CC612_2S0PR",
+      "CC612_2M4R",
+      "CC612_2S0R"
+    ],
     "globalMeter": true,
-    "meterClass": "MID Class B (EN 50470)",
+    "meterClass": "MID Class A (EN 50470)",
     "connectors": [
       {
         "connectorId": 1,
