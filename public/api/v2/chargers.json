@@ -257,7 +257,7 @@
     "chargePointVendor": "Etrel",
     "chargePointModel": ["G-PC1VGBY20-A14"],
     "globalMeter": false,
-    "meterClass": "MID Class A (EN 50470)",
+    "meterClass": "MID Class B (EN 50470)",
     "connectors": [
       {
         "connectorId": 1,
