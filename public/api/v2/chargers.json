@@ -129,7 +129,7 @@
     "id": "easee-charge",
     "manufacturerId": "easee",
     "chargePointVendor": "Easee",
-    "chargePointModel": ["Easee Charge"],
+    "chargePointModel": ["Easee Charge", "Charge Core"],
     "globalMeter": true,
     "meterClass": "±2%",
     "connectors": [
@@ -183,6 +183,48 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "easee-charge-lite",
+    "manufacturerId": "easee",
+    "chargePointVendor": "Easee",
+    "chargePointModel": ["Charge Lite"],
+    "globalMeter": true,
+    "meterClass": "±2%",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 16,
+        "maxElectricPower": 11000,
         "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
       }
     ],
