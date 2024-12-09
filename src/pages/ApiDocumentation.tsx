@@ -514,9 +514,20 @@ function ApiDocumentation() {
       </ul>
       <h2>Terms and Conditions Details</h2>
       <p>
+        <code>GET</code>{" "}
+        <a
+          href="https://sintio-ag.github.io/sintio-supported-chargers/api/v2/terms-and-conditions.json"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://sintio-ag.github.io/sintio-supported-chargers/api/v2/terms-and-conditions.json
+        </a>
+      </p>
+      <p>
         The terms and conditions are available in multiple languages. The
         default document is always present and serves as a placeholder if a
-        requested language from the language array is not available.
+        requested language from the language array is not available. An entry of
+        the terms and conditions array looks as follows:
       </p>
       <ul>
         <li>
@@ -529,7 +540,9 @@ function ApiDocumentation() {
           >
             ISO 8601
           </a>
-          ).
+          ). This is like the version number. The newer the date, the newer the
+          document. The document with the latest date is the most recent one and
+          the one to be used.
         </li>
         <li>
           <strong>default</strong> (object): The default terms and conditions
