@@ -1,0 +1,31 @@
+[
+  {
+    "date": "2024-01-01",
+    "default": {
+      "name": "Allgemeine Geschäftsbedingungen",
+      "url": "https://sintio-ag.github.io/sintio-supported-chargers/pdf/terms/Sintio_AGB_2024-01-01_de.pdf"
+    },
+    "languages": [
+      {
+        "lang": "de",
+        "name": "Allgemeine Geschäftsbedingungen",
+        "url": "https://sintio-ag.github.io/sintio-supported-chargers/pdf/terms/Sintio_AGB_2024-01-01_de.pdf"
+      },
+      {
+        "lang": "en",
+        "name": "Terms and Conditions",
+        "url": "https://sintio-ag.github.io/sintio-supported-chargers/pdf/terms/Sintio_AGB_2024-01-01_de.pdf"
+      },
+      {
+        "lang": "fr",
+        "name": "Conditions Générales",
+        "url": "https://sintio-ag.github.io/sintio-supported-chargers/pdf/terms/Sintio_AGB_2024-01-01_de.pdf"
+      },
+      {
+        "lang": "it",
+        "name": "Termini e condizioni",
+        "url": "https://sintio-ag.github.io/sintio-supported-chargers/pdf/terms/Sintio_AGB_2024-01-01_de.pdf"
+      }
+    ]
+  }
+]

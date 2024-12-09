@@ -512,6 +512,63 @@ function ApiDocumentation() {
           Is OCPP or if a custom key, the ID of the vendor.
         </li>
       </ul>
+      <h2>Terms and Conditions Details</h2>
+      <p>
+        The terms and conditions are available in multiple languages. The
+        default document is always present and serves as a placeholder if a
+        requested language from the language array is not available.
+      </p>
+      <ul>
+        <li>
+          <strong>date</strong> (string): The date when the terms and conditions
+          were published, in the format YYYY-MM-DD (
+          <a
+            href="https://en.wikipedia.org/wiki/ISO_8601"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ISO 8601
+          </a>
+          ).
+        </li>
+        <li>
+          <strong>default</strong> (object): The default terms and conditions
+          document.
+          <ul>
+            <li>
+              <strong>name</strong> (string): The name of the default document.
+            </li>
+            <li>
+              <strong>url</strong> (string): The URL to the default document.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>languages</strong> (array): The terms and conditions documents
+          in different languages.
+          <ul>
+            <li>
+              <strong>lang</strong> (string): The two-character language code
+              (e.g., "de" for German, "fr" for French) as per{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes"
+                target="_blank"
+              >
+                ISO 639-1
+              </a>
+              .
+            </li>
+            <li>
+              <strong>name</strong> (string): The name of the document in the
+              specified language.
+            </li>
+            <li>
+              <strong>url</strong> (string): The URL to the document in the
+              specified language.
+            </li>
+          </ul>
+        </li>
+      </ul>
     </div>
   );
 }
