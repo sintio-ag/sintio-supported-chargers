@@ -37,7 +37,8 @@ function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {languageLink.name} ({languageLink.lang})
+                {languageLink.name}{" "}
+                <span className="uppercase">({languageLink.lang}</span>)
               </a>
             </p>
           ))}
