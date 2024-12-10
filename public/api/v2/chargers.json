@@ -638,7 +638,7 @@
       {
         "connectorId": 1,
         "standard": "IEC_62196_T2",
-        "format": "CABLE",
+        "format": "SOCKET",
         "powerType": "AC_3_PHASE",
         "voltage": 400,
         "amperage": 32,
