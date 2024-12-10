@@ -31,12 +31,16 @@ const Home = () => {
           alt="Charger Image"
         />
       ),
-      Vendor: charger.chargePointVendor,
+      Vendor: (
+        <span className="whitespace-nowrap">{charger.chargePointVendor}</span>
+      ),
       Model: Array.isArray(charger.chargePointModel)
         ? charger.chargePointModel.join(", ")
         : charger.chargePointModel, // Handle both array and string cases
       "Global Meter": charger.globalMeter ? "Yes" : "No",
-      "Meter Class": charger.meterClass,
+      "Meter Class": (
+        <span className="whitespace-nowrap">{charger.meterClass}</span>
+      ),
       Connectors: (
         <ul className="m-0 list-none p-0">
           {charger.connectors.map((connector) => {
@@ -47,13 +51,20 @@ const Home = () => {
                   alt={`${connector.standard} Connector`}
                   className="mr-2 inline-block h-4 w-4"
                 />
-                <span className="font-bold">ID: {connector.connectorId}</span>
+                <span className="font-bold">
+                  ID:&nbsp;{connector.connectorId}
+                </span>
                 <br />
-                Standard: {connector.standard}
+                Standard:&nbsp;{connector.standard}
                 <br />
-                Max Power: {(connector.maxElectricPower / 1000).toFixed(2)} kW
+                Format:&nbsp;{connector.format}
                 <br />
-                Current: {connector.powerType}
+                Max Power:&nbsp;{(connector.maxElectricPower / 1000).toFixed(
+                  2,
+                )}{" "}
+                kW
+                <br />
+                Current:&nbsp;{connector.powerType}
               </li>
             );
           })}
