@@ -294,10 +294,67 @@
     ]
   },
   {
-    "id": "etrel-inch-pro",
+    "id": "etrel-inch-pro-cable",
     "manufacturerId": "etrel",
     "chargePointVendor": "Etrel",
-    "chargePointModel": ["G-PC1VGBY20-A14"],
+    "chargePointModel": [
+      "G-PC1VBFY10",
+      "G-PC1VBFY20",
+      "G-PC1VBFY40",
+      "G-PC1SBFY10",
+      "G-PC1SBFY20",
+      "G-PC1SBFY40",
+      "G-PH1VMEY20",
+      "G-PH1SMEY20",
+      "G-PC1VGBY20-A14"
+    ],
+    "globalMeter": false,
+    "meterClass": "MID Class B (EN 50470)",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "CABLE",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/etrel/etrel-inch-pro_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/etrel/etrel-inch-pro_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/etrel/etrel-inch-pro_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/etrel/etrel-inch-pro_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/etrel/etrel-inch-pro_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/etrel/etrel-inch-pro_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/etrel/etrel-inch-pro_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/etrel/etrel-inch-pro_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "etrel-inch-pro-socket",
+    "manufacturerId": "etrel",
+    "chargePointVendor": "Etrel",
+    "chargePointModel": [
+      "G-PC1ZBFY10",
+      "G-PC1ZBFY20",
+      "G-PC1ZBFY40",
+      "G-PH1ZMEY20"
+    ],
     "globalMeter": false,
     "meterClass": "MID Class B (EN 50470)",
     "connectors": [
@@ -581,7 +638,7 @@
       {
         "connectorId": 1,
         "standard": "IEC_62196_T2",
-        "format": "SOCKET",
+        "format": "CABLE",
         "powerType": "AC_3_PHASE",
         "voltage": 400,
         "amperage": 32,
