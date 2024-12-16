@@ -14,3 +14,9 @@ export type TermsAndConditions = {
   default: DefaultLink;
   languages: LanguageLink[];
 };
+
+export type PrivacyPolicy = {
+  date: string;
+  default: DefaultLink;
+  languages: LanguageLink[];
+};

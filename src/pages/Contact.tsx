@@ -1,51 +1,7 @@
-import useFetch from "../hooks/useFetch";
-import type { TermsAndConditions } from "../types/terms";
-import AlertDanger from "../components/ui/AlertDanger";
-import Table from "../components/ui/Table";
-import Spinner from "../components/ui/Spinner";
+import PrivacyPolicy from "../components/ui/PrivacyPolicy";
+import TermsAndConditions from "../components/ui/TermsAndConditions";
 
 function Contact() {
-  const baseUrl = import.meta.env.VITE_API_BASE_URL;
-  const {
-    data: termsAndConditions,
-    isLoading,
-    error,
-  } = useFetch<TermsAndConditions[]>(
-    `${baseUrl}/api/v2/terms-and-conditions.json`,
-  );
-
-  // Define headers for the manufacturer table with support contacts
-  const headers = ["Date", "Default", "Languages"];
-
-  // Prepare content for the manufacturer table
-  const content =
-    termsAndConditions?.map((term) => ({
-      Date: <p>{term.date}</p>,
-      Default: (
-        <p>
-          <a href={term.default.url} target="_blank" rel="noopener noreferrer">
-            {term.default.name}
-          </a>
-        </p>
-      ),
-      Languages: (
-        <>
-          {term.languages?.map((languageLink) => (
-            <p key={languageLink.lang}>
-              <a
-                href={languageLink.url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {languageLink.name}{" "}
-                <span className="uppercase">({languageLink.lang}</span>)
-              </a>
-            </p>
-          ))}
-        </>
-      ),
-    })) || [];
-
   return (
     <div className="prose mx-auto my-4 max-w-screen-xl rounded-lg border bg-white p-6">
       <h1>Contact</h1>
@@ -110,8 +66,9 @@ function Contact() {
         </a>
       </p>
       <h2>Terms and Conditions</h2>
-      {error && <AlertDanger message={error} />}
-      {isLoading ? <Spinner /> : <Table headers={headers} content={content} />}
+      <TermsAndConditions />
+      <h2>Privacy Policy</h2>
+      <PrivacyPolicy />
     </div>
   );
 }
