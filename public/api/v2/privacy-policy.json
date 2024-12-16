@@ -1,0 +1,31 @@
+[
+  {
+    "date": "2024-01-01",
+    "default": {
+      "name": "Datenschutzerklärung",
+      "url": "https://www.sintio.ch/datenschutz/"
+    },
+    "languages": [
+      {
+        "lang": "de",
+        "name": "Datenschutzerklärung",
+        "url": "https://www.sintio.ch/datenschutz/"
+      },
+      {
+        "lang": "en",
+        "name": "Privacy Policy",
+        "url": "https://www.sintio.ch/en/datenschutz/"
+      },
+      {
+        "lang": "fr",
+        "name": "Politique de Confidentialité",
+        "url": "https://www.sintio.ch/fr/datenschutz/"
+      },
+      {
+        "lang": "it",
+        "name": "Informativa sulla Privacy",
+        "url": "https://www.sintio.ch/it/datenschutz/"
+      }
+    ]
+  }
+]

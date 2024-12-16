@@ -525,7 +525,7 @@ function ApiDocumentation() {
       </p>
       <p>
         The terms and conditions are available in multiple languages. The
-        default document is always present and serves as a placeholder if a
+        default document/link is always present and serves as a placeholder if a
         requested language from the language array is not available. An entry of
         the terms and conditions array looks as follows:
       </p>
@@ -541,24 +541,26 @@ function ApiDocumentation() {
             ISO 8601
           </a>
           ). This is like the version number. The newer the date, the newer the
-          document. The document with the latest date is the most recent one and
-          the one to be used.
+          document/link. The document/link with the latest date is the most
+          recent one and the one to be used.
         </li>
         <li>
           <strong>default</strong> (object): The default terms and conditions
-          document.
+          document/link.
           <ul>
             <li>
-              <strong>name</strong> (string): The name of the default document.
+              <strong>name</strong> (string): The name of the default
+              document/link.
             </li>
             <li>
-              <strong>url</strong> (string): The URL to the default document.
+              <strong>url</strong> (string): The URL to the default
+              document/link.
             </li>
           </ul>
         </li>
         <li>
-          <strong>languages</strong> (array): The terms and conditions documents
-          in different languages.
+          <strong>languages</strong> (array): The terms and conditions
+          documents/links in different languages.
           <ul>
             <li>
               <strong>lang</strong> (string): The two-character language code
@@ -572,11 +574,76 @@ function ApiDocumentation() {
               .
             </li>
             <li>
-              <strong>name</strong> (string): The name of the document in the
-              specified language.
+              <strong>name</strong> (string): The name of the document/link in
+              the specified language.
             </li>
             <li>
-              <strong>url</strong> (string): The URL to the document in the
+              <strong>url</strong> (string): The URL to the document/link in the
+              specified language.
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h2>Privacy Policy Details</h2>
+      <p>
+        <code>GET</code>{" "}
+        <a
+          href="https://sintio-ag.github.io/sintio-supported-chargers/api/v2/privacy-policy.json"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://sintio-ag.github.io/sintio-supported-chargers/api/v2/privacy-policy.json
+        </a>
+      </p>
+      <p>
+        The privacy policy is available in multiple languages. The default
+        document/link is always present and serves as a placeholder if a
+        requested language from the language array is not available. Below are
+        the links to the privacy policy in different languages:
+      </p>
+      <ul>
+        <li>
+          <strong>date</strong> (string): The date when the privacy policy was
+          published, in the format YYYY-MM-DD (
+          <a
+            href="https://en.wikipedia.org/wiki/ISO_8601"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ISO 8601
+          </a>
+          ). This is like the version number. The newer the date, the newer the
+          document/link. The document/link with the latest date is the most
+          recent one and the one to be used.
+        </li>
+        <li>
+          <strong>default</strong> (object): The default privacy policy
+          document/link.
+          <ul>
+            <li>
+              <strong>name</strong> (string): The name of the default
+              document/link.
+            </li>
+            <li>
+              <strong>url</strong> (string): The URL to the default
+              document/link.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>languages</strong> (array): The privacy policy documents/links
+          in different languages.
+          <ul>
+            <li>
+              <strong>lang</strong> (string): The two-character language code
+              (e.g., "de" for German, "fr" for French) as per ISO 639-1.
+            </li>
+            <li>
+              <strong>name</strong> (string): The name of the document/link in
+              the specified language.
+            </li>
+            <li>
+              <strong>url</strong> (string): The URL to the document/link in the
               specified language.
             </li>
           </ul>
