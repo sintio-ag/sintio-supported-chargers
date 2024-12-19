@@ -69,7 +69,7 @@ const Manufacturer = () => {
       ),
       "Support by Country": (
         <ul className="m-0 list-none p-0">
-          {manufacturer.supportByCountry.map((support) => (
+          {manufacturer.supportByCountry?.map((support) => (
             <li key={support.countryCode}>
               <span className="font-bold">{support.country}:</span>
               <ul className="m-0 list-none p-0">

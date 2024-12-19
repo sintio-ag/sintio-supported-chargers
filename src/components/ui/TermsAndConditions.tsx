@@ -22,22 +22,50 @@ const TermsAndConditions: React.FC = () => {
     termsAndConditions?.map((term) => ({
       Date: term.date,
       Default: (
-        <a href={term.default.url} target="_blank" rel="noopener noreferrer">
-          {term.default.name}
-        </a>
+        <>
+          <a
+            href={term.default.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold"
+          >
+            {term.default.name}
+          </a>
+          {term.default.changelog && term.default.changelog.length > 0 && (
+            <>
+              <p>Changelog</p>
+              <ul className="list-disc pb-5 pl-5">
+                {term.default.changelog.map((change, index) => (
+                  <li key={index}>{change}</li>
+                ))}
+              </ul>
+            </>
+          )}
+        </>
       ),
       Languages: (
         <>
           {term.languages?.map((languageLink) => (
-            <span key={languageLink.lang} style={{ display: "block" }}>
+            <div key={languageLink.lang} style={{ display: "block" }}>
               <a
                 href={languageLink.url}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="font-bold"
               >
                 {languageLink.name} ({languageLink.lang.toUpperCase()})
               </a>
-            </span>
+              {languageLink.changelog && languageLink.changelog.length > 0 && (
+                <>
+                  <p>Changelog</p>
+                  <ul className="list-disc pb-5 pl-5">
+                    {languageLink.changelog.map((change, index) => (
+                      <li key={index}>{change}</li>
+                    ))}
+                  </ul>
+                </>
+              )}
+            </div>
           ))}
         </>
       ),

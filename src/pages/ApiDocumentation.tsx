@@ -285,8 +285,8 @@ function ApiDocumentation() {
           </ul>
         </li>
         <li>
-          <strong>images</strong> (array): An array of objects containing URLs
-          to images of the charger. Each image object includes:
+          <strong>images</strong> (array of objects): An array of objects
+          containing URLs to images of the charger. Each image object includes:
           <ul>
             <li>
               <strong>urlPng</strong> (string): The URL to the PNG image.
@@ -422,8 +422,9 @@ function ApiDocumentation() {
           manufacturer's global support page.
         </li>
         <li>
-          <strong>supportByCountry</strong> (array): An array of objects
-          detailing support options by country. Each object includes:
+          <strong>supportByCountry</strong> (array of objects, optional): An
+          array of objects detailing support options by country. Each object
+          includes:
           <ul>
             <li>
               <strong>country</strong> (string): The name of the country.
@@ -434,8 +435,9 @@ function ApiDocumentation() {
               Germany, etc.
             </li>
             <li>
-              <strong>supportCompanies</strong> (array): An array of objects
-              detailing the support companies. Each company object includes:
+              <strong>supportCompanies</strong> (array of objects): An array of
+              objects detailing the support companies. Each company object
+              includes:
               <ul>
                 <li>
                   <strong>id</strong> (string): A unique identifier for the
@@ -556,11 +558,16 @@ function ApiDocumentation() {
               <strong>url</strong> (string): The URL to the default
               document/link.
             </li>
+            <li>
+              <strong>changelog</strong> (array of strings, optional):A list of
+              changes or updates made to the document/link compared to the
+              previous version.
+            </li>
           </ul>
         </li>
         <li>
-          <strong>languages</strong> (array): The terms and conditions
-          documents/links in different languages.
+          <strong>languages</strong> (array of objects, optional): The terms and
+          conditions documents/links in different languages.
           <ul>
             <li>
               <strong>lang</strong> (string): The two-character language code
@@ -580,6 +587,11 @@ function ApiDocumentation() {
             <li>
               <strong>url</strong> (string): The URL to the document/link in the
               specified language.
+            </li>
+            <li>
+              <strong>changelog</strong> (array of strings, optional):A list of
+              changes or updates made to the document/link compared to the
+              previous version.
             </li>
           </ul>
         </li>
@@ -628,11 +640,16 @@ function ApiDocumentation() {
               <strong>url</strong> (string): The URL to the default
               document/link.
             </li>
+            <li>
+              <strong>changelog</strong> (array of strings, optional):A list of
+              changes or updates made to the document/link compared to the
+              previous version.
+            </li>
           </ul>
         </li>
         <li>
-          <strong>languages</strong> (array): The privacy policy documents/links
-          in different languages.
+          <strong>languages</strong> (array of objects, optional): The privacy
+          policy documents/links in different languages.
           <ul>
             <li>
               <strong>lang</strong> (string): The two-character language code
@@ -645,6 +662,11 @@ function ApiDocumentation() {
             <li>
               <strong>url</strong> (string): The URL to the document/link in the
               specified language.
+            </li>
+            <li>
+              <strong>changelog</strong> (array of strings, optional): A list of
+              changes or updates made to the document/link compared to the
+              previous version.
             </li>
           </ul>
         </li>

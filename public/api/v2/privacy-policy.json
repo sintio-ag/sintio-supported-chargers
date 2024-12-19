@@ -14,17 +14,20 @@
       {
         "lang": "en",
         "name": "Privacy Policy",
-        "url": "https://www.sintio.ch/en/datenschutz/"
+        "url": "https://www.sintio.ch/en/datenschutz/",
+        "changelog": []
       },
       {
         "lang": "fr",
         "name": "Politique de Confidentialité",
-        "url": "https://www.sintio.ch/fr/datenschutz/"
+        "url": "https://www.sintio.ch/fr/datenschutz/",
+        "changelog": []
       },
       {
         "lang": "it",
         "name": "Informativa sulla Privacy",
-        "url": "https://www.sintio.ch/it/datenschutz/"
+        "url": "https://www.sintio.ch/it/datenschutz/",
+        "changelog": []
       }
     ]
   }

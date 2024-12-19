@@ -3,28 +3,33 @@
     "date": "2024-01-01",
     "default": {
       "name": "Allgemeine Geschäftsbedingungen",
-      "url": "https://sintio-ag.github.io/sintio-supported-chargers/pdf/terms/Sintio_AGB_2024-01-01_de.pdf"
+      "url": "https://sintio-ag.github.io/sintio-supported-chargers/pdf/terms/Sintio_AGB_2024-01-01_de.pdf",
+      "changelog": ["Entfernen der Dienstleistung sintio.flow.basic"]
     },
     "languages": [
       {
         "lang": "de",
         "name": "Allgemeine Geschäftsbedingungen",
-        "url": "https://sintio-ag.github.io/sintio-supported-chargers/pdf/terms/Sintio_AGB_2024-01-01_de.pdf"
+        "url": "https://sintio-ag.github.io/sintio-supported-chargers/pdf/terms/Sintio_AGB_2024-01-01_de.pdf",
+        "changelog": ["Entfernen der Dienstleistung sintio.flow.basic"]
       },
       {
         "lang": "en",
         "name": "Terms and Conditions",
-        "url": "https://sintio-ag.github.io/sintio-supported-chargers/pdf/terms/Sintio_AGB_2024-01-01_de.pdf"
+        "url": "https://sintio-ag.github.io/sintio-supported-chargers/pdf/terms/Sintio_AGB_2024-01-01_de.pdf",
+        "changelog": ["Removal of the service sintio.flow.basic"]
       },
       {
         "lang": "fr",
         "name": "Conditions Générales",
-        "url": "https://sintio-ag.github.io/sintio-supported-chargers/pdf/terms/Sintio_AGB_2024-01-01_de.pdf"
+        "url": "https://sintio-ag.github.io/sintio-supported-chargers/pdf/terms/Sintio_AGB_2024-01-01_de.pdf",
+        "changelog": ["Suppression du service sintio.flow.basic"]
       },
       {
         "lang": "it",
         "name": "Termini e condizioni",
-        "url": "https://sintio-ag.github.io/sintio-supported-chargers/pdf/terms/Sintio_AGB_2024-01-01_de.pdf"
+        "url": "https://sintio-ag.github.io/sintio-supported-chargers/pdf/terms/Sintio_AGB_2024-01-01_de.pdf",
+        "changelog": ["Rimozione del servizio sintio.flow.basic"]
       }
     ]
   }

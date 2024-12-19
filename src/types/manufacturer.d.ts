@@ -19,5 +19,5 @@ export type Manufacturer = {
   chargerManagementUrl: string | null;
   statusPageUrl: string | null;
   globalSupportUrl: string | null;
-  supportByCountry: SupportByCountry[];
+  supportByCountry?: SupportByCountry[];
 };
