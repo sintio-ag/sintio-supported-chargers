@@ -1,5 +1,35 @@
 [
   {
+    "id": "alpitronic",
+    "name": "Alpitronic",
+    "websiteUrl": "https://www.alpitronic.it",
+    "chargerManagementUrl": "",
+    "statusPageUrl": "",
+    "globalSupportUrl": "",
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "simplee-ag",
+            "company": "simplee AG",
+            "websiteUrl": "https://simplee-energy.ch",
+            "email": "support@simplee-energy.ch",
+            "phone": "+41585108999"
+          },
+          {
+            "id": "sintio-ag",
+            "company": "Sintio AG",
+            "websiteUrl": "https://www.sintio.ch",
+            "email": "support@sintio.ch",
+            "phone": "+41555053018"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "daze",
     "name": "Daze",
     "websiteUrl": "https://daze.eu",
