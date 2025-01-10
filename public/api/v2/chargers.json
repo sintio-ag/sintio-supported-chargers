@@ -1,5 +1,57 @@
 [
   {
+    "id": "alpitronic-hyc-50",
+    "manufacturerId": "alpitronic",
+    "chargePointVendor": "alpitronic GmbH",
+    "chargePointModel": ["HYC50_2_24_24"],
+    "globalMeter": true,
+    "meterClass": "MID Class A (EN 50470)",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "powerType": "DC",
+        "voltage": 333,
+        "amperage": 150,
+        "maxElectricPower": 50000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector_ff-ccs-combo-2.svg"
+      },
+      {
+        "connectorId": 2,
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "powerType": "DC",
+        "voltage": 333,
+        "amperage": 150,
+        "maxElectricPower": 50000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector_ff-ccs-combo-2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-hyc-50_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-hyc-50_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-hyc-50_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-hyc-50_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-hyc-50_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-hyc-50_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-hyc-50_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-hyc-50_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
     "id": "dazebox-c",
     "manufacturerId": "daze",
     "chargePointVendor": "Daze Technology",
