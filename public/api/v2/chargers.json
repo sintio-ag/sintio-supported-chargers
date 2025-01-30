@@ -304,6 +304,48 @@
     ]
   },
   {
+    "id": "easee-charge-max",
+    "manufacturerId": "easee",
+    "chargePointVendor": "Easee",
+    "chargePointModel": ["Charge Max"],
+    "globalMeter": true,
+    "meterClass": "MID Class B (EN 50470)",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge-max_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge-max_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge-max_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge-max_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge-max_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge-max_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge-max_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge-max_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
     "id": "greenmotion-omnibox",
     "manufacturerId": "eaton",
     "chargePointVendor": "GreenMotion",
