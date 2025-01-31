@@ -181,9 +181,53 @@
     "id": "easee-charge",
     "manufacturerId": "easee",
     "chargePointVendor": "Easee",
-    "chargePointModel": ["Easee Charge", "Charge Core"],
+    "chargePointModel": ["Easee Charge", "Charge Core", "Easee Up"],
     "globalMeter": true,
     "meterClass": "±2%",
+    "configKeyFeatures": [
+      {
+        "name": "UnlockConnectorOnEVSideDisconnect",
+        "enable": [
+          {
+            "configKey": "UnlockConnectorOnEVSideDisconnect",
+            "value": true
+          }
+        ],
+        "disable": [
+          {
+            "configKey": "UnlockConnectorOnEVSideDisconnect",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "ChargingWithoutActiveAuth",
+        "enable": [
+          {
+            "configKey": "freecharging",
+            "value": true,
+            "type": "boolean"
+          },
+          {
+            "configKey": "rfidtagfreecharging",
+            "value": "",
+            "type": "string"
+          }
+        ],
+        "disable": [
+          {
+            "configKey": "rfidtagfreecharging",
+            "value": "",
+            "type": "string"
+          },
+          {
+            "configKey": "freecharging",
+            "value": false,
+            "type": "boolean"
+          }
+        ]
+      }
+    ],
     "connectors": [
       {
         "connectorId": 1,
@@ -226,6 +270,50 @@
     "chargePointModel": ["Easee Home"],
     "globalMeter": true,
     "meterClass": "±2%",
+    "configKeyFeatures": [
+      {
+        "name": "UnlockConnectorOnEVSideDisconnect",
+        "enable": [
+          {
+            "configKey": "UnlockConnectorOnEVSideDisconnect",
+            "value": true
+          }
+        ],
+        "disable": [
+          {
+            "configKey": "UnlockConnectorOnEVSideDisconnect",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "ChargingWithoutActiveAuth",
+        "enable": [
+          {
+            "configKey": "freecharging",
+            "value": true,
+            "type": "boolean"
+          },
+          {
+            "configKey": "rfidtagfreecharging",
+            "value": "",
+            "type": "string"
+          }
+        ],
+        "disable": [
+          {
+            "configKey": "rfidtagfreecharging",
+            "value": "",
+            "type": "string"
+          },
+          {
+            "configKey": "freecharging",
+            "value": false,
+            "type": "boolean"
+          }
+        ]
+      }
+    ],
     "connectors": [
       {
         "connectorId": 1,
@@ -268,6 +356,50 @@
     "chargePointModel": ["Charge Lite"],
     "globalMeter": true,
     "meterClass": "±2%",
+    "configKeyFeatures": [
+      {
+        "name": "UnlockConnectorOnEVSideDisconnect",
+        "enable": [
+          {
+            "configKey": "UnlockConnectorOnEVSideDisconnect",
+            "value": true
+          }
+        ],
+        "disable": [
+          {
+            "configKey": "UnlockConnectorOnEVSideDisconnect",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "ChargingWithoutActiveAuth",
+        "enable": [
+          {
+            "configKey": "freecharging",
+            "value": true,
+            "type": "boolean"
+          },
+          {
+            "configKey": "rfidtagfreecharging",
+            "value": "",
+            "type": "string"
+          }
+        ],
+        "disable": [
+          {
+            "configKey": "rfidtagfreecharging",
+            "value": "",
+            "type": "string"
+          },
+          {
+            "configKey": "freecharging",
+            "value": false,
+            "type": "boolean"
+          }
+        ]
+      }
+    ],
     "connectors": [
       {
         "connectorId": 1,
@@ -310,6 +442,50 @@
     "chargePointModel": ["Charge Max"],
     "globalMeter": true,
     "meterClass": "MID Class B (EN 50470)",
+    "configKeyFeatures": [
+      {
+        "name": "UnlockConnectorOnEVSideDisconnect",
+        "enable": [
+          {
+            "configKey": "UnlockConnectorOnEVSideDisconnect",
+            "value": true
+          }
+        ],
+        "disable": [
+          {
+            "configKey": "UnlockConnectorOnEVSideDisconnect",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "ChargingWithoutActiveAuth",
+        "enable": [
+          {
+            "configKey": "freecharging",
+            "value": true,
+            "type": "boolean"
+          },
+          {
+            "configKey": "rfidtagfreecharging",
+            "value": "",
+            "type": "string"
+          }
+        ],
+        "disable": [
+          {
+            "configKey": "rfidtagfreecharging",
+            "value": "",
+            "type": "string"
+          },
+          {
+            "configKey": "freecharging",
+            "value": false,
+            "type": "boolean"
+          }
+        ]
+      }
+    ],
     "connectors": [
       {
         "connectorId": 1,
@@ -896,6 +1072,52 @@
     "chargePointModel": ["Zaptec Go"],
     "globalMeter": false,
     "meterClass": "~3%",
+    "configKeyFeatures": [
+      {
+        "name": "UnlockConnectorOnEVSideDisconnect",
+        "enable": [
+          {
+            "configKey": "LockCablePermanently",
+            "value": false,
+            "type": "boolean"
+          }
+        ],
+        "disable": [
+          {
+            "configKey": "LockCablePermanently",
+            "value": true,
+            "type": "boolean"
+          }
+        ]
+      },
+      {
+        "name": "ChargingWithoutActiveAuth",
+        "enable": [
+          {
+            "configKey": "FreeCharging",
+            "value": true,
+            "type": "boolean"
+          },
+          {
+            "configKey": "FreeChargingIdTag",
+            "value": "",
+            "type": "string"
+          }
+        ],
+        "disable": [
+          {
+            "configKey": "FreeChargingIdTag",
+            "value": "",
+            "type": "string"
+          },
+          {
+            "configKey": "FreeCharging",
+            "value": false,
+            "type": "boolean"
+          }
+        ]
+      }
+    ],
     "connectors": [
       {
         "connectorId": 1,
@@ -938,6 +1160,52 @@
     "chargePointModel": ["ZAPTEC HOME"],
     "globalMeter": false,
     "meterClass": "±1%",
+    "configKeyFeatures": [
+      {
+        "name": "UnlockConnectorOnEVSideDisconnect",
+        "enable": [
+          {
+            "configKey": "LockCablePermanently",
+            "value": false,
+            "type": "boolean"
+          }
+        ],
+        "disable": [
+          {
+            "configKey": "LockCablePermanently",
+            "value": true,
+            "type": "boolean"
+          }
+        ]
+      },
+      {
+        "name": "ChargingWithoutActiveAuth",
+        "enable": [
+          {
+            "configKey": "FreeCharging",
+            "value": true,
+            "type": "boolean"
+          },
+          {
+            "configKey": "FreeChargingIdTag",
+            "value": "",
+            "type": "string"
+          }
+        ],
+        "disable": [
+          {
+            "configKey": "FreeChargingIdTag",
+            "value": "",
+            "type": "string"
+          },
+          {
+            "configKey": "FreeCharging",
+            "value": false,
+            "type": "boolean"
+          }
+        ]
+      }
+    ],
     "connectors": [
       {
         "connectorId": 1,
@@ -980,6 +1248,52 @@
     "chargePointModel": ["ZAPTEC PRO"],
     "globalMeter": false,
     "meterClass": "MID Class B (EN 50470)",
+    "configKeyFeatures": [
+      {
+        "name": "UnlockConnectorOnEVSideDisconnect",
+        "enable": [
+          {
+            "configKey": "LockCablePermanently",
+            "value": false,
+            "type": "boolean"
+          }
+        ],
+        "disable": [
+          {
+            "configKey": "LockCablePermanently",
+            "value": true,
+            "type": "boolean"
+          }
+        ]
+      },
+      {
+        "name": "ChargingWithoutActiveAuth",
+        "enable": [
+          {
+            "configKey": "FreeCharging",
+            "value": true,
+            "type": "boolean"
+          },
+          {
+            "configKey": "FreeChargingIdTag",
+            "value": "",
+            "type": "string"
+          }
+        ],
+        "disable": [
+          {
+            "configKey": "FreeChargingIdTag",
+            "value": "",
+            "type": "string"
+          },
+          {
+            "configKey": "FreeCharging",
+            "value": false,
+            "type": "boolean"
+          }
+        ]
+      }
+    ],
     "connectors": [
       {
         "connectorId": 1,
@@ -1022,6 +1336,52 @@
     "chargePointModel": ["ZapCharger Pro"],
     "globalMeter": false,
     "meterClass": "±1%",
+    "configKeyFeatures": [
+      {
+        "name": "UnlockConnectorOnEVSideDisconnect",
+        "enable": [
+          {
+            "configKey": "LockCablePermanently",
+            "value": false,
+            "type": "boolean"
+          }
+        ],
+        "disable": [
+          {
+            "configKey": "LockCablePermanently",
+            "value": true,
+            "type": "boolean"
+          }
+        ]
+      },
+      {
+        "name": "ChargingWithoutActiveAuth",
+        "enable": [
+          {
+            "configKey": "FreeCharging",
+            "value": true,
+            "type": "boolean"
+          },
+          {
+            "configKey": "FreeChargingIdTag",
+            "value": "",
+            "type": "string"
+          }
+        ],
+        "disable": [
+          {
+            "configKey": "FreeChargingIdTag",
+            "value": "",
+            "type": "string"
+          },
+          {
+            "configKey": "FreeCharging",
+            "value": false,
+            "type": "boolean"
+          }
+        ]
+      }
+    ],
     "connectors": [
       {
         "connectorId": 1,
