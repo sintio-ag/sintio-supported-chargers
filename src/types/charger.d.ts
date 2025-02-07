@@ -1,7 +1,16 @@
-type Image = {
-  urlPng: string;
-  urlWebp: string;
-  size: string;
+type ConfigKeyStep = {
+  configKey: string;
+  value: string | boolean;
+  type: string;
+};
+
+type configKeyFeatures = {
+  name: string;
+  description: string;
+  values: {
+    enable: ConfigKeyStep[];
+    disable: ConfigKeyStep[];
+  };
 };
 
 type Connector = {
@@ -15,6 +24,12 @@ type Connector = {
   imageUrlSvg: string;
 };
 
+type Image = {
+  urlPng: string;
+  urlWebp: string;
+  size: string;
+};
+
 export type Charger = {
   id: string;
   manufacturerId: string;
@@ -22,6 +37,7 @@ export type Charger = {
   chargePointModel: string;
   globalMeter: boolean;
   meterClass: string;
+  configKeyFeatures?: configKeyFeatures[];
   connectors: Connector[];
   images: Image[];
 };

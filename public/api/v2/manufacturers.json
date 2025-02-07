@@ -76,6 +76,29 @@
     ]
   },
   {
+    "id": "enua",
+    "name": "Enua",
+    "websiteUrl": "https://www.enua.no/",
+    "chargerManagementUrl": "",
+    "statusPageUrl": "",
+    "globalSupportUrl": "https://www.enua.no/support",
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "sintio-ag",
+            "company": "Sintio AG",
+            "websiteUrl": "https://www.sintio.ch",
+            "email": "support@sintio.ch",
+            "phone": "+41555053018"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "eaton",
     "name": "Eaton Manufacturing LP",
     "websiteUrl": "https://www.eaton.com",
