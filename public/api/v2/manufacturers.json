@@ -76,6 +76,15 @@
     ]
   },
   {
+    "id": "elecq",
+    "name": "Shenzhen ELECQ Technology Co., Ltd",
+    "websiteUrl": "https://www.elecq.com",
+    "chargerManagementUrl": "https://cloud-e.elecq.com",
+    "statusPageUrl": "",
+    "globalSupportUrl": "",
+    "supportByCountry": []
+  },
+  {
     "id": "enua",
     "name": "Enua",
     "websiteUrl": "https://www.enua.no/",
