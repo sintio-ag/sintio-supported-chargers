@@ -188,43 +188,21 @@
       {
         "name": "UnlockConnectorOnEVSideDisconnect",
         "enable": [
-          {
-            "configKey": "UnlockConnectorOnEVSideDisconnect",
-            "value": true
-          }
+          { "configKey": "UnlockConnectorOnEVSideDisconnect", "value": true }
         ],
         "disable": [
-          {
-            "configKey": "UnlockConnectorOnEVSideDisconnect",
-            "value": false
-          }
+          { "configKey": "UnlockConnectorOnEVSideDisconnect", "value": false }
         ]
       },
       {
         "name": "ChargingWithoutActiveAuth",
         "enable": [
-          {
-            "configKey": "freecharging",
-            "value": true,
-            "type": "boolean"
-          },
-          {
-            "configKey": "rfidtagfreecharging",
-            "value": "",
-            "type": "string"
-          }
+          { "configKey": "freecharging", "value": true, "type": "boolean" },
+          { "configKey": "rfidtagfreecharging", "value": "", "type": "string" }
         ],
         "disable": [
-          {
-            "configKey": "rfidtagfreecharging",
-            "value": "",
-            "type": "string"
-          },
-          {
-            "configKey": "freecharging",
-            "value": false,
-            "type": "boolean"
-          }
+          { "configKey": "rfidtagfreecharging", "value": "", "type": "string" },
+          { "configKey": "freecharging", "value": false, "type": "boolean" }
         ]
       }
     ],
@@ -274,43 +252,21 @@
       {
         "name": "UnlockConnectorOnEVSideDisconnect",
         "enable": [
-          {
-            "configKey": "UnlockConnectorOnEVSideDisconnect",
-            "value": true
-          }
+          { "configKey": "UnlockConnectorOnEVSideDisconnect", "value": true }
         ],
         "disable": [
-          {
-            "configKey": "UnlockConnectorOnEVSideDisconnect",
-            "value": false
-          }
+          { "configKey": "UnlockConnectorOnEVSideDisconnect", "value": false }
         ]
       },
       {
         "name": "ChargingWithoutActiveAuth",
         "enable": [
-          {
-            "configKey": "freecharging",
-            "value": true,
-            "type": "boolean"
-          },
-          {
-            "configKey": "rfidtagfreecharging",
-            "value": "",
-            "type": "string"
-          }
+          { "configKey": "freecharging", "value": true, "type": "boolean" },
+          { "configKey": "rfidtagfreecharging", "value": "", "type": "string" }
         ],
         "disable": [
-          {
-            "configKey": "rfidtagfreecharging",
-            "value": "",
-            "type": "string"
-          },
-          {
-            "configKey": "freecharging",
-            "value": false,
-            "type": "boolean"
-          }
+          { "configKey": "rfidtagfreecharging", "value": "", "type": "string" },
+          { "configKey": "freecharging", "value": false, "type": "boolean" }
         ]
       }
     ],
@@ -360,43 +316,21 @@
       {
         "name": "UnlockConnectorOnEVSideDisconnect",
         "enable": [
-          {
-            "configKey": "UnlockConnectorOnEVSideDisconnect",
-            "value": true
-          }
+          { "configKey": "UnlockConnectorOnEVSideDisconnect", "value": true }
         ],
         "disable": [
-          {
-            "configKey": "UnlockConnectorOnEVSideDisconnect",
-            "value": false
-          }
+          { "configKey": "UnlockConnectorOnEVSideDisconnect", "value": false }
         ]
       },
       {
         "name": "ChargingWithoutActiveAuth",
         "enable": [
-          {
-            "configKey": "freecharging",
-            "value": true,
-            "type": "boolean"
-          },
-          {
-            "configKey": "rfidtagfreecharging",
-            "value": "",
-            "type": "string"
-          }
+          { "configKey": "freecharging", "value": true, "type": "boolean" },
+          { "configKey": "rfidtagfreecharging", "value": "", "type": "string" }
         ],
         "disable": [
-          {
-            "configKey": "rfidtagfreecharging",
-            "value": "",
-            "type": "string"
-          },
-          {
-            "configKey": "freecharging",
-            "value": false,
-            "type": "boolean"
-          }
+          { "configKey": "rfidtagfreecharging", "value": "", "type": "string" },
+          { "configKey": "freecharging", "value": false, "type": "boolean" }
         ]
       }
     ],
@@ -446,43 +380,21 @@
       {
         "name": "UnlockConnectorOnEVSideDisconnect",
         "enable": [
-          {
-            "configKey": "UnlockConnectorOnEVSideDisconnect",
-            "value": true
-          }
+          { "configKey": "UnlockConnectorOnEVSideDisconnect", "value": true }
         ],
         "disable": [
-          {
-            "configKey": "UnlockConnectorOnEVSideDisconnect",
-            "value": false
-          }
+          { "configKey": "UnlockConnectorOnEVSideDisconnect", "value": false }
         ]
       },
       {
         "name": "ChargingWithoutActiveAuth",
         "enable": [
-          {
-            "configKey": "freecharging",
-            "value": true,
-            "type": "boolean"
-          },
-          {
-            "configKey": "rfidtagfreecharging",
-            "value": "",
-            "type": "string"
-          }
+          { "configKey": "freecharging", "value": true, "type": "boolean" },
+          { "configKey": "rfidtagfreecharging", "value": "", "type": "string" }
         ],
         "disable": [
-          {
-            "configKey": "rfidtagfreecharging",
-            "value": "",
-            "type": "string"
-          },
-          {
-            "configKey": "freecharging",
-            "value": false,
-            "type": "boolean"
-          }
+          { "configKey": "rfidtagfreecharging", "value": "", "type": "string" },
+          { "configKey": "freecharging", "value": false, "type": "boolean" }
         ]
       }
     ],
@@ -559,6 +471,90 @@
       {
         "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_50.png",
         "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "elecq-home",
+    "manufacturerId": "elecq",
+    "chargePointVendor": "ELECQ",
+    "chargePointModel": ["ELECQ AMPERE", "AE104", "AE105"],
+    "globalMeter": true,
+    "meterClass": "±1%",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "elecq-home",
+    "manufacturerId": "elecq",
+    "chargePointVendor": "ELECQ",
+    "chargePointModel": ["AE10E"],
+    "globalMeter": true,
+    "meterClass": "MID Class B (EN 50470)",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-biz_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-biz_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-biz_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-biz_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-biz_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-biz_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-biz_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-biz_50.webp",
         "size": "50"
       }
     ]
@@ -1135,28 +1131,12 @@
       {
         "name": "ChargingWithoutActiveAuth",
         "enable": [
-          {
-            "configKey": "FreeCharging",
-            "value": true,
-            "type": "boolean"
-          },
-          {
-            "configKey": "FreeChargingIdTag",
-            "value": "",
-            "type": "string"
-          }
+          { "configKey": "FreeCharging", "value": true, "type": "boolean" },
+          { "configKey": "FreeChargingIdTag", "value": "", "type": "string" }
         ],
         "disable": [
-          {
-            "configKey": "FreeChargingIdTag",
-            "value": "",
-            "type": "string"
-          },
-          {
-            "configKey": "FreeCharging",
-            "value": false,
-            "type": "boolean"
-          }
+          { "configKey": "FreeChargingIdTag", "value": "", "type": "string" },
+          { "configKey": "FreeCharging", "value": false, "type": "boolean" }
         ]
       }
     ],
@@ -1223,28 +1203,12 @@
       {
         "name": "ChargingWithoutActiveAuth",
         "enable": [
-          {
-            "configKey": "FreeCharging",
-            "value": true,
-            "type": "boolean"
-          },
-          {
-            "configKey": "FreeChargingIdTag",
-            "value": "",
-            "type": "string"
-          }
+          { "configKey": "FreeCharging", "value": true, "type": "boolean" },
+          { "configKey": "FreeChargingIdTag", "value": "", "type": "string" }
         ],
         "disable": [
-          {
-            "configKey": "FreeChargingIdTag",
-            "value": "",
-            "type": "string"
-          },
-          {
-            "configKey": "FreeCharging",
-            "value": false,
-            "type": "boolean"
-          }
+          { "configKey": "FreeChargingIdTag", "value": "", "type": "string" },
+          { "configKey": "FreeCharging", "value": false, "type": "boolean" }
         ]
       }
     ],
@@ -1311,28 +1275,12 @@
       {
         "name": "ChargingWithoutActiveAuth",
         "enable": [
-          {
-            "configKey": "FreeCharging",
-            "value": true,
-            "type": "boolean"
-          },
-          {
-            "configKey": "FreeChargingIdTag",
-            "value": "",
-            "type": "string"
-          }
+          { "configKey": "FreeCharging", "value": true, "type": "boolean" },
+          { "configKey": "FreeChargingIdTag", "value": "", "type": "string" }
         ],
         "disable": [
-          {
-            "configKey": "FreeChargingIdTag",
-            "value": "",
-            "type": "string"
-          },
-          {
-            "configKey": "FreeCharging",
-            "value": false,
-            "type": "boolean"
-          }
+          { "configKey": "FreeChargingIdTag", "value": "", "type": "string" },
+          { "configKey": "FreeCharging", "value": false, "type": "boolean" }
         ]
       }
     ],
@@ -1399,28 +1347,12 @@
       {
         "name": "ChargingWithoutActiveAuth",
         "enable": [
-          {
-            "configKey": "FreeCharging",
-            "value": true,
-            "type": "boolean"
-          },
-          {
-            "configKey": "FreeChargingIdTag",
-            "value": "",
-            "type": "string"
-          }
+          { "configKey": "FreeCharging", "value": true, "type": "boolean" },
+          { "configKey": "FreeChargingIdTag", "value": "", "type": "string" }
         ],
         "disable": [
-          {
-            "configKey": "FreeChargingIdTag",
-            "value": "",
-            "type": "string"
-          },
-          {
-            "configKey": "FreeCharging",
-            "value": false,
-            "type": "boolean"
-          }
+          { "configKey": "FreeChargingIdTag", "value": "", "type": "string" },
+          { "configKey": "FreeCharging", "value": false, "type": "boolean" }
         ]
       }
     ],
