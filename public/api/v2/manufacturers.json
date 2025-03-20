@@ -1,5 +1,28 @@
 [
   {
+    "id": "alfen",
+    "name": "Alfen ICU B.V.",
+    "websiteUrl": "https://alfen.com",
+    "chargerManagementUrl": "",
+    "statusPageUrl": "",
+    "globalSupportUrl": "https://aftersales.alfen.com",
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "elektro-material-ag",
+            "company": "Elektro-Material AG",
+            "websiteUrl": "https://www.elektro-material.ch",
+            "email": "info@e-m.ch",
+            "phone": "+41442781111"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "alpitronic",
     "name": "Alpitronic",
     "websiteUrl": "https://www.alpitronic.it",
