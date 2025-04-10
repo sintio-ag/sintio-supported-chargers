@@ -110,7 +110,7 @@
   {
     "id": "enua",
     "name": "Enua",
-    "websiteUrl": "https://www.enua.no/",
+    "websiteUrl": "https://www.enua.no",
     "chargerManagementUrl": "",
     "statusPageUrl": "",
     "globalSupportUrl": "https://www.enua.no/support",
@@ -348,6 +348,29 @@
             "websiteUrl": "https://www.smartred.de",
             "email": "support@smartred.de",
             "phone": "+4973489870510"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "webasto",
+    "name": "Webasto Thermo & Comfort SE",
+    "websiteUrl": "https://www.webasto.com",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
+    "globalSupportUrl": null,
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "otto-fischer-ag",
+            "company": "Otto Fischer AG",
+            "websiteUrl": "https://www.ottofischer.ch",
+            "email": "info@ottofischer.ch",
+            "phone": "+41442767676"
           }
         ]
       }

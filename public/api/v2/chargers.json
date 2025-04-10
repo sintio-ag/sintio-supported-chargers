@@ -1068,6 +1068,48 @@
     ]
   },
   {
+    "id": "webasto-live",
+    "manufacturerId": "webasto",
+    "chargePointVendor": "Webasto",
+    "chargePointModel": ["Webasto_AC_Live"],
+    "globalMeter": true,
+    "meterClass": "MID Class B (EN 50470)",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "CABLE",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/webasto/webasto-live_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/webasto/webasto-live_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/webasto/webasto-live_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/webasto/webasto-live_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/webasto/webasto-live_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/webasto/webasto-live_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/webasto/webasto-live_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/webasto/webasto-live_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
     "id": "weidmueller-ac-smart-advanced",
     "manufacturerId": "weidmueller",
     "chargePointVendor": "Weidmueller",
