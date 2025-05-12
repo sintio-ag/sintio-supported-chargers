@@ -17,6 +17,13 @@
             "websiteUrl": "https://www.elektro-material.ch",
             "email": "info@e-m.ch",
             "phone": "+41442781111"
+          },
+          {
+            "id": "alfen-icu-bv",
+            "company": "Alfen ICU B.V.",
+            "websiteUrl": "https://alfen.com",
+            "email": "ace.salessupport@alfen.com",
+            "phone": "+31365493400"
           }
         ]
       }
