@@ -1,5 +1,47 @@
 [
   {
+    "id": "abb-terra-ac-wallbox",
+    "manufacturerId": "abb",
+    "chargePointVendor": "ABB",
+    "chargePointModel": ["Terra"],
+    "globalMeter": true,
+    "meterClass": "MID Class B (EN 50470)",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-ac-wallbox_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-ac-wallbox_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-ac-wallbox_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-ac-wallbox_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-ac-wallbox_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-ac-wallbox_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-ac-wallbox_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-ac-wallbox_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
     "id": "alfen-eve-double-pro-line",
     "manufacturerId": "alfen",
     "chargePointVendor": "Alfen BV",
