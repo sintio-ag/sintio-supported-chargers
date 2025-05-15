@@ -1,5 +1,28 @@
 [
   {
+    "id": "abb",
+    "name": "ABB Schweiz AG",
+    "websiteUrl": "https://global.abb",
+    "chargerManagementUrl": "https://abb.installer.chargedot.com/",
+    "statusPageUrl": "",
+    "globalSupportUrl": "https://new.abb.com/ev-charging",
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "abb-schweiz-ag",
+            "company": "ABB Schweiz AG",
+            "websiteUrl": "https://new.abb.com/ev-charging/de-ch/support",
+            "email": "contact.center@ch.abb.com",
+            "phone": "+41844845845"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "alfen",
     "name": "Alfen ICU B.V.",
     "websiteUrl": "https://alfen.com",
