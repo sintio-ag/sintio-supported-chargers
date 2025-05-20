@@ -527,7 +527,22 @@
     "id": "elecq-home",
     "manufacturerId": "elecq",
     "chargePointVendor": "ELECQ",
-    "chargePointModel": ["ELECQ AMPERE", "AE104", "AE105", "AE111"],
+    "chargePointModel": [
+      "ELECQ AMPERE",
+      "AE104",
+      "AE105",
+      "AE111",
+      "AE102",
+      "AE103",
+      "AE10Q",
+      "AE10R",
+      "AE106",
+      "AE107",
+      "AE10S",
+      "AE10T",
+      "AE108",
+      "AE109"
+    ],
     "globalMeter": true,
     "meterClass": "±1%",
     "connectors": [
@@ -569,7 +584,57 @@
     "id": "elecq-home",
     "manufacturerId": "elecq",
     "chargePointVendor": "ELECQ",
-    "chargePointModel": ["AE10E"],
+    "chargePointModel": [
+      "AE10E",
+      "AE10H",
+      "AE10J",
+      "AE10U",
+      "AE10W",
+      "AE10K",
+      "AE10M"
+    ],
+    "globalMeter": true,
+    "meterClass": "±1%",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "CABLE",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "elecq-biz",
+    "manufacturerId": "elecq",
+    "chargePointVendor": "ELECQ",
+    "chargePointModel": ["AE10N", "AE10E", "AE10P", "AE10G"],
     "globalMeter": true,
     "meterClass": "MID Class B (EN 50470)",
     "connectors": [
