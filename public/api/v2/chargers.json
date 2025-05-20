@@ -527,7 +527,7 @@
     "id": "elecq-home",
     "manufacturerId": "elecq",
     "chargePointVendor": "ELECQ",
-    "chargePointModel": ["ELECQ AMPERE", "AE104", "AE105"],
+    "chargePointModel": ["ELECQ AMPERE", "AE104", "AE105", "AE111"],
     "globalMeter": true,
     "meterClass": "±1%",
     "connectors": [
