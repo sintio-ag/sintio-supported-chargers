@@ -609,23 +609,23 @@
     ],
     "images": [
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_orig.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_orig.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home-cable_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home-cable_orig.webp",
         "size": "original"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_500.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_500.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home-cable_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home-cable_500.webp",
         "size": "500"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_100.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_100.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home-cable_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home-cable_100.webp",
         "size": "100"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_50.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home_50.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home-cable_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-home-cable_50.webp",
         "size": "50"
       }
     ]
