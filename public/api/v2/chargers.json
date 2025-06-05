@@ -3,7 +3,9 @@
     "id": "abb-terra-ac-wallbox",
     "manufacturerId": "abb",
     "chargePointVendor": "ABB",
-    "chargePointModel": ["Terra"],
+    "chargePointModel": [
+      "Terra"
+    ],
     "globalMeter": true,
     "meterClass": "MID Class B (EN 50470)",
     "connectors": [
@@ -45,7 +47,9 @@
     "id": "alfen-eve-double-pro-line",
     "manufacturerId": "alfen",
     "chargePointVendor": "Alfen BV",
-    "chargePointModel": ["NG920-61021"],
+    "chargePointModel": [
+      "NG920-61021"
+    ],
     "globalMeter": true,
     "meterClass": "MID Class B (EN 50470)",
     "connectors": [
@@ -97,7 +101,9 @@
     "id": "alfen-eve-single-pro-line",
     "manufacturerId": "alfen",
     "chargePointVendor": "Alfen BV",
-    "chargePointModel": ["ICU Eve Mini"],
+    "chargePointModel": [
+      "ICU Eve Mini"
+    ],
     "globalMeter": true,
     "meterClass": "MID Class B (EN 50470)",
     "connectors": [
@@ -139,7 +145,9 @@
     "id": "alpitronic-hyc-50",
     "manufacturerId": "alpitronic",
     "chargePointVendor": "alpitronic GmbH",
-    "chargePointModel": ["HYC50_2_24_24"],
+    "chargePointModel": [
+      "HYC50_2_24_24"
+    ],
     "globalMeter": true,
     "meterClass": "MID Class A (EN 50470)",
     "connectors": [
@@ -191,9 +199,11 @@
     "id": "dazebox-c",
     "manufacturerId": "daze",
     "chargePointVendor": "Daze Technology",
-    "chargePointModel": ["DZC"],
+    "chargePointModel": [
+      "DZC"
+    ],
     "globalMeter": false,
-    "meterClass": "±2-5% ",
+    "meterClass": "±2-5%",
     "connectors": [
       {
         "connectorId": 1,
@@ -233,9 +243,11 @@
     "id": "dazebox-home-s",
     "manufacturerId": "daze",
     "chargePointVendor": "Daze Technology",
-    "chargePointModel": ["DZH"],
+    "chargePointModel": [
+      "DZH"
+    ],
     "globalMeter": false,
-    "meterClass": "±2-5% ",
+    "meterClass": "±2-5%",
     "connectors": [
       {
         "connectorId": 1,
@@ -275,9 +287,11 @@
     "id": "dazebox-share-c",
     "manufacturerId": "daze",
     "chargePointVendor": "Daze Technology",
-    "chargePointModel": ["DT02"],
+    "chargePointModel": [
+      "DT02"
+    ],
     "globalMeter": false,
-    "meterClass": "±2-5% ",
+    "meterClass": "±2-5%",
     "connectors": [
       {
         "connectorId": 1,
@@ -317,9 +331,56 @@
     "id": "dazebox-share-s",
     "manufacturerId": "daze",
     "chargePointVendor": "Daze Technology",
-    "chargePointModel": ["DZCob", "DS02"],
+    "chargePointModel": [
+      "DZCob",
+      "DS02"
+    ],
     "globalMeter": false,
-    "meterClass": "±2-5% ",
+    "meterClass": "±2-5%",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-share-s_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-share-s_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-share-s_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-share-s_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-share-s_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-share-s_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-share-s_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/dazebox-share-s_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "dazebox-share-s-mid",
+    "manufacturerId": "daze",
+    "chargePointVendor": "Daze Technology",
+    "chargePointModel": [
+      "DS02M"
+    ],
+    "globalMeter": false,
+    "meterClass": "MID Class B (EN 50470)",
     "connectors": [
       {
         "connectorId": 1,
@@ -359,7 +420,11 @@
     "id": "easee-charge",
     "manufacturerId": "easee",
     "chargePointVendor": "Easee",
-    "chargePointModel": ["Easee Charge", "Charge Core", "Easee Up"],
+    "chargePointModel": [
+      "Easee Charge",
+      "Charge Core",
+      "Easee Up"
+    ],
     "globalMeter": true,
     "meterClass": "±2%",
     "connectors": [
@@ -401,7 +466,9 @@
     "id": "easee-home",
     "manufacturerId": "easee",
     "chargePointVendor": "Easee",
-    "chargePointModel": ["Easee Home"],
+    "chargePointModel": [
+      "Easee Home"
+    ],
     "globalMeter": true,
     "meterClass": "±2%",
     "connectors": [
@@ -443,7 +510,9 @@
     "id": "easee-charge-lite",
     "manufacturerId": "easee",
     "chargePointVendor": "Easee",
-    "chargePointModel": ["Charge Lite"],
+    "chargePointModel": [
+      "Charge Lite"
+    ],
     "globalMeter": true,
     "meterClass": "±2%",
     "connectors": [
@@ -485,7 +554,9 @@
     "id": "easee-charge-max",
     "manufacturerId": "easee",
     "chargePointVendor": "Easee",
-    "chargePointModel": ["Charge Max"],
+    "chargePointModel": [
+      "Charge Max"
+    ],
     "globalMeter": true,
     "meterClass": "MID Class B (EN 50470)",
     "connectors": [
@@ -527,7 +598,9 @@
     "id": "easee-charge-up",
     "manufacturerId": "easee",
     "chargePointVendor": "Easee",
-    "chargePointModel": ["Charge Up"],
+    "chargePointModel": [
+      "Charge Up"
+    ],
     "globalMeter": true,
     "meterClass": "±2%",
     "connectors": [
@@ -676,7 +749,12 @@
     "id": "elecq-biz",
     "manufacturerId": "elecq",
     "chargePointVendor": "ELECQ",
-    "chargePointModel": ["AE10N", "AE10E", "AE10P", "AE10G"],
+    "chargePointModel": [
+      "AE10N",
+      "AE10E",
+      "AE10P",
+      "AE10G"
+    ],
     "globalMeter": true,
     "meterClass": "MID Class B (EN 50470)",
     "connectors": [
@@ -718,7 +796,9 @@
     "id": "enua-charge",
     "manufacturerId": "easee",
     "chargePointVendor": "Enua",
-    "chargePointModel": ["Enua Charge"],
+    "chargePointModel": [
+      "Enua Charge"
+    ],
     "globalMeter": true,
     "meterClass": "MID Class B (EN 50470)",
     "connectors": [
@@ -760,7 +840,9 @@
     "id": "greenmotion-omnibox",
     "manufacturerId": "eaton",
     "chargePointVendor": "GreenMotion",
-    "chargePointModel": ["Omnibox"],
+    "chargePointModel": [
+      "Omnibox"
+    ],
     "globalMeter": false,
     "meterClass": "MID Class B (EN 50470)",
     "connectors": [
@@ -901,7 +983,9 @@
     "id": "garo-entity",
     "manufacturerId": "garo",
     "chargePointVendor": "Garo",
-    "chargePointModel": ["EntityPro"],
+    "chargePointModel": [
+      "EntityPro"
+    ],
     "globalMeter": true,
     "meterClass": "MID Class B (EN 50470)",
     "connectors": [
@@ -943,7 +1027,9 @@
     "id": "hager-witty-share",
     "manufacturerId": "hager",
     "chargePointVendor": "Hager",
-    "chargePointModel": ["XEV1R22T2"],
+    "chargePointModel": [
+      "XEV1R22T2"
+    ],
     "globalMeter": true,
     "meterClass": "±2%",
     "connectors": [
@@ -985,7 +1071,9 @@
     "id": "hager-witty-share-te",
     "manufacturerId": "hager",
     "chargePointVendor": "Hager (EN 50470)",
-    "chargePointModel": ["XEV1R22T2TE"],
+    "chargePointModel": [
+      "XEV1R22T2TE"
+    ],
     "globalMeter": true,
     "meterClass": "±2%",
     "connectors": [
@@ -1178,7 +1266,10 @@
     "id": "nexblue-edge",
     "manufacturerId": "nexblue",
     "chargePointVendor": "NEXBLUE",
-    "chargePointModel": ["NB1620A", "NB2620A"],
+    "chargePointModel": [
+      "NB1620A",
+      "NB2620A"
+    ],
     "globalMeter": true,
     "meterClass": "±2%",
     "connectors": [
@@ -1220,7 +1311,9 @@
     "id": "smart-me-pico",
     "manufacturerId": "smart-me",
     "chargePointVendor": "smart-me",
-    "chargePointModel": ["pico"],
+    "chargePointModel": [
+      "pico"
+    ],
     "globalMeter": true,
     "meterClass": "MID Class B (EN 50470)",
     "connectors": [
@@ -1262,7 +1355,9 @@
     "id": "webasto-live",
     "manufacturerId": "webasto",
     "chargePointVendor": "Webasto",
-    "chargePointModel": ["Webasto_AC_Live"],
+    "chargePointModel": [
+      "Webasto_AC_Live"
+    ],
     "globalMeter": true,
     "meterClass": "MID Class B (EN 50470)",
     "connectors": [
@@ -1304,7 +1399,9 @@
     "id": "weidmueller-ac-smart-advanced",
     "manufacturerId": "weidmueller",
     "chargePointVendor": "Weidmueller",
-    "chargePointModel": ["ACSMART"],
+    "chargePointModel": [
+      "ACSMART"
+    ],
     "globalMeter": true,
     "meterClass": "MID Class B (EN 50470)",
     "connectors": [
@@ -1346,7 +1443,9 @@
     "id": "zaptec-go",
     "manufacturerId": "zaptec",
     "chargePointVendor": "Zaptec",
-    "chargePointModel": ["Zaptec Go"],
+    "chargePointModel": [
+      "Zaptec Go"
+    ],
     "globalMeter": false,
     "meterClass": "~3%",
     "connectors": [
@@ -1388,7 +1487,9 @@
     "id": "zaptec-home",
     "manufacturerId": "zaptec",
     "chargePointVendor": "Zaptec",
-    "chargePointModel": ["ZAPTEC HOME"],
+    "chargePointModel": [
+      "ZAPTEC HOME"
+    ],
     "globalMeter": false,
     "meterClass": "±1%",
     "connectors": [
@@ -1430,7 +1531,9 @@
     "id": "zaptec-pro",
     "manufacturerId": "zaptec",
     "chargePointVendor": "Zaptec",
-    "chargePointModel": ["ZAPTEC PRO"],
+    "chargePointModel": [
+      "ZAPTEC PRO"
+    ],
     "globalMeter": false,
     "meterClass": "MID Class B (EN 50470)",
     "connectors": [
@@ -1472,7 +1575,9 @@
     "id": "zaptec-zapcharger-pro",
     "manufacturerId": "zaptec",
     "chargePointVendor": "Zaptec",
-    "chargePointModel": ["ZapCharger Pro"],
+    "chargePointModel": [
+      "ZapCharger Pro"
+    ],
     "globalMeter": false,
     "meterClass": "±1%",
     "connectors": [
