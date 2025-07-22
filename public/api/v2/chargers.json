@@ -646,6 +646,7 @@
       "ELECQ AMPERE",
       "AE104",
       "AE105",
+      "AE110",
       "AE111",
       "AE102",
       "AE103",
@@ -1435,6 +1436,50 @@
       {
         "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-ac-smart-advanced_50.png",
         "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-ac-smart-advanced_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "vool-charger",
+    "manufacturerId": "multicharge-ou",
+    "chargePointVendor": "VOOL",
+    "chargePointModel": [
+      "CC22K3X"
+    ],
+    "globalMeter": true,
+    "meterClass": "±2%",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "CABLE",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/vool/vool-charger-aluminum_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/vool/vool-charger-aluminum_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/vool/vool-charger-aluminum_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/vool/vool-charger-aluminum_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/vool/vool-charger-aluminum_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/vool/vool-charger-aluminum_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/vool/vool-charger-aluminum_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/vool/vool-charger-aluminum_50.webp",
         "size": "50"
       }
     ]
