@@ -430,6 +430,29 @@
     ]
   },
   {
+    "id": "multicharge-ou",
+    "name": "MultiCharge OÜ",
+    "websiteUrl": "https://www.vool.com",
+    "chargerManagementUrl": "https://app.vool.com/welcome",
+    "statusPageUrl": null,
+    "globalSupportUrl": "https://support.vool.com/en",
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "partino-mobile-energie-ag",
+            "company": "Partino Mobile Energie AG",
+            "websiteUrl": "https://www.partino.ch",
+            "email": "e-mobility@partino.ch",
+            "phone": "+41628324242"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "zaptec",
     "name": "Zaptec",
     "websiteUrl": "https://www.zaptec.com",
