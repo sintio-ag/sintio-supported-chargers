@@ -1269,7 +1269,8 @@
     "chargePointVendor": "NEXBLUE",
     "chargePointModel": [
       "NB1620A",
-      "NB2620A"
+      "NB2620A",
+      "NexBlue Edge"
     ],
     "globalMeter": true,
     "meterClass": "±2%",
