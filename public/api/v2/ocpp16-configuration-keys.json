@@ -60,7 +60,7 @@
     "read": true,
     "write": true,
     "type": "integer",
-    "defaultValue": "",
+    "defaultValue": "60",
     "unit": "seconds",
     "description": "Interval *from beginning of status: 'Preparing' until incipient Transaction is automatically canceled, due to failure of EV driver to (correctly) insert the charging cable connector(s) into the appropriate socket(s). The Charge Point SHALL go back to the original state, probably: 'Available'.",
     "origin": "OCPP"
@@ -181,7 +181,7 @@
     "read": true,
     "write": true,
     "type": "CSL",
-    "defaultValue": "Energy.Active.Import.Register, Power.Active.Import",
+    "defaultValue": "Energy.Active.Import.Register,Energy.Active.Import.Interval,Power.Active.Import",
     "unit": "",
     "description": "Sampled measurands to be included in a MeterValues.req PDU, every MeterValueSampleInterval seconds. Where applicable, the Measurand is combined with the optional phase; for instance: Voltage.L1 Default: 'Energy.Active.Import.Register'",
     "origin": "OCPP"
@@ -335,7 +335,7 @@
     "read": true,
     "write": true,
     "type": "integer",
-    "defaultValue": "",
+    "defaultValue": "3",
     "unit": "times",
     "description": "How often the Charge Point should try to submit a transaction-related message when the Central System fails to process it.",
     "origin": "OCPP"
