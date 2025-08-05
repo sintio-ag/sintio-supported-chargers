@@ -28,7 +28,7 @@ const ConfigurationKeys = () => {
     "Accessibility",
     "Description",
     "Value",
-    "Recommended value",
+    "Sintio Default",
     "Unit",
     "Origin",
   ];
@@ -47,7 +47,7 @@ const ConfigurationKeys = () => {
         key.read && key.write ? "Read/Write" : key.read ? "Read" : "Write",
       Description: key.description,
       Value: key.type,
-      "Sintio Default Value": key.defaultValue,
+      "Sintio Default": key.defaultValue,
       Unit: key.unit,
       Origin: key.origin,
     })) || [];
