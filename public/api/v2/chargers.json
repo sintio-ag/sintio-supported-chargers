@@ -981,6 +981,60 @@
     ]
   },
   {
+    "id": "flexicharge-charging-pole-double",
+    "manufacturerId": "flexicharge",
+    "chargePointVendor": "Flexicharge",
+    "chargePointModel": [
+      "CC613_ELM4PR"
+    ],
+    "globalMeter": true,
+    "meterClass": "MID Class B (EN 50470)",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+      },
+      {
+        "connectorId": 2,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/flexicharge/flexicharge-charging-pole-double_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/flexicharge/flexicharge-charging-pole-double_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/flexicharge/flexicharge-charging-pole-double_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/flexicharge/flexicharge-charging-pole-double_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/flexicharge/flexicharge-charging-pole-double_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/flexicharge/flexicharge-charging-pole-double_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/flexicharge/flexicharge-charging-pole-double_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/flexicharge/flexicharge-charging-pole-double_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
     "id": "garo-entity",
     "manufacturerId": "garo",
     "chargePointVendor": "Garo",

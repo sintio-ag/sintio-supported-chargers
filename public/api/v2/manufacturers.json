@@ -207,6 +207,29 @@
     ]
   },
   {
+    "id": "flexicharge",
+    "name": "Flexicharge BV",
+    "websiteUrl": "https://www.flexicharge.nl",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
+    "globalSupportUrl": null,
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "optec-ag",
+            "company": "Optec AG",
+            "websiteUrl": "https://www.optec.ch",
+            "email": "info@optec.ch",
+            "phone": "+41449330770"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "garo",
     "name": "GARO",
     "websiteUrl": "http://garocharging.com",
