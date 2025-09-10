@@ -1584,6 +1584,50 @@
     ]
   },
   {
+    "id": "zaptec-go2",
+    "manufacturerId": "zaptec",
+    "chargePointVendor": "Zaptec",
+    "chargePointModel": [
+      "Zaptec Go2"
+    ],
+    "globalMeter": false,
+    "meterClass": "MID Class B (EN 50470)",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-go2_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-go2_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-go2_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-go2_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-go2_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-go2_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-go2_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-go2_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
     "id": "zaptec-home",
     "manufacturerId": "zaptec",
     "chargePointVendor": "Zaptec",
