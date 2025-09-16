@@ -1079,11 +1079,11 @@
     ]
   },
   {
-    "id": "hager-witty-share",
+    "id": "hager-witty-plus",
     "manufacturerId": "hager",
     "chargePointVendor": "Hager",
     "chargePointModel": [
-      "XEV1R22T2"
+      "XVL122S"
     ],
     "globalMeter": true,
     "meterClass": "±2%",
@@ -1118,6 +1118,50 @@
       {
         "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-share_50.png",
         "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-share_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "hager-witty-share",
+    "manufacturerId": "hager",
+    "chargePointVendor": "Hager",
+    "chargePointModel": [
+      "XEV1R22T2"
+    ],
+    "globalMeter": true,
+    "meterClass": "±2%",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-plus_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-plus_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-plus_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-plus_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-plus_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-plus_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-plus_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-witty-plus_50.webp",
         "size": "50"
       }
     ]
@@ -1266,6 +1310,50 @@
       {
         "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amedio-professional_50.png",
         "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amedio-professional_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "mennekes-amtron-4you",
+    "manufacturerId": "mennekes",
+    "chargePointVendor": "MENNEKES",
+    "chargePointModel": [
+      "AMTRON 4You"
+    ],
+    "globalMeter": true,
+    "meterClass": "MID Class B (EN 50470)",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amtron-4you_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amtron-4you_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amtron-4you_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amtron-4you_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amtron-4you_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amtron-4you_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amtron-4you_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amtron-4you_50.webp",
         "size": "50"
       }
     ]
