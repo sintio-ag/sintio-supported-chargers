@@ -9,13 +9,13 @@
     "connectors": [
       {
         "connectorId": 1,
-        "standard": "IEC_62196_T2",
+        "standard": "IEC_62196_T2_COMBO",
         "format": "SOCKET",
-        "powerType": "AC_3_PHASE",
-        "voltage": 400,
-        "amperage": 32,
-        "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "powerType": "DC",
+        "voltage": 500,
+        "amperage": 100,
+        "maxElectricPower": 50000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connecto_ff-ccs-combo-2.svg"
       }
     ],
     "images": [
@@ -25,18 +25,18 @@
         "size": "original"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-ac-wallbox_500.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-ac-wallbox_500.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-dc-wallbox_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-dc-wallbox_500.webp",
         "size": "500"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-ac-wallbox_100.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-ac-wallbox_100.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-dc-wallbox_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-dc-wallbox_100.webp",
         "size": "100"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-ac-wallbox_50.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-ac-wallbox_50.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-dc-wallbox_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-dc-wallbox_50.webp",
         "size": "50"
       }
     ]
