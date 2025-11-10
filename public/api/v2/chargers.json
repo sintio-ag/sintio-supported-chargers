@@ -3,7 +3,7 @@
     "id": "abb-terra-dc-wallbox",
     "manufacturerId": "abb",
     "chargePointVendor": "ABB",
-    "chargePointModel": ["Terra"],
+    "chargePointModel": ["MD_HVC_CAR"],
     "globalMeter": true,
     "meterClass": "MID Class B (EN 50470)",
     "connectors": [
@@ -12,10 +12,30 @@
         "standard": "IEC_62196_T2_COMBO",
         "format": "SOCKET",
         "powerType": "DC",
-        "voltage": 500,
-        "amperage": 100,
+        "voltage": 920,
+        "amperage": 125,
         "maxElectricPower": 50000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connecto_ff-ccs-combo-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector_ff-ccs-combo-2.svg"
+      },
+      {
+        "connectorId": 2,
+        "standard": "JEVS_G105",
+        "format": "SOCKET",
+        "powerType": "DC",
+        "voltage": 500,
+        "amperage": 125,
+        "maxElectricPower": 50000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector_ff-chademo.svg"
+      },
+      {
+        "connectorId": 3,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector_ff-type2.svg"
       }
     ],
     "images": [
