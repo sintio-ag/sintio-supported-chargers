@@ -15,7 +15,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector_ff.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
       },
       {
         "connectorId": 2,
