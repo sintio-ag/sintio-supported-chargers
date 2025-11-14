@@ -29,6 +29,7 @@ const Home = () => {
         <img
           src={charger.images.find((image) => image.size === "50")?.urlWebp}
           alt="Charger Image"
+          loading="lazy"
         />
       ),
       Vendor: (
