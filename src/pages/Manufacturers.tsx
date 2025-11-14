@@ -48,7 +48,7 @@ const Manufacturer = () => {
             <img
               src={logo.urlPng}
               alt={`${manufacturer.name} logo`}
-              className="h-12 w-auto max-w-[120px]"
+              className="w-auto max-w-[120px]"
               loading="lazy"
             />
           </picture>
