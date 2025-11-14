@@ -422,6 +422,22 @@ function ApiDocumentation() {
           manufacturer's global support page.
         </li>
         <li>
+          <strong>logos</strong> (array of objects): Collection of logo assets
+          for the manufacturer. Each logo includes:
+          <ul>
+            <li>
+              <strong>urlPng</strong> (string): Direct URL to the PNG logo.
+            </li>
+            <li>
+              <strong>urlWebp</strong> (string): Direct URL to the WebP logo.
+            </li>
+            <li>
+              <strong>size</strong> (string): The width of the asset in pixels
+              (e.g., 50, 100, 500, 1000, 2000).
+            </li>
+          </ul>
+        </li>
+        <li>
           <strong>supportByCountry</strong> (array of objects, optional): An
           array of objects detailing support options by country. Each object
           includes:

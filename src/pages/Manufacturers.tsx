@@ -13,11 +13,47 @@ const Manufacturer = () => {
   } = useFetch<Manufacturer[]>(`${baseUrl}/api/v2/manufacturers.json`);
 
   // Define headers for the manufacturer table with support contacts
-  const headers = ["Name", "Website", "Global Support", "Support by Country"];
+  const headers = [
+    "Logo",
+    "Name",
+    "Website",
+    "Global Support",
+    "Support by Country",
+  ];
+
+  const getLogoForManufacturer = (manufacturer: Manufacturer) => {
+    if (!manufacturer.logos?.length) {
+      return null;
+    }
+
+    return (
+      manufacturer.logos.find((entry) => entry.size === "100") ||
+      manufacturer.logos[0]
+    );
+  };
 
   // Prepare content for the manufacturer table
   const content =
     manufacturers?.map((manufacturer) => ({
+      Logo: (() => {
+        const logo = getLogoForManufacturer(manufacturer);
+
+        if (!logo) {
+          return <span className="text-xs text-gray-400">No logo</span>;
+        }
+
+        return (
+          <picture>
+            <source srcSet={logo.urlWebp} type="image/webp" />
+            <img
+              src={logo.urlPng}
+              alt={`${manufacturer.name} logo`}
+              className="h-12 w-auto max-w-[120px]"
+              loading="lazy"
+            />
+          </picture>
+        );
+      })(),
       Name: manufacturer.name,
       Website: (
         <a

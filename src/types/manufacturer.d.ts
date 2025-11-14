@@ -12,6 +12,12 @@ type SupportByCountry = {
   supportCompanies: SupportCompany[];
 };
 
+type Logo = {
+  urlPng: string;
+  urlWebp: string;
+  size: string;
+};
+
 export type Manufacturer = {
   id: string;
   name: string;
@@ -20,4 +26,5 @@ export type Manufacturer = {
   statusPageUrl: string | null;
   globalSupportUrl: string | null;
   supportByCountry?: SupportByCountry[];
+  logos: Logo[];
 };
