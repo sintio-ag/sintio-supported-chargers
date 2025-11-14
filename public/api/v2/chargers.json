@@ -1107,7 +1107,7 @@
     "chargePointVendor": "Hager",
     "chargePointModel": ["XVL122S", "XVL122C"],
     "globalMeter": true,
-    "meterClass": "±2%",
+    "meterClass": "MID Class B (EN 50470)",
     "connectors": [
       {
         "connectorId": 1,
@@ -1149,7 +1149,7 @@
     "chargePointVendor": "Hager",
     "chargePointModel": ["XVL122SCH", "XVL122CCH"],
     "globalMeter": true,
-    "meterClass": "±2%",
+    "meterClass": "MID Class B (EN 50470)",
     "connectors": [
       {
         "connectorId": 1,
@@ -1191,7 +1191,7 @@
     "chargePointVendor": "Hager",
     "chargePointModel": ["XVG222S", "XVP222S"],
     "globalMeter": true,
-    "meterClass": "±2%",
+    "meterClass": "MID Class B (EN 50470)",
     "connectors": [
       {
         "connectorId": 1,
