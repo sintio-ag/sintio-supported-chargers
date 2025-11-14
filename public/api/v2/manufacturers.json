@@ -2,6 +2,9 @@
   {
     "id": "abb",
     "name": "ABB Schweiz AG",
+    "chargePointVendor": [
+      "ABB"
+    ],
     "websiteUrl": "https://global.abb",
     "chargerManagementUrl": "https://abb.installer.chargedot.com/",
     "statusPageUrl": "",
@@ -20,11 +23,41 @@
           }
         ]
       }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-logo_2000.webp",
+        "size": "2000"
+      }
     ]
   },
   {
     "id": "alfen",
     "name": "Alfen ICU B.V.",
+    "chargePointVendor": [
+      "Alfen BV"
+    ],
     "websiteUrl": "https://alfen.com",
     "chargerManagementUrl": "",
     "statusPageUrl": "",
@@ -50,11 +83,41 @@
           }
         ]
       }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/alfen/alfen-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/alfen/alfen-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/alfen/alfen-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/alfen/alfen-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/alfen/alfen-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/alfen/alfen-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/alfen/alfen-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/alfen/alfen-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/alfen/alfen-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/alfen/alfen-logo_2000.webp",
+        "size": "2000"
+      }
     ]
   },
   {
     "id": "alpitronic",
     "name": "Alpitronic",
+    "chargePointVendor": [
+      "alpitronic GmbH"
+    ],
     "websiteUrl": "https://www.alpitronic.it",
     "chargerManagementUrl": "",
     "statusPageUrl": "",
@@ -80,11 +143,41 @@
           }
         ]
       }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-logo_2000.webp",
+        "size": "2000"
+      }
     ]
   },
   {
     "id": "daze",
     "name": "Daze",
+    "chargePointVendor": [
+      "Daze Technology"
+    ],
     "websiteUrl": "https://daze.eu",
     "chargerManagementUrl": null,
     "statusPageUrl": null,
@@ -103,11 +196,41 @@
           }
         ]
       }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/daze-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/daze-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/daze-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/daze-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/daze-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/daze-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/daze-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/daze-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/daze-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/daze/daze-logo_2000.webp",
+        "size": "2000"
+      }
     ]
   },
   {
     "id": "easee",
     "name": "Easee",
+    "chargePointVendor": [
+      "Easee"
+    ],
     "websiteUrl": "https://easee.com",
     "chargerManagementUrl": "https://portal.easee.com",
     "statusPageUrl": "https://status.easee.com",
@@ -126,20 +249,80 @@
           }
         ]
       }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-logo_2000.webp",
+        "size": "2000"
+      }
     ]
   },
   {
     "id": "elecq",
-    "name": "Shenzhen ELECQ Technology Co., Ltd",
+    "name": "Shenzhen Elecq Digital Energy Co., Lt",
+    "chargePointVendor": [
+      "ELECQ"
+    ],
     "websiteUrl": "https://www.elecq.com",
     "chargerManagementUrl": "https://cloud-e.elecq.com",
     "statusPageUrl": "",
     "globalSupportUrl": "",
-    "supportByCountry": []
+    "supportByCountry": [],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-logo_2000.webp",
+        "size": "2000"
+      }
+    ]
   },
   {
     "id": "enua",
     "name": "Enua",
+    "chargePointVendor": [
+      "Enua"
+    ],
     "websiteUrl": "https://www.enua.no",
     "chargerManagementUrl": "",
     "statusPageUrl": "",
@@ -158,11 +341,41 @@
           }
         ]
       }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/enua/enua-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/enua/enua-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/enua/enua-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/enua/enua-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/enua/enua-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/enua/enua-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/enua/enua-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/enua/enua-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/enua/enua-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/enua/enua-logo_2000.webp",
+        "size": "2000"
+      }
     ]
   },
   {
     "id": "eaton",
     "name": "Eaton Manufacturing LP",
+    "chargePointVendor": [
+      "GreenMotion"
+    ],
     "websiteUrl": "https://www.eaton.com",
     "chargerManagementUrl": "",
     "statusPageUrl": "",
@@ -181,11 +394,41 @@
           }
         ]
       }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/eaton-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/eaton-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/eaton-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/eaton-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/eaton-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/eaton-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/eaton-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/eaton-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/eaton-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/eaton/eaton-logo_2000.webp",
+        "size": "2000"
+      }
     ]
   },
   {
     "id": "etrel",
     "name": "Etrel d.o.o",
+    "chargePointVendor": [
+      "Etrel"
+    ],
     "websiteUrl": "https://etrel.com",
     "chargerManagementUrl": "",
     "statusPageUrl": "",
@@ -204,11 +447,41 @@
           }
         ]
       }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/etrel/etrel-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/etrel/etrel-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/etrel/etrel-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/etrel/etrel-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/etrel/etrel-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/etrel/etrel-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/etrel/etrel-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/etrel/etrel-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/etrel/etrel-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/etrel/etrel-logo_2000.webp",
+        "size": "2000"
+      }
     ]
   },
   {
     "id": "flexicharge",
     "name": "Flexicharge BV",
+    "chargePointVendor": [
+      "Flexicharge"
+    ],
     "websiteUrl": "https://www.flexicharge.nl",
     "chargerManagementUrl": null,
     "statusPageUrl": null,
@@ -227,11 +500,41 @@
           }
         ]
       }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/flexicharge/flexicharge-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/flexicharge/flexicharge-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/flexicharge/flexicharge-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/flexicharge/flexicharge-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/flexicharge/flexicharge-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/flexicharge/flexicharge-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/flexicharge/flexicharge-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/flexicharge/flexicharge-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/flexicharge/flexicharge-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/flexicharge/flexicharge-logo_2000.webp",
+        "size": "2000"
+      }
     ]
   },
   {
     "id": "garo",
     "name": "GARO",
+    "chargePointVendor": [
+      "Garo"
+    ],
     "websiteUrl": "http://garocharging.com",
     "chargerManagementUrl": null,
     "statusPageUrl": null,
@@ -250,11 +553,41 @@
           }
         ]
       }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/garo/garo-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/garo/garo-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/garo/garo-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/garo/garo-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/garo/garo-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/garo/garo-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/garo/garo-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/garo/garo-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/garo/garo-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/garo/garo-logo_2000.webp",
+        "size": "2000"
+      }
     ]
   },
   {
     "id": "hager",
     "name": "Hager",
+    "chargePointVendor": [
+      "Hager"
+    ],
     "websiteUrl": "https://hager.com",
     "chargerManagementUrl": null,
     "statusPageUrl": null,
@@ -273,11 +606,41 @@
           }
         ]
       }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/hager/hager-logo_2000.webp",
+        "size": "2000"
+      }
     ]
   },
   {
     "id": "keba",
     "name": "Keba",
+    "chargePointVendor": [
+      "Keba AG"
+    ],
     "websiteUrl": "https://www.keba.com",
     "chargerManagementUrl": "https://emobility-portal.keba.com",
     "statusPageUrl": null,
@@ -309,11 +672,41 @@
           }
         ]
       }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/keba/keba-logo_2000.webp",
+        "size": "2000"
+      }
     ]
   },
   {
     "id": "mennekes",
     "name": "Mennekes",
+    "chargePointVendor": [
+      "MENNEKES"
+    ],
     "websiteUrl": "https://www.mennekes.de",
     "chargerManagementUrl": null,
     "statusPageUrl": null,
@@ -345,11 +738,41 @@
           }
         ]
       }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-logo_2000.webp",
+        "size": "2000"
+      }
     ]
   },
   {
     "id": "nexblue",
     "name": "NexBlue",
+    "chargePointVendor": [
+      "NEXBLUE"
+    ],
     "websiteUrl": "https://nexblue.com",
     "chargerManagementUrl": "https://partner.nexblue.com",
     "statusPageUrl": null,
@@ -368,11 +791,41 @@
           }
         ]
       }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/nexblue/nexblue-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/nexblue/nexblue-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/nexblue/nexblue-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/nexblue/nexblue-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/nexblue/nexblue-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/nexblue/nexblue-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/nexblue/nexblue-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/nexblue/nexblue-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/nexblue/nexblue-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/nexblue/nexblue-logo_2000.webp",
+        "size": "2000"
+      }
     ]
   },
   {
     "id": "smart-me",
     "name": "smart-me AG",
+    "chargePointVendor": [
+      "smart-me"
+    ],
     "websiteUrl": "https://web.smart-me.com",
     "chargerManagementUrl": "https://portalweb.smart-me.com",
     "statusPageUrl": null,
@@ -404,11 +857,41 @@
           }
         ]
       }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/smart-me/smart-me-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/smart-me/smart-me-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/smart-me/smart-me-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/smart-me/smart-me-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/smart-me/smart-me-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/smart-me/smart-me-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/smart-me/smart-me-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/smart-me/smart-me-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/smart-me/smart-me-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/smart-me/smart-me-logo_2000.webp",
+        "size": "2000"
+      }
     ]
   },
   {
     "id": "webasto",
     "name": "Webasto Thermo & Comfort SE",
+    "chargePointVendor": [
+      "Webasto"
+    ],
     "websiteUrl": "https://www.webasto.com",
     "chargerManagementUrl": null,
     "statusPageUrl": null,
@@ -427,11 +910,41 @@
           }
         ]
       }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/webasto/webasto-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/webasto/webasto-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/webasto/webasto-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/webasto/webasto-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/webasto/webasto-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/webasto/webasto-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/webasto/webasto-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/webasto/webasto-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/webasto/webasto-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/webasto/webasto-logo_2000.webp",
+        "size": "2000"
+      }
     ]
   },
   {
     "id": "weidmueller",
     "name": "Weidmüller",
+    "chargePointVendor": [
+      "Weidmueller"
+    ],
     "websiteUrl": "https://www.weidmueller.com",
     "chargerManagementUrl": null,
     "statusPageUrl": null,
@@ -450,11 +963,41 @@
           }
         ]
       }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/weidmueller/weidmueller-logo_2000.webp",
+        "size": "2000"
+      }
     ]
   },
   {
     "id": "multicharge-ou",
     "name": "MultiCharge OÜ",
+    "chargePointVendor": [
+      "VOOL"
+    ],
     "websiteUrl": "https://www.vool.com",
     "chargerManagementUrl": "https://app.vool.com/welcome",
     "statusPageUrl": null,
@@ -473,11 +1016,41 @@
           }
         ]
       }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/vool/vool-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/vool/vool-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/vool/vool-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/vool/vool-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/vool/vool-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/vool/vool-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/vool/vool-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/vool/vool-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/vool/vool-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/vool/vool-logo_2000.webp",
+        "size": "2000"
+      }
     ]
   },
   {
     "id": "zaptec",
     "name": "Zaptec",
+    "chargePointVendor": [
+      "Zaptec"
+    ],
     "websiteUrl": "https://www.zaptec.com",
     "chargerManagementUrl": "https://portal.zaptec.com",
     "statusPageUrl": "https://status.zaptec.com",
@@ -495,6 +1068,33 @@
             "phone": "+41585200271"
           }
         ]
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/zaptec/zaptec-logo_2000.webp",
+        "size": "2000"
       }
     ]
   }
