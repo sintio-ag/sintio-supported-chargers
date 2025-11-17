@@ -638,6 +638,94 @@
     "origin": "zaptec"
   },
   {
+    "name": "HagerLowDataMode",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "integer",
+    "defaultValue": 0,
+    "unit": "",
+    "description": "0 = low data mode deactivated, automatic update from server activated, hager support available 1 = low data mode activated, automatic update from server activated, hager support deactivated",
+    "origin": "hager"
+  },
+  {
+    "name": "HagerOcppFreeAccessEnabled",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "boolean",
+    "defaultValue": "false",
+    "unit": "",
+    "description": "To activate free access mode, HagerOcppFreeAccessEnabled should be true  AND  HagerOcppFreeAccessIdTag should not be empty",
+    "origin": "hager"
+  },
+  {
+    "name": "HagerOcppFreeAccessIdTag",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "FreeAccessIdTag",
+    "unit": "",
+    "description": "",
+    "origin": "hager"
+  },
+  {
+    "name": "ChargePointId",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "hager charger serial number suid",
+    "unit": "",
+    "description": "example: VZ2zFSNUwxPwvxBF5NTv4A",
+    "origin": "hager"
+  },
+  {
+    "name": "HagerSupportScreenQrCodeContent",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "",
+    "unit": "",
+    "description": "url of the CPO choice",
+    "origin": "hager"
+  },
+  {
+    "name": "HagerSupportScreenPhoneNumber",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "",
+    "unit": "",
+    "description": "url of the CPO choice",
+    "origin": "hager"
+  },
+  {
+    "name": "HagerQrCodeURL1",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "",
+    "unit": "",
+    "description": "url of the CPO choice",
+    "origin": "hager"
+  },
+  {
+    "name": "HagerQrCodeURL2",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "",
+    "unit": "",
+    "description": "url of the CPO choice",
+    "origin": "hager"
+  },
+  {
     "name": "EnableTransactionBeginMeterValues",
     "required": false,
     "read": true,
