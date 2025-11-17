@@ -665,9 +665,64 @@
     "read": true,
     "write": true,
     "type": "string",
-    "defaultValue": "FreeAccessIdTag",
+    "defaultValue": "",
     "unit": "",
     "description": "",
+    "origin": "hager"
+  },
+  {
+    "name": "ChargePointId",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "hager charger serial number suid",
+    "unit": "",
+    "description": "example: VZ2zFSNUwxPwvxBF5NTv4A",
+    "origin": "hager"
+  },
+  {
+    "name": "HagerSupportScreenQrCodeContent",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "",
+    "unit": "",
+    "description": "url of the CPO choice",
+    "origin": "hager"
+  },
+  {
+    "name": "HagerSupportScreenPhoneNumber",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "",
+    "unit": "",
+    "description": "url of the CPO choice",
+    "origin": "hager"
+  },
+  {
+    "name": "HagerQrCodeURL1",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "",
+    "unit": "",
+    "description": "url of the CPO choice",
+    "origin": "hager"
+  },
+  {
+    "name": "HagerQrCodeURL2",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "",
+    "unit": "",
+    "description": "url of the CPO choice",
     "origin": "hager"
   },
   {
