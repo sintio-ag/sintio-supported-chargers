@@ -638,6 +638,17 @@
     "origin": "zaptec"
   },
   {
+    "name": "HagerOcppFreeAccessEnabled",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "boolean",
+    "defaultValue": "false",
+    "unit": "",
+    "description": "To activate free access mode, HagerOcppFreeAccessEnabled should be true",
+    "origin": "hager"
+  },
+  {
     "name": "EnableTransactionBeginMeterValues",
     "required": false,
     "read": true,
