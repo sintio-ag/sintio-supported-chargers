@@ -649,6 +649,17 @@
     "origin": "hager"
   },
   {
+    "name": "HagerOcppFreeAccessIdTag",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "FreeAccessIdTag",
+    "unit": "",
+    "description": "",
+    "origin": "hager"
+  },
+  {
     "name": "EnableTransactionBeginMeterValues",
     "required": false,
     "read": true,
