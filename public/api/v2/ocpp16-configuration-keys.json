@@ -638,6 +638,17 @@
     "origin": "zaptec"
   },
   {
+    "name": "HagerLowDataMode",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "integer",
+    "defaultValue": 0,
+    "unit": "",
+    "description": "0 = low data mode deactivated, automatic update from server activated, hager support available 1 = low data mode activated, automatic update from server activated, hager support deactivated",
+    "origin": "hager"
+  },
+  {
     "name": "HagerOcppFreeAccessEnabled",
     "required": false,
     "read": true,
@@ -645,7 +656,7 @@
     "type": "boolean",
     "defaultValue": "false",
     "unit": "",
-    "description": "To activate free access mode, HagerOcppFreeAccessEnabled should be true",
+    "description": "To activate free access mode, HagerOcppFreeAccessEnabled should be true  AND  HagerOcppFreeAccessIdTag should not be empty",
     "origin": "hager"
   },
   {
@@ -655,17 +666,6 @@
     "write": true,
     "type": "string",
     "defaultValue": "FreeAccessIdTag",
-    "unit": "",
-    "description": "",
-    "origin": "hager"
-  },
-  {
-    "name": "CentralSystemURL",
-    "required": false,
-    "read": true,
-    "write": true,
-    "type": "string",
-    "defaultValue": "",
     "unit": "",
     "description": "",
     "origin": "hager"
