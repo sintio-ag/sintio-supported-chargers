@@ -352,7 +352,8 @@
     "manufacturerId": "daze",
     "chargePointVendor": "Daze Technology",
     "chargePointModel": [
-      "DT02, DT02M"
+      "DT02",
+      "DT02M"
     ],
     "globalMeter": false,
     "meterClass": "±2-5%",
