@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2026-01-11",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Added a **Markup History** tab to the Organization Space → Installation Details page, plus a new Markup History chart in the *Sintio Admin → Invoice Automation* page.",
+          "Enhanced **GoogleMapView** with dynamic marker colors based on installation and charger status, improving clarity, for all Google maps."
+        ],
+        "bugfixes": [
+          "Improved readability by formatting monetary values in the **RateCard** component.",
+          "Updated the **Installation Notes** card layout for more consistent rendering.",
+          "Standardized **entry fee** display to always show two decimal places in tariff cards.",
+          "Fixed misleading validation styling on **date picker** search fields.",
+          "Ensured consistent click behavior by using an anchor tag for **mailto** links.",
+          "Corrected the disabled state styling of **SVG icons** when their parent button is disabled.",
+          "Fixed validation issues in the **OCPP server password** field within Organization Space.",
+          "Resolved an issue where a **select input’s first option** was auto-focused unexpectedly.",
+          "Fixed timing of the **RFID badge delete** success message."
+        ],
+        "enhancements": [
+          "Improved visibility on the *Personal Space → Billings* page by placing **Order New Badge** below **Add New Badge**.",
+          "Reduced **sidebar icon size and spacing** to prevent unwanted sidebar scrolling.",
+          "Updated the default **charger status filter** from All to Active across organization and personal cards.",
+          "Delivered multiple UI consistency improvements: updated **Tabs** font size to 16px, increased spacing between **topbar elements** for better visual clarity, enhanced the **Favourite Charger Card carousel** switcher size, simplified heading hierarchy, refreshed the Payment Card dialog UI per Figma, and standardized font weights across the app."
+        ]
+      },
+      "de": {
+        "features": [
+          "Einen neuen **Markup History** Tab im *Organisationsbereich → Installationsdetails* hinzugefügt sowie ein neues Markup-Verlaufsdiagramm auf der *Sintio Admin → Abrechnungsautomatisierung* Seite.",
+          "**GoogleMapView** mit dynamischen Pins, basierend auf Installations- und Ladestationsstatus erweitert, um die Übersichtlichkeit auf allen Google-Karten zu verbessern."
+        ],
+        "bugfixes": [
+          "Die Lesbarkeit durch Formatierung von Geldbeträgen in der **Tarif**-Komponente verbessert.",
+          "Das Layout der **Installation Notizen** für eine konsistentere Darstellung aktualisiert.",
+          "Die Anzeige der **Startgebühr** standardisiert, sodass immer zwei Dezimalstellen im Tarif angezeigt werden.",
+          "Irreführendes Validierungs-Styling bei **Date-Picker**-Suchfeldern behoben.",
+          "Konsistentes Klickverhalten durch Verwendung eines Anchor-Tags für **mailto**-Links sichergestellt.",
+          "Das Styling deaktivierter **SVG-Icons** korrigiert, wenn der übergeordnete Button deaktiviert ist.",
+          "Validierungsprobleme im Feld **OCPP-Server-Passwort** im Organisationsbereich behoben.",
+          "Ein Problem behoben, bei dem die **erste Option eines Select-Feldes** unerwartet automatisch fokussiert wurde.",
+          "Das Timing der Erfolgsmeldung beim **RFID-Badge-Löschen** korrigiert."
+        ],
+        "enhancements": [
+          "Die Übersichtlichkeit auf der *Persönlicher Bereich → Abrechungseite* verbessert, indem **Neuer Badbe bestellen** unter **Badge hinzufügen** im Menü RFID-Badges platziert wurde.",
+          "Die **Grösse und Abstände der Sidebar-Icons** reduziert, um unerwünschtes Scrollen der Sidebar zu verhindern.",
+          "Den Standardfilter für den **Ladestationsstatus** von Alle auf Aktiv für Organisations- und persönliche Google Maps Karten aktualisiert.",
+          "Mehrere UI-Konsistenzverbesserungen umgesetzt: Schriftgrösse der **Tabs** auf 16px aktualisiert, Abstände zwischen **Topbar-Elementen** für bessere visuelle Klarheit erhöht, die Umschaltgrösse des **Favourite Charger Card Karussells** verbessert, die Überschriftenhierarchie vereinfacht, das UI des Payment-Card-Dialogs gemäss Figma überarbeitet und die Schriftstärken in der gesamten App standardisiert."
+        ]
+      }
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "**Support contact** info is now visible in all languages within the admin area.",
+          "**Large data exports** (CSV and XML) now load faster using a new preview system.",
+          "**Job history** now shows start times, end times, and total duration.",
+          "Added **sun and moon icons** to make time-based pricing easier to see."
+        ],
+        "bugfixes": [
+          "Fixed text overlapping in the **login tabs on mobile** screens.",
+          "Fixed display and interaction errors on the **installation details page**.",
+          "Fixed a visual bug where **table rows** would change color while clicking action buttons.",
+          "Translated 'Start' and 'End' labels on charging session badges.",
+          "Restricted **organization cards** so only Sintio admins can click through them.",
+          "Fixed **QR codes** to automatically use the phone's language setting."
+        ],
+        "enhancements": [
+          "Major visual update to **all buttons and links** across the entire platform for a more consistent look.",
+          "Cleaned up **charger cards** so titles and descriptions look uniform.",
+          "Replaced \"NA\" with \"Remote\" to make operation data clearer.",
+          "Added a new dark grey color to labels to make them easier to read against the background.",
+          "Organized export files with better headers like tag names and IDs."
+        ]
+      }
+    }
+  }
+]
