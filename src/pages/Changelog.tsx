@@ -230,9 +230,9 @@ const Changelog = () => {
         <p>No updates published yet.</p>
       ) : (
         <div className="space-y-4">
-          {filteredChangelogs.map((entry) => (
+          {filteredChangelogs.map((entry, index) => (
             <section
-              key={`${entry.category}-${entry.date}-${entry.version ?? "na"}`}
+              key={`${entry.category}-${entry.date}-${entry.version ?? "na"}-${index}`}
               className="rounded-lg border border-gray-200 p-4"
             >
               <div className="flex flex-wrap items-start justify-between gap-2">
