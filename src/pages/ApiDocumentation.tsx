@@ -530,6 +530,113 @@ function ApiDocumentation() {
           Is OCPP or if a custom key, the ID of the vendor.
         </li>
       </ul>
+      <h2>Changelog</h2>
+      <p>
+        <code>GET</code>{" "}
+        <a
+          href="https://sintio-ag.github.io/sintio-supported-chargers/api/v2/changelog.json"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://sintio-ag.github.io/sintio-supported-chargers/api/v2/changelog.json
+        </a>
+      </p>
+      <p>
+        The changelog endpoint returns an array of changelog entries. Each entry
+        contains release information for a specific <code>category</code> (e.g.
+        portal, mobile) and a set of localized sections.
+      </p>
+
+      <p>The changelog entry object contains the following fields:</p>
+      <ul>
+        <li>
+          <strong>version</strong> (string, optional): The version identifier
+          (e.g. <code>2.1.0</code>).
+        </li>
+        <li>
+          <strong>date</strong> (string): Release date in ISO 8601 format{" "}
+          <code>YYYY-MM-DD</code>.
+        </li>
+        <li>
+          <strong>category</strong> (string): The category the entry belongs to.
+          Possible values:
+          <ul>
+            <li>
+              <code>portal</code>
+            </li>
+            <li>
+              <code>public</code>
+            </li>
+            <li>
+              <code>mobile</code>
+            </li>
+            <li>
+              <code>api</code>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>sections</strong> (object): A dictionary keyed by language
+          code containing the release notes grouped by section type.
+          <ul>
+            <li>
+              <strong>en</strong> (object, required): English sections.
+            </li>
+            <li>
+              <strong>de</strong> (object, optional): German sections.
+            </li>
+            <li>
+              <strong>fr</strong> (object, optional): French sections.
+            </li>
+            <li>
+              <strong>it</strong> (object, optional): Italian sections.
+            </li>
+          </ul>
+          Each language object contains:
+          <ul>
+            <li>
+              <strong>features</strong> (array of strings): New features shipped
+              with this version/category.
+            </li>
+            <li>
+              <strong>bugfixes</strong> (array of strings): Bug fixes shipped
+              with this version/category.
+            </li>
+            <li>
+              <strong>enhancements</strong> (array of strings): Improvements and
+              refinements shipped with this version/category.
+            </li>
+          </ul>
+          <p>
+            Markdown support: The strings in <code>features</code>,{" "}
+            <code>bugfixes</code>, and <code>enhancements</code> may contain
+            simple Markdown formatting. The following styles are supported:
+          </p>
+          <ul>
+            <li>
+              <strong>Bold</strong>: Wrap text with <code>**</code> (example:{" "}
+              <code>this is **bold**</code>).
+            </li>
+            <li>
+              <em>Italic</em>: Wrap text with <code>*</code> (example:{" "}
+              <code>this is *italic*</code>).
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p>
+        Notes:
+        <ul>
+          <li>
+            The <code>sections.en</code> object is always present. Other
+            languages may be missing for an entry.
+          </li>
+          <li>
+            Multiple entries can share the same <code>version</code> across
+            different <code>category</code> values.
+          </li>
+        </ul>
+      </p>
       <h2>Terms and Conditions Details</h2>
       <p>
         <code>GET</code>{" "}
