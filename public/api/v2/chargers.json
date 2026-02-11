@@ -823,7 +823,7 @@
       "AE10G"
     ],
     "globalMeter": true,
-    "meterClass": "MID Class B (EN 50470)",
+    "meterClass": "MID Class C (EN 50470)",
     "connectors": [
       {
         "connectorId": 1,
