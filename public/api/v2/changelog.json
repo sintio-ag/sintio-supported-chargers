@@ -1,5 +1,69 @@
 [
   {
+    "version": "3.3.3",
+    "date": "2026-02-19",
+    "category": "public",
+    "sections": {
+      "en": {
+        "features": [],
+        "bugfixes": [],
+        "enhancements": [
+          "Updated the support email address to improve user assistance."
+        ]
+      },
+      "de": {
+        "features": [],
+        "bugfixes": [],
+        "enhancements": [
+          "Support-E-Mail-Adresse aktualisiert, um diese dem Endnutzer anzuzeigen."
+        ]
+      }
+    }
+  },
+  {
+    "version": "3.1.9",
+    "date": "2026-02-19",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Added **Users Export functionality** to the Job Exports page (new data type option, users export table, dialog, related services, user custom ID editing, and the ability to manage/delete users from the exports list).",
+          "Persisted the selected language across sessions by storing it in a **browser cookie.**",
+          "Added specific navigation links in **Admin Space**: charger installation subscription usernames now link directly to the user profile for Sintio admins."
+        ],
+        "bugfixes": [
+          "Fixed **RFID editing** failing when the associated transaction was missing.",
+          "Handled **missing charging sessions** gracefully instead of throwing errors.",
+          "Fixed header repositioning after the **bank transfer banner** disappears.",
+          "Stopped relying on **local state** for user custom ID; now uses the server-side value."
+        ],
+        "enhancements": [
+          "Improved user management UX in the **Job Exports table** (better dialog header alignment, improved loading states, and hiding edit actions where appropriate).",
+          "Updated the **support email address** across the application.",
+          "Updated diagnostic and export text to better reflect backend behavior."
+        ]
+      },
+      "de": {
+        "features": [
+          "**Benutzerexporte** zur Seite **Exportaufträge** hinzugefügt (neue Daten-Typ-Option, Tabelle für Benutzerexporte, Dialog, zugehörige Services, Bearbeitung der User Custom ID sowie Verwaltung/Löschen von Benutzern aus der Exportliste).",
+          "Die ausgewählte Sprache wird nun in einem **Browser-Cookie** gespeichert und bleibt so über Sitzungen hinweg erhalten.",
+          "Spezifische Navigationslinks im **Admin-Bereich** hinzugefügt: Benutzernamen bei Installationsabos verlinken für Sintio-Admins direkt auf das Benutzerprofil."
+        ],
+        "bugfixes": [
+          "Problem behoben, bei dem das **Bearbeiten von RFID-Tags** fehlschlug, wenn die zugehörige Transaktion fehlte.",
+          "**Fehlende Ladesessions**, respektive Ladesessions, welche nie gestartet wurden, werden nun sauber behandelt, statt Fehler auszulösen.",
+          "Header-Neupositionierung behoben, nachdem der **Banküberweisungsbanner** verschwindet.",
+          "Abhängigkeit vom **lokalen State** für die User Custom ID entfernt; es wird nun der serverseitige Wert verwendet."
+        ],
+        "enhancements": [
+          "User-Management in der **Exportäafträgetabelle** verbessert (bessere Ausrichtung des Dialog-Headers, verbesserte Ladezustände und Ausblenden von Bearbeitungsaktionen, wo passend).",
+          "**Support-E-Mail-Adresse** in der gesamten Anwendung aktualisiert.",
+          "**Diagnose- und Exporttexte** angepasst, damit sie das Backend-Verhalten besser widerspiegeln."
+        ]
+      }
+    }
+  },
+  {
     "date": "2026-01-11",
     "category": "portal",
     "sections": {
