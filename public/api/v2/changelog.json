@@ -1,5 +1,54 @@
 [
   {
+    "version": "3.2.0",
+    "date": "2026-03-10",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Organization admins and Sintio admins can now **cancel payments** for charging sessions that have not started.",
+          "Added an **Installation Peaks Chart** in both Personal and Organization spaces.",
+          "Search, filter, and pagination parameters are now reflected in the **URL for tables** in Personal and Organization spaces, allowing users to share or revisit the same filtered view.",
+          "Added a **Power Tariff Data Card** on the Charger Details page in both Personal and Organization spaces.",
+          "Organizations can now be associated with an **Installation Subscription**.",
+          "**Tariff entry fees** are now supported for private charging.",
+          "Address input now uses **structured fields** (City, Zip Code, State, Country) instead of a single address field. Selecting an address via **Google Maps** automatically fills these details.",
+          "Added a new **Assignee filter** on the Organization Space Chargers page."
+        ],
+        "bugfixes": [
+          "Fixed an issue where users were redirected to the **installations list** after updating installation details."
+        ],
+        "enhancements": [
+          "Improved the **Support Information Card UI** for better readability.",
+          "Centered the **map pin** after selecting a location in Google Maps and increased the map height for a better user experience.",
+          "Reduced the size of grey **\"Add\" buttons** in tables for improved consistency.",
+          "Decreased the spacing between **navbar action items** for a cleaner layout."
+        ]
+      },
+      "de": {
+        "features": [
+          "Organisations-Admins und Sintio-Admins können nun **Zahlungen für Ladesessions stornieren**, welche noch nicht gestartet wurden.",
+          "Eine **Leistungsspitzengrafik** wurde sowohl im Persönlichen als auch im Organizations-Bereich hinzugefügt.",
+          "Such-, Filter- und Nummerierungsparameter werden nun in der **URL von Tabellen** im Persönlichen als auch im Organizations-Bereich abgebildet, sodass Benutzer dieselbe gefilterte Ansicht teilen oder erneut aufrufen können.",
+          "Ein **Leistungstariffeld** wurde auf der Seite **Ladestationsdetails** im Persönlichen als auch im Organizations-Bereich hinzugefügt.",
+          "Organisationen können nun einem **Installationsabo** zugeordnet werden.",
+          "**Tarif-Startgebühren** werden nun auch für privates Laden unterstützt.",
+          "Die Adresseingabe verwendet nun **strukturierte Felder** (Stadt, Postleitzahl, Bundesland/Kanton, Land) statt eines einzelnen Adressfelds. Bei Auswahl einer Adresse über **Google Maps** werden diese Felder automatisch ausgefüllt.",
+          "Ein neuer **Delegationsfilter** wurde auf der Seite **Ladestatationsübersicht im Organization-Bereich** hinzugefügt."
+        ],
+        "bugfixes": [
+          "Ein Problem wurde behoben, bei dem Organisations-Admins nach dem Aktualisieren von **Installationsdetails** zur Installationsübersicht weitergeleitet wurden."
+        ],
+        "enhancements": [
+          "Die **Support-Informationsansicht** wurde für eine bessere Lesbarkeit überarbeitet.",
+          "Der **Google-Maps-Pin** wird nun nach der Auswahl eines Standorts in Google Maps zentriert und die Kartenhöhe wurde für eine bessere Benutzererfahrung erhöht.",
+          "Die grauen **\"Hinzufügen\"-Buttons** in Tabellen wurden verkleinert, um eine konsistentere Darstellung zu erreichen.",
+          "Der Abstand zwischen **Navbar-Aktionselementen** wurde reduziert, um ein klareres Layout zu schaffen."
+        ]
+      }
+    }
+  },
+  {
     "version": "3.3.3",
     "date": "2026-02-19",
     "category": "public",
