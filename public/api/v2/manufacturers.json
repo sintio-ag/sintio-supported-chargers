@@ -139,7 +139,13 @@
             "websiteUrl": "https://www.elektro-material.ch",
             "email": "info@e-m.ch",
             "phone": "+41442781111"
-          },
+          }
+        ]
+      },
+      {
+        "country": "Netherlands",
+        "countryCode": "NL",
+        "supportCompanies": [
           {
             "id": "alfen-icu-bv",
             "company": "Alfen ICU B.V.",
@@ -354,7 +360,21 @@
     "chargerManagementUrl": "https://cloud-e.elecq.com",
     "statusPageUrl": null,
     "globalSupportUrl": null,
-    "supportByCountry": [],
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "sintio-ag",
+            "company": "Sintio AG",
+            "websiteUrl": "https://sintio.ch",
+            "email": "support@sintio.ch",
+            "phone": "+41555053018"
+          }
+        ]
+      }
+    ],
     "logos": [
       {
         "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-logo_50.png",
@@ -498,18 +518,18 @@
     "websiteUrl": "https://etrel.com",
     "chargerManagementUrl": null,
     "statusPageUrl": null,
-    "globalSupportUrl": "https://landisgyr-evsolutions.atlassian.net/wiki/spaces/EKC/overview",
+    "globalSupportUrl": "https://etrel.atlassian.net/wiki/spaces/EKC/overview",
     "supportByCountry": [
       {
-        "country": "Switzerland",
-        "countryCode": "CH",
+        "country": "Slovenia",
+        "countryCode": "SI",
         "supportCompanies": [
           {
-            "id": "landis-gyr-ag",
-            "company": "Landis+Gyr AG",
+            "id": "etrel-doo",
+            "company": "Etrel d.o.o.",
             "websiteUrl": "https://www.landisgyr.com",
-            "email": "info.evcharging@landisgyr.com",
-            "phone": "+41419356000"
+            "email": "info@etrel.com",
+            "phone": "+38616010075"
           }
         ]
       }
@@ -779,19 +799,6 @@
     "globalSupportUrl": "https://www.mennekes.de/kontakt/emobility/stoerungsmeldung",
     "supportByCountry": [
       {
-        "country": "Germany",
-        "countryCode": "DE",
-        "supportCompanies": [
-          {
-            "id": "mennekes-elektrotechnik-gmbh-co-kg",
-            "company": "MENNEKES Elektrotechnik GmbH & Co. KG",
-            "websiteUrl": "www.chargeupyourday.de/en/service/kontakt",
-            "email": "emobility.support@mennekes.de",
-            "phone": "+49272341600 "
-          }
-        ]
-      },
-      {
         "country": "Switzerland",
         "countryCode": "CH",
         "supportCompanies": [
@@ -801,6 +808,19 @@
             "websiteUrl": "https://www.ferratec-technics.ch",
             "email": "emobility-support@ferratec.ch",
             "phone": "+41566492121"
+          }
+        ]
+      },
+      {
+        "country": "Germany",
+        "countryCode": "DE",
+        "supportCompanies": [
+          {
+            "id": "mennekes-elektrotechnik-gmbh-co-kg",
+            "company": "MENNEKES Elektrotechnik GmbH & Co. KG",
+            "websiteUrl": "www.chargeupyourday.de/en/service/kontakt",
+            "email": "emobility.support@mennekes.de",
+            "phone": "+49272341600 "
           }
         ]
       }
@@ -973,6 +993,19 @@
             "websiteUrl": "https://www.ottofischer.ch",
             "email": "info@ottofischer.ch",
             "phone": "+41442767676"
+          }
+        ]
+      },
+      {
+        "country": "Germany",
+        "countryCode": "DE",
+        "supportCompanies": [
+          {
+            "id": "webasto-se",
+            "company": "Webasto SE",
+            "websiteUrl": "https://www.webasto.com",
+            "email": "info@webasto.com",
+            "phone": "+4989857940"
           }
         ]
       }
