@@ -7,7 +7,7 @@
     ],
     "websiteUrl": "https://global.abb",
     "chargerManagementUrl": "https://abb.installer.chargedot.com/",
-    "statusPageUrl": "",
+    "statusPageUrl": null,
     "globalSupportUrl": "https://new.abb.com/ev-charging",
     "supportByCountry": [
       {
@@ -53,14 +53,80 @@
     ]
   },
   {
+    "id": "abl",
+    "name": "ABL GmbH",
+    "chargePointVendor": [
+      "ABL"
+    ],
+    "websiteUrl": "https://www.ablmobility.de",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
+    "globalSupportUrl": "https://www.ablmobility.de/en/service/support",
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "otto-fischer-ag",
+            "company": "Otto Fischer AG",
+            "websiteUrl": "https://www.ottofischer.ch",
+            "email": "info@ottofischer.ch",
+            "phone": "+41442767676"
+          }
+        ]
+      },
+      {
+        "country": "Germany",
+        "countryCode": "DE",
+        "supportCompanies": [
+          {
+            "id": "abl-gmbh",
+            "company": "ABL GmbH",
+            "websiteUrl": "https://www.ablmobility.de/en/service/support",
+            "email": "info@abl.de",
+            "phone": "+4991231880"
+          }
+        ]
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abl/abl-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abl/abl-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abl/abl-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abl/abl-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abl/abl-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abl/abl-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abl/abl-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abl/abl-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abl/abl-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abl/abl-logo_2000.webp",
+        "size": "2000"
+      }
+    ]
+  },
+  {
     "id": "alfen",
     "name": "Alfen ICU B.V.",
     "chargePointVendor": [
       "Alfen BV"
     ],
     "websiteUrl": "https://alfen.com",
-    "chargerManagementUrl": "",
-    "statusPageUrl": "",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
     "globalSupportUrl": "https://aftersales.alfen.com",
     "supportByCountry": [
       {
@@ -119,9 +185,9 @@
       "alpitronic GmbH"
     ],
     "websiteUrl": "https://www.alpitronic.it",
-    "chargerManagementUrl": "",
-    "statusPageUrl": "",
-    "globalSupportUrl": "",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
+    "globalSupportUrl": null,
     "supportByCountry": [
       {
         "country": "Switzerland",
@@ -286,8 +352,8 @@
     ],
     "websiteUrl": "https://www.elecq.com",
     "chargerManagementUrl": "https://cloud-e.elecq.com",
-    "statusPageUrl": "",
-    "globalSupportUrl": "",
+    "statusPageUrl": null,
+    "globalSupportUrl": null,
     "supportByCountry": [],
     "logos": [
       {
@@ -324,8 +390,8 @@
       "Enua"
     ],
     "websiteUrl": "https://www.enua.no",
-    "chargerManagementUrl": "",
-    "statusPageUrl": "",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
     "globalSupportUrl": "https://www.enua.no/support",
     "supportByCountry": [
       {
@@ -377,9 +443,9 @@
       "GreenMotion"
     ],
     "websiteUrl": "https://www.eaton.com",
-    "chargerManagementUrl": "",
-    "statusPageUrl": "",
-    "globalSupportUrl": "",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
+    "globalSupportUrl": null,
     "supportByCountry": [
       {
         "country": "Switzerland",
@@ -430,8 +496,8 @@
       "Etrel"
     ],
     "websiteUrl": "https://etrel.com",
-    "chargerManagementUrl": "",
-    "statusPageUrl": "",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
     "globalSupportUrl": "https://landisgyr-evsolutions.atlassian.net/wiki/spaces/EKC/overview",
     "supportByCountry": [
       {
