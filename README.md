@@ -26,10 +26,10 @@ This propject is based on [Vite + React](https://vitejs.dev/). To run it locally
 
 Follwoing commands are supported.
 
-* `npm run dev` start dev server
-* `npm run build` build for production
-* `npm run preview` locally preview production build
-* `npm run lint` automated checking of source code for programmatic and stylistic errors
+- `npm run dev` start dev server
+- `npm run build` build for production
+- `npm run preview` locally preview production build
+- `npm run lint` automated checking of source code for programmatic and stylistic errors
 
 ## Contributing Guidelines
 
@@ -39,10 +39,10 @@ We welcome contributions to improve this project. Please read the following guid
 
 The charger and manufacturer API is a static JSON file (GET requests only) available in the [public/api/v1](./public/api/v1/) directory. Each charger must have an associated manufacturer. Additionally, every charger should include images in both PNG and WebP formats with the following sizes and a transparent background:
 
-* Original image: Approximately 1000px in height or width, whichever is reached first.
-* 500px image
-* 100px image
-* 50px image
+- Original image: Approximately 1000px in height or width, whichever is reached first.
+- 500px image
+- 100px image
+- 50px image
 
 > Note: For landscape images, the width should be 500px (for the 500px image), and the height should be something as 300px.
 
@@ -54,20 +54,25 @@ This template utilizes [Float UI](https://floatui.com/components), a free UI com
 
 In addition to the default Tailwind CSS colors, we use Sintio brand colors, which are defined in [tailwind.config.js](./tailwind.config.js).
 
-
 ### Branching Guidelines
 
-* Feature branch: `feat/<feature-update-description>`
-* Docs branch: `doc/<doc-update-description>`
-* Hotfix branch: `hotfix/<hotfix-update-description>`
-* Chores branch: `chore/<chore-update-description>`
-* Refactor branch: `refactor/<refactor-update-description>`
+- Feature branch: `feat/<feature-update-description>`
+- Docs branch: `doc/<doc-update-description>`
+- Hotfix branch: `hotfix/<hotfix-update-description>`
+- Chores branch: `chore/<chore-update-description>`
+- Refactor branch: `refactor/<refactor-update-description>`
+
+Update API data and images
+
+- Add or remove charger data: `charger/<add-or-change-charger-data>`
+- Add or remove manufacturer data: `manufacturer/<add-or-change-manufacturer-data>`
+- Add or remove changelog data: `changelog/<add-changelog-data>`
 
 ### PR Guidelines
 
 The `main` branch must be always stable, since it represents the production-ready state of the code.
 
-* All the branches should be taken out of origin `dev` branch.
+- All the branches should be taken out of origin `dev` branch.
   ```shell
   # Fetch the latest changes from the remote repository
   git fetch origin
@@ -76,7 +81,7 @@ The `main` branch must be always stable, since it represents the production-read
   # Create a new branch from dev
   git checkout -b feat/new-feature-branch
   ```
-* All the branches apart from origin `main` should be merged into origin `dev`.
+- All the branches apart from origin `main` should be merged into origin `dev`.
   ```shell
   # Fetch the latest changes from the remote repository
   git fetch origin
@@ -87,12 +92,12 @@ The `main` branch must be always stable, since it represents the production-read
   # Push the updated dev branch to the remote repository
   git push origin dev
   ```
-* When origin `dev` branches merge into origin `main` branch do the following steps:
-  * Take a pull into local `dev` from the origin `dev` using the command `git pull origin dev`.
-  * Then take a pull into local `dev` from origin `main` branch using command `git pull origin main`.
-  * Now push the code on origin `dev` branch with `git push origin dev`
-* All the origin branches that merge into origin `dev` should use squash and merge strategy.
-* While when origin `dev` merges into origin `main` use normal merge request.
+- When origin `dev` branches merge into origin `main` branch do the following steps:
+  - Take a pull into local `dev` from the origin `dev` using the command `git pull origin dev`.
+  - Then take a pull into local `dev` from origin `main` branch using command `git pull origin main`.
+  - Now push the code on origin `dev` branch with `git push origin dev`
+- All the origin branches that merge into origin `dev` should use squash and merge strategy.
+- While when origin `dev` merges into origin `main` use normal merge request.
 
 ## Production build
 
