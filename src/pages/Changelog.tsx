@@ -21,12 +21,13 @@ const languageLabels: Record<Language, string> = {
   it: "Italiano",
 };
 
-const sectionOrder: SectionType[] = ["features", "bugfixes", "enhancements"];
+const sectionOrder: SectionType[] = ["features", "bugfixes", "enhancements", "chores"];
 
 const sectionIcons: Record<SectionType, string> = {
   features: "🚀",
   bugfixes: "🐛",
   enhancements: "✨",
+  chores: "🔧",
 };
 
 const sectionLabels: Record<Language, Record<SectionType, string>> = {
@@ -34,21 +35,25 @@ const sectionLabels: Record<Language, Record<SectionType, string>> = {
     features: "New Features",
     bugfixes: "Bug Fixes",
     enhancements: "Enhancements",
+    chores: "Chores",
   },
   de: {
     features: "Neue Funktionen",
     bugfixes: "Fehlerbehebungen",
     enhancements: "Verbesserungen",
+    chores: "Chores",
   },
   fr: {
     features: "Nouvelles fonctionnalités",
     bugfixes: "Correctifs",
     enhancements: "Améliorations",
+    chores: "Chores",
   },
   it: {
     features: "Nuove funzionalità",
     bugfixes: "Correzioni",
     enhancements: "Miglioramenti",
+    chores: "Chores",
   },
 };
 

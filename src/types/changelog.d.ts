@@ -2,7 +2,7 @@ export type Language = "en" | "de" | "fr" | "it";
 
 export type ChangelogCategory = "portal" | "public" | "mobile" | "api";
 
-export type SectionType = "features" | "bugfixes" | "enhancements";
+export type SectionType = "features" | "bugfixes" | "enhancements" | "chores";
 
 type LanguageSections = Record<SectionType, string[]>;
 

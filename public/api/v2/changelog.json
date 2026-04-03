@@ -1,5 +1,147 @@
 [
   {
+    "version": "3.22",
+    "date": "2026-03-25",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Added ability to set an **offset of 0 days** in export jobs."
+        ],
+        "bugfixes": [
+          "Fixed incorrect invoice information when charging session was never started by treating **\"NA\" invoice number** as absent."
+        ],
+        "enhancements": [],
+        "chores": []
+      },
+      "de": {
+        "features": [
+          "Bei Exportaufträgen kann neu ein **Offset von 0 Tagen** festgelegt werden."
+        ],
+        "bugfixes": [
+          "Ladungen, welche initiert, aber nie gestartet wurden, wurden mit **\"NA\" als Rechnungsnummer** angezeigt. Neu ist es wie bei anderen nicht verrechneten Ladungen #-- --."
+        ],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.4.1",
+    "date": "2026-03-25",
+    "category": "public",
+    "sections": {
+      "en": {
+        "features": [],
+        "bugfixes": [
+          "Fixed color issues in white-labelled versions by using **secondary color** for icons."
+        ],
+        "enhancements": [],
+        "chores": []
+      },
+      "de": {
+        "features": [],
+        "bugfixes": [
+          "Farbprobleme in White-Label-Versionen behoben, indem für Icons die **Sekundärfarbe** verwendet wird."
+        ],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.21",
+    "date": "2026-03-24",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Added **Charger OCPP Logs** history tab with infinite scrolling on the Organization space charger details page.",
+          "**Tariff discounts** are now visible in personal charging sessions, favourite charger cards, and charger details.",
+          "Added **discount group detail links** to charging session tables across all spaces.",
+          "Organizations can now see the number of **online/offline chargers** directly in the installation map card.",
+          "Added links for **offline and faulted chargers** in the organization dashboard with a new **Chargers Attention Card**.",
+          "Added ability to add/edit **custom IDs** for users in the job exports list page (Power Utility Identifier starting with CH1...).",
+          "Added **entry fee field description** in the base rate form and entry fee threshold label next to entry fee in charger tariff info (0.5 kWh).",
+          "**\"Without VAT\"** label is now shown on tariff form heading for clarity.",
+          "Added **breadcrumbs** to charging session details pages across all spaces.",
+          "Show all assigned organizations in the **installation subscription card**.",
+          "Added **confirmation dialog** before refund when unpaid costs exist, replacing the previous block behavior."
+        ],
+        "bugfixes": [
+          "Fixed technical contact **phone number validation** to support spaces and country codes.",
+          "Fixed **sticky actions column** in admin charging sessions table.",
+          "Fixed **validation message** to reflect actual validation rules.",
+          "Fixed **VAT placeholder** consistency between depositor forms.",
+          "Fixed depositor **VAT number validation** and max length (30 characters)."
+        ],
+        "enhancements": [
+          "Extracted reusable **FormFieldDescription** compound component into the Form UI.",
+          "Improved **refund button** visual state when disabled."
+        ],
+        "chores": [
+          "Excluded portal from **pre-push build check**."
+        ]
+      },
+      "de": {
+        "features": [
+          "**OCPP-Log-Verlauf**-Tab mit Infinite-Scrolling auf der Seite Ladestationsdetails im Organisations-Bereich hinzugefügt.",
+          "**Tarifrabatte** sind nun in persönlichen Ladesessions, bei favorisierten Ladestationen und in Ladestationsdetails sichtbar.",
+          "**Links zu Rabattgruppen-Details** in Ladesessionstabellen in allen Bereichen hinzugefügt.",
+          "Organisationen können nun die Anzahl der **online/offline Ladestationen** auf dem Dashboard in der Map sehen.",
+          "Links für **offline und fehlerbehaftete Ladestationen** im Organisations-Dashboard mit einem neuen Bereich **Handlungsbedarf** hinzugefügt.",
+          "Möglichkeit hinzugefügt, **benutzerdefinierte IDs** für Benutzer auf der Seite der Exportaufträge hinzuzufügen/zu bearbeiten (EVU Identifikator beginnend mit CH1...).",
+          "**Beschreibung des Startgebührenfelds** im Basistarifformular und Startgebührenschwellen-Label neben der Startgebühr in den Ladestationstarifinformationen hinzugefügt (0.5 kWh).",
+          "Der Hinweis **\"Ohne MwSt.\"** wird nun in Tarifformular-Überschrift angezeigt.",
+          "**Breadcrumbs** zu den Ladesession-Detailseiten in allen Bereichen hinzugefügt.",
+          "Alle zugeordneten Organisationen werden bei den **Installationsabos** angezeigt.",
+          "**Bestätigung vor der Rückerstattung** bei ausstehenden Kosten hinzugefügt, welche das bisherige Blockierungsverhalten ersetzt."
+        ],
+        "bugfixes": [
+          "Validierung der **Telefonnummer des technischen Kontakts** korrigiert, sodass Leerzeichen und Ländercodes unterstützt werden.",
+          "**Sticky-Aktionsspalte** in der Admin-Ladesessionstabelle korrigiert.",
+          "**Validierungsmeldung** korrigiert, damit sie die tatsächlichen Validierungsregeln widerspiegelt.",
+          "Konsistenz der **MwSt.-Platzhalter** in den Hinterlegungsformularen korrigiert.",
+          "**MwSt.-Nummernvalidierung** und maximale Länge (30 Zeichen) für Organisation-Administrator korrigiert."
+        ],
+        "enhancements": [
+          "Wiederverwendbare **FormFieldDescription**-Komponente in die Form-UI extrahiert.",
+          "Visuellen Zustand des **Rückerstattungsbuttons** im deaktivierten Zustand verbessert."
+        ],
+        "chores": [
+          "Das Portal wurde vom **Pre-Push-Build-Check** ausgeschlossen."
+        ]
+      }
+    }
+  },
+  {
+    "version": "3.4",
+    "date": "2026-03-24",
+    "category": "public",
+    "sections": {
+      "en": {
+        "features": [
+          "Added a dedicated **Support page** with i18n support, support info cards, and contextual support links."
+        ],
+        "bugfixes": [],
+        "enhancements": [
+          "Replaced the old **Footer** component with a new **SupportLinks** component in the Topbar for a cleaner layout."
+        ],
+        "chores": []
+      },
+      "de": {
+        "features": [
+          "Eine dedizierte **Support-Seite** mit i18n-Unterstützung, Support-Infokarten und kontextuellen Support-Links hinzugefügt."
+        ],
+        "bugfixes": [],
+        "enhancements": [
+          "Die alte **Footer**-Komponente durch eine neue **SupportLinks**-Komponente in der Topbar für ein übersichtlicheres Layout ersetzt."
+        ],
+        "chores": []
+      }
+    }
+  },
+  {
     "version": "3.20",
     "date": "2026-03-10",
     "category": "portal",
@@ -23,7 +165,8 @@
           "Centered the **map pin** after selecting a location in Google Maps and increased the map height for a better user experience.",
           "Reduced the size of grey **\"Add\" buttons** in tables for improved consistency.",
           "Decreased the spacing between **navbar action items** for a cleaner layout."
-        ]
+        ],
+        "chores": []
       },
       "de": {
         "features": [
@@ -44,7 +187,8 @@
           "Der **Google-Maps-Pin** wird nun nach der Auswahl eines Standorts in Google Maps zentriert und die Kartenhöhe wurde für eine bessere Benutzererfahrung erhöht.",
           "Die grauen **\"Hinzufügen\"-Buttons** in Tabellen wurden verkleinert, um eine konsistentere Darstellung zu erreichen.",
           "Der Abstand zwischen **Navbar-Aktionselementen** wurde reduziert, um ein klareres Layout zu schaffen."
-        ]
+        ],
+        "chores": []
       }
     }
   },
@@ -58,14 +202,16 @@
         "bugfixes": [],
         "enhancements": [
           "Updated the support email address to improve user assistance."
-        ]
+        ],
+        "chores": []
       },
       "de": {
         "features": [],
         "bugfixes": [],
         "enhancements": [
           "Support-E-Mail-Adresse aktualisiert, um diese dem Endnutzer anzuzeigen."
-        ]
+        ],
+        "chores": []
       }
     }
   },
@@ -90,7 +236,8 @@
           "Improved user management UX in the **Job Exports table** (better dialog header alignment, improved loading states, and hiding edit actions where appropriate).",
           "Updated the **support email address** across the application.",
           "Updated diagnostic and export text to better reflect backend behavior."
-        ]
+        ],
+        "chores": []
       },
       "de": {
         "features": [
@@ -108,7 +255,8 @@
           "User-Management in der **Exportäafträgetabelle** verbessert (bessere Ausrichtung des Dialog-Headers, verbesserte Ladezustände und Ausblenden von Bearbeitungsaktionen, wo passend).",
           "**Support-E-Mail-Adresse** in der gesamten Anwendung aktualisiert.",
           "**Diagnose- und Exporttexte** angepasst, damit sie das Backend-Verhalten besser widerspiegeln."
-        ]
+        ],
+        "chores": []
       }
     }
   },
@@ -138,7 +286,8 @@
           "Reduced **sidebar icon size and spacing** to prevent unwanted sidebar scrolling.",
           "Updated the default **charger status filter** from All to Active across organization and personal cards.",
           "Delivered multiple UI consistency improvements: updated **Tabs** font size to 16px, increased spacing between **topbar elements** for better visual clarity, enhanced the **Favourite Charger Card carousel** switcher size, simplified heading hierarchy, refreshed the Payment Card dialog UI per Figma, and standardized font weights across the app."
-        ]
+        ],
+        "chores": []
       },
       "de": {
         "features": [
@@ -161,7 +310,8 @@
           "Die **Grösse und Abstände der Sidebar-Icons** reduziert, um unerwünschtes Scrollen der Sidebar zu verhindern.",
           "Den Standardfilter für den **Ladestationsstatus** von Alle auf Aktiv für Organisations- und persönliche Google Maps Karten aktualisiert.",
           "Mehrere UI-Konsistenzverbesserungen umgesetzt: Schriftgrösse der **Tabs** auf 16px aktualisiert, Abstände zwischen **Topbar-Elementen** für bessere visuelle Klarheit erhöht, die Umschaltgrösse des **Favourite Charger Card Karussells** verbessert, die Überschriftenhierarchie vereinfacht, das UI des Payment-Card-Dialogs gemäss Figma überarbeitet und die Schriftstärken in der gesamten App standardisiert."
-        ]
+        ],
+        "chores": []
       }
     }
   },
@@ -191,7 +341,8 @@
           "Replaced \"NA\" with \"Remote\" to make operation data clearer.",
           "Added a new dark grey color to labels to make them easier to read against the background.",
           "Organized export files with better headers like tag names and IDs."
-        ]
+        ],
+        "chores": []
       }
     }
   }
