@@ -1,5 +1,81 @@
 [
   {
+    "version": "3.23",
+    "date": "2026-04-07",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Added **year filter** for charger grow chart in Sintio admin space.",
+          "Added **Faulted and Unavailable** states for malfunctioning chargers card.",
+          "Added **multi-select control** for charge point state in personal and organization charger list pages.",
+          "Added **tariff discount percentage** display in groups table and group attributes form.",
+          "Added **inactive status warnings** for charger installation and organization with see-how-it-works dialog.",
+          "Added **installation address storage** from Google Maps.",
+          "Added **support contact information dialog** in personal and organization charger details page."
+        ],
+        "bugfixes": [
+          "Fixed **copy password button** disabled state when password input is empty."
+        ],
+        "enhancements": [
+          "Improved **charger info card** layout spacing and padding.",
+          "Added **QR code PNG** instructions update."
+        ],
+        "chores": [
+          "Added Claude Code skills for release-pr and commit.",
+          "Disabled deprecated lint rules for TypeScript."
+        ]
+      },
+      "de": {
+        "features": [
+          "**Jahresfilter** für das Diagramm zur Ladestationswachstum im Sintio-Adminbereich hinzugefügt.",
+          "Zustände **Fehlerhaft und Nicht verfügbar** für die Ansicht mit fehlerhaften Ladestationen hinzugefügt.",
+          "**Mehrfachauswahl** für den Ladepunkt-Status in persönlichen und Organisationsansicht hinzugefügt.",
+          "**Tarifrabattprozentsatz** in der Gruppenübersicht und im Gruppenattribut-Formular angezeigt.",
+          "**Warnungen bei inaktivem Status** für Laderinstallationen und Organisationen mit \"So funktioniert's\"-Dialog hinzugefügt.",
+          "**Speicherung der Installationsadresse** über Google Maps hinzugefügt.",
+          "**Dialog mit Support-Kontaktinformationen** in den Ladestations-Detailseiten (persönlich und Organisation) hinzugefügt."
+        ],
+        "bugfixes": [
+          "**Passwort-Kopieren-Schaltfläche** war nicht deaktiviert, wenn das Passwortfeld leer war. Behoben."
+        ],
+        "enhancements": [
+          "Layout-Abstände und -Abstände der **Ladestations-Infokarte** verbessert.",
+          "**QR-Code-PNG**-Anleitung aktualisiert."
+        ],
+        "chores": [
+          "Claude Code Skills für release-pr und commit hinzugefügt.",
+          "Veraltete Lint-Regeln für TypeScript deaktiviert."
+        ]
+      }
+    }
+  },
+  {
+    "version": "2.7.0",
+    "date": "2026-04-07",
+    "category": "mobile",
+    "sections": {
+      "en": {
+        "features": [
+          "User can now see **Support contact** in charger detail screen.",
+          "Added new **EW Hoefe E-Mobility** white labelled app."
+        ],
+        "bugfixes": [],
+        "enhancements": [],
+        "chores": []
+      },
+      "de": {
+        "features": [
+          "Benutzer können nun den **Support-Kontakt** in der Ladesstationsdetailansicht sehen.",
+          "Neue **EW Höfe E-Mobility** White-Label-App hinzugefügt."
+        ],
+        "bugfixes": [],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
     "version": "3.22",
     "date": "2026-03-25",
     "category": "portal",
