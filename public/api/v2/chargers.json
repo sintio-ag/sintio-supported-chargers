@@ -260,6 +260,60 @@
     ]
   },
   {
+    "id": "alpitronic-hyc-400",
+    "manufacturerId": "alpitronic",
+    "chargePointVendor": "alpitronic GmbH",
+    "chargePointModel": [
+      "HYC400_8_20_20_00_00"
+    ],
+    "globalMeter": true,
+    "meterClass": "MID Class A (EN 50470)",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "powerType": "DC",
+        "voltage": 800,
+        "amperage": 500,
+        "maxElectricPower": 400000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector_ff-ccs-combo-2.svg"
+      },
+      {
+        "connectorId": 2,
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "powerType": "DC",
+        "voltage": 800,
+        "amperage": 500,
+        "maxElectricPower": 400000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector_ff-ccs-combo-2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-hyc-200-400_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-hyc-200-400_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-hyc-200-400_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-hyc-200-400_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-hyc-200-400_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-hyc-200-400_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-hyc-200-400_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/alpitronic/alpitronic-hyc-200-400_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
     "id": "dazebox-c",
     "manufacturerId": "daze",
     "chargePointVendor": "Daze Technology",
