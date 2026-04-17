@@ -17,7 +17,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       },
       {
         "connectorId": 2,
@@ -27,7 +27,7 @@
         "voltage": 920,
         "amperage": 125,
         "maxElectricPower": 50000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector_ff-ccs-combo-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2-combo.svg"
       },
       {
         "connectorId": 3,
@@ -37,7 +37,7 @@
         "voltage": 500,
         "amperage": 125,
         "maxElectricPower": 50000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-aa-chademo.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-chademo.svg"
       }
     ],
     "images": [
@@ -81,7 +81,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -125,7 +125,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       },
       {
         "connectorId": 2,
@@ -135,7 +135,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -179,7 +179,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -223,7 +223,7 @@
         "voltage": 333,
         "amperage": 150,
         "maxElectricPower": 50000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector_ff-ccs-combo-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2-combo.svg"
       },
       {
         "connectorId": 2,
@@ -233,7 +233,7 @@
         "voltage": 333,
         "amperage": 150,
         "maxElectricPower": 50000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector_ff-ccs-combo-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2-combo.svg"
       }
     ],
     "images": [
@@ -277,7 +277,7 @@
         "voltage": 800,
         "amperage": 500,
         "maxElectricPower": 400000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector_ff-ccs-combo-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2-combo.svg"
       },
       {
         "connectorId": 2,
@@ -287,7 +287,7 @@
         "voltage": 800,
         "amperage": 500,
         "maxElectricPower": 400000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector_ff-ccs-combo-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2-combo.svg"
       }
     ],
     "images": [
@@ -331,7 +331,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -375,7 +375,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -420,7 +420,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -465,7 +465,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -509,7 +509,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -556,7 +556,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -600,7 +600,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -644,7 +644,7 @@
         "voltage": 400,
         "amperage": 16,
         "maxElectricPower": 11000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -688,7 +688,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -732,7 +732,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -790,7 +790,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -840,7 +840,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -887,7 +887,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -931,7 +931,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -975,7 +975,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1027,7 +1027,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1074,7 +1074,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1118,7 +1118,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       },
       {
         "connectorId": 2,
@@ -1128,7 +1128,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1172,7 +1172,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1217,7 +1217,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1262,7 +1262,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1307,7 +1307,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       },
       {
         "connectorId": 2,
@@ -1317,7 +1317,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1361,7 +1361,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1405,7 +1405,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       },
       {
         "connectorId": 2,
@@ -1415,7 +1415,7 @@
         "voltage": 230,
         "amperage": 16,
         "maxElectricPower": 3600,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/socket-type-e.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-domestic-e.svg"
       }
     ],
     "images": [
@@ -1462,7 +1462,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1509,7 +1509,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1553,7 +1553,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1600,7 +1600,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1646,7 +1646,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1690,7 +1690,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1734,7 +1734,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1778,7 +1778,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1822,7 +1822,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1866,7 +1866,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1910,7 +1910,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1954,7 +1954,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -1998,7 +1998,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
@@ -2042,7 +2042,7 @@
         "voltage": 400,
         "amperage": 32,
         "maxElectricPower": 22000,
-        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/connector-type-2.svg"
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
