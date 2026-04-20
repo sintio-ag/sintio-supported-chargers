@@ -1,5 +1,65 @@
 [
   {
+    "version": "3.24",
+    "date": "2026-04-20",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Improved **OCPP logs view** with payload direction indicators, empty states, and URL-persisted tab state.",
+          "Added **started and not-started charging sessions** breakdown per connector in charger details page.",
+          "Added **depositor column** in installation income tables for admin and organization spaces.",
+          "Added **depositor name and IBAN** in refund confirmation dialog.",
+          "Added **offline duration unit** display alongside the offline badge.",
+          "Made **depositor required** when creating or updating installations.",
+          "Enabled **organization admin** to update charger connector details.",
+          "Formatted **phone numbers in international format** in technical contacts and user information card."
+        ],
+        "bugfixes": [
+          "Fixed **horizontal scroll** on page when interacting with the chart tooltip.",
+          "Fixed **installation object handling** in charger detail page.",
+          "Fixed **'Requires attention' card** to ignore chargers with inactive installations.",
+          "Fixed Sintio admin **user details page crash** when invoiceNumber is null."
+        ],
+        "enhancements": [
+          "Improved **installation card in Google map** with legends and \"Inactive\" chargers count."
+        ],
+        "chores": [
+          "Removed **Qty. suffix** from charger column headers.",
+          "Removed redundant **direction column** from OCPP logs table."
+        ]
+      },
+      "de": {
+        "features": [],
+        "bugfixes": [],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.5",
+    "date": "2026-04-20",
+    "category": "public",
+    "sections": {
+      "en": {
+        "features": [
+          "Replaced **support email** with documentation link in SupportLinks.",
+          "Formatted **phone numbers** shown in app in international format."
+        ],
+        "bugfixes": [],
+        "enhancements": [],
+        "chores": []
+      },
+      "de": {
+        "features": [],
+        "bugfixes": [],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
     "version": "3.23",
     "date": "2026-04-07",
     "category": "portal",
@@ -155,9 +215,7 @@
           "Extracted reusable **FormFieldDescription** compound component into the Form UI.",
           "Improved **refund button** visual state when disabled."
         ],
-        "chores": [
-          "Excluded portal from **pre-push build check**."
-        ]
+        "chores": ["Excluded portal from **pre-push build check**."]
       },
       "de": {
         "features": [
