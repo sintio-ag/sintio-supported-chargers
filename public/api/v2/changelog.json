@@ -1,5 +1,94 @@
 [
   {
+    "version": "3.25",
+    "date": "2026-04-24",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Brought back **payment info column** in all charging sessions tables (organization charger history & detail, personal charger history & detail, single charger history, admin charging sessions & detail)."
+        ],
+        "bugfixes": [
+          "Fixed **unstable \"useMemo\" dependencies** in \"OcppLogsTable\" to prevent unnecessary re-renders.",
+          "Fixed **notification button icon size** to use \"iconMd\"."
+        ],
+        "enhancements": [
+          "Removed **date prefill** from OCPP logs date filter — table now loads all available logs by default instead of being restricted to today."
+        ],
+        "chores": []
+      },
+      "de": {
+        "features": [],
+        "bugfixes": [],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.24.3",
+    "date": "2026-04-23",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [],
+        "bugfixes": [
+          "Fixed **installation creation** by sending \"null\" instead of empty string for \"depositorId\"."
+        ],
+        "enhancements": [],
+        "chores": []
+      },
+      "de": {
+        "features": [],
+        "bugfixes": [],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.24.2",
+    "date": "2026-04-23",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [],
+        "bugfixes": [
+          "Made **depositor optional** when creating an installation."
+        ],
+        "enhancements": [],
+        "chores": []
+      },
+      "de": {
+        "features": [],
+        "bugfixes": [],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.24.1",
+    "date": "2026-04-22",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [],
+        "bugfixes": [
+          "Fixed **depositor field** during installation creation and updates; now optional when electric meter is Sintio."
+        ],
+        "enhancements": [],
+        "chores": []
+      },
+      "de": {
+        "features": [],
+        "bugfixes": [],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
     "version": "3.24",
     "date": "2026-04-20",
     "category": "portal",
