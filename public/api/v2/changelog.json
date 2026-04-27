@@ -18,9 +18,16 @@
         "chores": []
       },
       "de": {
-        "features": [],
-        "bugfixes": [],
-        "enhancements": [],
+        "features": [
+          "**Zahlungsinformationsspalte** in allen Ladesessionstabellen wieder eingeführt (Organisations-Charger-Historie & -Details, persönliche Charger-Historie & -Details, Einzel-Charger-Historie, Admin-Ladesitzungen & -Details)."
+        ],
+        "bugfixes": [
+          "**Instabile „useMemo“-Abhängigkeiten** in „OcppLogsTable“ behoben, um unnötige Re-Renders zu vermeiden.",
+          "**Icon-Grösse des Benachrichtigungs-Buttons** korrigiert, sodass nun „iconMd“ verwendet wird."
+        ],
+        "enhancements": [
+          "**Datums-Vorbelegung** im OCPP-Log-Datumsfilter entfernt – die Tabelle lädt nun standardmässig alle verfügbaren Logs statt nur die von heute."
+        ],
         "chores": []
       }
     }
@@ -40,7 +47,9 @@
       },
       "de": {
         "features": [],
-        "bugfixes": [],
+        "bugfixes": [
+          "Fehler bei der **Erstellung von Installationen** behoben, indem für „depositorId“ nun „null“ statt eines leeren Strings gesendet wird."
+        ],
         "enhancements": [],
         "chores": []
       }
@@ -61,7 +70,9 @@
       },
       "de": {
         "features": [],
-        "bugfixes": [],
+        "bugfixes": [
+          "**Kontoinhaber ist nun optional** beim Erstellen einer Installation."
+        ],
         "enhancements": [],
         "chores": []
       }
@@ -82,7 +93,9 @@
       },
       "de": {
         "features": [],
-        "bugfixes": [],
+        "bugfixes": [
+          "Fehler beim **Kontoinhaber-Feld** beim Erstellen und Aktualisieren von Installationen behoben; ist nun optional, wenn der Stromzähler von Sintio ist."
+        ],
         "enhancements": [],
         "chores": []
       }
@@ -119,10 +132,29 @@
         ]
       },
       "de": {
-        "features": [],
-        "bugfixes": [],
-        "enhancements": [],
-        "chores": []
+        "features": [
+          "Verbesserte **OCPP-Log-Ansicht** mit Richtungsindikatoren für Payloads, Empty States und URL-persistiertem Tab-Zustand.",
+          "Aufschlüsselung von **gestarteten und nicht gestarteten Ladesessions** pro Stecker auf der Ladestationsdetailseite hinzugefügt.",
+          "**Auszahlungskonto** in den Einnahmetabellen von Installationen für Admin- und Organisationsbereiche hinzugefügt.",
+          "**Name und IBAN des Auszahlungskontos** im Bestätigungsdialog für Rückerstattungen hinzugefügt.",
+          "Anzeige der **Offline-Dauer inkl. Einheit** neben dem Offline-Badge hinzugefügt.",
+          "**Auszahlungskonto als Pflichtfeld** beim Erstellen oder Aktualisieren von Installationen definiert.",
+          "**Organisations-Admins** können nun Stecker-Details von Ladestationen bearbeiten.",
+          "**Telefonnummern im internationalen Format** in technischen Kontakten und in der Benutzerinformationskarte formatiert."
+        ],
+        "bugfixes": [
+          "**Horizontales Scrollen** der Seite beim Interagieren mit dem Chart-Tooltip behoben.",
+          "**Verarbeitung von Installationsobjekten** auf der Ladestationsdetailseite korrigiert.",
+          "**„Erfordert Aufmerksamkeit“-Karte** ignoriert nun Charger mit inaktiven Installationen.",
+          "Absturz der **Benutzerdetailseite im Sintio-Admin** behoben, wenn `invoiceNumber` null ist."
+        ],
+        "enhancements": [
+          "**Installationskarte in Google Maps** mit Legende und Anzeige der Anzahl „inaktiver“ Charger verbessert."
+        ],
+        "chores": [
+          "**„Qty.“-Suffix** aus den Spaltenüberschriften der Charger entfernt.",
+          "Redundante **Richtungsspalte** aus der OCPP-Logtabelle entfernt."
+        ]
       }
     }
   },
@@ -141,7 +173,10 @@
         "chores": []
       },
       "de": {
-        "features": [],
+        "features": [
+          "**Support-E-Mail-Adresse** durch einen Link zu Docs ersetzt in den Support-Links.",
+          "**Telefonnummern** im internationalen Format anzeigen (mit Spaces)."
+        ],
         "bugfixes": [],
         "enhancements": [],
         "chores": []
