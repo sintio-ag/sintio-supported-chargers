@@ -56,6 +56,7 @@ const ConfigurationKeys = () => {
   const originOptions = [
     { value: "all", label: "All" },
     { value: "OCPP", label: "OCPP Standard" },
+    { value: "alpitronic", label: "Alpitronic specific" },
     { value: "daze", label: "Daze specific" },
     { value: "easee", label: "Easee specific" },
     { value: "garo", label: "GARO specific" },
