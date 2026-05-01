@@ -320,6 +320,19 @@
             "phone": "+41585108999"
           }
         ]
+      },
+      {
+        "country": "Norway",
+        "countryCode": "NO",
+        "supportCompanies": [
+          {
+            "id": "easee-asa",
+            "company": "Easee ASA",
+            "websiteUrl": "https://support.easee.com/hc/en-gb/p/contact-page",
+            "email": "integration@easee.com",
+            "phone": "+4751746000"
+          }
+        ]
       }
     ],
     "logos": [
