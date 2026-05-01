@@ -876,6 +876,19 @@
             "phone": "+46738981965 "
           }
         ]
+      },
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "simplee-ag",
+            "company": "simplee AG",
+            "websiteUrl": "https://simplee-energy.ch",
+            "email": "support@simplee-energy.ch",
+            "phone": "+41585108999"
+          }
+        ]
       }
     ],
     "logos": [
