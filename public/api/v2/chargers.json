@@ -64,6 +64,60 @@
     ]
   },
   {
+    "id": "abb-terra-dc-wallbox-24kW",
+    "manufacturerId": "abb",
+    "chargePointVendor": "ABB",
+    "chargePointModel": [
+      "MD_TERRA_WB"
+    ],
+    "globalMeter": true,
+    "meterClass": "±1 %",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "powerType": "DC",
+        "voltage": 920,
+        "amperage": 60,
+        "maxElectricPower": 24000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2-combo.svg"
+      },
+      {
+        "connectorId": 2,
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "powerType": "DC",
+        "voltage": 920,
+        "amperage": 60,
+        "maxElectricPower": 24000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2-combo.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-dc-wallbox-24kW_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-dc-wallbox-24kW_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-dc-wallbox-24kW_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-dc-wallbox-24kW_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-dc-wallbox-24kW_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-dc-wallbox-24kW_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-dc-wallbox-24kW_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/abb/abb-terra-dc-wallbox-24kW_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
     "id": "abb-terra-ac-wallbox",
     "manufacturerId": "abb",
     "chargePointVendor": "ABB",
