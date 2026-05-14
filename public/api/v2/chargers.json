@@ -368,6 +368,56 @@
     ]
   },
   {
+    "id": "bender-controller",
+    "manufacturerId": "bender",
+    "chargePointVendor": "Bender GmbH Co. KG",
+    "chargePointModel": [
+      "CC612_1M3PR",
+      "CC612_1M4PR",
+      "CC612_2M4PR",
+      "CC612_1S0PR",
+      "CC612_2S0PR",
+      "CC612_2M4R",
+      "CC612_2S0R"
+    ],
+    "globalMeter": false,
+    "meterClass": "-",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/bender/bender-controller-CC612_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/bender/bender-controller-CC612_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/bender/bender-controller-CC612_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/bender/bender-controller-CC612_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/bender/bender-controller-CC612_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/bender/bender-controller-CC612_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/bender/bender-controller-CC612_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/bender/bender-controller-CC612_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
     "id": "dazebox-c",
     "manufacturerId": "daze",
     "chargePointVendor": "Daze Technology",
@@ -808,6 +858,50 @@
       {
         "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_50.png",
         "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-charge_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+    {
+    "id": "ecotap-wallcharger-duo",
+    "manufacturerId": "ecotap",
+    "chargePointVendor": "Ecotap",
+    "chargePointModel": [
+      "DUO"
+    ],
+    "globalMeter": true,
+    "meterClass": "MID Class C (EN 50470)",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/ecotap-wallcharger-duo_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/ecotap-wallcharger-duo_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/ecotap-wallcharger-duo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/ecotap-wallcharger-duo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/ecotap-wallcharger-duo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/ecotap-wallcharger-duo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/ecotap-wallcharger-duo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/ecotap-wallcharger-duo_50.webp",
         "size": "50"
       }
     ]
