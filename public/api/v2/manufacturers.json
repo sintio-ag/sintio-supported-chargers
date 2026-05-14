@@ -245,6 +245,59 @@
     ]
   },
   {
+    "id": "bender",
+    "name": "Bender GmbH & Co. KG",
+    "chargePointVendor": [
+      "Bender GmbH Co. KG"
+    ],
+    "websiteUrl": "https://www.bender.de",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
+    "globalSupportUrl": null,
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "bender-gmbh-co-kg",
+            "company": "Bender GmbH & Co. KG",
+            "websiteUrl": "https://www.bender.de",
+            "email": "info@bender.de",
+            "phone": "+4964018070"
+          }
+        ]
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/bender/bender-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/bender/bender-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/bender/bender-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/bender/bender-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/bender/bender-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/bender/bender-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/bender/bender-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/bender/bender-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/bender/bender-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/bender/bender-logo_2000.webp",
+        "size": "2000"
+      }
+    ]
+  },
+  {
     "id": "daze",
     "name": "Daze",
     "chargePointVendor": [
@@ -359,6 +412,59 @@
       {
         "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-logo_2000.png",
         "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/easee-logo_2000.webp",
+        "size": "2000"
+      }
+    ]
+  },
+    {
+    "id": "ecotap",
+    "name": "Ecotap B.V.",
+    "chargePointVendor": [
+      "Ecotap"
+    ],
+    "websiteUrl": "https://ecotap.nl",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
+    "globalSupportUrl": "https://ecotap.zendesk.com/hc/en-us",
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "partino-mobile-energie-ag",
+            "company": "Partino Mobile Energie AG",
+            "websiteUrl": "https://www.partino.ch",
+            "email": "e-mobility@partino.ch",
+            "phone": "+41628324242"
+          }
+        ]
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/ecotap/ecotap-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/ecotap/ecotap-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/ecotap/ecotap-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/ecotap/ecotap-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/ecotap/ecotap-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/ecotap/ecotap-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/ecotap/ecotap-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/ecotap/ecotap-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/ecotap/ecotap-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/ecotap/ecotap-logo_2000.webp",
         "size": "2000"
       }
     ]
