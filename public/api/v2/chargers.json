@@ -885,23 +885,23 @@
     ],
     "images": [
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/ecotap-wallcharger-duo_orig.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/ecotap-wallcharger-duo_orig.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/ecotap/ecotap-wallcharger-duo_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/ecotap/ecotap-wallcharger-duo_orig.webp",
         "size": "original"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/ecotap-wallcharger-duo_500.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/ecotap-wallcharger-duo_500.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/ecotap/ecotap-wallcharger-duo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/ecotap/ecotap-wallcharger-duo_500.webp",
         "size": "500"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/ecotap-wallcharger-duo_100.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/ecotap-wallcharger-duo_100.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/ecotap/ecotap-wallcharger-duo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/ecotap/ecotap-wallcharger-duo_100.webp",
         "size": "100"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/ecotap-wallcharger-duo_50.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/easee/ecotap-wallcharger-duo_50.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/ecotap/ecotap-wallcharger-duo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/ecotap/ecotap-wallcharger-duo_50.webp",
         "size": "50"
       }
     ]
