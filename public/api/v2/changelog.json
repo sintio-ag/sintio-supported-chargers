@@ -1,5 +1,113 @@
 [
   {
+    "version": "3.26",
+    "date": "2026-05-25",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Reorganized **org admin navigation**: updated menu sequence, moved OCPP details link, improved mobile menu, and renamed \"installation\" to \"installations\".",
+          "Added **global tariffs menu** for admins to create and manage organization-wide tariffs.",
+          "Added **roaming tariff field** in installation create/edit forms.",
+          "Added **roaming flag** for org admins to mark chargers for roaming.",
+          "Added **tariff markup explanation dialog**.",
+          "Added **charger state dialog** with extended resolved states for more granular representation.",
+          "Added **connector information** from backend with connector icons and max electric power in connector rows.",
+          "Added **depositor info** in installation income table; depositor now required when creating/updating installations.",
+          "Added **payment intent ID and method columns** to charging session table.",
+          "Added **installation column** in org chargers table.",
+          "Added **active chargers card** showing chargers with no sessions or no sessions in last 3 months.",
+          "Added **note in OCPP logs table** and updated payload column data.",
+          "Added **tooltip** explaining \"Sessions not started\" charging metric.",
+          "Added **helper text** clarifying differences between charger access types.",
+          "Improved **OCPP logs view** with redesigned server form.",
+          "Improved **connector input form** with descriptions and connector icons.",
+          "Improved **charger state management** in personal space.",
+          "Redesigned **status field as toggle switch** across create/edit forms.",
+          "Updated **charger connector details editing** for org admins.",
+          "Grouped **org installation form fields** for clearer layout.",
+          "Grouped **add/edit org form fields** for clearer layout."
+        ],
+        "bugfixes": [
+          "Fixed **installation display** to read from object in charger detail page.",
+          "Fixed **horizontal scroll** when interacting with chart tooltip.",
+          "Fixed **'Unknown' charger state** to use correct translation variable.",
+          "Fixed **charger additional error tooltip** to show when any value is present.",
+          "Fixed **charger pin field validation**.",
+          "Fixed **SAAssignUserSubscriptionForm validation**.",
+          "Fixed **RFID dialog tab navigation**.",
+          "Fixed **character counter reset flash** on note update.",
+          "Fixed **group name overflow** in chargers table and InstallationChargersConnectedTable."
+        ],
+        "enhancements": [
+          "Improved **installation card** in Google Map view.",
+          "Improved **attention card text** and missing unavailable chargers count on org dashboard.",
+          "Added **org button and highlight** for newly added charger.",
+          "Added **validation message** for invoice automation wrong upload.",
+          "Updated **charger configuration table note**.",
+          "Standardized **org error messages**.",
+          "Updated **cross icon position** inside dialogs.",
+          "Used **resolved status** for offline charging status display.",
+          "Removed **payment column** from charging sessions tables.",
+          "Removed **gap between sessions count texts**."
+        ],
+        "chores": []
+      },
+      "de": {
+        "features": [],
+        "bugfixes": [],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.25.2",
+    "date": "2026-04-30",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [],
+        "bugfixes": [
+          "Preventative release. The backend changes that drop charger-level fields are currently only on the testing server — production is unaffected. Shipping this ahead of the BE rollout to prevent regressions once the new responses reach prod.",
+          "Updated **org dashboard, chargers tables, and group dialog** to read consumption, state, and error info from connectors instead of the dropped charger-level fields (avoids \"NaN\" totals and stale state/error display).",
+          "Updated **personal chargers list search** to read state from connectors (avoids a page crash when the charger-level field is missing).",
+          "Updated **Charge point details column sort** in org chargers, installation chargers, and personal chargers tables to sort by total connector consumption."
+        ],
+        "enhancements": [],
+        "chores": []
+      },
+      "de": {
+        "features": [],
+        "bugfixes": [],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.25.1",
+    "date": "2026-04-28",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [],
+        "bugfixes": [
+          "Removed redundant **SSE chargers call** on the personal dashboard — page was making both \"/user/chargers?stream=false\" and the SSE \"/user/chargers\" request, with the SSE response unused in render. Dropping it avoids the dashboard getting stuck on the loading state when the SSE stream stalls.",
+          "Switched the personal dashboard server fetch to **\"Promise.allSettled\"** so a single failing endpoint no longer fails the whole page — partial data renders instead of the full unauthorized error screen."
+        ],
+        "enhancements": [],
+        "chores": []
+      },
+      "de": {
+        "features": [],
+        "bugfixes": [],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
     "version": "3.25",
     "date": "2026-04-24",
     "category": "portal",
