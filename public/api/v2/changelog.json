@@ -1,5 +1,164 @@
 [
   {
+    "version": "3.26",
+    "date": "2026-05-25",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Reorganized **org admin navigation**: updated menu sequence, moved OCPP details link, improved mobile menu, and renamed \"installation\" to \"installations\".",
+          "Added **global tariffs menu** for admins to create and manage organization-wide tariffs.",
+          "Added **roaming tariff field** in installation create/edit forms.",
+          "Added **roaming flag** for org admins to mark chargers for roaming.",
+          "Added **tariff markup explanation dialog**.",
+          "Added **charger state dialog** with extended resolved states for more granular representation.",
+          "Added **connector information** from backend with connector icons and max electric power in connector rows.",
+          "Added **depositor info** in installation income table; depositor now required when creating/updating installations.",
+          "Added **payment intent ID and method columns** to charging session table.",
+          "Added **installation column** in org chargers table.",
+          "Added **active chargers card** showing chargers with no sessions or no sessions in last 3 months.",
+          "Added **note in OCPP logs table** and updated payload column data.",
+          "Added **tooltip** explaining \"Sessions not started\" charging metric.",
+          "Added **helper text** clarifying differences between charger access types.",
+          "Improved **OCPP logs view** with redesigned server form.",
+          "Improved **connector input form** with descriptions and connector icons.",
+          "Improved **charger state management** in personal space.",
+          "Redesigned **status field as toggle switch** across create/edit forms.",
+          "Updated **charger connector details editing** for org admins.",
+          "Grouped **org installation form fields** for clearer layout.",
+          "Grouped **add/edit org form fields** for clearer layout."
+        ],
+        "bugfixes": [
+          "Fixed **installation display** to read from object in charger detail page.",
+          "Fixed **horizontal scroll** when interacting with chart tooltip.",
+          "Fixed **'Unknown' charger state** to use correct translation variable.",
+          "Fixed **charger additional error tooltip** to show when any value is present.",
+          "Fixed **charger pin field validation**.",
+          "Fixed **SAAssignUserSubscriptionForm validation**.",
+          "Fixed **RFID dialog tab navigation**.",
+          "Fixed **character counter reset flash** on note update.",
+          "Fixed **group name overflow** in chargers table and InstallationChargersConnectedTable."
+        ],
+        "enhancements": [
+          "Improved **installation card** in Google Map view.",
+          "Improved **attention card text** and missing unavailable chargers count on org dashboard.",
+          "Added **org button and highlight** for newly added charger.",
+          "Added **validation message** for invoice automation wrong upload.",
+          "Updated **charger configuration table note**.",
+          "Standardized **org error messages**.",
+          "Updated **cross icon position** inside dialogs.",
+          "Used **resolved status** for offline charging status display.",
+          "Removed **payment column** from charging sessions tables.",
+          "Removed **gap between sessions count texts**."
+        ],
+        "chores": []
+      },
+      "de": {
+        "features": [
+          "Neu organisierte **Orgganisations-Admin-Navigation**: Menüstruktur aktualisiert, OCPP-Details-Link verschoben, mobiles Menü verbessert und \"Installation\" in \"Installationen\" umbenannt.",
+          "**Globales Tarifmenü** für Admins hinzugefügt, um organisationsweite Tarife zu erstellen und zu verwalten.",
+          "**Roaming-Tariffeld** in Formularen zum Erstellen/Bearbeiten von Installationen hinzugefügt.",
+          "**Roaming-Kennzeichnung** für Org-Admins hinzugefügt, um Ladestationen für Roaming zu markieren.",
+          "Dialog zur **Tarifaufschlag-Erklärung** hinzugefügt.",
+          "Dialog für **Ladestationsstatus** mit erweiterten aufgelösten Statuswerten für eine detailliertere Darstellung hinzugefügt.",
+          "**Steckerinformationen** aus dem Backend hinzugefügt, inklusive Steckersymbole und maximaler Ladeleistung.",
+          "**Rückerstattungsinformationen** in der Einnahmentabelle von Installationen hinzugefügt; Kontoinhaber ist nun beim Erstellen/Aktualisieren von Installationen erforderlich.",
+          "**Payment-Intent-ID- und Zahlungsmethode-Spalten** zur Ladesitzungstabelle hinzugefügt.",
+          "**Installationsspalte** in der Tabelle der Organisations-Ladestationen hinzugefügt.",
+          "Karte für **aktive Ladestationen** hinzugefügt, welche Ladestationen ohne Sitzungen oder ohne Sitzungen in den letzten 3 Monaten anzeigt.",
+          "**Hinweis in der OCPP-Logtabelle** hinzugefügt und Daten der Payload-Spalte aktualisiert.",
+          "**Tooltip** zur Erklärung der Kennzahl \"Nicht gestartete Sitzungen\" hinzugefügt.",
+          "**Hilfetext** zur Erklärung der Unterschiede zwischen den Zugriffsarten von Ladestationen hinzugefügt.",
+          "**OCPP-Logansicht** mit überarbeitetem Serverformular verbessert.",
+          "**Steckdosen-Eingabeformular** mit Beschreibungen und Steckdosensymbolen verbessert.",
+          "**Verwaltung des Ladestationsstatus** im persönlichen Bereich verbessert.",
+          "**Statusfeld als Umschalter** in Erstellen-/Bearbeiten-Formularen neu gestaltet.",
+          "Bearbeitung der **Ladestations-Steckdosendetails** für Org-Admins aktualisiert.",
+          "**Formularfelder der Organisations-Installation** für ein klareres Layout gruppiert.",
+          "**Formularfelder zum Hinzufügen/Bearbeiten von Organisationen** für ein klareres Layout gruppiert."
+        ],
+        "bugfixes": [
+          "**Installationsanzeige** auf der Detailseite der Ladestation korrigiert, damit Daten korrekt aus dem Objekt gelesen werden.",
+          "**Horizontales Scrollen** bei der Interaktion mit Chart-Tooltips behoben.",
+          "**Unbekannter Ladestationsstatus** korrigiert, damit die richtige Übersetzungsvariable verwendet wird.",
+          "**Tooltip für zusätzliche Ladestationsfehler** korrigiert, damit er angezeigt wird, sobald ein Wert vorhanden ist.",
+          "Validierung des **PIN-Felds der Ladestation** korrigiert.",
+          "Validierung von **SAAssignUserSubscriptionForm** korrigiert.",
+          "Tab-Navigation im **RFID-Dialog** korrigiert.",
+          "Kurzes Zurücksetzen des **Zeichenzählers** beim Aktualisieren von Notizen behoben.",
+          "Überlauf von **Gruppennamen** in der Ladestationstabelle und InstallationChargersConnectedTable behoben."
+        ],
+        "enhancements": [
+          "**Installationskarte** in der Google-Map-Ansicht verbessert.",
+          "Text der **Hinweiskarte** sowie fehlende Anzahl nicht verfügbarer Ladestationen im Organisations-Dashboard verbessert.",
+          "**Org-Button und Hervorhebung** für neu hinzugefügte Ladestationen hinzugefügt.",
+          "**Validierungsmeldung** für fehlerhafte Uploads bei der Rechnungsautomatisierung hinzugefügt.",
+          "Hinweis der **Ladestations-Konfigurationstabelle** aktualisiert.",
+          "**Fehlermeldungen der Organisation** vereinheitlicht.",
+          "Position des **Schliessen-Symbols** innerhalb von Dialogen aktualisiert.",
+          "**Aufgelöster Status** für die Anzeige des Offline-Ladestatus verwendet.",
+          "**Zahlungsspalte** aus den Tabellen der Ladesitzungen entfernt.",
+          "**Abstand zwischen Sitzungsanzahl-Texten** entfernt."
+        ],
+        "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.25.2",
+    "date": "2026-04-30",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [],
+        "bugfixes": [
+          "Preventative release. The backend changes that drop charger-level fields are currently only on the testing server — production is unaffected. Shipping this ahead of the BE rollout to prevent regressions once the new responses reach prod.",
+          "Updated **org dashboard, chargers tables, and group dialog** to read consumption, state, and error info from connectors instead of the dropped charger-level fields (avoids \"NaN\" totals and stale state/error display).",
+          "Updated **personal chargers list search** to read state from connectors (avoids a page crash when the charger-level field is missing).",
+          "Updated **Charge point details column sort** in org chargers, installation chargers, and personal chargers tables to sort by total connector consumption."
+        ],
+        "enhancements": [],
+        "chores": []
+      },
+      "de": {
+        "features": [],
+        "bugfixes": [
+          "Präventives Release. Die Backend-Änderungen, welche Ladestationsfelder entfernen, sind derzeit nur auf dem Testserver aktiv — Produktion ist nicht betroffen. Dieses Release wird vor dem Backend-Rollout ausgeliefert, um Regressionen zu vermeiden, sobald die neuen Antworten produktiv verfügbar sind.",
+          "**Organisations-Dashboard, Ladestationstabellen und Gruppendialog** aktualisiert, damit Verbrauchs-, Status- und Fehlerinformationen aus den Steckdosen statt aus den entfernten Ladestationsfeldern gelesen werden (verhindert \"NaN\"-Summen sowie veraltete Status-/Fehleranzeigen).",
+          "**Suche in der persönlichen Ladestationsliste** aktualisiert, damit der Status aus den Steckdosen gelesen wird (verhindert einen Seitenabsturz, wenn das Ladestationsfeld fehlt).",
+          "**Sortierung der Ladestationsdetails-Spalte** in den Tabellen für Organisations-, Installations- und persönliche Ladestationen aktualisiert, damit nach dem gesamten Steckdosenverbrauch sortiert wird."
+        ],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.25.1",
+    "date": "2026-04-28",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [],
+        "bugfixes": [
+          "Removed redundant **SSE chargers call** on the personal dashboard — page was making both \"/user/chargers?stream=false\" and the SSE \"/user/chargers\" request, with the SSE response unused in render. Dropping it avoids the dashboard getting stuck on the loading state when the SSE stream stalls.",
+          "Switched the personal dashboard server fetch to **\"Promise.allSettled\"** so a single failing endpoint no longer fails the whole page — partial data renders instead of the full unauthorized error screen."
+        ],
+        "enhancements": [],
+        "chores": []
+      },
+      "de": {
+        "features": [],
+        "bugfixes": [
+          "Redundanter **SSE-Aufruf für Ladestationen** im persönlichen Dashboard entfernt — die Seite führte sowohl \"/user/chargers?stream=false\" als auch die SSE-Anfrage \"/user/chargers\" aus, obwohl die SSE-Antwort nicht im Rendering verwendet wurde. Dadurch wird verhindert, dass das Dashboard im Ladezustand hängen bleibt, wenn der SSE-Stream blockiert.",
+          "Serverseitiger Abruf im persönlichen Dashboard auf **\"Promise.allSettled\"** umgestellt, sodass ein einzelner fehlgeschlagener Endpunkt nicht mehr die gesamte Seite blockiert — Teildaten werden nun angezeigt statt der vollständigen Fehlermeldung für nicht autorisierte Zugriffe."
+        ],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
     "version": "3.25",
     "date": "2026-04-24",
     "category": "portal",
@@ -339,7 +498,9 @@
           "Extracted reusable **FormFieldDescription** compound component into the Form UI.",
           "Improved **refund button** visual state when disabled."
         ],
-        "chores": ["Excluded portal from **pre-push build check**."]
+        "chores": [
+          "Excluded portal from **pre-push build check**."
+        ]
       },
       "de": {
         "features": [

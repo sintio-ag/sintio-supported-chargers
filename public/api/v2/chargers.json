@@ -556,7 +556,8 @@
     "chargePointVendor": "Daze Technology",
     "chargePointModel": [
       "DZCob",
-      "DS02"
+      "DS02",
+      "DK02"
     ],
     "globalMeter": false,
     "meterClass": "±2-5%",
@@ -862,7 +863,7 @@
       }
     ]
   },
-    {
+  {
     "id": "ecotap-wallcharger-duo",
     "manufacturerId": "ecotap",
     "chargePointVendor": "Ecotap",
