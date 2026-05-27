@@ -54,9 +54,52 @@
         "chores": []
       },
       "de": {
-        "features": [],
-        "bugfixes": [],
-        "enhancements": [],
+        "features": [
+          "Neu organisierte **Orgganisations-Admin-Navigation**: Menüstruktur aktualisiert, OCPP-Details-Link verschoben, mobiles Menü verbessert und \"Installation\" in \"Installationen\" umbenannt.",
+          "**Globales Tarifmenü** für Admins hinzugefügt, um organisationsweite Tarife zu erstellen und zu verwalten.",
+          "**Roaming-Tariffeld** in Formularen zum Erstellen/Bearbeiten von Installationen hinzugefügt.",
+          "**Roaming-Kennzeichnung** für Org-Admins hinzugefügt, um Ladestationen für Roaming zu markieren.",
+          "Dialog zur **Tarifaufschlag-Erklärung** hinzugefügt.",
+          "Dialog für **Ladestationsstatus** mit erweiterten aufgelösten Statuswerten für eine detailliertere Darstellung hinzugefügt.",
+          "**Steckerinformationen** aus dem Backend hinzugefügt, inklusive Steckersymbole und maximaler Ladeleistung.",
+          "**Rückerstattungsinformationen** in der Einnahmentabelle von Installationen hinzugefügt; Kontoinhaber ist nun beim Erstellen/Aktualisieren von Installationen erforderlich.",
+          "**Payment-Intent-ID- und Zahlungsmethode-Spalten** zur Ladesitzungstabelle hinzugefügt.",
+          "**Installationsspalte** in der Tabelle der Organisations-Ladestationen hinzugefügt.",
+          "Karte für **aktive Ladestationen** hinzugefügt, welche Ladestationen ohne Sitzungen oder ohne Sitzungen in den letzten 3 Monaten anzeigt.",
+          "**Hinweis in der OCPP-Logtabelle** hinzugefügt und Daten der Payload-Spalte aktualisiert.",
+          "**Tooltip** zur Erklärung der Kennzahl \"Nicht gestartete Sitzungen\" hinzugefügt.",
+          "**Hilfetext** zur Erklärung der Unterschiede zwischen den Zugriffsarten von Ladestationen hinzugefügt.",
+          "**OCPP-Logansicht** mit überarbeitetem Serverformular verbessert.",
+          "**Steckdosen-Eingabeformular** mit Beschreibungen und Steckdosensymbolen verbessert.",
+          "**Verwaltung des Ladestationsstatus** im persönlichen Bereich verbessert.",
+          "**Statusfeld als Umschalter** in Erstellen-/Bearbeiten-Formularen neu gestaltet.",
+          "Bearbeitung der **Ladestations-Steckdosendetails** für Org-Admins aktualisiert.",
+          "**Formularfelder der Organisations-Installation** für ein klareres Layout gruppiert.",
+          "**Formularfelder zum Hinzufügen/Bearbeiten von Organisationen** für ein klareres Layout gruppiert."
+        ],
+        "bugfixes": [
+          "**Installationsanzeige** auf der Detailseite der Ladestation korrigiert, damit Daten korrekt aus dem Objekt gelesen werden.",
+          "**Horizontales Scrollen** bei der Interaktion mit Chart-Tooltips behoben.",
+          "**Unbekannter Ladestationsstatus** korrigiert, damit die richtige Übersetzungsvariable verwendet wird.",
+          "**Tooltip für zusätzliche Ladestationsfehler** korrigiert, damit er angezeigt wird, sobald ein Wert vorhanden ist.",
+          "Validierung des **PIN-Felds der Ladestation** korrigiert.",
+          "Validierung von **SAAssignUserSubscriptionForm** korrigiert.",
+          "Tab-Navigation im **RFID-Dialog** korrigiert.",
+          "Kurzes Zurücksetzen des **Zeichenzählers** beim Aktualisieren von Notizen behoben.",
+          "Überlauf von **Gruppennamen** in der Ladestationstabelle und InstallationChargersConnectedTable behoben."
+        ],
+        "enhancements": [
+          "**Installationskarte** in der Google-Map-Ansicht verbessert.",
+          "Text der **Hinweiskarte** sowie fehlende Anzahl nicht verfügbarer Ladestationen im Organisations-Dashboard verbessert.",
+          "**Org-Button und Hervorhebung** für neu hinzugefügte Ladestationen hinzugefügt.",
+          "**Validierungsmeldung** für fehlerhafte Uploads bei der Rechnungsautomatisierung hinzugefügt.",
+          "Hinweis der **Ladestations-Konfigurationstabelle** aktualisiert.",
+          "**Fehlermeldungen der Organisation** vereinheitlicht.",
+          "Position des **Schliessen-Symbols** innerhalb von Dialogen aktualisiert.",
+          "**Aufgelöster Status** für die Anzeige des Offline-Ladestatus verwendet.",
+          "**Zahlungsspalte** aus den Tabellen der Ladesitzungen entfernt.",
+          "**Abstand zwischen Sitzungsanzahl-Texten** entfernt."
+        ],
         "chores": []
       }
     }
@@ -79,7 +122,12 @@
       },
       "de": {
         "features": [],
-        "bugfixes": [],
+        "bugfixes": [
+          "Präventives Release. Die Backend-Änderungen, welche Ladestationsfelder entfernen, sind derzeit nur auf dem Testserver aktiv — Produktion ist nicht betroffen. Dieses Release wird vor dem Backend-Rollout ausgeliefert, um Regressionen zu vermeiden, sobald die neuen Antworten produktiv verfügbar sind.",
+          "**Organisations-Dashboard, Ladestationstabellen und Gruppendialog** aktualisiert, damit Verbrauchs-, Status- und Fehlerinformationen aus den Steckdosen statt aus den entfernten Ladestationsfeldern gelesen werden (verhindert \"NaN\"-Summen sowie veraltete Status-/Fehleranzeigen).",
+          "**Suche in der persönlichen Ladestationsliste** aktualisiert, damit der Status aus den Steckdosen gelesen wird (verhindert einen Seitenabsturz, wenn das Ladestationsfeld fehlt).",
+          "**Sortierung der Ladestationsdetails-Spalte** in den Tabellen für Organisations-, Installations- und persönliche Ladestationen aktualisiert, damit nach dem gesamten Steckdosenverbrauch sortiert wird."
+        ],
         "enhancements": [],
         "chores": []
       }
@@ -101,7 +149,10 @@
       },
       "de": {
         "features": [],
-        "bugfixes": [],
+        "bugfixes": [
+          "Redundanter **SSE-Aufruf für Ladestationen** im persönlichen Dashboard entfernt — die Seite führte sowohl \"/user/chargers?stream=false\" als auch die SSE-Anfrage \"/user/chargers\" aus, obwohl die SSE-Antwort nicht im Rendering verwendet wurde. Dadurch wird verhindert, dass das Dashboard im Ladezustand hängen bleibt, wenn der SSE-Stream blockiert.",
+          "Serverseitiger Abruf im persönlichen Dashboard auf **\"Promise.allSettled\"** umgestellt, sodass ein einzelner fehlgeschlagener Endpunkt nicht mehr die gesamte Seite blockiert — Teildaten werden nun angezeigt statt der vollständigen Fehlermeldung für nicht autorisierte Zugriffe."
+        ],
         "enhancements": [],
         "chores": []
       }
@@ -447,7 +498,9 @@
           "Extracted reusable **FormFieldDescription** compound component into the Form UI.",
           "Improved **refund button** visual state when disabled."
         ],
-        "chores": ["Excluded portal from **pre-push build check**."]
+        "chores": [
+          "Excluded portal from **pre-push build check**."
+        ]
       },
       "de": {
         "features": [
