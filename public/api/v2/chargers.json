@@ -1659,6 +1659,16 @@
         "amperage": 32,
         "maxElectricPower": 22000,
         "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
+      },
+      {
+        "connectorId": 2,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
       }
     ],
     "images": [
