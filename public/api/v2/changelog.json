@@ -1,5 +1,60 @@
 [
   {
+    "version": "3.27",
+    "date": "2026-06-17",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Added **VAT** display (cost and percentage) for end users and org admins across tariffs, subscriptions, income graphs, and CSV exports.",
+          "Added a **markup history** tab with an enhanced chart for Sintio admins on installation details.",
+          "Added **depositor type** and full depositor information across org and Sintio admin installation views.",
+          "Added a **connector update reminder** that pulsates the edit button when a connector's info has never been updated.",
+          "Added a **charging sessions helper text** clarifying that the personal space table shows the last 90 days.",
+          "Added a **copy page URL** button to the org space charger info card header.",
+          "Made **sidebar navigation** items open in a new tab and set the navbar expanded state as default."
+        ],
+        "bugfixes": [
+          "Fixed **charger details page** timing out or crashing for chargers with high-volume sessions by extending the org space render window to 45s and showing a slow-loading message after 10s.",
+          "Fixed **invoice search** in the personal space billings table.",
+          "Fixed **assignee search** in the chargers-connected table on the installation details page.",
+          "Fixed **\"Requires Action\" cards** overflow on the organization dashboard.",
+          "Fixed **charger state badge** text wrapping and widened the chargers table column.",
+          "Fixed session counts layout and label wrapping in personal space."
+        ],
+        "enhancements": [
+          "Improved **charger state management** for org and Sintio admins, with simplified hooks and a charger state dialog.",
+          "Unified **resolved state** appearance across the web client and added a distinct tooltip when a charger is offline mid-session.",
+          "Improved **connector details** layout and alignment for org admins and end users.",
+          "Suppressed the **error icon** and extra error messaging when the status is NoError.",
+          "Updated the **org space charger details** card UI and connector row spacing."
+        ],
+        "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.6",
+    "date": "2026-06-17",
+    "category": "public",
+    "sections": {
+      "en": {
+        "features": [
+          "Gated the **payment page** behind Preparing/Finishing charger states, redirecting to the connect-cable page otherwise.",
+          "Extended the **post-start wait** messaging and reduced the waiting time to 30s."
+        ],
+        "bugfixes": [
+          "Fixed **duplicate success toasts** and page flicker after a start-charging request is answered.",
+          "Fixed **toasts** not rendering in the public app.",
+          "Fixed lingering **start request URL params** after the charger answers.",
+          "Added **error handling** and a destructive toast to the public charging details fetch."
+        ],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
     "version": "3.26",
     "date": "2026-05-25",
     "category": "portal",
