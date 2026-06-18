@@ -30,6 +30,33 @@
           "Updated the **org space charger details** card UI and connector row spacing."
         ],
         "chores": []
+      },
+      "de": {
+        "features": [
+          "Anzeige der **Mehrwertsteuer** (Betrag und Prozentsatz) für Endnutzer und Organisationsadministratoren in Tarifen, Abonnements, Einnahmengrafiken und CSV-Exporten hinzugefügt.",
+          "Neuer Tab **Markup-Verlauf** mit erweitertem Diagramm für Sintio-Administratoren in den Installationsdetails hinzugefügt.",
+          "**Kontoinhabertyp** sowie vollständige Kontoinhaberinformationen in den Installationsansichten für Organisations- und Sintio-Administratoren hinzugefügt.",
+          "Eine **Erinnerung zur Aktualisierung von Ladestationsanschlüssen** hinzugefügt, die den Bearbeiten-Button pulsieren lässt, wenn die Informationen eines Steckers noch nie aktualisiert wurden.",
+          "Einen **Hilfetext für Ladevorgänge** hinzugefügt, der erklärt, dass die Tabelle im persönlichen Bereich die letzten 90 Tage anzeigt.",
+          "Einen Button zum **Kopieren der Seiten-URL** im Header der Ladestations-Informationskarte im Organisationsbereich hinzugefügt.",
+          "**Navigationspunkte in der Seitenleiste** öffnen nun in einem neuen Tab, und die ausgeklappte Navigation ist standardmässig aktiviert."
+        ],
+        "bugfixes": [
+          "Behoben, dass die **Ladestationsdetailseite** bei Ladestationen mit vielen Ladevorgängen aufgrund von Zeitüberschreitungen hängen blieb oder abstürzte. Das Render-Zeitfenster im Organisationsbereich wurde auf 45 Sekunden erhöht und nach 10 Sekunden wird nun ein Hinweis auf langsames Laden angezeigt.",
+          "Die **Rechnungssuche** in der Abrechnungstabelle des persönlichen Bereichs korrigiert.",
+          "Die **Suche nach zugewiesenen Personen** in der Tabelle der verbundenen Ladestationen auf der Installationsdetailseite korrigiert.",
+          "Überlaufende **„Aktion erforderlich“-Karten** auf dem Organisations-Dashboard behoben.",
+          "Zeilenumbrüche bei den Texten der **Ladestatus-Badges** behoben und die entsprechende Spalte in der Ladestationstabelle verbreitert.",
+          "Layout der Sitzungsanzahl sowie Zeilenumbrüche bei Beschriftungen im persönlichen Bereich korrigiert."
+        ],
+        "enhancements": [
+          "Die **Verwaltung von Ladestatus** für Organisations- und Sintio-Administratoren vereinfacht und um einen Ladestatus-Dialog erweitert.",
+          "Die Darstellung des **aufgelösten Status** im Webclient vereinheitlicht und einen eigenen Tooltip hinzugefügt, wenn eine Ladestation während eines Ladevorgangs offline geht.",
+          "Layout und Ausrichtung der **Ladestationsanschluss-Details** für Organisationsadministratoren und Endnutzer verbessert.",
+          "**Fehlersymbol** und zusätzliche Fehlermeldungen werden nun ausgeblendet, wenn der Status „NoError“ ist.",
+          "Die Benutzeroberfläche der **Ladestationsdetails im Organisationsbereich** sowie die Abstände der Steckerzeilen überarbeitet."
+        ],
+        "chores": []
       }
     }
   },
@@ -48,6 +75,20 @@
           "Fixed **toasts** not rendering in the public app.",
           "Fixed lingering **start request URL params** after the charger answers.",
           "Added **error handling** and a destructive toast to the public charging details fetch."
+        ],
+        "enhancements": [],
+        "chores": []
+      },
+      "de": {
+        "features": [
+          "Die **Zahlungsseite** wird nun nur noch bei Ladestationen im Status „Preparing“ oder „Finishing“ angezeigt. Andernfalls erfolgt eine Weiterleitung zur Seite zum Anschliessen des Kabels.",
+          "Die Hinweise während der **Wartezeit nach dem Starten** wurden erweitert und die Wartezeit auf 30 Sekunden reduziert."
+        ],
+        "bugfixes": [
+          "Doppelte **Erfolgsmeldungen (Toasts)** und Seitenflackern nach einer Startanfrage behoben.",
+          "**Toasts** wurden in der öffentlichen App nicht angezeigt und werden nun korrekt dargestellt.",
+          "Verbleibende **URL-Parameter der Startanfrage** nach der Antwort der Ladestation entfernt.",
+          "Fehlerbehandlung und eine destruktive **Fehlermeldung (Toast)** für das Abrufen der öffentlichen Ladedetails hinzugefügt."
         ],
         "enhancements": [],
         "chores": []
