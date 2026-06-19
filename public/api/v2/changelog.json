@@ -1,5 +1,38 @@
 [
   {
+    "version": "3.27.2",
+    "date": "2026-06-19",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [],
+        "bugfixes": [
+          "Fixed **resolved status badge** height in the organization chargers table.",
+          "Added a **placeholder** for null max electric power values."
+        ],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.27.1",
+    "date": "2026-06-19",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [],
+        "bugfixes": [
+          "Fixed **offline message** for ongoing sessions in charger lists."
+        ],
+        "enhancements": [
+          "Improved **resolved status badge dot** alignment to scope it to the resolved status badge."
+        ],
+        "chores": []
+      }
+    }
+  },
+  {
     "version": "3.27",
     "date": "2026-06-17",
     "category": "portal",
