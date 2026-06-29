@@ -1986,23 +1986,23 @@
     ],
     "images": [
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/schneider-electric/schneider-electric_pro_ac_orig.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/schneider-electric/schneider-electric_pro_ac_orig.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/schneider-electric/schneider-electric-pro-ac_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/schneider-electric/schneider-electric-pro-ac_orig.webp",
         "size": "original"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/schneider-electric/schneider-electric_pro_ac_500.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/schneider-electric/schneider-electric_pro_ac_500.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/schneider-electric/schneider-electric-pro-ac_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/schneider-electric/schneider-electric-pro-ac_500.webp",
         "size": "500"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/schneider-electric/schneider-electric_pro_ac_100.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/schneider-electric/schneider-electric_pro_ac_100.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/schneider-electric/schneider-electric-pro-ac_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/schneider-electric/schneider-electric-pro-ac_100.webp",
         "size": "100"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/schneider-electric/schneider-electric_pro_ac_50.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/schneider-electric/schneider-electric_pro_ac_50.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/schneider-electric/schneider-electric-pro-ac_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/schneider-electric/schneider-electric-pro-ac_50.webp",
         "size": "50"
       }
     ]
