@@ -1,5 +1,57 @@
 [
   {
+    "version": "3.27.2",
+    "date": "2026-06-19",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [],
+        "bugfixes": [
+          "Fixed **resolved status badge** height in the organization chargers table.",
+          "Added a **placeholder** for null max electric power values."
+        ],
+        "enhancements": [],
+        "chores": []
+      },
+      "de": {
+        "features": [],
+        "bugfixes": [
+          "Die Höhe des **Resolved-Status-Badges** in der Ladestationstabelle des Organisationsbereichs korrigiert.",
+          "Einen **Platzhalter** für fehlende Werte der maximalen elektrischen Leistung hinzugefügt."
+        ],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.27.1",
+    "date": "2026-06-19",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [],
+        "bugfixes": [
+          "Fixed **offline message** for ongoing sessions in charger lists."
+        ],
+        "enhancements": [
+          "Improved **resolved status badge dot** alignment to scope it to the resolved status badge."
+        ],
+        "chores": []
+      },
+      "de": {
+        "features": [],
+        "bugfixes": [
+          "Die **Offline-Meldung** für laufende Ladevorgänge in der Ladestationsübersicht korrigiert."
+        ],
+        "enhancements": [
+          "Die Ausrichtung des Punkts im **Resolved-Status-Badge** verbessert, sodass dieser nur noch beim Resolved-Status angezeigt wird."
+        ],
+        "chores": []
+      }
+    }
+  },
+  {
     "version": "3.27",
     "date": "2026-06-17",
     "category": "portal",
