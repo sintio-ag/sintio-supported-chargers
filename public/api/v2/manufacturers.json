@@ -1040,7 +1040,7 @@
   },
   {
     "id": "schneider-electric",
-    "name": "Schneider Electric",
+    "name": "Schneider Electric SE",
     "chargePointVendor": [
       "Schneider Electric"
     ],
@@ -1055,7 +1055,7 @@
         "supportCompanies": [
           {
             "id": "schneider-electric",
-            "company": "Schneider Electric",
+            "company": "Schneider Electric (Schweiz) AG",
             "websiteUrl": "https://www.se.com/ch/de/about-us/legal/",
             "email": "customercare.ch@se.com",
             "phone": "+41319173333"
