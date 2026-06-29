@@ -29,6 +29,53 @@
     }
   },
   {
+    "version": "3.28",
+    "date": "2026-06-29",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Added an **OCPP explanation modal** with an updated header in charger details.",
+          "Added **navigation links** to the organization and installation in the admin chargers table.",
+          "Added **highlighting for inactive** installations and organizations in the admin chargers table.",
+          "Added an **org settings popover** to the organization space topbar.",
+          "Added **date range filtering** with same-day end-date selection to admin charging sessions.",
+          "Added **new group filter options** on the chargers page.",
+          "Added **connectivity delay information** to the connectivity view, window tab, and log modal."
+        ],
+        "bugfixes": [
+          "Fixed **suspended state UI** in the desktop view.",
+          "Made **admin charging sessions date inputs optional** with a max date of today.",
+          "Removed the lingering **reset icon** on date inputs after reset.",
+          "Fixed **accessorKey and optional chaining** in admin chargers table columns.",
+          "Fixed **time locale consistency** in the long-term connectivity chart.",
+          "Fixed **whitelabel color** being ignored in markup history and peaks charts."
+        ],
+        "enhancements": ["Updated the **charger status field** helper text."],
+        "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.7",
+    "date": "2026-06-29",
+    "category": "public",
+    "sections": {
+      "en": {
+        "features": [
+          "Added **email persistence** across the payment flow with the field kept visible.",
+          "Added a **start-new-session link** on the thank you page.",
+          "Added a **24-hour auto-end notice** to the current charging session.",
+          "Added a **free-up-charge-point notice** on the thank you page.",
+          "Added a **helper message** for suspended EV/EVSE sessions."
+        ],
+        "bugfixes": ["Fixed **charging animation** leg length on desktop."],
+        "enhancements": [],
+        "chores": ["Updated the **default support email**."]
+      }
+    }
+  },
+  {
     "version": "3.27.2",
     "date": "2026-06-19",
     "category": "portal",
@@ -675,9 +722,7 @@
           "Extracted reusable **FormFieldDescription** compound component into the Form UI.",
           "Improved **refund button** visual state when disabled."
         ],
-        "chores": [
-          "Excluded portal from **pre-push build check**."
-        ]
+        "chores": ["Excluded portal from **pre-push build check**."]
       },
       "de": {
         "features": [
@@ -943,3 +988,4 @@
     }
   }
 ]
+
