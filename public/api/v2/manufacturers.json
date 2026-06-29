@@ -1042,7 +1042,7 @@
     "id": "schneider-electric",
     "name": "Schneider Electric",
     "chargePointVendor": [
-      "schneider-electric"
+      "Schneider Electric"
     ],
     "websiteUrl": "https://www.se.com",
     "chargerManagementUrl": "https://www.se.com/ch/de/product-category/1800-ladeinfrastruktur-f%C3%BCr-elektromobilit%C3%A4t/",
@@ -1059,58 +1059,6 @@
             "websiteUrl": "https://www.se.com/ch/de/about-us/legal/",
             "email": "customercare.ch@se.com",
             "phone": "+41319173333"
-          }
-        ]
-      },
-      {
-        "country": "Germany",
-        "countryCode": "DE",
-        "supportCompanies": [
-          {
-            "id": "schneider-electric",
-            "company": "Schneider Electric",
-            "websiteUrl": "https://www.se.com/de/de/about-us/legal/",
-            "email": "de-schneider-service@se.com",
-            "phone": "+4921173743000"
-          }
-        ]
-      },
-      {
-        "country": "France",
-        "countryCode": "FR",
-        "supportCompanies": [
-          {
-            "id": "schneider-electric",
-            "company": "Schneider Electric",
-            "websiteUrl": "https://www.se.com/fr/fr/about-us/legal/legal-information/",
-            "email": "centre-service-client@fr.schneider-electric.com",
-            "phone": "+33825012999"
-          }
-        ]
-      },
-      {
-        "country": "Italy",
-        "countryCode": "IT",
-        "supportCompanies": [
-          {
-            "id": "schneider-electric",
-            "company": "Schneider Electric",
-            "websiteUrl": "https://www.se.com/it/it/about-us/legal/terms-of-use/",
-            "email": "it-care@se.com",
-            "phone": "+390112281111"
-          }
-        ]
-      },
-      {
-        "country": "Austria",
-        "countryCode": "AT",
-        "supportCompanies": [
-          {
-            "id": "schneider-electric",
-            "company": "Schneider Electric",
-            "websiteUrl": "https://www.se.com/at/de/about-us/legal/",
-            "email": "at-schneider-service@se.com",
-            "phone": "+431610540"
           }
         ]
       }

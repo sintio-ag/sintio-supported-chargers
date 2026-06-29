@@ -1966,9 +1966,9 @@
   {
     "id": "schneider-electric-pro-ac",
     "manufacturerId": "schneider-electric",
-    "chargePointVendor": "schneider electric",
+    "chargePointVendor": "Schneider Electric",
     "chargePointModel": [
-      "Pro AC"
+      "EVlink Pro AC"
     ],
     "globalMeter": true,
     "meterClass": "MID Class B (EN 50470)",
