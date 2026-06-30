@@ -1846,7 +1846,7 @@
     "rebootRequired": true,
     "description": "Required to deactivate OCPP security event notifications (SecurityEventNotification.req) to the backend without support of this message, which may cause communication hangup with non-compliant OCPP backends.",
     "origin": "alpitronic"
-  },  
+  },
   {
     "name": "ExternalAuthorizationRequired",
     "required": false,
@@ -3815,5 +3815,115 @@
     "unit": "",
     "description": "SSID for Wi-Fi network connection",
     "origin": "garo"
+  },
+  {
+    "name": "OCPPCommCtrlrActiveOcppVersion",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "ocpp1.6,ocpp2.0.1",
+    "unit": "",
+    "description": "Active OCPP version used by the charger.",
+    "origin": "elecq"
+  },
+  {
+    "name": "ChargingStationBaseUri",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "wss://ocpp-e.elecq.com:443",
+    "unit": "",
+    "description": "Base URI of the OCPP backend.",
+    "origin": "elecq"
+  },
+  {
+    "name": "ChargingStationIdentity",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "Charger's SN",
+    "unit": "",
+    "description": "Charging station identity, usually the charger serial number.",
+    "origin": "elecq"
+  },
+  {
+    "name": "SecurityCtrlrBasicAuthUsername",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "",
+    "unit": "",
+    "description": "Username for HTTP Basic Authentication.",
+    "origin": "elecq"
+  },
+  {
+    "name": "SecurityCtrlrBasicAuthPassword",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "",
+    "unit": "",
+    "description": "Password for HTTP Basic Authentication.",
+    "origin": "elecq"
+  },
+  {
+    "name": "EvseMaxCurrent",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "integer",
+    "defaultValue": 32,
+    "unit": "A",
+    "description": "Maximum EVSE charging current.",
+    "origin": "elecq"
+  },
+  {
+    "name": "FreeVendEnabled",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "boolean",
+    "defaultValue": false,
+    "unit": "",
+    "description": "Enables free charging mode. When enabled, users can start a charging session without presenting an RFID card or using an app. Instead of performing a normal authorization, the charger automatically starts the transaction and uses the configured FreeVendIdTag as the idTag in the StartTransaction.req sent to the backend.",
+    "origin": "elecq"
+  },
+  {
+    "name": "FreeVendIdTag",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "string",
+    "defaultValue": "FreeVendIdTag",
+    "unit": "",
+    "description": "Virtual idTag used when FreeVendEnabled is enabled. The charger sends this value as the idTag in the StartTransaction.req so the backend can identify and authorize free charging sessions.",
+    "origin": "elecq"
+  },
+  {
+    "name": "GridType",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "integer",
+    "defaultValue": 0,
+    "unit": "",
+    "description": "Grid type configuration.",
+    "origin": "elecq"
+  },
+  {
+    "name": "WebPaymentsCtrl",
+    "required": false,
+    "read": true,
+    "write": true,
+    "type": "boolean",
+    "defaultValue": false,
+    "unit": "",
+    "description": "Controls web payment functionality.",
+    "origin": "elecq"
   }
 ]
