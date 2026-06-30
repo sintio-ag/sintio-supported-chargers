@@ -59,6 +59,7 @@ const ConfigurationKeys = () => {
     { value: "alpitronic", label: "Alpitronic specific" },
     { value: "daze", label: "Daze specific" },
     { value: "easee", label: "Easee specific" },
+    { value: "elecq", label: "Elecq specific" },
     { value: "garo", label: "GARO specific" },
     { value: "hager", label: "Hager specific" },
     { value: "keba", label: "KEBA specific" },
