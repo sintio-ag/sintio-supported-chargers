@@ -3879,7 +3879,7 @@
     "type": "integer",
     "defaultValue": 32,
     "unit": "A",
-    "description": "Maximum EVSE charging current.",
+    "description": "Defines the EVSE's maximum charging current. This value corresponds to the \"Speed\" setting in the Elecq app and acts as the upper limit for OCPP Smart Charging profiles. Charging profiles may reduce the current to any value between 0 A and this limit, but they cannot exceed it. The configured value itself cannot be higher than the circuit protection limit.",
     "origin": "elecq"
   },
   {
@@ -3890,7 +3890,7 @@
     "type": "boolean",
     "defaultValue": false,
     "unit": "",
-    "description": "Enables free charging mode. When enabled, users can start a charging session without presenting an RFID card or using an app. Instead of performing a normal authorization, the charger automatically starts the transaction and uses the configured FreeVendIdTag as the idTag in the StartTransaction.req sent to the backend.",
+    "description": "Enables free charging mode. When enabled, users can start a charging session without presenting an RFID card or using an app. Instead of performing a normal authorization, the charger automatically starts the transaction and uses the configured FreeVendIdTag as the idTag in the StartTransaction.req sent to the backend. This feature can also be used to implement AutoStart (local Plug & Charge) on third-party OCPP platforms, as the Elecq app automatically disables its built-in AutoStart feature when the charger is connected to an external OCPP backend.",
     "origin": "elecq"
   },
   {
@@ -3901,7 +3901,7 @@
     "type": "string",
     "defaultValue": "FreeVendIdTag",
     "unit": "",
-    "description": "Virtual idTag used when FreeVendEnabled is enabled. The charger sends this value as the idTag in the StartTransaction.req so the backend can identify and authorize free charging sessions.",
+    "description": "Virtual idTag used when FreeVendEnabled is enabled. The charger sends this value as the idTag in the StartTransaction.req so the backend can identify and authorize free charging sessions. It also serves as the virtual identifier for AutoStart (local Plug & Charge) implementations on third-party OCPP platforms.",
     "origin": "elecq"
   },
   {
@@ -3912,7 +3912,7 @@
     "type": "integer",
     "defaultValue": 0,
     "unit": "",
-    "description": "Grid type configuration.",
+    "description": "Defines the electrical grid system used by the charger. Supported values are: 0 = TN/TT system, 2 = IT system. Value 1 is reserved and should not be used.",
     "origin": "elecq"
   },
   {
@@ -3923,7 +3923,7 @@
     "type": "boolean",
     "defaultValue": false,
     "unit": "",
-    "description": "Controls web payment functionality.",
+    "description": "Enables support for web-based ad-hoc payments using dynamic QR codes. This setting is based on the OCPP 2.1 WebPaymentsCtrl component, which allows the charger to generate payment URLs that users can access by scanning a QR code.",
     "origin": "elecq"
   }
 ]
