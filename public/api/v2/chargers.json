@@ -1063,6 +1063,50 @@
     ]
   },
   {
+    "id": "enelion-lumina",
+    "manufacturerId": "enelion",
+    "chargePointVendor": "Enelion",
+    "chargePointModel": [
+      "Lumina"
+    ],
+    "globalMeter": true,
+    "meterClass": "MID",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-biz_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-biz_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-biz_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-biz_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-biz_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-biz_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-biz_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/elecq/elecq-biz_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
     "id": "enua-charge",
     "manufacturerId": "enua",
     "chargePointVendor": "Enua",
