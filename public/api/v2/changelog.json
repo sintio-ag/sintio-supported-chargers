@@ -1,5 +1,29 @@
 [
   {
+    "version": "2.8.0",
+    "date": "2026-07-01",
+    "category": "mobile",
+    "sections": {
+      "en": {
+        "features": [
+          "View your discounted price for charging sessions.",
+          "Added detailed instruction on markup pricing structure",
+          "Show more granular and refined charger states with helper info messages.",
+          "UI improved for favorite charger and charger detail screen"
+        ],
+        "bugfixes": [],
+        "enhancements": [],
+        "chores": []
+      },
+      "de": {
+        "features": [],
+        "bugfixes": [],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
     "version": "3.27.2",
     "date": "2026-06-19",
     "category": "portal",
