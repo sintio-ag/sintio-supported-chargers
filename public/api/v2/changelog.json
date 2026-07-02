@@ -16,7 +16,12 @@
         "chores": []
       },
       "de": {
-        "features": [],
+        "features": [
+          "Anzeige des rabattierten Preises für Ladevorgänge hinzugefügt.",
+          "Detaillierte Erläuterungen zurMarkup-Preisstruktur hinzugefügt.",
+          "Detailliertere Ladestatus mit erklärenden Hinweismeldungen hinzugefügt.",
+          "Benutzeroberfläche für Favoriten-Ladestationen und die Ladestationsdetailseite verbessert."
+        ],
         "bugfixes": [],
         "enhancements": [],
         "chores": []
