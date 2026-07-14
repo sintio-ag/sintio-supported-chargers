@@ -2052,6 +2052,104 @@
     ]
   },
   {
+    "id": "synleap-one",
+    "manufacturerId": "synleap",
+    "chargePointVendor": "synleap",
+    "chargePointModel": [
+      "synleap-one"
+    ],
+    "globalMeter": true,
+    "meterClass": "MID Class B (EN 50470)",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-one_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-one_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-one_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-one_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-one_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-one_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-one_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-one_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "synleap-twin",
+    "manufacturerId": "synleap",
+    "chargePointVendor": "synleap",
+    "chargePointModel": [
+      "synleap-twin"
+    ],
+    "globalMeter": true,
+    "meterClass": "MID Class B (EN 50470)",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
+      },
+      {
+        "connectorId": 2,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-twin_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-twin_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-twin_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-twin_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-twin_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-twin_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-twin_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-twin_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
     "id": "webasto-live",
     "manufacturerId": "webasto",
     "chargePointVendor": "Webasto",
