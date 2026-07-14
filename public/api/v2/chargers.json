@@ -2056,7 +2056,12 @@
     "manufacturerId": "synleap",
     "chargePointVendor": "synleap",
     "chargePointModel": [
-      "synleap-one"
+      "one",
+      "one smart",
+      "one smart",
+      "one flow",
+      "one core",
+      "one ultra"
     ],
     "globalMeter": true,
     "meterClass": "MID Class B (EN 50470)",
@@ -2100,7 +2105,9 @@
     "manufacturerId": "synleap",
     "chargePointVendor": "synleap",
     "chargePointModel": [
-      "synleap-twin"
+      "twin",
+      "twin touch",
+      "twin touch pro"
     ],
     "globalMeter": true,
     "meterClass": "MID Class B (EN 50470)",
