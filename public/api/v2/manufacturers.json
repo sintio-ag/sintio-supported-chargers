@@ -471,7 +471,7 @@
   },
   {
     "id": "elecq",
-    "name": "Shenzhen Elecq Digital Energy Co., Lt",
+    "name": "Shenzhen Elecq Digital Energy Co., Ltd",
     "chargePointVendor": [
       "ELECQ"
     ],
@@ -1153,6 +1153,59 @@
       {
         "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/smart-me/smart-me-logo_2000.png",
         "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/smart-me/smart-me-logo_2000.webp",
+        "size": "2000"
+      }
+    ]
+  },
+  {
+    "id": "synleap",
+    "name": "Shenzhen Synleap Digital Energy Co., Ltd.",
+    "chargePointVendor": [
+      "synleap"
+    ],
+    "websiteUrl": "https://synleapenergy.com",
+    "chargerManagementUrl": "https://ev.synleapenergy.com",
+    "statusPageUrl": null,
+    "globalSupportUrl": null,
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "sintio-ag",
+            "company": "Sintio AG",
+            "websiteUrl": "https://sintio.ch",
+            "email": "support@sintio.ch",
+            "phone": "+41555053018"
+          }
+        ]
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-logo-50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-logo-50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-logo-100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-logo-100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-logo-500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-logo-500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-logo-1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-logo-1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-logo-2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/synleap/synleap-logo-2000.webp",
         "size": "2000"
       }
     ]
