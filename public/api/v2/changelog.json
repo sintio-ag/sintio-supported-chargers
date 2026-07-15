@@ -1,5 +1,54 @@
 [
   {
+    "version": "3.29",
+    "date": "2026-07-15",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Added **VAT cost and percentage display** for Sintio admins across charging sessions, user details, installation/subscription cards, additional installation subscriptions, and installation income refundable totals.",
+          "Added **VAT percentage breakdown** for the amount to refund in the installation income column.",
+          "Moved the **VAT display toggle** to the profile details page.",
+          "Highlighted **live charging session data** on the personal space charger details page, including a suspended-state glow animation for the current charging session connector card.",
+          "Added **company name** to each country-level support entry.",
+          "Updated **chargers table layout** in personal and organization spaces.",
+          "Used **local authorization flag** in the charger state dialog for the offline chargers card."
+        ],
+        "bugfixes": [
+          "Fixed **date/month picker popovers** not dismissible on touch devices and calendar selects inside modals.",
+          "Fixed **scroll blocking** when the pointer is over a number input, keeping focus while scrolling.",
+          "Fixed **subscription filter state** initializing from props to avoid an unnecessary \"no results\" flash.",
+          "Greyed out **exception card edit/delete icons** when disabled.",
+          "Made **showPricesWithVAT** required in the user data schema and read **allowLocalAuthorization** safely from charger details.",
+          "Improved **error message spacing** for the Type select input field."
+        ],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.8",
+    "date": "2026-07-15",
+    "category": "public",
+    "sections": {
+      "en": {
+        "features": [
+          "Added **connector info** to the charger details page.",
+          "Added a **\"Waiting for data\" message** until the first meter value arrives in a charging session."
+        ],
+        "bugfixes": [
+          "Fixed **support page back button** returning to the wrong screen.",
+          "Fixed **double kW unit** rendered on the max power fallback.",
+          "Preserved **automatic icon theming** in support links.",
+          "Made **links consistent** with the portal app and renamed the back button label for clarity."
+        ],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
     "version": "2.8.0",
     "date": "2026-07-01",
     "category": "mobile",
