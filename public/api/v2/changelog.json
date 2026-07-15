@@ -1,5 +1,89 @@
 [
   {
+    "version": "3.29",
+    "date": "2026-07-15",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Added **VAT cost and percentage display** for Sintio admins across charging sessions, user details, installation/subscription cards, additional installation subscriptions, and installation income refundable totals.",
+          "Added **VAT percentage breakdown** for the amount to refund in the installation income column.",
+          "Moved the **VAT display toggle** to the profile details page.",
+          "Highlighted **live charging session data** on the personal space charger details page, including a suspended-state glow animation for the current charging session connector card.",
+          "Added **company name** to each country-level support entry.",
+          "Updated **chargers table layout** in personal and organization spaces.",
+          "Used **local authorization flag** in the charger state dialog for the offline chargers card."
+        ],
+        "bugfixes": [
+          "Fixed **date/month picker popovers** not dismissible on touch devices and calendar selects inside modals.",
+          "Fixed **scroll blocking** when the pointer is over a number input, keeping focus while scrolling.",
+          "Fixed **subscription filter state** initializing from props to avoid an unnecessary \"no results\" flash.",
+          "Greyed out **exception card edit/delete icons** when disabled.",
+          "Made **showPricesWithVAT** required in the user data schema and read **allowLocalAuthorization** safely from charger details.",
+          "Improved **error message spacing** for the Type select input field."
+        ],
+        "enhancements": [],
+        "chores": []
+      },
+      "de": {
+        "features": [
+          "Anzeige von **Mehrwertsteuerbetrag und -satz** für Sintio-Administratoren in Ladevorgängen, Benutzerdetails, Installations- und Abonnementskarten, zusätzlichen Installationsabonnements sowie den rückerstattbaren Gesamteinnahmen von Installationen hinzugefügt.",
+          "Eine **Aufschlüsselung des Mehrwertsteuersatzes** für den Rückerstattungsbetrag in der Einnahmenspalte der Installation hinzugefügt.",
+          "Den Toggler für die **Mehrwertsteueranzeige** auf die Profilseite verschoben.",
+          "**Live-Daten von Ladevorgängen** auf der Ladestationsdetailseite im persönlichen Bereich hervorgehoben, inklusive einer Leuchtanimation bei pausierten Ladevorgängen auf der Steckerkarte der aktuellen Sitzung.",
+          "**Firmenname** zu jedem länderspezifischen Supportkontakt hinzugefügt.",
+          "Das Layout der **Ladestationstabelle** im persönlichen Bereich und Organisationsbereich überarbeitet.",
+          "Das **lokale Autorisierungs-Flag** in der Ladestatus-Ansicht für die Karte mit Offline-Ladestationen verwendet."
+        ],
+        "bugfixes": [
+          "Behoben, dass sich **Datums- und Monatsauswahl-Popovers** auf Touch-Geräten sowie Kalenderauswahlen innerhalb von Dialogen nicht schliessen lassen.",
+          "Behoben, dass das **Scrollen blockiert** wurde, wenn sich der Mauszeiger über einem Zahlenfeld befand. Der Fokus bleibt nun beim Scrollen erhalten.",
+          "Behoben, dass der Status des **Abonnementfilters** aus den Props initialisiert wurde und dadurch kurzzeitig fälschlicherweise „Keine Ergebnisse“ angezeigt wurde.",
+          "Die **Bearbeiten- und Löschen-Symbole** auf Tarif-Ausnahmekarten werden nun deaktiviert dargestellt, wenn sie nicht verfügbar sind.",
+          "**showPricesWithVAT** im Benutzerdatenschema als Pflichtfeld definiert und **allowLocalAuthorization** sicher aus den Ladestationsdetails ausgelesen.",
+          "Die Abstände der **Fehlermeldung** beim Auswahlfeld „Typ“ verbessert."
+        ],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.8",
+    "date": "2026-07-15",
+    "category": "public",
+    "sections": {
+      "en": {
+        "features": [
+          "Added **connector info** to the charger details page.",
+          "Added a **\"Waiting for data\" message** until the first meter value arrives in a charging session."
+        ],
+        "bugfixes": [
+          "Fixed **support page back button** returning to the wrong screen.",
+          "Fixed **double kW unit** rendered on the max power fallback.",
+          "Preserved **automatic icon theming** in support links.",
+          "Made **links consistent** with the portal app and renamed the back button label for clarity."
+        ],
+        "enhancements": [],
+        "chores": []
+      },
+      "de": {
+        "features": [
+          "**Steckerinformationen** auf der Ladestationsdetailseite hinzugefügt.",
+          "Eine **„Warten auf Daten“-Meldung** hinzugefügt, bis der erste Zählerwert während eines Ladevorgangs empfangen werden."
+        ],
+        "bugfixes": [
+          "Behoben, dass der **Zurück-Button** auf der Supportseite zur falschen Ansicht führte.",
+          "Die doppelte **kW-Einheit** bei der Anzeige der maximalen Leistung korrigiert.",
+          "Das **automatische Icon-Design** in Support-Links beibehalten.",
+          "**Links** an das Portal angeglichen und die Beschriftung des Zurück-Buttons für mehr Klarheit angepasst."
+        ],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
     "version": "2.8.0",
     "date": "2026-07-01",
     "category": "mobile",
@@ -25,6 +109,82 @@
         "bugfixes": [],
         "enhancements": [],
         "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.28",
+    "date": "2026-06-29",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Added an **OCPP explanation modal** with an updated header in charger details.",
+          "Added **navigation links** to the organization and installation in the admin chargers table.",
+          "Added **highlighting for inactive** installations and organizations in the admin chargers table.",
+          "Added an **org settings popover** to the organization space topbar.",
+          "Added **date range filtering** with same-day end-date selection to admin charging sessions.",
+          "Added **new group filter options** on the chargers page.",
+          "Added **connectivity delay information** to the connectivity view, window tab, and log modal."
+        ],
+        "bugfixes": [
+          "Fixed **suspended state UI** in the desktop view.",
+          "Made **admin charging sessions date inputs optional** with a max date of today.",
+          "Removed the lingering **reset icon** on date inputs after reset.",
+          "Fixed **accessorKey and optional chaining** in admin chargers table columns.",
+          "Fixed **time locale consistency** in the long-term connectivity chart.",
+          "Fixed **whitelabel color** being ignored in markup history and peaks charts."
+        ],
+        "enhancements": [
+          "Updated the **charger status field** helper text."
+        ],
+        "chores": []
+      },
+      "de": {
+        "features": [
+          "Ein **OCPP-Erklärungsdialog** mit aktualisiertem Header auf der Ladestationsdetailseite hinzugefügt.",
+          "**Navigationslinks** zur Organisation und Installation in der Ladestationstabelle für Administratoren hinzugefügt.",
+          "**Inaktive** Installationen und Organisationen in der Ladestationstabelle für Administratoren hervorgehoben.",
+          "Ein **Popover für Organisationseinstellungen** in der oberen Leiste des Organisationsbereichs hinzugefügt.",
+          "**Datumsbereichsfilter** mit Auswahl desselben Tages als Enddatum für Ladevorgänge im Administratorbereich hinzugefügt.",
+          "Neue **Gruppenfilteroptionen** auf der Ladestationsseite hinzugefügt.",
+          "Informationen zur **Verbindungsverzögerung** in der Konnektivitätsansicht, im Fenster-Tab und im Log-Dialog hinzugefügt."
+        ],
+        "bugfixes": [
+          "Die Benutzeroberfläche für den **Status „Suspended“** in der Desktop-Ansicht korrigiert.",
+          "Die **Datumsfelder** für Ladevorgänge im Administratorbereich optional gemacht und das maximale Datum auf heute begrenzt.",
+          "Das verbleibende **Zurücksetzen-Symbol** in Datumsfeldern nach dem Zurücksetzen entfernt.",
+          "**accessorKey** und **optional chaining** in den Spalten der Ladestationstabelle für Administratoren korrigiert.",
+          "Die **Zeitanzeige** im Langzeit-Konnektivitätsdiagramm sprachübergreifend vereinheitlicht.",
+          "Behoben, dass die **Whitelabel-Farbe** im Markup-Verlauf und in den Lastspitzen-Diagrammen ignoriert wurde."
+        ],
+        "enhancements": [
+          "Den Hilfetext des **Ladestatus-Feldes** überarbeitet."
+        ],
+        "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.7",
+    "date": "2026-06-29",
+    "category": "public",
+    "sections": {
+      "en": {
+        "features": [
+          "Added **email persistence** across the payment flow with the field kept visible.",
+          "Added a **start-new-session link** on the thank you page.",
+          "Added a **24-hour auto-end notice** to the current charging session.",
+          "Added a **free-up-charge-point notice** on the thank you page.",
+          "Added a **helper message** for suspended EV/EVSE sessions."
+        ],
+        "bugfixes": [
+          "Fixed **charging animation** leg length on desktop."
+        ],
+        "enhancements": [],
+        "chores": [
+          "Updated the **default support email**."
+        ]
       }
     }
   },
