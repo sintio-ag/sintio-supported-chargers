@@ -682,6 +682,59 @@
     ]
   },
   {
+    "id": "evbee",
+    "name": "EVbee Co., Ltd",
+    "chargePointVendor": [
+      "EVBEE"
+    ],
+    "websiteUrl": "https://evbee.com",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
+    "globalSupportUrl": null,
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "simplee-ag",
+            "company": "simplee AG",
+            "websiteUrl": "https://simplee-energy.ch",
+            "email": "support@simplee-energy.ch",
+            "phone": "+41585108999"
+          }
+        ]
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evbee/evbee-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evbee/evbee-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evbee/evbee-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evbee/evbee-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evbee/evbee-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evbee/evbee-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evbee/evbee-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evbee/evbee-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evbee/evbee-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evbee/evbee-logo_2000.webp",
+        "size": "2000"
+      }
+    ]
+  },
+  {
     "id": "flexicharge",
     "name": "Flexicharge BV",
     "chargePointVendor": [

@@ -1250,6 +1250,60 @@
     ]
   },
   {
+    "id": "evbee-dc80",
+    "manufacturerId": "evbee",
+    "chargePointVendor": "EVBEE",
+    "chargePointModel": [
+      "DC80"
+    ],
+    "globalMeter": true,
+    "meterClass": "±1%",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "powerType": "DC",
+        "voltage": 1000,
+        "amperage": 80,
+        "maxElectricPower": 80000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2-combo.svg"
+      },
+      {
+        "connectorId": 2,
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "powerType": "DC",
+        "voltage": 1000,
+        "amperage": 80,
+        "maxElectricPower": 80000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2-combo.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evbee/evbee-dc60-80_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evbee/evbee-dc60-80_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evbee/evbee-dc60-80_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evbee/evbee-dc60-80_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evbee/evbee-dc60-80_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evbee/evbee-dc60-80_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evbee/evbee-dc60-80_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evbee/evbee-dc60-80_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
     "id": "flexicharge-charging-pole-double",
     "manufacturerId": "flexicharge",
     "chargePointVendor": "Flexicharge",
