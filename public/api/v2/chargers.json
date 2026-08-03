@@ -71,7 +71,7 @@
       "MD_TERRA_WB"
     ],
     "globalMeter": true,
-    "meterClass": "±1 %",
+    "meterClass": "±1%",
     "connectors": [
       {
         "connectorId": 1,
@@ -1257,7 +1257,7 @@
       "DC80"
     ],
     "globalMeter": true,
-    "meterClass": "±0.5%",
+    "meterClass": "±1%",
     "connectors": [
       {
         "connectorId": 1,
