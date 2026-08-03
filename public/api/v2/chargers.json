@@ -1257,7 +1257,7 @@
       "DC80"
     ],
     "globalMeter": true,
-    "meterClass": "±1%",
+    "meterClass": "±0.5%",
     "connectors": [
       {
         "connectorId": 1,
