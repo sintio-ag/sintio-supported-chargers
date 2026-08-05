@@ -523,6 +523,79 @@
     ]
   },
   {
+    "id": "enelion",
+    "name": "Enelion sp. z o.o.",
+    "chargePointVendor": [
+      "Enelion"
+    ],
+    "websiteUrl": "https://enelion.com",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
+    "globalSupportUrl": "https://enelion.com/support/",
+    "supportByCountry": [
+      {
+        "country": "Poland",
+        "countryCode": "PL",
+        "supportCompanies": [
+          {
+            "id": "enelion-sp-z-o-o",
+            "company": "Enelion sp. z o.o.",
+            "websiteUrl": "https://enelion.com/contact/",
+            "email": "support@enelion.com",
+            "phone": "+48728816763"
+          }
+        ]
+      },
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "evolution",
+            "company": "Evolution",
+            "websiteUrl": "https://evolutionevse.com",
+            "email": "palbertoli@evolutionevse.com",
+            "phone": "+41798978113"
+          },
+          {
+            "id": "sharep",
+            "company": "ShareP",
+            "websiteUrl": "https://sharep.io",
+            "email": "office@sharep.io",
+            "phone": "+41 44 505 44 50"
+          }
+        ]
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/enelion/enelion-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/enelion/enelion-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/enelion/enelion-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/enelion/enelion-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/enelion/enelion-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/enelion/enelion-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/enelion/enelion-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/enelion/enelion-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/enelion/enelion-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/enelion/enelion-logo_2000.webp",
+        "size": "2000"
+      }
+    ]
+  },
+  {
     "id": "enua",
     "name": "Enua",
     "chargePointVendor": [
