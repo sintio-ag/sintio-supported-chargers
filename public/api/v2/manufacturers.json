@@ -531,7 +531,7 @@
     "websiteUrl": "https://enelion.com",
     "chargerManagementUrl": null,
     "statusPageUrl": null,
-    "globalSupportUrl": "https://enelion.com/support/",
+    "globalSupportUrl": "https://enelion.com/support",
     "supportByCountry": [
       {
         "country": "Poland",
@@ -540,7 +540,7 @@
           {
             "id": "enelion-sp-z-o-o",
             "company": "Enelion sp. z o.o.",
-            "websiteUrl": "https://enelion.com/contact/",
+            "websiteUrl": "https://enelion.com/contact",
             "email": "support@enelion.com",
             "phone": "+48728816763"
           }
@@ -909,6 +909,59 @@
       {
         "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/garo/garo-logo_2000.png",
         "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/garo/garo-logo_2000.webp",
+        "size": "2000"
+      }
+    ]
+  },
+  {
+    "id": "gewiss",
+    "name": "Gewiss Swiss SA",
+    "chargePointVendor": [
+      "Gewiss"
+    ],
+    "websiteUrl": "https://www.gewiss.com",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
+    "globalSupportUrl": "https://www.gewiss.com/ch/de/contact-us",
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "gewiss-swiss-sa",
+            "company": "Gewiss Swiss SA",
+            "websiteUrl": "https://www.gewiss.com/ch/de/contact-us",
+            "email": "gewiss-ch@gewiss.com",
+            "phone": "+41918571111"
+          }
+        ]
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-logo_2000.webp",
         "size": "2000"
       }
     ]

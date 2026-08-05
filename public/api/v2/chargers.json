@@ -1446,6 +1446,97 @@
     ]
   },
   {
+    "id": "gewiss-i-con-evo-cable",
+    "manufacturerId": "gewiss",
+    "chargePointVendor": "JOINON",
+    "chargePointModel": [
+      "GWJ3612T",
+      "GWJ3613T"
+    ],
+    "globalMeter": true,
+    "meterClass": "±1%",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "CABLE",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-i-con-evo-cable_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-i-con-evo-cable_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-i-con-evo-cable_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-i-con-evo-cable_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-i-con-evo-cable_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-i-con-evo-cable_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-i-con-evo-cable_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-i-con-evo-cable_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "gewiss-i-con-evo-socket",
+    "manufacturerId": "gewiss",
+    "chargePointVendor": "JOINON",
+    "chargePointModel": [
+      "GWJ3602T",
+      "GWJ3603T",
+      "GWJ3604T"
+    ],
+    "globalMeter": true,
+    "meterClass": "±1%",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-i-con-evo-socket_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-i-con-evo-socket_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-i-con-evo-socket_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-i-con-evo-socket_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-i-con-evo-socket_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-i-con-evo-socket_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-i-con-evo-socket_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/gewiss/gewiss-i-con-evo-socket_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
     "id": "hager-witty-plus",
     "manufacturerId": "hager",
     "chargePointVendor": "Hager",
