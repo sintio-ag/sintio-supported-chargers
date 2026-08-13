@@ -1,5 +1,97 @@
 [
   {
+    "version": "3.30",
+    "date": "2026-08-12",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Added the ability to **link an electric meter** to installations via a metering point select in both organization and Sintio admin space, and surfaced metering point values in the installations lists.",
+          "Added **non-roaming global tariffs** to the private and public tariff selections of organization installations, tagged as global on the edit installation page.",
+          "Added the ability for organization admins to **create Sintio depositors**.",
+          "Added the ability to **activate and deactivate users** in Sintio admin space.",
+          "Extended the Sintio admin **user detail view** to allow editing of personal details.",
+          "Added the **Stripe customer ID** to Sintio admin user pages.",
+          "Added a **\"Support through Sintio\" toggle** to the Sintio admin installation subscription, including a feature description in the subscription card list.",
+          "Added an **outdated badge and striped overlay** on the charger status card when the charger is offline.",
+          "Added a dedicated message when a **charger is occupied** by another user's ongoing session.",
+          "Added **meaningful Stripe error messages** when adding a credit card fails."
+        ],
+        "bugfixes": [
+          "Fixed the **Phone Input** dropping the caller's ref and autoFocus props.",
+          "Fixed the **country lookup** in the user data card.",
+          "Fixed the **organization installation page** losing full height."
+        ],
+        "enhancements": [
+          "Updated the **live charging animation** in user space, including the connector card border colour while charging and respect for reduced-motion preferences.",
+          "Moved the **\"Requires action\" section** into an accordion on the organization dashboard.",
+          "Replaced switches with **checkboxes** in the user profile data cards, unified checkbox styling and hover states app-wide, and compacted switch rows into a 2x2 grid on larger screens.",
+          "Enhanced the **user details section** UI in Sintio admin space.",
+          "Improved **form validation feedback**, scrolling and focusing the first invalid Select or Phone input on client-side validation.",
+          "Reduced unnecessary requests by fetching **RFID cards** only when the started-by label is shown.",
+          "Refactored tariff option handling into a single-pass **`partitionTariffOptions`** helper and colocated installation details form state."
+        ],
+        "chores": []
+      },
+      "de": {
+        "features": [
+          "Die Möglichkeit hinzugefügt, über die Auswahl eines **Stromzähler-Messpunkt mit Installationen zu verknüpfen** – sowohl im Organisationsbereich als auch im Sintio-Administratorbereich. Messpunktwerte werden zudem in den Installationslisten angezeigt.",
+          "**Globale Tarife ohne Roaming** zu den privaten und öffentlichen Tarifauswahlen von Installationen hinzugefügt und auf der Bearbeitungsseite als Global gekennzeichnet.",
+          "Organisationsadministratoren können nun **Sintio-Kontoinhaber erstellen**.",
+          "Die Möglichkeit hinzugefügt, **Benutzer im Sintio-Administratorbereich zu aktivieren und zu deaktivieren**.",
+          "Die **Benutzerdetailansicht** im Sintio-Administratorbereich erweitert, sodass persönliche Angaben bearbeitet werden können.",
+          "Die **Stripe-Kunden-ID** zu den Benutzerseiten im Sintio-Administratorbereich hinzugefügt.",
+          "Einen Schalter für **„Support durch Sintio“** zum Installationsabonnement im Sintio-Administratorbereich hinzugefügt, inklusive einer Funktionsbeschreibung in der Liste der Abonnementkarten.",
+          "Ein **„Veraltet“-Badge mit gestreifter Überlagerung** auf der Ladestatuskarte hinzugefügt, wenn die Ladestation offline ist.",
+          "Eine dezidierte Meldung hinzugefügt, wenn eine **Ladestation durch einen laufenden Ladevorgang eines anderen Benutzers belegt** ist.",
+          "**Aussagekräftige Stripe-Fehlermeldungen** hinzugefügt, wenn das Hinzufügen einer Kreditkarte fehlschlägt."
+        ],
+        "bugfixes": [
+          "Behoben, dass die **Telefonnummerneingabe** die Eigenschaften ref und autoFocus nicht korrekt übernommen hat.",
+          "Die **Ländersuche** in der Benutzerdatenkarte korrigiert.",
+          "Behoben, dass die **Installationsseite im Organisationsbereich** nicht mehr die volle Höhe einnahm."
+        ],
+        "enhancements": [
+          "Die **Live-Ladeanimation** im persönlichen Bereich überarbeitet, inklusive Rahmenfarbe der Konnektorkarte während des Ladens und Berücksichtigung der Einstellung für reduzierte Bewegungen.",
+          "Den Bereich **Aktion erforderlich** auf dem Organisations-Dashboard in ein Akkordeon verschoben.",
+          "Schalter in den Benutzerdatenkarten durch **Checkboxen** ersetzt, das Styling und die Hover-Zustände von Checkboxen in der gesamten App vereinheitlicht und Schalterzeilen auf grösseren Bildschirmen in einem kompakten 2x2-Raster angeordnet.",
+          "Die Benutzeroberfläche des Bereichs **Benutzerdetails** im Sintio-Administratorbereich verbessert.",
+          "Das **Feedback bei der Formularvalidierung** verbessert. Bei clientseitigen Validierungsfehlern wird nun zum ersten ungültigen Auswahl- oder Telefonnummernfeld gescrollt und dieses fokussiert.",
+          "Unnötige Anfragen reduziert, indem **RFID-Karten** nur noch abgerufen werden, wenn die Information zum Start des Ladevorgangs angezeigt wird.",
+          "Die Verarbeitung von Tarifoptionen in den zentralen **partitionTariffOptions-Helper** überführt und den Formularstatus der Installationsdetails zusammengeführt."
+        ],
+        "chores": []
+      }
+    }
+  },
+  {
+    "version": "3.9",
+    "date": "2026-08-12",
+    "category": "public",
+    "sections": {
+      "en": {
+        "features": [
+          "Added a dedicated **charger in use** status page with its own illustration and a \"Try again\" action."
+        ],
+        "bugfixes": [
+          "Fixed several UI issues on the **charger status pages**."
+        ],
+        "enhancements": [],
+        "chores": []
+      },
+      "de": {
+        "features": [
+          "Eigene Statusseite für **\"Ladestation in Verwendung durch anderen Nutzer\"** mit eigener Illustration und der Aktion „Erneut versuchen“ hinzugefügt."
+        ],
+        "bugfixes": [
+          "Mehrere Darstellungsprobleme auf den **Ladestatusseiten** behoben."
+        ],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
     "version": "3.29",
     "date": "2026-07-15",
     "category": "portal",
@@ -642,7 +734,7 @@
           "**Horizontales Scrollen** der Seite beim Interagieren mit dem Chart-Tooltip behoben.",
           "**Verarbeitung von Installationsobjekten** auf der Ladestationsdetailseite korrigiert.",
           "**„Erfordert Aufmerksamkeit“-Karte** ignoriert nun Charger mit inaktiven Installationen.",
-          "Absturz der **Benutzerdetailseite im Sintio-Admin** behoben, wenn `invoiceNumber` null ist."
+          "Absturz der **Benutzerdetailseite im Sintio-Admin** behoben, wenn invoiceNumber null ist."
         ],
         "enhancements": [
           "**Installationskarte in Google Maps** mit Legende und Anzeige der Anzahl „inaktiver“ Charger verbessert."
