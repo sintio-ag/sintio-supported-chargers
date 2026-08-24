@@ -1,5 +1,53 @@
 [
   {
+    "version": "3.31",
+    "date": "2026-08-24",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Added **electric meter charts** showing the number of chargers and consumption.",
+          "Added the **Stripe account ID** and improved payout status to the depositors table.",
+          "Added the ability to **request custom charger images** for unknown chargers on the organization admin charger details page.",
+          "Added **structured logging** coverage across API and error paths.",
+          "Added support for a **nullable dayOfWeek** on tariff exceptions."
+        ],
+        "bugfixes": [
+          "Fixed the **QR code dialog** using a hardcoded connector ID instead of the row's connector.",
+          "Fixed **subscription dates** so additional installation dates can be cleared and the end date resets with the start date.",
+          "Fixed **date validation messages** being dropped by the zod resolver.",
+          "Fixed the **\"Neither user nor group assigned\" card** so it shows when it is the only remaining \"Requires action\" card.",
+          "Fixed **depositors table** search, 0% VAT rate and unknown payout handling."
+        ],
+        "enhancements": [
+          "Added a **global tariff badge** to the tariff selection dropdown.",
+          "Changed the **outdated charger state duration** to subtitle text instead of a badge."
+        ],
+        "chores": [
+          "Removed **portal-v2** from the monorepo, including the app, deployment pipelines, scripts and documentation.",
+          "Extracted the shared **`@sintio/logger`** package and moved the no-console rule into the shared ESLint preset.",
+          "Updated the **setup documentation**, correcting the env example path and restoring the portal-v3 section."
+        ]
+      }
+    }
+  },
+  {
+    "version": "3.10",
+    "date": "2026-08-24",
+    "category": "public",
+    "sections": {
+      "en": {
+        "features": [
+          "Added **structured logging** coverage for API and error paths.",
+          "Added support for a **nullable dayOfWeek** on tariff exceptions."
+        ],
+        "bugfixes": [],
+        "enhancements": [],
+        "chores": []
+      }
+    }
+  },
+  {
     "version": "3.30",
     "date": "2026-08-12",
     "category": "portal",
