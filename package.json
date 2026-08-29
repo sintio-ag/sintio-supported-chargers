@@ -39,6 +39,6 @@
     "typescript": "^5.7.2",
     "vite": "^6.0.3",
     "vite-plugin-image-optimizer": "^1.1.8",
-    "vite-plugin-radar": "^0.9.6"
+    "vite-plugin-radar": "^0.10.0"
   }
 }
