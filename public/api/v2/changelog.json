@@ -1,5 +1,42 @@
 [
   {
+    "version": "3.32",
+    "date": "2026-09-07",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Added an **OCPI roaming partners** admin page, allowing partners to be created, credential tokens to be managed, partners to be activated or deactivated and the partners table to be filtered.",
+          "Added a **roaming tariff tab** to the organization space charger details page, alongside the public and private tariffs.",
+          "Added **support ticket creation** for a charger in user and organization space, including phone input error states and a character count on the description field.",
+          "Added the **EVSE ID** to the user and organization space charger details pages.",
+          "Added a **roaming badge** for roaming charging sessions in organization space and Sintio admin space.",
+          "Added surfacing of **three or more consecutive unstarted charging sessions** on the organization dashboard and chargers list page.",
+          "Added the **session start success rate** to the charger details page.",
+          "Added **transaction ID filtering** for charging sessions in Sintio admin space.",
+          "Added the **installation location timezone** to the create and edit installation forms."
+        ],
+        "bugfixes": [
+          "Fixed **trailing spaces** being submitted from text inputs.",
+          "Fixed unrecognized **transaction types** to log a warning and render a proper badge fallback."
+        ],
+        "enhancements": [
+          "Made the **latitude and longitude coordinates** the source of truth for the installation address input.",
+          "Made the **installation location** field truly required in the installation forms.",
+          "Made the **\"Requires action\" accordion** remember its open and closed state.",
+          "Added a **loading skeleton** to the installation location section to stop the page from jerking while loading.",
+          "Showed the **support text** as the support modal subheading and in the toast when present.",
+          "Updated the **charger not used for three or more months** logic to use the charger's own activity data.",
+          "Gated the **tariff tabs** on the access type and only rendered tabs that have data."
+        ],
+        "chores": [
+          "Removed the **Express** keyword from \"View Stripe express dashboard\".",
+          "Cleaned up the **connector card** markup, EVSE ID label styling and unused CSS."
+        ]
+      }
+    }
+  },
+  {
     "version": "3.31",
     "date": "2026-08-24",
     "category": "portal",
