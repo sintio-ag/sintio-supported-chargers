@@ -808,6 +808,59 @@
     ]
   },
   {
+    "id": "evtec",
+    "name": "EVTEC AG",
+    "chargePointVendor": [
+      "EVTEC"
+    ],
+    "websiteUrl": "https://www.evtec.ch",
+    "chargerManagementUrl": null,
+    "statusPageUrl": null,
+    "globalSupportUrl": null,
+    "supportByCountry": [
+      {
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "supportCompanies": [
+          {
+            "id": "evtec-ag",
+            "company": "EVTEC AG",
+            "websiteUrl": "https://www.evtec.ch/",
+            "email": "service@evtec.ch",
+            "phone": "+41413222386"
+          }
+        ]
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-logo_1000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-logo_1000.webp",
+        "size": "1000"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-logo_2000.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-logo_2000.webp",
+        "size": "2000"
+      }
+    ]
+  },
+  {
     "id": "flexicharge",
     "name": "Flexicharge BV",
     "chargePointVendor": [
