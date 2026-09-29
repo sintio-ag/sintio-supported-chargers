@@ -1348,6 +1348,144 @@
     ]
   },
   {
+    "id": "evtec-espresso&charge",
+    "manufacturerId": "evtec",
+    "chargePointVendor": "EVTEC",
+    "chargePointModel": [
+      "10661.2A"
+    ],
+    "globalMeter": true,
+    "meterClass": "±1%",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC",
+        "voltage": 400,
+        "amperage": 16,
+        "maxElectricPower": 11000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
+      },
+      {
+        "connectorId": 2,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC",
+        "voltage": 400,
+        "amperage": 16,
+        "maxElectricPower": 11000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
+      },
+      {
+        "connectorId": 3,
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "powerType": "DC",
+        "voltage": 500,
+        "amperage": 200,
+        "maxElectricPower": 60000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2-combo.svg"
+      },
+      {
+        "connectorId": 4,
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "powerType": "DC",
+        "voltage": 500,
+        "amperage": 200,
+        "maxElectricPower": 60000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2-combo.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-espresso-charge_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-espresso-charge_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-espresso-charge_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-espresso-charge_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-espresso-charge_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-espresso-charge_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-espresso-charge_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-espresso-charge_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "evtec-cappucchino&charge",
+    "manufacturerId": "evtec",
+    "chargePointVendor": "EVTEC",
+    "chargePointModel": [
+      "10941.0A"
+    ],
+    "globalMeter": true,
+    "meterClass": "±1%",
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "powerType": "DC",
+        "voltage": 500,
+        "amperage": 275,
+        "maxElectricPower": 60000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2-combo.svg"
+      },
+      {
+        "connectorId": 2,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
+      },
+      {
+        "connectorId": 3,
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "powerType": "DC",
+        "voltage": 500,
+        "amperage": 275,
+        "maxElectricPower": 60000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2-combo.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-cappucchino-charge_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-cappucchino-charge_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-cappucchino-charge_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-cappucchino-charge_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-cappucchino-charge_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-cappucchino-charge_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-cappucchino-charge_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/evtec/evtec-cappucchino-charge_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
     "id": "flexicharge-charging-pole-double",
     "manufacturerId": "flexicharge",
     "chargePointVendor": "Flexicharge",
