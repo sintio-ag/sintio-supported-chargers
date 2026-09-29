@@ -1355,7 +1355,7 @@
       "10661.2A"
     ],
     "globalMeter": true,
-    "meterClass": "±1%",
+    "meterClass": "MID Class B (EN 50470)",
     "connectors": [
       {
         "connectorId": 1,
@@ -1429,7 +1429,7 @@
       "10941.0A"
     ],
     "globalMeter": true,
-    "meterClass": "±1%",
+    "meterClass": "MID Class B (EN 50470)",
     "connectors": [
       {
         "connectorId": 1,
