@@ -1392,7 +1392,7 @@
         "standard": "IEC_62196_T2_COMBO",
         "format": "CABLE",
         "powerType": "DC",
-        "voltage": 50,
+        "voltage": 500,
         "amperage": 200,
         "maxElectricPower": 60000,
         "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2-combo.svg"
