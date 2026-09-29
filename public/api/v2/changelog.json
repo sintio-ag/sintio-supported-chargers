@@ -1,5 +1,95 @@
 [
   {
+    "version": "3.33.1",
+    "date": "2026-09-28",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "bugfixes": [
+          "Fixed the **admin chargers list** where long subscription and organization names overlapped neighboring columns."
+        ]
+      }
+    }
+  },
+  {
+    "version": "3.33",
+    "date": "2026-09-28",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Added **organization onboarding**, redirecting to the new organization after creation and showing a getting-started card on the dashboard guiding the next steps.",
+          "Added **property code entry** to start onboarding.",
+          "Added a **roaming partner drill-down** showing a partner's eMSPs, sessions and session details in admin space.",
+          "Added **additional installation subscriptions** in personal, organization and admin spaces.",
+          "Added a **refund not-eligible reason** on the earnings page explaining why a refund is not possible.",
+          "Added the **EVSE ID** to the QR code sticker."
+        ],
+        "bugfixes": [
+          "Fixed the **charger details page** breaking when the installation uses a dynamic tariff."
+        ],
+        "enhancements": [
+          "Improved the **connector edit button** with an infinite pulse that keeps the focus ring visible.",
+          "Updated **payout refunds** to use the current portal language.",
+          "Updated the **success colour** with a dark variant for better contrast."
+        ],
+        "chores": [
+          "Corrected **German, French and Italian translations** based on QA feedback, including long-standing entries."
+        ]
+      }
+    }
+  },
+  {
+    "version": "3.11",
+    "date": "2026-09-28",
+    "category": "public",
+    "sections": {
+      "en": {
+        "features": [
+          "Updated the **offline charger UI**."
+        ],
+        "enhancements": [
+          "Improved **user input** by trimming leading and trailing spaces consistently."
+        ]
+      }
+    }
+  },
+  {
+    "version": "3.32.2",
+    "date": "2026-09-15",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "bugfixes": [
+          "Fixed **user subscriptions** in Sintio admin space not being saved, where adding or editing one did nothing and showed no message."
+        ]
+      }
+    }
+  },
+  {
+    "version": "3.32.1",
+    "date": "2026-09-11",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "bugfixes": [
+          "Fixed **saved custom IDs** not appearing in the **Manage chargers** list until the dialog was closed and reopened.",
+          "Fixed **custom ID edits** overwriting each other, so several chargers can now be edited in one sitting.",
+          "Fixed missing **confirmation and failure messages** when saving a custom ID.",
+          "Fixed editing a **custom ID** silently adding chargers that were toggled on but not yet confirmed with **Add selected**.",
+          "Fixed **Add selected** disabling itself, so a pending charger selection now stays offered until the button is pressed.",
+          "Fixed the **custom ID editor** closing on its own when the previous confirmation message disappeared.",
+          "Fixed the **Manage users** list reordering after every save, which moved the row just edited.",
+          "Fixed the **Export jobs** page not reflecting a changed charger or user set without a manual reload."
+        ],
+        "enhancements": [
+          "Allowed editing the **custom ID** of a charger toggled on but not yet on the export job, adding the charger and setting the ID together on confirm.",
+          "Made **confirmation messages** for a saved custom ID name the saved record: the charger and its charge point, or the username."
+        ]
+      }
+    }
+  },
+  {
     "version": "3.32",
     "date": "2026-09-07",
     "category": "portal",
