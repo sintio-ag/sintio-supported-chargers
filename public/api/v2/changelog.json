@@ -1,5 +1,49 @@
 [
   {
+    "version": "3.34",
+    "date": "2026-10-08",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Added **MCP server sign-in** with its own separate session and consent page.",
+          "Added **user management** for Organization admins, with user search and server-side paged charging sessions.",
+          "Added a printable **onboarding flyer** for installations, previewable from the property code dialog.",
+          "Added an **installation alias**, editable by organization and Sintio admins and shown wherever admins see an installation name.",
+          "Added a **default badge** on the admin tariffs list and details.",
+          "Added a soft warning for unusually high **tariff markup** values.",
+          "Added a flag on the **connector edit button** when roaming data is missing."
+        ],
+        "bugfixes": [
+          "Fixed long support details and URLs not wrapping on the **onboarding flyer** and admin card.",
+          "Fixed the **installation details tabs** layout in responsive view.",
+          "Fixed the **session table** width."
+        ],
+        "enhancements": [
+          "Improved **installation forms** to default, deduplicate and require tariffs.",
+          "Updated the **resolved state badge** design and icon.",
+          "Improved **form fields** to hide helper text while a validation error is shown.",
+          "Improved **tabs list** height handling across the app."
+        ],
+        "chores": [
+          "Upgraded to **Node.js 24**."
+        ]
+      }
+    }
+  },
+  {
+    "version": "3.11.1",
+    "date": "2026-10-08",
+    "category": "public",
+    "sections": {
+      "en": {
+        "chores": [
+          "Upgraded to **Node.js 24**."
+        ]
+      }
+    }
+  },
+  {
     "version": "3.33.1",
     "date": "2026-09-28",
     "category": "portal",
