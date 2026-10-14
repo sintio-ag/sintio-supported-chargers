@@ -21,6 +21,7 @@ type Logo = {
 export type Manufacturer = {
   id: string;
   name: string;
+  chargePointVendor: string[];
   websiteUrl: string;
   chargerManagementUrl: string | null;
   statusPageUrl: string | null;
