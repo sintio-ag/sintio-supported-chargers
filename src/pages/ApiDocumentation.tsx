@@ -27,6 +27,37 @@ function ApiDocumentation() {
     },
   ];
 
+  const remoteStartBeforePlugInHeaders = ["Value", "Meaning", "Frontend flow"];
+  const remoteStartBeforePlugInContent = [
+    {
+      Value: (
+        <>
+          <code>false</code> (default)
+        </>
+      ),
+      Meaning:
+        "Plug first: the EV must be connected before a remote start is sent.",
+      "Frontend flow": (
+        <>
+          Show the "plug in cable" step; enable start only once the connector
+          reports <code>Preparing</code> or <code>Finishing</code>.
+        </>
+      ),
+    },
+    {
+      Value: <code>true</code>,
+      Meaning:
+        "Start first: a remote start can be sent regardless of whether a cable is connected.",
+      "Frontend flow": (
+        <>
+          Skip the "plug in cable" step; start is also allowed when the
+          connector is <code>Available</code>. After <code>Accepted</code>,
+          prompt the user to plug in within <code>ConnectionTimeOut</code>.
+        </>
+      ),
+    },
+  ];
+
   const connectorFormatHeaders = ["Value", "Description"];
   const connectorFormatContent = [
     {
@@ -222,6 +253,21 @@ function ApiDocumentation() {
           respectively. EN 50470 is the European standard used in conjunction
           with MID for electronic electricity meters, defining similar accuracy
           classes (A, B, and C) for regulatory and billing purposes.
+        </li>
+        <li>
+          <strong>ocpp</strong> (object, optional): OCPP-specific behaviour of
+          the charger model. Includes:
+          <ul>
+            <li>
+              <strong>remoteStartBeforePlugIn</strong> (boolean, optional):
+              Indicates whether a remote start can be sent before the EV is
+              plugged in. Defaults to <code>false</code> when missing.
+              <Table
+                headers={remoteStartBeforePlugInHeaders}
+                content={remoteStartBeforePlugInContent}
+              />
+            </li>
+          </ul>
         </li>
         <li>
           <strong>connectors</strong> (array of objects): An array of objects

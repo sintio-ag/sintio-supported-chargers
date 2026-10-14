@@ -4,8 +4,9 @@ export type ConfigurationKey = {
   read: boolean;
   write: boolean;
   type: string;
-  defaultValue: string;
+  defaultValue: string | number | boolean;
   unit: string;
   description: string;
   origin: string;
+  rebootRequired?: boolean;
 };

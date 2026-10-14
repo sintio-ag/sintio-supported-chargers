@@ -13,6 +13,10 @@ type configKeyFeatures = {
   };
 };
 
+type Ocpp = {
+  remoteStartBeforePlugIn?: boolean; // defaults to false when missing
+};
+
 type Connector = {
   connectorId: number;
   standard: string;
@@ -34,9 +38,10 @@ export type Charger = {
   id: string;
   manufacturerId: string;
   chargePointVendor: string;
-  chargePointModel: string;
+  chargePointModel: string[];
   globalMeter: boolean;
   meterClass: string;
+  ocpp?: Ocpp;
   configKeyFeatures?: configKeyFeatures[];
   connectors: Connector[];
   images: Image[];
