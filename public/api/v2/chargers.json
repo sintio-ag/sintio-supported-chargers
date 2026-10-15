@@ -2085,6 +2085,63 @@
     ]
   },
   {
+    "id": "mennekes-acu",
+    "manufacturerId": "mennekes",
+    "chargePointVendor": "MENNEKES",
+    "chargePointModel": [
+      "ACUV4"
+    ],
+    "globalMeter": true,
+    "meterClass": "MID Class A (EN 50470)",
+    "ocpp": {
+      "remoteStartBeforePlugIn": true
+    },
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
+      },
+      {
+        "connectorId": 2,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-acuv4_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-acuv4_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-acuv4_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-acuv4_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-acuv4_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-acuv4_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-acuv4_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-acuv4_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
     "id": "mennekes-amedio-professional",
     "manufacturerId": "mennekes",
     "chargePointVendor": "MENNEKES",
