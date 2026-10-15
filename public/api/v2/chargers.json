@@ -2120,23 +2120,23 @@
     ],
     "images": [
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amedio-professional_orig.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amedio-professional_orig.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-acuv4_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-acuv4_orig.webp",
         "size": "original"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amedio-professional_500.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amedio-professional_500.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-acuv4_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-acuv4_500.webp",
         "size": "500"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amedio-professional_100.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amedio-professional_100.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-acuv4_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-acuv4_100.webp",
         "size": "100"
       },
       {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amedio-professional_50.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-amedio-professional_50.webp",
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-acuv4_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/mennekes/mennekes-acuv4_50.webp",
         "size": "50"
       }
     ]
