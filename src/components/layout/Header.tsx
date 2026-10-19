@@ -91,6 +91,17 @@ function Header() {
             </li>
             <li>
               <NavLink
+                to={`${import.meta.env.VITE_GHPAGES_REPO_NAME}power-utilities`}
+                end
+                className={({ isActive }) =>
+                  "block" + (!isActive ? " text-white" : " text-sintio-yellow")
+                }
+              >
+                Power Utilities
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
                 to={`${import.meta.env.VITE_GHPAGES_REPO_NAME}changelog`}
                 end
                 className={({ isActive }) =>
