@@ -1,5 +1,60 @@
 [
   {
+    "version": "2.9.0",
+    "date": "2026-10-19",
+    "category": "mobile",
+    "sections": {
+      "en": {
+        "features": [],
+        "bugfixes": [
+          "Fixed a crash on the charger detail screen",
+          "The add payment modal now shows the correct error message",
+          "Fixed the VAT translation"
+        ],
+        "enhancements": [
+          "Added a settings drawer with language and VAT switchers",
+          "Added invoice language to settings; the choice now persists",
+          "Added new white label app HUIAG (POWER ON)",
+          "Added new translations",
+          "Public charging: added helper text and the resolve status drawer",
+          "Charging session now shows a progress state until the first meter value arrives",
+          "Added handling for a new payment error code",
+          "Limited availability now uses local auth",
+          "Improved the status bar",
+          "Added logging",
+          "Sensitive input fields are now trimmed",
+          "Transaction handling now uses the transaction type instead of the **isPublicTransaction** field",
+          "Bumped app versions and build numbers"
+        ],
+        "chores": []
+      },
+      "de": {
+        "features": [],
+        "bugfixes": [
+          "Absturz auf der Ladestationsdetailseite behoben",
+          "Das Modal zum Hinzufügen einer Zahlungsmethode zeigt jetzt die korrekte Fehlermeldung an",
+          "Übersetzung der MwSt. korrigiert"
+        ],
+        "enhancements": [
+          "Einstellungsmenü mit Sprach- und MwSt.-Umschalter hinzugefügt",
+          "Rechnungssprache zu den Einstellungen hinzugefügt; die Auswahl wird jetzt gespeichert",
+          "Neue White-Label-App HUIAG (POWER ON) hinzugefügt",
+          "Neue Übersetzungen hinzugefügt",
+          "Öffentliches Laden: Hilfetexte und das Menü zur Statusbehebung hinzugefügt",
+          "Der Ladevorgang zeigt jetzt einen Fortschrittsstatus an, bis der erste Zählerwert eintrifft",
+          "Behandlung eines neuen Zahlungsfehlercodes hinzugefügt",
+          "Eingeschränkte Verfügbarkeit verwendet jetzt die lokale Authentifizierung",
+          "Statusleiste verbessert",
+          "Protokollierung hinzugefügt",
+          "Leerzeichen in sensiblen Eingabefeldern werden jetzt entfernt",
+          "Die Transaktionsverarbeitung verwendet jetzt den Transaktionstyp anstelle des Felds **isPublicTransaction**",
+          "App-Versionen und Build-Nummern erhöht"
+        ],
+        "chores": []
+      }
+    }
+  },
+  {
     "version": "3.34",
     "date": "2026-10-08",
     "category": "portal",
