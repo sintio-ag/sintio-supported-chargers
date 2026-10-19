@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 import Home from "./pages/Home.tsx";
 import Manufacturer from "./pages/Manufacturers.tsx";
 import ConfigurationKeys from "./pages/ConfigurationKeys.tsx";
+import PowerUtilities from "./pages/PowerUtilities.tsx";
 import Changelog from "./pages/Changelog.tsx";
 import ApiDocumentation from "./pages/ApiDocumentation.tsx";
 import Contact from "./pages/Contact.tsx";
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: `${import.meta.env.VITE_GHPAGES_REPO_NAME}configuration-keys`,
         element: <ConfigurationKeys />,
+      },
+      {
+        path: `${import.meta.env.VITE_GHPAGES_REPO_NAME}power-utilities`,
+        element: <PowerUtilities />,
       },
       {
         path: `${import.meta.env.VITE_GHPAGES_REPO_NAME}changelog`,

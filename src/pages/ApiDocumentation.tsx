@@ -356,73 +356,73 @@ function ApiDocumentation() {
       <ul>
         <li>
           <a
-            href="https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_50.png"
+            href="https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/default/default-charger_50.png"
             target="_blank"
           >
-            https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_50.png
+            https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/default/default-charger_50.png
           </a>{" "}
           (1.99 kB)
         </li>
         <li>
           <a
-            href="https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_50.webp"
+            href="https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/default/default-charger_50.webp"
             target="_blank"
           >
-            https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_50.webp
+            https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/default/default-charger_50.webp
           </a>{" "}
           (824 B)
         </li>
         <li>
           <a
-            href="https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_100.png"
+            href="https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/default/default-charger_100.png"
             target="_blank"
           >
-            https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_100.png
+            https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/default/default-charger_100.png
           </a>{" "}
           (3.65 kB)
         </li>
         <li>
           <a
-            href="https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_100.webp"
+            href="https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/default/default-charger_100.webp"
             target="_blank"
           >
-            https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_100.webp
+            https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/default/default-charger_100.webp
           </a>{" "}
           (1.67 kB)
         </li>
         <li>
           <a
-            href="https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_500.png"
+            href="https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/default/default-charger_500.png"
             target="_blank"
           >
-            https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_500.png
+            https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/default/default-charger_500.png
           </a>{" "}
           (38.78 kB)
         </li>
         <li>
           <a
-            href="https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_500.webp"
+            href="https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/default/default-charger_500.webp"
             target="_blank"
           >
-            https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_500.webp
+            https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/default/default-charger_500.webp
           </a>{" "}
           (10.58 kB)
         </li>
         <li>
           <a
-            href="https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_orig.png"
+            href="https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/default/default-charger_orig.png"
             target="_blank"
           >
-            https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_orig.png
+            https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/default/default-charger_orig.png
           </a>{" "}
           (247.51 kB)
         </li>
         <li>
           <a
-            href="https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_orig.webp"
+            href="https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/default/default-charger_orig.webp"
             target="_blank"
           >
-            https://sintio-ag.github.io/sintio-supported-chargers/img/default/default-charger_orig.webp
+            https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/default/default-charger_orig.webp
           </a>{" "}
           (32.39 kB)
         </li>
@@ -520,6 +520,106 @@ function ApiDocumentation() {
                   <strong>phone</strong> (string): The support phone number.
                 </li>
               </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h2>Power Utilities</h2>
+      <p>
+        <code>GET</code>{" "}
+        <a
+          href="https://sintio-ag.github.io/sintio-supported-chargers/api/v2/power-utilities.json"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://sintio-ag.github.io/sintio-supported-chargers/api/v2/power-utilities.json
+        </a>
+      </p>
+      <p>
+        Swiss power utilities (Energieversorgungsunternehmen) that supply
+        electricity to end customers. Unlike a pure list of grid operators, this
+        list only contains companies selling electricity to end customers. It
+        combines the ElCom data on electricity tariffs with the VSE identifiers.
+        The power utility object returned by the API contains the following
+        fields:
+      </p>
+      <ul>
+        <li>
+          <strong>id</strong> (string): A unique identifier for the power
+          utility. It is also the name of the utility's image folder.
+        </li>
+        <li>
+          <strong>elcomId</strong> (number): The operator number assigned by
+          ElCom.
+        </li>
+        <li>
+          <strong>vse</strong> (array of objects): The VSE identifiers of the
+          power utility. A power utility can have several identifiers; the array
+          is empty if none is known. Each entry includes:
+          <ul>
+            <li>
+              <strong>vseId</strong> (number): The VSE number (e.g.{" "}
+              <code>101170</code>).
+            </li>
+            <li>
+              <strong>identifier</strong> (string): The full identifier (e.g.{" "}
+              <code>101170 12345</code>).
+            </li>
+            <li>
+              <strong>name</strong> (string): The name registered with the VSE,
+              which can differ from the ElCom name.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>name</strong> (string): The official name of the power
+          utility.
+        </li>
+        <li>
+          <strong>nameAddition</strong> (string or null): Additional name line,
+          e.g. a department or a <code>c/o</code> address.
+        </li>
+        <li>
+          <strong>uid</strong> (string or null): The Swiss business
+          identification number (e.g. <code>CHE-105.981.944</code>).
+        </li>
+        <li>
+          <strong>street</strong> (string or null): The street and house number.
+        </li>
+        <li>
+          <strong>postalCode</strong> (string or null): The postal code.
+        </li>
+        <li>
+          <strong>city</strong> (string or null): The city.
+        </li>
+        <li>
+          <strong>website</strong> (string or null): The website of the power
+          utility.
+        </li>
+        <li>
+          <strong>status</strong> (string): <code>ACTIVE</code> or{" "}
+          <code>NO_TARIFFS_2027</code> if the power utility has not published
+          any tariffs for 2027.
+        </li>
+        <li>
+          <strong>comment</strong> (string or null): Additional information,
+          e.g. about mergers or former names (in German).
+        </li>
+        <li>
+          <strong>logos</strong> (array of objects): Collection of logo assets
+          for the power utility. Not every power utility has a logo; the array
+          is empty in that case. Logos are located in{" "}
+          <code>img/power-utilities/&#123;id&#125;/</code>. Each logo includes:
+          <ul>
+            <li>
+              <strong>urlPng</strong> (string): Direct URL to the PNG logo.
+            </li>
+            <li>
+              <strong>urlWebp</strong> (string): Direct URL to the WebP logo.
+            </li>
+            <li>
+              <strong>size</strong> (string): The width of the asset in pixels
+              (e.g., 50, 100, 500, 1000, 2000).
             </li>
           </ul>
         </li>
