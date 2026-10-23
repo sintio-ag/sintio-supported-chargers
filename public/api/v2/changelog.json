@@ -1,5 +1,19 @@
 [
   {
+    "version": "3.35.1",
+    "date": "2026-10-23",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "bugfixes": [
+          "Fixed **long tariff names** overlapping each other in the admin installation details header.",
+          "Fixed **technical contacts search box** overlapping the tab headings on admin installation details.",
+          "Fixed **connection and status badges** wrapping mid-word on admin installation details."
+        ]
+      }
+    }
+  },
+  {
     "version": "3.35",
     "date": "2026-10-22",
     "category": "portal",
