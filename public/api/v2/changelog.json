@@ -1,5 +1,61 @@
 [
   {
+    "version": "3.35.1",
+    "date": "2026-10-23",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "bugfixes": [
+          "Fixed **long tariff names** overlapping each other in the admin installation details header.",
+          "Fixed **technical contacts search box** overlapping the tab headings on admin installation details.",
+          "Fixed **connection and status badges** wrapping mid-word on admin installation details."
+        ]
+      }
+    }
+  },
+  {
+    "version": "3.35",
+    "date": "2026-10-22",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Added **power utility** to global tariffs, listing only active utilities.",
+          "Added **onboarding flyer** download on the installation detail page.",
+          "Added **physical reference per connector** for OCPI partners.",
+          "Added a **refresh credentials** button.",
+          "Added helper text explaining the **download language** of the QR code and flyer.",
+          "Added **tab scrolling** when tabs overflow on non-responsive screens."
+        ],
+        "bugfixes": [
+          "Fixed **charger tabs** showing incomplete data; tabs now split by resolved connector status, and connector-less chargers stay in Operative.",
+          "Fixed typed **power utility** being lost on blur, and added an unsaved-changes warning.",
+          "Fixed **flyer installation lookup** failures.",
+          "Fixed **'Not eligible'** text alignment.",
+          "Fixed **physical reference** helper text showing alongside validation errors.",
+          "Fixed the **logger** dropping falsy payloads."
+        ],
+        "enhancements": [
+          "Improved the **connector dialog** layout, grouping EVSE ID, physical reference, connector type and technical values into cards.",
+          "Updated the **sidebar layout** in responsive view."
+        ]
+      }
+    }
+  },
+  {
+    "version": "3.11.2",
+    "date": "2026-10-22",
+    "category": "public",
+    "sections": {
+      "en": {
+        "chores": [
+          "Updated the **charging response schema** with optional EVSE ID and physical reference fields.",
+          "Updated the **shared logger** to keep falsy payloads."
+        ]
+      }
+    }
+  },
+  {
     "version": "2.9.0",
     "date": "2026-10-19",
     "category": "mobile",
