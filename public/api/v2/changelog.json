@@ -1,5 +1,46 @@
 [
   {
+    "version": "3.36",
+    "date": "2026-11-04",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Added a **charger selection step** to onboarding, reached from Step 1: connector selector with Private / Public / Roaming status, radio selection, and a \"Recommended by admin\" highlight via a \"?charger=\" link.",
+          "Added **onboarding empty states** for no chargers, inactive location, unknown code and load failure, plus a \"Can't find your charger?\" help dialog.",
+          "Added **global tariffs** to the org tariffs list with Roaming / Global badges, a power utility column and a roaming chargers count column.",
+          "Added **global tariffs** to installation tariff fields with a Global badge, a \"Show global tariffs\" checkbox and a \"What are global tariffs?\" dialog; the roaming field lists global roaming tariffs only.",
+          "Replaced subscription tabs with **stacked subscription sections**; additional subscriptions show a translated type badge and no tick icons."
+        ],
+        "bugfixes": [
+          "Fixed charger details saving with an empty **access type**; assigning an installation or group from the charger list now shows a readable error.",
+          "Fixed **long names** overflowing on admin installation detail cards and breaking mid-word on subscription cards.",
+          "Fixed **slow tab switching**: tabs switch instantly, with a loading bar on the admin chargers list."
+        ],
+        "enhancements": [
+          "Made **global tariff details** read-only for org admins, titled \"Tariff details\", with badge and power utility shown.",
+          "Switched **tariff info tabs** to standard horizontal tabs.",
+          "Showed **EVSE ID** as a pill on the charger QR code download."
+        ]
+      }
+    }
+  },
+  {
+    "version": "3.12",
+    "date": "2026-11-04",
+    "category": "public",
+    "sections": {
+      "en": {
+        "features": [
+          "Added **remote start before plug-in** for flagged chargers: start from Available, skip the connect-cable step, and prompt to plug in once accepted."
+        ],
+        "bugfixes": [
+          "Fixed **failed payment** after start leaving the waiting dialog open; the payment error now shows for retry, and the session link redirects to the payment page."
+        ]
+      }
+    }
+  },
+  {
     "version": "3.35.1",
     "date": "2026-10-23",
     "category": "portal",
