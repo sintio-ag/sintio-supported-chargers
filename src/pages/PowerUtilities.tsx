@@ -17,6 +17,8 @@ const PowerUtilities = () => {
 
   // Define headers for the power utilities table
   const headers = [
+    "Logo",
+    "SVG",
     "ElCom",
     "VSE",
     "UID",
@@ -25,6 +27,9 @@ const PowerUtilities = () => {
     "Status",
     "Comment",
   ];
+
+  const getLogoForUtility = (utility: PowerUtility) =>
+    utility.logos.find((entry) => entry.size === "100") || utility.logos[0];
 
   // Show the VSE identifier like the start of a metering point ID,
   // e.g. "101170 12345" as "CH10117012345"
@@ -53,6 +58,34 @@ const PowerUtilities = () => {
   // Prepare content for the power utilities table
   const content =
     filteredUtilities?.map((utility) => ({
+      Logo: (() => {
+        const logo = getLogoForUtility(utility);
+
+        if (!logo) {
+          return <span className="text-xs text-gray-400">No logo</span>;
+        }
+
+        return (
+          <picture>
+            <source srcSet={logo.urlWebp} type="image/webp" />
+            <img
+              src={logo.urlPng}
+              alt={`${utility.name} logo`}
+              className="w-auto max-w-[120px]"
+              loading="lazy"
+            />
+          </picture>
+        );
+      })(),
+      // Checked when the original is a vector graphic, unchecked for pixel only
+      SVG: utility.logos.length > 0 && (
+        <input
+          type="checkbox"
+          checked={utility.logoUrlSvg !== null}
+          disabled
+          aria-label={`${utility.name} logo available as SVG`}
+        />
+      ),
       ElCom: (
         <>
           {utility.name}
