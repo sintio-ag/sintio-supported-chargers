@@ -26,4 +26,5 @@ export type PowerUtility = {
   status: PowerUtilityStatus;
   comment: string | null;
   logos: Logo[]; // empty when no logo is available
+  logoUrlSvg: string | null; // null when the original is only a pixel graphic
 };

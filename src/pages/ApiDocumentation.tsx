@@ -619,9 +619,16 @@ function ApiDocumentation() {
             </li>
             <li>
               <strong>size</strong> (string): The width of the asset in pixels
-              (e.g., 50, 100, 500, 1000, 2000).
+              (50, 100, 500), or <code>orig</code> for the unscaled original.
+              The <code>orig</code> entry only exists for logos whose original
+              is a pixel graphic.
             </li>
           </ul>
+        </li>
+        <li>
+          <strong>logoUrlSvg</strong> (string or null): Direct URL to the SVG
+          logo, or null if the original is only available as a pixel graphic or
+          there is no logo.
         </li>
       </ul>
       <h2>Configuration Keys</h2>
