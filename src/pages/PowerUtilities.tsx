@@ -71,7 +71,7 @@ const PowerUtilities = () => {
             <img
               src={logo.urlPng}
               alt={`${utility.name} logo`}
-              className="w-auto max-w-[120px]"
+              className="h-auto max-h-[50px] w-auto max-w-[50px]"
               loading="lazy"
             />
           </picture>

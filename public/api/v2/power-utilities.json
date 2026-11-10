@@ -4201,14 +4201,9 @@
         "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/power-utilities/elektra-niederburen-stromversorgung-167/logo_500.png",
         "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/power-utilities/elektra-niederburen-stromversorgung-167/logo_500.webp",
         "size": "500"
-      },
-      {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/power-utilities/elektra-niederburen-stromversorgung-167/logo_orig.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/power-utilities/elektra-niederburen-stromversorgung-167/logo_orig.webp",
-        "size": "orig"
       }
     ],
-    "logoUrlSvg": null
+    "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/power-utilities/elektra-niederburen-stromversorgung-167/logo_orig.svg"
   },
   {
     "id": "elektra-oberegg-168",
@@ -5316,14 +5311,9 @@
         "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/power-utilities/elektrizitats-und-wasserwerk-der-stadt-buchs-ewb-777/logo_500.png",
         "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/power-utilities/elektrizitats-und-wasserwerk-der-stadt-buchs-ewb-777/logo_500.webp",
         "size": "500"
-      },
-      {
-        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/power-utilities/elektrizitats-und-wasserwerk-der-stadt-buchs-ewb-777/logo_orig.png",
-        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/power-utilities/elektrizitats-und-wasserwerk-der-stadt-buchs-ewb-777/logo_orig.webp",
-        "size": "orig"
       }
     ],
-    "logoUrlSvg": null
+    "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/power-utilities/elektrizitats-und-wasserwerk-der-stadt-buchs-ewb-777/logo_orig.svg"
   },
   {
     "id": "elektrizitats-genossenschaft-ego-oberwil-i-s-267",
