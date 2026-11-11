@@ -981,9 +981,14 @@
         "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/power-utilities/commune-de-saint-imier-705/logo_500.png",
         "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/power-utilities/commune-de-saint-imier-705/logo_500.webp",
         "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/power-utilities/commune-de-saint-imier-705/logo_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/power-utilities/commune-de-saint-imier-705/logo_orig.webp",
+        "size": "orig"
       }
     ],
-    "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/power-utilities/commune-de-saint-imier-705/logo_orig.svg"
+    "logoUrlSvg": null
   },
   {
     "id": "commune-de-tramelan-electricite-707",
