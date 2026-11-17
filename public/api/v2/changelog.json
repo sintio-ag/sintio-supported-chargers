@@ -1,5 +1,37 @@
 [
   {
+    "version": "3.37",
+    "date": "2026-11-17",
+    "category": "portal",
+    "sections": {
+      "en": {
+        "features": [
+          "Added a public **installations map** with filter chips.",
+          "Added **future tariff rates** to the charger tariff info for org admins and users, browsable with next/previous arrows.",
+          "Added **dynamic (imported) tariff** creation in the Sintio admin space.",
+          "Added **Initiate handshake** with a roaming partner for Sintio admins, with an initial sync retry and masked Token A."
+        ],
+        "enhancements": [
+          "Showed the **installation name** in the group details chargers table and its search placeholder.",
+          "Added a **transaction type** column to the personal dashboard sessions table and CSV export.",
+          "Showed the **Users** sidebar entry only for organizations with user management, and limited **user search** to exact email."
+        ]
+      }
+    }
+  },
+  {
+    "version": "3.13",
+    "date": "2026-11-17",
+    "category": "public",
+    "sections": {
+      "en": {
+        "features": [
+          "Added **create support ticket** from the support and error pages, offered only for Sintio support contacts."
+        ]
+      }
+    }
+  },
+  {
     "version": "3.36",
     "date": "2026-11-04",
     "category": "portal",
