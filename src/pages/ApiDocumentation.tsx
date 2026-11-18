@@ -631,6 +631,115 @@ function ApiDocumentation() {
           there is no logo.
         </li>
       </ul>
+      <h2>Roaming Partners</h2>
+      <p>
+        <code>GET</code>{" "}
+        <a
+          href="https://sintio-ag.github.io/sintio-supported-chargers/api/v2/roaming-partners.json"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://sintio-ag.github.io/sintio-supported-chargers/api/v2/roaming-partners.json
+        </a>
+      </p>
+      <p>
+        Active OCPI roaming partners of Sintio. A roaming partner is a company
+        and can operate several OCPI parties. To find the partner of a party
+        (e.g. to show its logo), build a lookup from{" "}
+        <code>countryCode*partyId</code> to the partner over all entries in{" "}
+        <code>parties</code>. A party is only unique by country code and party
+        ID together, never by the party ID alone. The roaming partner object
+        returned by the API contains the following fields:
+      </p>
+      <ul>
+        <li>
+          <strong>id</strong> (string): A unique identifier for the roaming
+          partner. It is also the name of the partner's image folder.
+        </li>
+        <li>
+          <strong>name</strong> (string): The brand name of the roaming partner.
+        </li>
+        <li>
+          <strong>legalName</strong> (string or null): The name of the legal
+          entity.
+        </li>
+        <li>
+          <strong>street</strong> (string or null): The street and house number
+          of the legal entity.
+        </li>
+        <li>
+          <strong>postalCode</strong> (string or null): The postal code.
+        </li>
+        <li>
+          <strong>city</strong> (string or null): The city.
+        </li>
+        <li>
+          <strong>country</strong> (string): The country of the legal entity as
+          ISO 3166-1 alpha-2 code. It can differ from the country codes of the
+          parties.
+        </li>
+        <li>
+          <strong>vatId</strong> (string or null): The VAT or tax identification
+          number of the legal entity.
+        </li>
+        <li>
+          <strong>website</strong> (string or null): The website of the roaming
+          partner.
+        </li>
+        <li>
+          <strong>roles</strong> (array of strings): The OCPI roles of the
+          partner, e.g. <code>EMSP</code> or <code>CPO</code>.
+        </li>
+        <li>
+          <strong>status</strong> (string): <code>ACTIVE</code> if roaming with
+          the partner is live.
+        </li>
+        <li>
+          <strong>parties</strong> (array of objects): The OCPI parties of the
+          partner. Each combination of country code and party ID appears only
+          once in the whole list. Each party includes:
+          <ul>
+            <li>
+              <strong>countryCode</strong> (string): The OCPI country code (ISO
+              3166-1 alpha-2), e.g. <code>SE</code>.
+            </li>
+            <li>
+              <strong>partyId</strong> (string): The OCPI party ID with three
+              characters, e.g. <code>ESP</code>.
+            </li>
+            <li>
+              <strong>role</strong> (string): The OCPI role of this party, e.g.{" "}
+              <code>EMSP</code>.
+            </li>
+            <li>
+              <strong>name</strong> (string or null): The name of the party.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>logos</strong> (array of objects): Collection of logo assets
+          for the roaming partner. The array is empty if there is no logo. Logos
+          are located in <code>img/roaming-partners/&#123;id&#125;/</code>. Each
+          logo includes:
+          <ul>
+            <li>
+              <strong>urlPng</strong> (string): Direct URL to the PNG logo.
+            </li>
+            <li>
+              <strong>urlWebp</strong> (string): Direct URL to the WebP logo.
+            </li>
+            <li>
+              <strong>size</strong> (string): The width of the asset in pixels
+              (50, 100, 500), or <code>orig</code> for the unscaled original.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>logoUrlSvg</strong> (string or null): Direct URL to the SVG
+          logo, or null if the original is only available as a pixel graphic or
+          there is no logo.
+        </li>
+      </ul>
       <h2>Configuration Keys</h2>
       <p>
         <code>GET</code>{" "}

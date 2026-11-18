@@ -102,6 +102,17 @@ function Header() {
             </li>
             <li>
               <NavLink
+                to={`${import.meta.env.VITE_GHPAGES_REPO_NAME}roaming-partners`}
+                end
+                className={({ isActive }) =>
+                  "block" + (!isActive ? " text-white" : " text-sintio-yellow")
+                }
+              >
+                Roaming Partners
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
                 to={`${import.meta.env.VITE_GHPAGES_REPO_NAME}changelog`}
                 end
                 className={({ isActive }) =>
