@@ -154,11 +154,29 @@ const RoamingPartners = () => {
     <div className="max-w-screen-xxl prose mx-auto my-4 rounded-lg border bg-white p-6">
       <h1>Roaming Partners</h1>
       <p>
-        OCPI roaming partners of Sintio. Drivers of active eMSPs can charge at
-        Sintio charging stations, partners marked as in preparation are not live
-        yet. A partner can operate several OCPI parties, each identified by a
-        country code and a party ID (e.g. <code>SE*ESP</code>).
+        OCPI roaming partners of Sintio. Partners marked as in preparation are
+        not live yet. A partner can operate several OCPI parties, each
+        identified by a country code and a party ID (e.g. <code>SE*ESP</code>).
+        The role describes what a partner does with Sintio:
       </p>
+      <ul>
+        <li>
+          <strong>eMSP</strong> (e-Mobility Service Provider): Offers drivers a
+          charging app or card. Drivers of an active eMSP can start and pay for
+          charging sessions at Sintio charging stations.
+        </li>
+        <li>
+          <strong>NSP</strong> (Navigation Service Provider): Shows Sintio
+          charging stations with availability and prices in maps, apps or route
+          planners. Drivers cannot charge through an NSP.
+        </li>
+        <li>
+          <strong>NAP</strong> (National Access Point): The official national
+          platform for charging station data, run by a public authority. In
+          Switzerland this is the Swiss Federal Office of Energy (SFOE) with
+          ich-tanke-strom.ch.
+        </li>
+      </ul>
       <input
         type="search"
         value={search}

@@ -418,13 +418,13 @@
     "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/fr.svg",
     "vatId": "FR17882529993",
     "website": "https://www.chargeprice.app",
-    "roles": ["NAP"],
+    "roles": ["NSP"],
     "status": "ACTIVE",
     "parties": [
       {
         "countryCode": "FR",
         "partyId": "CMB",
-        "role": "NAP",
+        "role": "NSP",
         "name": "Chargeprice",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/fr.svg"
       }
@@ -553,13 +553,13 @@
     "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/nl.svg",
     "vatId": null,
     "website": "https://www.eco-movement.com",
-    "roles": ["NAP"],
+    "roles": ["NSP"],
     "status": "IN_PREPARATION",
     "parties": [
       {
         "countryCode": "NL",
         "partyId": "ECO",
-        "role": "NAP",
+        "role": "NSP",
         "name": "Eco-Movement",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/nl.svg"
       }
