@@ -20,6 +20,8 @@ const Flag = ({ url, code }: { url: string; code: string }) => (
   />
 );
 
+const countryNames = new Intl.DisplayNames(["en"], { type: "region" });
+
 const RoamingPartners = () => {
   const baseUrl = import.meta.env.VITE_API_BASE_URL;
   const {
@@ -129,9 +131,8 @@ const RoamingPartners = () => {
           <span className="block whitespace-nowrap">
             {[partner.postalCode, partner.city].filter(Boolean).join(" ")}
           </span>
-          <span className="flex items-center gap-2 text-xs">
-            <Flag url={partner.countryFlagUrlSvg} code={partner.country} />
-            {partner.country}
+          <span className="block text-xs">
+            {countryNames.of(partner.country) ?? partner.country}
           </span>
         </>
       ),

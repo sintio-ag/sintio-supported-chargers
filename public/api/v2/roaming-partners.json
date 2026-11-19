@@ -82,6 +82,47 @@
     "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/autosense/logo_orig.svg"
   },
   {
+    "id": "bfe",
+    "name": "Bundesamt für Energie",
+    "legalName": "Bundesamt für Energie",
+    "street": "Pulverstrasse 13",
+    "postalCode": "3063",
+    "city": "Ittigen",
+    "country": "CH",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ch.svg",
+    "vatId": null,
+    "website": "https://www.ich-tanke-strom.ch",
+    "roles": ["NAP"],
+    "status": "ACTIVE",
+    "parties": [
+      {
+        "countryCode": "CH",
+        "partyId": "BFE",
+        "role": "NAP",
+        "name": "Bundesamt für Energie",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ch.svg"
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/bfe/logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/bfe/logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/bfe/logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/bfe/logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/bfe/logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/bfe/logo_500.webp",
+        "size": "500"
+      }
+    ],
+    "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/bfe/logo_orig.svg"
+  },
+  {
     "id": "blulinc",
     "name": "Blulinc",
     "legalName": "Blulinc NV",
@@ -377,13 +418,13 @@
     "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/fr.svg",
     "vatId": "FR17882529993",
     "website": "https://www.chargeprice.app",
-    "roles": ["EMSP"],
+    "roles": ["NAP"],
     "status": "ACTIVE",
     "parties": [
       {
         "countryCode": "FR",
         "partyId": "CMB",
-        "role": "EMSP",
+        "role": "NAP",
         "name": "Chargeprice",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/fr.svg"
       }
@@ -512,13 +553,13 @@
     "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/nl.svg",
     "vatId": null,
     "website": "https://www.eco-movement.com",
-    "roles": ["EMSP"],
+    "roles": ["NAP"],
     "status": "IN_PREPARATION",
     "parties": [
       {
         "countryCode": "NL",
         "partyId": "ECO",
-        "role": "EMSP",
+        "role": "NAP",
         "name": "Eco-Movement",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/nl.svg"
       }
