@@ -631,6 +631,19 @@ function ApiDocumentation() {
           there is no logo.
         </li>
       </ul>
+      <p>
+        Flags are located in <code>img/flags/&#123;code&#125;.svg</code> with
+        the lowercase ISO 3166-1 alpha-2 code, e.g.{" "}
+        <code>img/flags/ch.svg</code>. They come from{" "}
+        <a
+          href="https://github.com/lipis/flag-icons"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          flag-icons
+        </a>{" "}
+        (MIT license).
+      </p>
       <h2>Roaming Partners</h2>
       <p>
         <code>GET</code>{" "}
@@ -643,9 +656,9 @@ function ApiDocumentation() {
         </a>
       </p>
       <p>
-        Active OCPI roaming partners of Sintio. A roaming partner is a company
-        and can operate several OCPI parties. To find the partner of a party
-        (e.g. to show its logo), build a lookup from{" "}
+        OCPI roaming partners of Sintio, active and in preparation. A roaming
+        partner is a company and can operate several OCPI parties. To find the
+        partner of a party (e.g. to show its logo), build a lookup from{" "}
         <code>countryCode*partyId</code> to the partner over all entries in{" "}
         <code>parties</code>. A party is only unique by country code and party
         ID together, never by the party ID alone. The roaming partner object
@@ -679,6 +692,10 @@ function ApiDocumentation() {
           parties.
         </li>
         <li>
+          <strong>countryFlagUrlSvg</strong> (string): Direct URL to the SVG
+          flag of <code>country</code> (aspect ratio 4:3).
+        </li>
+        <li>
           <strong>vatId</strong> (string or null): The VAT or tax identification
           number of the legal entity.
         </li>
@@ -692,7 +709,9 @@ function ApiDocumentation() {
         </li>
         <li>
           <strong>status</strong> (string): <code>ACTIVE</code> if roaming with
-          the partner is live.
+          the partner is live, <code>IN_PREPARATION</code> if the connection is
+          being set up and drivers of the partner cannot charge yet. More values
+          may be added in the future, so ignore unknown ones.
         </li>
         <li>
           <strong>parties</strong> (array of objects): The OCPI parties of the
@@ -713,6 +732,10 @@ function ApiDocumentation() {
             </li>
             <li>
               <strong>name</strong> (string or null): The name of the party.
+            </li>
+            <li>
+              <strong>flagUrlSvg</strong> (string): Direct URL to the SVG flag
+              of <code>countryCode</code> (aspect ratio 4:3).
             </li>
           </ul>
         </li>

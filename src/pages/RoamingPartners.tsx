@@ -10,6 +10,16 @@ import {
   partyKey,
 } from "../utils/roamingPartners";
 
+const Flag = ({ url, code }: { url: string; code: string }) => (
+  <img
+    src={url}
+    alt={code}
+    title={code}
+    className="!my-0 h-3 w-4 shrink-0 rounded-sm border border-gray-200 object-cover"
+    loading="lazy"
+  />
+);
+
 const RoamingPartners = () => {
   const baseUrl = import.meta.env.VITE_API_BASE_URL;
   const {
@@ -62,7 +72,7 @@ const RoamingPartners = () => {
             <img
               src={partner.logoUrlSvg}
               alt={`${partner.name} logo`}
-              className="h-auto max-h-[50px] w-auto max-w-[50px]"
+              className="!my-0 h-[50px] w-[75px] object-contain"
               loading="lazy"
             />
           );
@@ -78,7 +88,7 @@ const RoamingPartners = () => {
             <img
               src={logo.urlPng}
               alt={`${partner.name} logo`}
-              className="h-auto max-h-[50px] w-auto max-w-[50px]"
+              className="!my-0 h-[50px] w-[75px] object-contain"
               loading="lazy"
             />
           </picture>
@@ -87,6 +97,11 @@ const RoamingPartners = () => {
       Name: (
         <>
           {partner.name}
+          {partner.status === "IN_PREPARATION" && (
+            <span className="ml-2 whitespace-nowrap rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-800">
+              In preparation
+            </span>
+          )}
           {partner.legalName && (
             <span className="block text-xs">{partner.legalName}</span>
           )}
@@ -95,12 +110,13 @@ const RoamingPartners = () => {
       Parties: (
         <>
           {partner.parties.map((party) => (
-            <code
-              className="mb-1 block whitespace-nowrap last:mb-0"
+            <span
+              className="mb-1 flex items-center gap-2 whitespace-nowrap last:mb-0"
               key={partyKey(party.countryCode, party.partyId)}
             >
-              {partyKey(party.countryCode, party.partyId)}
-            </code>
+              <Flag url={party.flagUrlSvg} code={party.countryCode} />
+              <code>{partyKey(party.countryCode, party.partyId)}</code>
+            </span>
           ))}
         </>
       ),
@@ -113,7 +129,10 @@ const RoamingPartners = () => {
           <span className="block whitespace-nowrap">
             {[partner.postalCode, partner.city].filter(Boolean).join(" ")}
           </span>
-          <span className="block text-xs">{partner.country}</span>
+          <span className="flex items-center gap-2 text-xs">
+            <Flag url={partner.countryFlagUrlSvg} code={partner.country} />
+            {partner.country}
+          </span>
         </>
       ),
       Website: partner.website?.startsWith("http") ? (
@@ -134,10 +153,10 @@ const RoamingPartners = () => {
     <div className="max-w-screen-xxl prose mx-auto my-4 rounded-lg border bg-white p-6">
       <h1>Roaming Partners</h1>
       <p>
-        Active OCPI roaming partners of Sintio. Drivers of these eMSPs can
-        charge at Sintio charging stations. A partner can operate several OCPI
-        parties, each identified by a country code and a party ID (e.g.{" "}
-        <code>SE*ESP</code>).
+        OCPI roaming partners of Sintio. Drivers of active eMSPs can charge at
+        Sintio charging stations, partners marked as in preparation are not live
+        yet. A partner can operate several OCPI parties, each identified by a
+        country code and a party ID (e.g. <code>SE*ESP</code>).
       </p>
       <input
         type="search"

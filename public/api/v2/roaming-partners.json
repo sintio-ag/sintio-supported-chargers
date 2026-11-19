@@ -7,6 +7,7 @@
     "postalCode": "60313",
     "city": "Frankfurt am Main",
     "country": "DE",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/de.svg",
     "vatId": "DE326515902",
     "website": "https://and-charge.com",
     "roles": ["EMSP"],
@@ -16,7 +17,8 @@
         "countryCode": "DE",
         "partyId": "AND",
         "role": "EMSP",
-        "name": "&Charge"
+        "name": "&Charge",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/de.svg"
       }
     ],
     "logos": [
@@ -39,6 +41,47 @@
     "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/and-charge/logo_orig.svg"
   },
   {
+    "id": "autosense",
+    "name": "autoSense",
+    "legalName": "autoSense AG",
+    "street": "Badenerstrasse 141",
+    "postalCode": "8004",
+    "city": "Zürich",
+    "country": "CH",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ch.svg",
+    "vatId": null,
+    "website": "https://www.autosense.ch",
+    "roles": ["EMSP"],
+    "status": "IN_PREPARATION",
+    "parties": [
+      {
+        "countryCode": "CH",
+        "partyId": "AUS",
+        "role": "EMSP",
+        "name": "autoSense",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ch.svg"
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/autosense/logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/autosense/logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/autosense/logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/autosense/logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/autosense/logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/autosense/logo_500.webp",
+        "size": "500"
+      }
+    ],
+    "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/autosense/logo_orig.svg"
+  },
+  {
     "id": "blulinc",
     "name": "Blulinc",
     "legalName": "Blulinc NV",
@@ -46,6 +89,7 @@
     "postalCode": "9031",
     "city": "Gent",
     "country": "BE",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/be.svg",
     "vatId": "BE0775669111",
     "website": "https://www.blulinc.com",
     "roles": ["EMSP"],
@@ -55,19 +99,22 @@
         "countryCode": "BE",
         "partyId": "BLU",
         "role": "EMSP",
-        "name": "Blulinc"
+        "name": "Blulinc",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/be.svg"
       },
       {
         "countryCode": "BE",
         "partyId": "STX",
         "role": "EMSP",
-        "name": "Blulinc"
+        "name": "Blulinc",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/be.svg"
       },
       {
         "countryCode": "BE",
         "partyId": "BCM",
         "role": "EMSP",
-        "name": "Blulinc"
+        "name": "Blulinc",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/be.svg"
       }
     ],
     "logos": [
@@ -102,6 +149,7 @@
     "postalCode": "7336 BB",
     "city": "Apeldoorn",
     "country": "NL",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/nl.svg",
     "vatId": "NL865581988B01",
     "website": "https://www.charge-it-up.com",
     "roles": ["EMSP"],
@@ -111,11 +159,60 @@
         "countryCode": "NL",
         "partyId": "CIU",
         "role": "EMSP",
-        "name": "Charge It Up"
+        "name": "Charge It Up",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/nl.svg"
       }
     ],
     "logos": [],
     "logoUrlSvg": null
+  },
+  {
+    "id": "chargefinder",
+    "name": "ChargeFinder",
+    "legalName": "ChargeFinder Inc.",
+    "street": "836 Westmount Dr",
+    "postalCode": "90069-4610",
+    "city": "West Hollywood, CA",
+    "country": "US",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/us.svg",
+    "vatId": "93-4504918",
+    "website": "https://www.chargefinder.com",
+    "roles": ["EMSP"],
+    "status": "IN_PREPARATION",
+    "parties": [
+      {
+        "countryCode": "SE",
+        "partyId": "CHF",
+        "role": "EMSP",
+        "name": "ChargeFinder",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/se.svg"
+      },
+      {
+        "countryCode": "SE",
+        "partyId": "CFR",
+        "role": "EMSP",
+        "name": "ChargeFinder",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/se.svg"
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/chargefinder/logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/chargefinder/logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/chargefinder/logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/chargefinder/logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/chargefinder/logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/chargefinder/logo_500.webp",
+        "size": "500"
+      }
+    ],
+    "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/chargefinder/logo_orig.svg"
   },
   {
     "id": "chargemap",
@@ -125,6 +222,7 @@
     "postalCode": "67200",
     "city": "Strasbourg",
     "country": "FR",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/fr.svg",
     "vatId": "FR37809844731",
     "website": "https://chargemap.com",
     "roles": ["EMSP"],
@@ -134,7 +232,8 @@
         "countryCode": "FR",
         "partyId": "CMP",
         "role": "EMSP",
-        "name": "Chargemap"
+        "name": "Chargemap",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/fr.svg"
       }
     ],
     "logos": [
@@ -157,6 +256,117 @@
     "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/chargemap/logo_orig.svg"
   },
   {
+    "id": "chargepoint",
+    "name": "ChargePoint",
+    "legalName": "ChargePoint Austria GmbH",
+    "street": "Salzburger Straße 26",
+    "postalCode": "5550",
+    "city": "Radstadt",
+    "country": "AT",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/at.svg",
+    "vatId": "ATU68066335",
+    "website": "https://www.chargepoint.com",
+    "roles": ["EMSP"],
+    "status": "IN_PREPARATION",
+    "parties": [
+      {
+        "countryCode": "AT",
+        "partyId": "HTB",
+        "role": "EMSP",
+        "name": "ChargePoint AT",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/at.svg"
+      },
+      {
+        "countryCode": "DE",
+        "partyId": "C00",
+        "role": "EMSP",
+        "name": "ChargePoint AT",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/de.svg"
+      },
+      {
+        "countryCode": "NL",
+        "partyId": "CPI",
+        "role": "EMSP",
+        "name": "ChargePoint AT",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/nl.svg"
+      },
+      {
+        "countryCode": "NL",
+        "partyId": "ALD",
+        "role": "EMSP",
+        "name": "ChargePoint AT",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/nl.svg"
+      },
+      {
+        "countryCode": "ES",
+        "partyId": "AVC",
+        "role": "EMSP",
+        "name": "ChargePoint AT",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/es.svg"
+      },
+      {
+        "countryCode": "AT",
+        "partyId": "OIS",
+        "role": "EMSP",
+        "name": "ChargePoint AT",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/at.svg"
+      },
+      {
+        "countryCode": "RO",
+        "partyId": "PET",
+        "role": "EMSP",
+        "name": "ChargePoint AT",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ro.svg"
+      },
+      {
+        "countryCode": "AT",
+        "partyId": "OMS",
+        "role": "EMSP",
+        "name": "ChargePoint AT",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/at.svg"
+      },
+      {
+        "countryCode": "RO",
+        "partyId": "OMV",
+        "role": "EMSP",
+        "name": "ChargePoint AT",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ro.svg"
+      },
+      {
+        "countryCode": "BE",
+        "partyId": "Q8E",
+        "role": "EMSP",
+        "name": "ChargePoint AT",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/be.svg"
+      },
+      {
+        "countryCode": "NL",
+        "partyId": "Q93",
+        "role": "EMSP",
+        "name": "ChargePoint AT",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/nl.svg"
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/chargepoint/logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/chargepoint/logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/chargepoint/logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/chargepoint/logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/chargepoint/logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/chargepoint/logo_500.webp",
+        "size": "500"
+      }
+    ],
+    "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/chargepoint/logo_orig.svg"
+  },
+  {
     "id": "chargeprice",
     "name": "Chargeprice",
     "legalName": "Chargeprice SAS",
@@ -164,6 +374,7 @@
     "postalCode": "50870",
     "city": "Tirepied sur Sée",
     "country": "FR",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/fr.svg",
     "vatId": "FR17882529993",
     "website": "https://www.chargeprice.app",
     "roles": ["EMSP"],
@@ -173,7 +384,8 @@
         "countryCode": "FR",
         "partyId": "CMB",
         "role": "EMSP",
-        "name": "Chargeprice"
+        "name": "Chargeprice",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/fr.svg"
       }
     ],
     "logos": [
@@ -196,6 +408,47 @@
     "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/chargeprice/logo_orig.svg"
   },
   {
+    "id": "digital-charging-solutions",
+    "name": "Digital Charging Solutions",
+    "legalName": "Digital Charging Solutions GmbH",
+    "street": "Rosenstraße 18-19",
+    "postalCode": "10178",
+    "city": "Berlin",
+    "country": "DE",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/de.svg",
+    "vatId": "DE312237805",
+    "website": "https://www.digitalchargingsolutions.com",
+    "roles": ["EMSP"],
+    "status": "IN_PREPARATION",
+    "parties": [
+      {
+        "countryCode": "DE",
+        "partyId": "DCS",
+        "role": "EMSP",
+        "name": "Digital Charging Solutions GmbH",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/de.svg"
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/digital-charging-solutions/logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/digital-charging-solutions/logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/digital-charging-solutions/logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/digital-charging-solutions/logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/digital-charging-solutions/logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/digital-charging-solutions/logo_500.webp",
+        "size": "500"
+      }
+    ],
+    "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/digital-charging-solutions/logo_orig.svg"
+  },
+  {
     "id": "easypark",
     "name": "EasyPark",
     "legalName": "Easypark AB",
@@ -203,6 +456,7 @@
     "postalCode": "113 56",
     "city": "Stockholm",
     "country": "SE",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/se.svg",
     "vatId": "SE556626789301",
     "website": "https://www.easypark.com",
     "roles": ["EMSP"],
@@ -212,13 +466,15 @@
         "countryCode": "GB",
         "partyId": "PAR",
         "role": "EMSP",
-        "name": "EasyPark"
+        "name": "EasyPark",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/gb.svg"
       },
       {
         "countryCode": "SE",
         "partyId": "ESP",
         "role": "EMSP",
-        "name": "EasyPark"
+        "name": "EasyPark",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/se.svg"
       }
     ],
     "logos": [
@@ -243,7 +499,48 @@
         "size": "orig"
       }
     ],
-    "logoUrlSvg": null
+    "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/easypark/logo_orig.svg"
+  },
+  {
+    "id": "eco-movement",
+    "name": "Eco-Movement",
+    "legalName": "Eco-Movement BV",
+    "street": "Daalseplein 101",
+    "postalCode": "3511 SX",
+    "city": "Utrecht",
+    "country": "NL",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/nl.svg",
+    "vatId": null,
+    "website": "https://www.eco-movement.com",
+    "roles": ["EMSP"],
+    "status": "IN_PREPARATION",
+    "parties": [
+      {
+        "countryCode": "NL",
+        "partyId": "ECO",
+        "role": "EMSP",
+        "name": "Eco-Movement",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/nl.svg"
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/eco-movement/logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/eco-movement/logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/eco-movement/logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/eco-movement/logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/eco-movement/logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/eco-movement/logo_500.webp",
+        "size": "500"
+      }
+    ],
+    "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/eco-movement/logo_orig.svg"
   },
   {
     "id": "ecurious",
@@ -253,6 +550,7 @@
     "postalCode": "80636",
     "city": "München",
     "country": "DE",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/de.svg",
     "vatId": "DE462491360",
     "website": "https://www.ecurious.com",
     "roles": ["EMSP"],
@@ -262,7 +560,8 @@
         "countryCode": "DE",
         "partyId": "ECU",
         "role": "EMSP",
-        "name": "Ecurious"
+        "name": "Ecurious",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/de.svg"
       }
     ],
     "logos": [
@@ -290,6 +589,47 @@
     "logoUrlSvg": null
   },
   {
+    "id": "enbw",
+    "name": "EnBW mobility+",
+    "legalName": "EnBW mobility+ AG & Co. KG",
+    "street": "Durlacher Allee 93",
+    "postalCode": "76131",
+    "city": "Karlsruhe",
+    "country": "DE",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/de.svg",
+    "vatId": "DE334538933",
+    "website": "https://www.enbw.com",
+    "roles": ["EMSP"],
+    "status": "IN_PREPARATION",
+    "parties": [
+      {
+        "countryCode": "DE",
+        "partyId": "NBW",
+        "role": "EMSP",
+        "name": "EnBW mobility+",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/de.svg"
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/enbw/logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/enbw/logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/enbw/logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/enbw/logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/enbw/logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/enbw/logo_500.webp",
+        "size": "500"
+      }
+    ],
+    "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/enbw/logo_orig.svg"
+  },
+  {
     "id": "ev-analytica",
     "name": "EV.analytica",
     "legalName": "EV.analytica Kft.",
@@ -297,6 +637,7 @@
     "postalCode": "1118",
     "city": "Budapest",
     "country": "HU",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/hu.svg",
     "vatId": "HU32593321",
     "website": "https://www.evanalytica.com",
     "roles": ["EMSP"],
@@ -306,7 +647,8 @@
         "countryCode": "HU",
         "partyId": "EVA",
         "role": "EMSP",
-        "name": "EV.analytica"
+        "name": "EV.analytica",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/hu.svg"
       }
     ],
     "logos": [
@@ -336,6 +678,7 @@
     "postalCode": "15237",
     "city": "Pittsburgh",
     "country": "US",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/us.svg",
     "vatId": "88-0958881",
     "website": "https://evdc.network",
     "roles": ["EMSP"],
@@ -345,7 +688,8 @@
         "countryCode": "CA",
         "partyId": "EVC",
         "role": "EMSP",
-        "name": "EVDC NETWORK"
+        "name": "EVDC NETWORK",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ca.svg"
       }
     ],
     "logos": [
@@ -380,6 +724,7 @@
     "postalCode": "10145",
     "city": "Tallinn",
     "country": "EE",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ee.svg",
     "vatId": "EE102803529",
     "website": "https://evorada.eu",
     "roles": ["EMSP"],
@@ -389,7 +734,8 @@
         "countryCode": "ES",
         "partyId": "GAI",
         "role": "EMSP",
-        "name": "EVorada"
+        "name": "EVorada",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/es.svg"
       }
     ],
     "logos": [
@@ -412,6 +758,128 @@
     "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/evorada/logo_orig.svg"
   },
   {
+    "id": "joya",
+    "name": "JOYA",
+    "legalName": "JOYA Mobility AG",
+    "street": "Aargauerstrasse 182",
+    "postalCode": "8048",
+    "city": "Zürich",
+    "country": "CH",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ch.svg",
+    "vatId": "CHE-396.197.307",
+    "website": "https://www.joya.ch",
+    "roles": ["EMSP"],
+    "status": "IN_PREPARATION",
+    "parties": [
+      {
+        "countryCode": "CH",
+        "partyId": "SUI",
+        "role": "EMSP",
+        "name": "JOYA",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ch.svg"
+      },
+      {
+        "countryCode": "CH",
+        "partyId": "TCS",
+        "role": "EMSP",
+        "name": "JOYA",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ch.svg"
+      },
+      {
+        "countryCode": "CH",
+        "partyId": "EWZ",
+        "role": "EMSP",
+        "name": "JOYA",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ch.svg"
+      },
+      {
+        "countryCode": "CH",
+        "partyId": "360",
+        "role": "EMSP",
+        "name": "JOYA",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ch.svg"
+      },
+      {
+        "countryCode": "CH",
+        "partyId": "IWB",
+        "role": "EMSP",
+        "name": "JOYA",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ch.svg"
+      },
+      {
+        "countryCode": "CH",
+        "partyId": "XAX",
+        "role": "EMSP",
+        "name": "JOYA",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ch.svg"
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/joya/logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/joya/logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/joya/logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/joya/logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/joya/logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/joya/logo_500.webp",
+        "size": "500"
+      }
+    ],
+    "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/joya/logo_orig.svg"
+  },
+  {
+    "id": "kilovolta",
+    "name": "Kilovolta",
+    "legalName": "KILOVOLTA EASY GO, S.L.",
+    "street": "C/ Mataró 4",
+    "postalCode": "08184",
+    "city": "Palau-solità i Plegamans",
+    "country": "ES",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/es.svg",
+    "vatId": "ESB05873674",
+    "website": "https://kilovolta.com",
+    "roles": ["EMSP"],
+    "status": "ACTIVE",
+    "parties": [
+      {
+        "countryCode": "ES",
+        "partyId": "KLV",
+        "role": "EMSP",
+        "name": "Kilovolta",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/es.svg"
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/kilovolta/logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/kilovolta/logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/kilovolta/logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/kilovolta/logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/kilovolta/logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/kilovolta/logo_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/kilovolta/logo_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/kilovolta/logo_orig.webp",
+        "size": "orig"
+      }
+    ],
+    "logoUrlSvg": null
+  },
+  {
     "id": "miio",
     "name": "miio",
     "legalName": "Muvext, S.A",
@@ -419,6 +887,7 @@
     "postalCode": "3830-352",
     "city": "Ílhavo",
     "country": "PT",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/pt.svg",
     "vatId": "PT515419923",
     "website": "https://www.miio.com/pt/",
     "roles": ["EMSP"],
@@ -428,7 +897,8 @@
         "countryCode": "PT",
         "partyId": "MUV",
         "role": "EMSP",
-        "name": "miio"
+        "name": "miio",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/pt.svg"
       }
     ],
     "logos": [
@@ -458,6 +928,7 @@
     "postalCode": "W1D 1NN",
     "city": "London",
     "country": "GB",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/gb.svg",
     "vatId": null,
     "website": "https://electroverse.com",
     "roles": ["EMSP"],
@@ -467,7 +938,8 @@
         "countryCode": "GB",
         "partyId": "OCT",
         "role": "EMSP",
-        "name": "Octopus Electroverse"
+        "name": "Octopus Electroverse",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/gb.svg"
       }
     ],
     "logos": [
@@ -497,6 +969,7 @@
     "postalCode": "2200",
     "city": "Copenhagen",
     "country": "DK",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/dk.svg",
     "vatId": null,
     "website": "https://spirii.com",
     "roles": ["EMSP"],
@@ -506,7 +979,8 @@
         "countryCode": "DK",
         "partyId": "SPI",
         "role": "EMSP",
-        "name": "Spirii"
+        "name": "Spirii",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/dk.svg"
       }
     ],
     "logos": [
@@ -529,6 +1003,47 @@
     "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/spirii/logo_orig.svg"
   },
   {
+    "id": "telepass",
+    "name": "Telepass",
+    "legalName": "Telepass S.p.A.",
+    "street": "Via Laurentina 449",
+    "postalCode": "00142",
+    "city": "Roma",
+    "country": "IT",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/it.svg",
+    "vatId": "IT09771701001",
+    "website": "https://www.telepass.com",
+    "roles": ["EMSP"],
+    "status": "IN_PREPARATION",
+    "parties": [
+      {
+        "countryCode": "IT",
+        "partyId": "URB",
+        "role": "EMSP",
+        "name": "Telepass",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/it.svg"
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/telepass/logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/telepass/logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/telepass/logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/telepass/logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/telepass/logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/telepass/logo_500.webp",
+        "size": "500"
+      }
+    ],
+    "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/telepass/logo_orig.svg"
+  },
+  {
     "id": "transparent-laden",
     "name": "Transparent-laden.de",
     "legalName": "Anesda Nord UG (haftungsbeschränkt)",
@@ -536,6 +1051,7 @@
     "postalCode": "19309",
     "city": "Lanz",
     "country": "DE",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/de.svg",
     "vatId": "DE465629153",
     "website": "https://transparent-laden.de",
     "roles": ["EMSP"],
@@ -545,7 +1061,8 @@
         "countryCode": "DE",
         "partyId": "TPL",
         "role": "EMSP",
-        "name": "Transparent-laden.de"
+        "name": "Transparent-laden.de",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/de.svg"
       }
     ],
     "logos": [
