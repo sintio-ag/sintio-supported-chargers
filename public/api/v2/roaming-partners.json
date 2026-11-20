@@ -147,14 +147,14 @@
         "countryCode": "BE",
         "partyId": "STX",
         "role": "EMSP",
-        "name": "Blulinc",
+        "name": "STX Commodities",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/be.svg"
       },
       {
         "countryCode": "BE",
         "partyId": "BCM",
         "role": "EMSP",
-        "name": "Blulinc",
+        "name": null,
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/be.svg"
       }
     ],
@@ -314,77 +314,77 @@
         "countryCode": "AT",
         "partyId": "HTB",
         "role": "EMSP",
-        "name": "ChargePoint AT",
+        "name": "ChargePoint Austria",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/at.svg"
       },
       {
         "countryCode": "DE",
         "partyId": "C00",
         "role": "EMSP",
-        "name": "ChargePoint AT",
+        "name": null,
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/de.svg"
       },
       {
         "countryCode": "NL",
         "partyId": "CPI",
         "role": "EMSP",
-        "name": "ChargePoint AT",
+        "name": "ChargePoint",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/nl.svg"
       },
       {
         "countryCode": "NL",
         "partyId": "ALD",
         "role": "EMSP",
-        "name": "ChargePoint AT",
+        "name": "ChargePoint",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/nl.svg"
       },
       {
         "countryCode": "ES",
         "partyId": "AVC",
         "role": "EMSP",
-        "name": "ChargePoint AT",
+        "name": "Arval",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/es.svg"
       },
       {
         "countryCode": "AT",
         "partyId": "OIS",
         "role": "EMSP",
-        "name": "ChargePoint AT",
+        "name": null,
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/at.svg"
       },
       {
         "countryCode": "RO",
         "partyId": "PET",
         "role": "EMSP",
-        "name": "ChargePoint AT",
+        "name": "OMV Petrom",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ro.svg"
       },
       {
         "countryCode": "AT",
         "partyId": "OMS",
         "role": "EMSP",
-        "name": "ChargePoint AT",
+        "name": "OMS E-Mobility",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/at.svg"
       },
       {
         "countryCode": "RO",
         "partyId": "OMV",
         "role": "EMSP",
-        "name": "ChargePoint AT",
+        "name": "OMV Petrom",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ro.svg"
       },
       {
         "countryCode": "BE",
         "partyId": "Q8E",
         "role": "EMSP",
-        "name": "ChargePoint AT",
+        "name": "Q8",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/be.svg"
       },
       {
         "countryCode": "NL",
         "partyId": "Q93",
         "role": "EMSP",
-        "name": "ChargePoint AT",
+        "name": null,
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/nl.svg"
       }
     ],
@@ -857,42 +857,42 @@
         "countryCode": "CH",
         "partyId": "SUI",
         "role": "EMSP",
-        "name": "JOYA",
+        "name": "swisscharge.ch",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ch.svg"
       },
       {
         "countryCode": "CH",
         "partyId": "TCS",
         "role": "EMSP",
-        "name": "JOYA",
+        "name": "TCS",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ch.svg"
       },
       {
         "countryCode": "CH",
         "partyId": "EWZ",
         "role": "EMSP",
-        "name": "JOYA",
+        "name": "ewz",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ch.svg"
       },
       {
         "countryCode": "CH",
         "partyId": "360",
         "role": "EMSP",
-        "name": "JOYA",
+        "name": "Energie 360°",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ch.svg"
       },
       {
         "countryCode": "CH",
         "partyId": "IWB",
         "role": "EMSP",
-        "name": "JOYA",
+        "name": "IWB",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ch.svg"
       },
       {
         "countryCode": "CH",
         "partyId": "XAX",
         "role": "EMSP",
-        "name": "JOYA",
+        "name": "swisscharge.ch",
         "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/ch.svg"
       }
     ],
