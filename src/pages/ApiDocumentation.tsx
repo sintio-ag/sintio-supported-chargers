@@ -731,7 +731,9 @@ function ApiDocumentation() {
               <code>EMSP</code>.
             </li>
             <li>
-              <strong>name</strong> (string or null): The name of the party.
+              <strong>name</strong> (string or null): The name of the party. It
+              can differ from the partner name, e.g. when the partner connects a
+              party of another company to Sintio.
             </li>
             <li>
               <strong>flagUrlSvg</strong> (string): Direct URL to the SVG flag

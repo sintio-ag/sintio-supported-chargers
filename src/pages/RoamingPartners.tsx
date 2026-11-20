@@ -118,6 +118,9 @@ const RoamingPartners = () => {
             >
               <Flag url={party.flagUrlSvg} code={party.countryCode} />
               <code>{partyKey(party.countryCode, party.partyId)}</code>
+              {party.name && (
+                <span className="text-xs text-gray-500">{party.name}</span>
+              )}
             </span>
           ))}
         </>
@@ -177,6 +180,30 @@ const RoamingPartners = () => {
           ich-tanke-strom.ch.
         </li>
       </ul>
+      <p>
+        A partner can also connect parties of other companies, so the name next
+        to a party shows the company it belongs to. Party IDs are assigned per
+        country by a national ID registration office. The registers are public,
+        e.g. the{" "}
+        <a
+          href="https://www.energieschweiz.ch/ladeinfrastruktur/werkzeuge/id-fuer-ladestationsbetreiber-cpo-und-ladeserviceanbieter-emp/schweizer-id-register/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sintio-dark-blue underline"
+        >
+          Swiss ID register
+        </a>{" "}
+        and the{" "}
+        <a
+          href="https://www.benelux-idro.eu/en/id-register"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sintio-dark-blue underline"
+        >
+          Benelux ID register
+        </a>{" "}
+        (Belgium, the Netherlands and Luxembourg).
+      </p>
       <input
         type="search"
         value={search}
