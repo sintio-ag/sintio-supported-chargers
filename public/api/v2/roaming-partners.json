@@ -1055,7 +1055,7 @@
     "vatId": "NL861023390B01",
     "website": "https://plugchoice.com",
     "roles": ["EMSP"],
-    "status": "IN_PREPARATION",
+    "status": "ACTIVE",
     "parties": [
       {
         "countryCode": "NL",
