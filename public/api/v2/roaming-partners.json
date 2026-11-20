@@ -799,6 +799,47 @@
     "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/evorada/logo_orig.svg"
   },
   {
+    "id": "ionity",
+    "name": "IONITY",
+    "legalName": "IONITY GmbH",
+    "street": "Bahnbogen 21",
+    "postalCode": "81671",
+    "city": "München",
+    "country": "DE",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/de.svg",
+    "vatId": "DE314552038",
+    "website": "https://www.ionity.eu",
+    "roles": ["EMSP"],
+    "status": "IN_PREPARATION",
+    "parties": [
+      {
+        "countryCode": "DE",
+        "partyId": "IOY",
+        "role": "EMSP",
+        "name": "IONITY",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/de.svg"
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/ionity/logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/ionity/logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/ionity/logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/ionity/logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/ionity/logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/ionity/logo_500.webp",
+        "size": "500"
+      }
+    ],
+    "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/ionity/logo_orig.svg"
+  },
+  {
     "id": "joya",
     "name": "JOYA",
     "legalName": "JOYA Mobility AG",
@@ -810,7 +851,7 @@
     "vatId": "CHE-396.197.307",
     "website": "https://www.joya.ch",
     "roles": ["EMSP"],
-    "status": "IN_PREPARATION",
+    "status": "ACTIVE",
     "parties": [
       {
         "countryCode": "CH",
@@ -1003,6 +1044,47 @@
     "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/octopus-electroverse/logo_orig.svg"
   },
   {
+    "id": "plugchoice",
+    "name": "Plugchoice",
+    "legalName": "Volt Time B.V.",
+    "street": "De Entree 99",
+    "postalCode": "1101 HE",
+    "city": "Amsterdam",
+    "country": "NL",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/nl.svg",
+    "vatId": "NL861023390B01",
+    "website": "https://plugchoice.com",
+    "roles": ["EMSP"],
+    "status": "IN_PREPARATION",
+    "parties": [
+      {
+        "countryCode": "NL",
+        "partyId": "PLU",
+        "role": "EMSP",
+        "name": "Plugchoice",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/nl.svg"
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/plugchoice/logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/plugchoice/logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/plugchoice/logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/plugchoice/logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/plugchoice/logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/plugchoice/logo_500.webp",
+        "size": "500"
+      }
+    ],
+    "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/plugchoice/logo_orig.svg"
+  },
+  {
     "id": "spirii",
     "name": "Spirii",
     "legalName": "Spirii ApS",
@@ -1124,5 +1206,46 @@
       }
     ],
     "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/transparent-laden/logo_orig.svg"
+  },
+  {
+    "id": "volvo-open-charge",
+    "name": "Volvo Open Charge",
+    "legalName": "Volvo Lastvagnar Aktiebolag",
+    "street": "Gropegårdsgatan 10",
+    "postalCode": "417 15",
+    "city": "Gothenburg",
+    "country": "SE",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/se.svg",
+    "vatId": null,
+    "website": null,
+    "roles": ["EMSP"],
+    "status": "IN_PREPARATION",
+    "parties": [
+      {
+        "countryCode": "SE",
+        "partyId": "VGC",
+        "role": "EMSP",
+        "name": "Volvo Open Charge",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/se.svg"
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/volvo-open-charge/logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/volvo-open-charge/logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/volvo-open-charge/logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/volvo-open-charge/logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/volvo-open-charge/logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/volvo-open-charge/logo_500.webp",
+        "size": "500"
+      }
+    ],
+    "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/volvo-open-charge/logo_orig.svg"
   }
 ]
