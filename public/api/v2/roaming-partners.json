@@ -449,6 +449,47 @@
     "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/chargeprice/logo_orig.svg"
   },
   {
+    "id": "deftpower",
+    "name": "Deftpower",
+    "legalName": "Deftpower B.V.",
+    "street": "Westervoortsedijk 73, Gebouw KB, 3rd floor",
+    "postalCode": "6827 AV",
+    "city": "Arnhem",
+    "country": "NL",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/nl.svg",
+    "vatId": null,
+    "website": "https://deftpower.com",
+    "roles": ["EMSP"],
+    "status": "IN_PREPARATION",
+    "parties": [
+      {
+        "countryCode": "NL",
+        "partyId": "DEF",
+        "role": "EMSP",
+        "name": "Deftpower",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/nl.svg"
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/deftpower/logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/deftpower/logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/deftpower/logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/deftpower/logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/deftpower/logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/deftpower/logo_500.webp",
+        "size": "500"
+      }
+    ],
+    "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/deftpower/logo_orig.svg"
+  },
+  {
     "id": "digital-charging-solutions",
     "name": "Digital Charging Solutions",
     "legalName": "Digital Charging Solutions GmbH",
