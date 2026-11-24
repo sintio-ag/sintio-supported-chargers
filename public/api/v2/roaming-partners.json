@@ -1044,6 +1044,47 @@
     "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/miio/logo_orig.svg"
   },
   {
+    "id": "monta",
+    "name": "Monta",
+    "legalName": "Monta ApS",
+    "street": "Strandboulevarden 122",
+    "postalCode": "2100",
+    "city": "Copenhagen",
+    "country": "DK",
+    "countryFlagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/dk.svg",
+    "vatId": "DK41668385",
+    "website": "https://monta.com",
+    "roles": ["EMSP"],
+    "status": "IN_PREPARATION",
+    "parties": [
+      {
+        "countryCode": "DK",
+        "partyId": "MON",
+        "role": "EMSP",
+        "name": "Monta",
+        "flagUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/flags/dk.svg"
+      }
+    ],
+    "logos": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/monta/logo_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/monta/logo_50.webp",
+        "size": "50"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/monta/logo_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/monta/logo_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/monta/logo_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/monta/logo_500.webp",
+        "size": "500"
+      }
+    ],
+    "logoUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/roaming-partners/monta/logo_orig.svg"
+  },
+  {
     "id": "octopus-electroverse",
     "name": "Octopus Electroverse",
     "legalName": "Octopus Electroverse Limited",
