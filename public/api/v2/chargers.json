@@ -349,8 +349,8 @@
         "standard": "IEC_62196_T2_COMBO",
         "format": "CABLE",
         "powerType": "DC",
-        "voltage": 800,
-        "amperage": 500,
+        "voltage": 1000,
+        "amperage": 600,
         "maxElectricPower": 400000,
         "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2-combo.svg"
       },
@@ -359,8 +359,8 @@
         "standard": "IEC_62196_T2_COMBO",
         "format": "CABLE",
         "powerType": "DC",
-        "voltage": 800,
-        "amperage": 500,
+        "voltage": 1000,
+        "amperage": 600,
         "maxElectricPower": 400000,
         "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2-combo.svg"
       }
@@ -384,6 +384,63 @@
       {
         "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/alpitronic/alpitronic-hyc-200-400_50.png",
         "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/alpitronic/alpitronic-hyc-200-400_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "alpitronic-hyc-400-series-2",
+    "manufacturerId": "alpitronic",
+    "chargePointVendor": "alpitronic GmbH",
+    "chargePointModel": [
+      "HYC400_S2_4_20_20"
+    ],
+    "globalMeter": true,
+    "meterClass": "MID Class A (EN 50470)",
+    "ocpp": {
+      "remoteStartBeforePlugIn": false
+    },
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "powerType": "DC",
+        "voltage": 1000,
+        "amperage": 600,
+        "maxElectricPower": 400000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2-combo.svg"
+      },
+      {
+        "connectorId": 2,
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "powerType": "DC",
+        "voltage": 1000,
+        "amperage": 600,
+        "maxElectricPower": 400000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2-combo.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/alpitronic/alpitronic-hyc-400-series-2_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/alpitronic/alpitronic-hyc-400-series-2_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/alpitronic/alpitronic-hyc-400-series-2_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/alpitronic/alpitronic-hyc-400-series-2_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/alpitronic/alpitronic-hyc-400-series-2_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/alpitronic/alpitronic-hyc-400-series-2_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/alpitronic/alpitronic-hyc-400-series-2_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/alpitronic/alpitronic-hyc-400-series-2_50.webp",
         "size": "50"
       }
     ]
