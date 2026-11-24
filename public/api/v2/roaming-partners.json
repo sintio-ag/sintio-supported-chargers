@@ -1055,7 +1055,7 @@
     "vatId": "DK41668385",
     "website": "https://monta.com",
     "roles": ["EMSP"],
-    "status": "IN_PREPARATION",
+    "status": "ACTIVE",
     "parties": [
       {
         "countryCode": "DK",
