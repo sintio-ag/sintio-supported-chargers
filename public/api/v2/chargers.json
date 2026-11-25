@@ -339,7 +339,7 @@
       "HYC400_8_20_20_00_00"
     ],
     "globalMeter": true,
-    "meterClass": "MID Class A (EN 50470)",
+    "meterClass": "MID Class B (EN 50470)",
     "ocpp": {
       "remoteStartBeforePlugIn": false
     },
@@ -396,7 +396,7 @@
       "HYC400_S2_4_20_20"
     ],
     "globalMeter": true,
-    "meterClass": "MID Class A (EN 50470)",
+    "meterClass": "MID Class B (EN 50470)",
     "ocpp": {
       "remoteStartBeforePlugIn": false
     },
@@ -2588,6 +2588,53 @@
       {
         "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/schneider-electric/schneider-electric-pro-ac_50.png",
         "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/schneider-electric/schneider-electric-pro-ac_50.webp",
+        "size": "50"
+      }
+    ]
+  },
+  {
+    "id": "schneider-electric-charge-pro",
+    "manufacturerId": "schneider-electric",
+    "chargePointVendor": "Schneider Electric",
+    "chargePointModel": [
+      "SE Charge Pro"
+    ],
+    "globalMeter": true,
+    "meterClass": "MID Class C (EN 50470)",
+    "ocpp": {
+      "remoteStartBeforePlugIn": false
+    },
+    "connectors": [
+      {
+        "connectorId": 1,
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "powerType": "AC_3_PHASE",
+        "voltage": 400,
+        "amperage": 32,
+        "maxElectricPower": 22000,
+        "imageUrlSvg": "https://sintio-ag.github.io/sintio-supported-chargers/img/connectors/ev-plug-iec-62196-t2.svg"
+      }
+    ],
+    "images": [
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/schneider-electric/schneider-electric-charge-pro_orig.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/schneider-electric/schneider-electric-charge-pro_orig.webp",
+        "size": "original"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/schneider-electric/schneider-electric-charge-pro_500.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/schneider-electric/schneider-electric-charge-pro_500.webp",
+        "size": "500"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/schneider-electric/schneider-electric-charge-pro_100.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/schneider-electric/schneider-electric-charge-pro_100.webp",
+        "size": "100"
+      },
+      {
+        "urlPng": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/schneider-electric/schneider-electric-charge-pro_50.png",
+        "urlWebp": "https://sintio-ag.github.io/sintio-supported-chargers/img/chargers/schneider-electric/schneider-electric-charge-pro_50.webp",
         "size": "50"
       }
     ]
