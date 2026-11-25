@@ -339,7 +339,7 @@
       "HYC400_8_20_20_00_00"
     ],
     "globalMeter": true,
-    "meterClass": "MID Class A (EN 50470)",
+    "meterClass": "MID Class B (EN 50470)",
     "ocpp": {
       "remoteStartBeforePlugIn": false
     },
@@ -396,7 +396,7 @@
       "HYC400_S2_4_20_20"
     ],
     "globalMeter": true,
-    "meterClass": "MID Class A (EN 50470)",
+    "meterClass": "MID Class B (EN 50470)",
     "ocpp": {
       "remoteStartBeforePlugIn": false
     },
